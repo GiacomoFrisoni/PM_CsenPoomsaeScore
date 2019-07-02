@@ -1,17 +1,33 @@
 # Descrizione dell'Approccio Utilizzato
 In questo documento sono presentate tutte le scelte effettuate durante la simulazione di progetto, motivandone l'adozione. È pertanto descritto l'approccio di Project Management che si è deciso di applicare sulla base delle conoscenze apprese durante il corso universitario. La descrizione è articolata seguendo il tipico ordine dei gruppi di processo, che si susseguono in termini di picchi di attività. 
 
-Il progetto è stato strutturato in modo tale da permettere una fluida navigazione tra questa guida e i documenti relativi al vero processo di Project Management: in ogni sezione verranno infatti proposti collegamenti agli allegati, ai quali verrà rimandata la dettagliata descrizione di cosa è avvenuto durante uno specifico momento della pianificazione.
+Il progetto è stato strutturato in modo tale da permettere una fluida navigazione tra questa guida e i documenti relativi al vero processo di Project Management: in ogni sezione verranno infatti proposti collegamenti agli allegati, ai quali verrà rimandata nelle successive sezioni la dettagliata descrizione di cosa è avvenuto al momento della loro stesura.
+
+La scelta di pubblicare questa simulazione su un repository è dovuta a diversi fattori:
+- offre un unico spazio condiviso tra i membri, dove poter collaborare anche a distanza;
+- dispone di un sistema di versioning dei file, permettendo di avere un pieno controllo sullo storico delle modifiche apportate ai documenti pubblicati;
+- abilita l'utilizzo di collegamenti diretti tra i documenti non solo tramite link url, ma percorsi relativi all'interno dello stesso repository;
+- simula perfettamente lo spazio che una fantomatica azienda dovrebbe predisporre per gestire i propri progetti;
+- facilita la stesura della documentazione e permette un'immediata esplorazione di essa direttamente dal browser, anche grazie all'utilizzo di MarkDown.
+
+Per la stesura della documentazione si è fatto uso di diversi sistemi software:
+- **Skype**, per la comunicazione a distanza (ove non era possibile un incontro dal vivo), abilitato anche alla condivisione dello schermo, per un maggiore coinvolgimento;
+- **Visual Studio Code** per la stesura della documentazione in MarkDown, abilitato anche anche alla modalità "Live Sharing" (per permettere la contemporanea stesura del documento da parte di entrambi i membri);
+- **Microsoft Project** (in versione di prova) per ...;
+- **TeXstudio** per la generazione della documentazione tramite il linguaggio LaTeX;
+- **GitHub Desktop** per la gestione del repository.
 
 ## Introduzione
-------------------------------------------
 In questa sezione sono fornite informazioni di carattere generale relative all'esecutore e al committente. Viene analizzato il rapporto tra queste due entità, con lo scopo di fornire una larga veduta sull'intera struttura su cui il progetto si basa e di comprendere le ragioni che hanno portato a intraprendere determinate scelte a discapito di altre. Si illustrano inoltre le competenze dei singoli membri facenti parte del team dell'azienda fornitrice, scendendo anche nel dettaglio delle politiche aziendali.
 
 ### Azienda esecutrice
 L'esecutore del progetto è la startup "**Punch Code**". Essa è un'azienda informatica specializzata nella costruzione di soluzioni software ed è composta da due soli dipendenti neo-laureati. Inoltre, essendosi appena costituita, non presenta esperienza pregressa in altri progetti e conseguentemente non possiede un know-how in alcuna area di mercato. Considerando l'esiguo numero di persone interne all'azienda, quest'ultima non è al momento decomposta in specifiche aree funzionali sul piano organizzativo; tuttavia è in espansione e prevede l'acqusizione nel breve termine di nuovo personale con competenze tecniche specializzate. Il principale motivo per cui l'azienda è stata scelta dal committente, oltre ad aver presentato un'offerta più aggressiva rispetto ai principali concorrenti, è da ricercarsi nella sua propensione all'uso di tecnologie innovative che l'hanno portata ad acquisire un'indubbia fama sul territorio e a ottenere un alto livello di attenzione sul panorama mediatico per mezzo dell'incubatore nel quale è localizzata.
 
 #### Startup Team
-Tabella con competenze membri del team (più nel dettaglio rispetto al file sul repo).
+Link al [Startup Team's Skills](project_docs/startup_team_skills.md).
+L'abbiamo fatto perchè così il PM potrà meglio attribuire le varie attività ai membri, in base alle loro competenze.
+
+[//]: # (Tabella con competenze membri del team (più nel dettaglio rispetto al file sul repo.)
 
 #### Politiche aziendali
 
@@ -19,6 +35,7 @@ Tabella con competenze membri del team (più nel dettaglio rispetto al file sul 
 - orario lavorativo (anche sabato e domenica, no preoccupazioni limite, alta flessibilità)
 - lavoro da casa
 - questo è il nostro primo progetto, alla fine valuteremo se possiamo migliorare/cambiare qualcosa delle nostre politiche
+- documentazione scritta con l'avanzamento del progetto (non alla fine) anche in pair programming / con più addetti
 
 [//]: # (Spiegare la scelta di mettere il Glossiario nel POS)
 
@@ -50,7 +67,6 @@ Csen.
 
 
 ## Scoping
--------
 In questa sezione...
 
 ### Project Scoping Meeting
