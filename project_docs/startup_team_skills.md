@@ -10,7 +10,7 @@ Startup Team's Skills
   </tr>
   <tr>
     <td>Giacomo Frisoni</td>
-    <td>Marcin Pabcih</td>
+    <td>Marcin Pabich</td>
   </tr>
   <tr>
     <td rowspan="7"><b>Pre Skills</b></td>
