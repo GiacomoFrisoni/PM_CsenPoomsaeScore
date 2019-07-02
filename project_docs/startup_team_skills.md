@@ -13,7 +13,7 @@ Startup Team's Skills
     <td>Marcin Pabich</td>
   </tr>
   <tr>
-    <td rowspan="7"><b>Pre Skills</b></td>
+    <td rowspan="10"><b>Pre Skills</b></td>
     <td>Leadership</td>
     <td>5</td>
     <td>3</td>
@@ -29,13 +29,28 @@ Startup Team's Skills
     <td>5</td>
   </tr>
   <tr>
+    <td>Empathy</td>
+    <td>3</td>
+    <td>5</td>
+  </tr>
+  <tr>
     <td>Organizing</td>
     <td>5</td>
     <td>4</td>
   </tr>
   <tr>
+    <td>Stress Resistance</td>
+    <td>4</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Work Flexibility</td>
+    <td>5</td>
+    <td>5</td>
+  </tr>
+  <tr>
     <td>Creativity</td>
-    <td>3</td>
+    <td>4</td>
     <td>5</td>
   </tr>
   <tr>
