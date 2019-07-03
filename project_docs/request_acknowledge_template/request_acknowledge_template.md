@@ -18,7 +18,7 @@ Request Acknowledge Template
     </tr>
     <tr>
         <td><b>Richiedente</b></td>
-        <td>Project Manager di CSEN</td>
+        <td>Enrico Comando di CSEN</td>
     </tr>
 </table>
 
