@@ -1,4 +1,5 @@
 # Indice <!-- omit in toc -->
+
 - [1. Descrizione dell'Approccio Utilizzato](#1-Descrizione-dellApproccio-Utilizzato)
 - [2. Introduzione](#2-Introduzione)
   - [2.1. Azienda esecutrice](#21-Azienda-esecutrice)
@@ -17,16 +18,17 @@
   - [2.2. Committente](#22-Committente)
   - [2.3. Relazione esecutore-committente](#23-Relazione-esecutore-committente)
 - [3. Scoping](#3-Scoping)
-  - [3.1. Project Scoping Meeting](#31-Project-Scoping-Meeting)
-  - [3.2. Resources Breakdown Structure (RBS)](#32-Resources-Breakdown-Structure-RBS)
-    - [3.2.1. Raccolta dei requisiti](#321-Raccolta-dei-requisiti)
-    - [3.2.2. Costruzione](#322-Costruzione)
-  - [3.3. Scelta del PMLC Model](#33-Scelta-del-PMLC-Model)
-  - [3.4. Project Overview Statement (POS)](#34-Project-Overview-Statement-POS)
-  - [3.5. Project Definition Statement (PDS)](#35-Project-Definition-Statement-PDS)
-    - [3.5.1. Analisi dei rischi](#351-Analisi-dei-rischi)
+  - [3.1. Primo contatto](#31-Primo-contatto)
+  - [3.2. Project Scoping Meeting](#32-Project-Scoping-Meeting)
+  - [3.3. Resources Breakdown Structure (RBS)](#33-Resources-Breakdown-Structure-RBS)
+    - [3.3.1. Raccolta dei requisiti](#331-Raccolta-dei-requisiti)
+    - [3.3.2. Costruzione](#332-Costruzione)
+  - [3.4. Scelta del PMLC Model](#34-Scelta-del-PMLC-Model)
+  - [3.5. Project Overview Statement (POS)](#35-Project-Overview-Statement-POS)
+  - [3.6. Project Definition Statement (PDS)](#36-Project-Definition-Statement-PDS)
+    - [3.6.1. Analisi dei rischi](#361-Analisi-dei-rischi)
 - [4.](#4)
-- [Bibliografia](#Bibliografia)
+- [5. Bibliografia](#5-Bibliografia)
 
 [//]: # (-------------------------------------------------------------------------)
 
@@ -106,13 +108,15 @@ Sul piano dello schema, l'obiettivo delle varie riunioni che compongono tale pro
 - PMLC Model;
 - Project Overview Statement (POS).
 
-L'elenco dei partecipanti prevede la presenza delle seguenti figure:
-- lo *staff aziendale* col ruolo di Project Manager;
-- il *Client Group* (con l'eventuale presenza sollecitata di personale legato ad aree funzionali o ad attività in discussione con l'agenda odierna);
+L'elenco dei partecipanti prevede la presenza delle seguenti figure.
+- Lo *staff aziendale* col ruolo di Project Manager.
+- Il *Client Group* (con l'eventuale presenza sollecitata di personale legato ad aree funzionali o ad attività in discussione con l'agenda odierna). Come per il gruppo di lavoro dell'esecutore, anche quello del committente è già stato definito antecedentemente allo scoping.
 
-Non disponendo delle risorse necessarie, i ruoli di *Facilitatore* e *Tecnografo* sono temporaneamente ricoperti dai membri del team aziendale che cercheranno conseguentemente di dare valore al tempo, evitare discussioni inutili, convergere su tutti gli argomenti in agenda, raccogliere le informazioni in forma documentale (verbale) e strutturarle in modo tale da facilitare il loro reperimento.
+Non disponendo delle risorse necessarie, i ruoli di *Facilitatore* e *Tecnografo* sono temporaneamente ricoperti dai membri del team aziendale che cercheranno conseguentemente di dare valore al tempo, evitare discussioni inutili, convergere su tutti gli argomenti in agenda, raccogliere le informazioni in forma documentale (verbale) e strutturarle in modo tale da facilitare il loro reperimento. L'azienda prevede tuttavia di integrare un *Facilitatore* non appena ne avrà le possibilità, poichè - nonostante i maggiori costi che ne deriveranno - la figura di un mediatore imparziale tra le parti è da considerarsi centrale e potrebbe costituire un valore aggiunto significativo, anche nell'intento di evitare problematiche dovute a fraintendimenti e tensioni tra chi gestirà e svilupperà il progetto e il committente.
 
 Dal momento che il Project Scoping Meeting può comprendere numerose sessioni in giornate diverse, l'azienda preferisce intraprendere una sola riunione di partenza, valutandone eventualmente altre in base alle necessità. Tra due sessioni è richiesto un intervallo di tempo pari a una settimana, al fine di analizzare e organizzare le informazioni raccolte, oltre che preparare la prossima agenda. In ogni caso, una sessione si conclude sempre con la definizione dei punti che occorrerà discutere durante la successiva.
+
+L'azienda è anche interessata a fare una breve review al termine di ogni sessione di Project Scoping Meeting per valutare il rispetto dell'agenta, il livello di partecipazione e altri parametri utili per un miglioramento continuo.
 
 ##### 2.1.2.3.2. Daily Status Meeting
 
@@ -171,9 +175,17 @@ Il committente è alla ricerca di un fornitore innovativo e giovane, puntando su
 [//]: # (-------------------------------------------------------------------------)
 
 # 3. Scoping
-In questa sezione...
+In questa sezione sono riportate tutte le scelte intraprese durante la fase di scoping. Gli argomenti sono proposti in base ai deliverable coinvolti da questo gruppo di processo. Inoltre, è anche discussa l'organizzazione dei meeting (documentando l'ordine del giorno, i partecipanti e una sintesi dell'ipotetico svolgimento).
 
-## 3.1. Project Scoping Meeting
+## 3.1. Primo contatto
+Il primo contatto tra il committente e l'esecutore avviene utilizzando la mail aziendale. Il committente, dopo una breve presentazione dell'azienda, esprime subito la sua volontà di informatizzare il processo di gestione delle gare di Taekwondo organizzate da CSEN, senza adottare in questa sua richiesta una descrizione particolareggiata. La startup, seguendo le buone pratiche descritte in precedenza, decide di proporre al committente un Project Scoping Meeting, al fine di chiarire tutte le ambiguità e valutare la fattibilità della proposta. In base alla disponibilità del cliente viene stabilito che l'incontro si svolgerà nella giornata del 10 marzo, alle ore 09:00, all'interno della sala riunioni di "PunchCode". A rappresentare l'azienda cliente vi sarà il relativo Project Manager: Enrico Comando.
+
+## 3.2. Project Scoping Meeting
+
+Il Project Scoping Meeting costituisce la prima occasione d'incontro tra il fornitore e il committente. Applicando le politiche aziendali, si è svolta una prima sessione e il riassunto di quanto discusso è disponibile nel relativo [allegato](project_docs/csen_poomsae_score/project_scoping_meeting/session_10_03_19.md).
+
+
+- come si puo vedere dall'allegato si denota che ci sarà bisogno di più incontri per approfondimenti bla bla bla
 
 - Applicando le politiche aziendali, si è reso necessario lo svolgimento di tale fase (che costituisce la prima occasione d'incontro tra il fornitore e il committente) su più giornate (sessioni)
 - Ne sono state realizzate X (es. 5) e gli argomenti trattati in ciascuna con le rispettive date sono disponibili al seguente documento Y. 1° incontro: generale + 2° incontro: tablet + 3° incotro: sw quadrato + 4° incontro: server + comunicazione wireless
@@ -182,36 +194,36 @@ In questa sezione...
 [//]: # (Ricordarsi della discussione budget e tempo alla prima sessione)
 [//]: # (Non sono spiegati ulteriori incontri, in quanto sono presenti nel doc ufficialmente linkato)
 
-## 3.2. Resources Breakdown Structure (RBS)
+## 3.3. Resources Breakdown Structure (RBS)
 
-### 3.2.1. Raccolta dei requisiti
+### 3.3.1. Raccolta dei requisiti
 
 - interviste ai vari stackholder lato cliente (specificando il tipo di intervista: es. imbuto + esempi domande in base al ruolo)
     - ad Andrea (il PM del committente)
     - ai futuri utilizzatori del sw (gestori gare e giudici)
 - osservazioni sul campo (durante i tornei) per una comprensione più chiara delle esigenze
 
-### 3.2.2. Costruzione
+### 3.3.2. Costruzione
 Spiegazione dei vari requisiti sui rami.
 
-## 3.3. Scelta del PMLC Model
+## 3.4. Scelta del PMLC Model
 - siamo pochi, non possiamo avere uno scrum master: ha poco senso essere agili.
 (perchè non possiamo essere agili, ma perchè facciamo di tutto per esserlo nelle nostre possibilità)
 - dato che il cliente si è dimostrato molto disponibile a frequenti feedback nonchè felice di ciò...
 
-## 3.4. Project Overview Statement (POS)
+## 3.5. Project Overview Statement (POS)
 C'è qualcosa da spiegare (?)
 
 [//]: # (Spiegare la scelta di mettere il Glossiario nel POS)
 
-## 3.5. Project Definition Statement (PDS)
+## 3.6. Project Definition Statement (PDS)
 C'è qualcosa da spiegare (?)
 
-### 3.5.1. Analisi dei rischi
+### 3.6.1. Analisi dei rischi
 Spiegare solo il perchè dell'uso di un diagramma rispetto a un altro.
 
 # 4. #
 
-# Bibliografia
+# 5. Bibliografia
 
 [1]<a id="bibliography-1"></a> [Platonova, Valērija & Bērziša,Solvita. (2017). Gamification in Software Development Projects. Information Technology and Management Science. 20. 10.1515/itms-2017-0010.](https://www.researchgate.net/publication/322409704_Gamification_in_Software_Development_Projects)
