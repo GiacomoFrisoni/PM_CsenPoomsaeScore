@@ -22,10 +22,10 @@ Primo incontro conoscitivo con CSEN
         <th colspan="1">Durante il meeting</th>
     </tr>
     <tr>
-        <th style="width:25%; text-align: left">Argomento in agenda</th>
-        <th style="width:20%;">Orario</th>
-        <th style="width:20%;">Direttore della discussione</th>
-        <th style="width:35%;">Note</th>
+        <th width="20%">Argomento in agenda</th>
+        <th width="15%">Orario</th>
+        <th width="20%">Direttore della discussione</th>
+        <th width="35%">Note</th>
     </tr>
     <tr>
         <td>Introduzione</td>
