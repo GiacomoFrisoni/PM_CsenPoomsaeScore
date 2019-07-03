@@ -16,49 +16,16 @@ Primo incontro conoscitivo con CSEN
 
 <br/>
 
-<style>
-    table tr td, table tr th {
-        border: 1px solid gray;
-        overflow: hidden;
-        word-break: normal;
-        text-align: center;
-    }
-
-    table tr td:first-child {
-        text-align: left;
-    }
-
-    table tr th.big {
-        font-size: 1.5em;
-    }
-
-    table tr th.first {
-        width: 30%;
-    }
-
-    table tr th.second {
-        width: 15%;
-    }
-
-    table tr th.third {
-        width: 20%;
-    }
-
-    table tr th.fourth {
-        width: 50%;
-    }
-</style>
-
 <table>
     <tr>
-        <th class="big" colspan="3">Prima del meeting</th>
-        <th class="big" colspan="1">Durante il meeting</th>
+        <th colspan="3">Prima del meeting</th>
+        <th colspan="1">Durante il meeting</th>
     </tr>
     <tr>
-        <th class="first">Argomento in agenda</th>
-        <th class="second">Orario</th>
-        <th class="third">Direttore della discussione</th>
-        <th class="fourth">Note</th>
+        <th style="width:25%; text-align: left">Argomento in agenda</th>
+        <th style="width:20%;">Orario</th>
+        <th style="width:20%;">Direttore della discussione</th>
+        <th style="width:35%;">Note</th>
     </tr>
     <tr>
         <td>Introduzione</td>
