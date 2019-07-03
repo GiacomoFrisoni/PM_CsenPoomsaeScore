@@ -28,6 +28,8 @@
 - [4.](#4)
 - [Bibliografia](#Bibliografia)
 
+[//]: # (-------------------------------------------------------------------------)
+
 # 1. Descrizione dell'Approccio Utilizzato
 In questo documento sono presentate tutte le scelte effettuate durante la simulazione di progetto, motivandone l'adozione. È pertanto descritto l'approccio di Project Management che si è deciso di applicare sulla base delle conoscenze apprese durante il corso universitario. La descrizione è articolata seguendo il tipico ordine dei gruppi di processo, che si susseguono in termini di picchi di attività. 
 
@@ -48,6 +50,8 @@ Per la stesura della documentazione si è fatto uso di diversi software:
 - **TeXstudio** per la generazione di parte della documentazione tramite il linguaggio LaTeX;
 - **GitHub Desktop** per la gestione del repository.
 
+[//]: # (-------------------------------------------------------------------------)
+
 # 2. Introduzione
 In questa sezione sono fornite informazioni di carattere generale relative all'esecutore e al committente. Viene analizzato il rapporto tra queste due entità, con lo scopo di fornire una larga veduta sull'intera struttura su cui il progetto si basa e di comprendere le ragioni che hanno portato a intraprendere determinate scelte a discapito di altre. Si illustrano inoltre le competenze dei singoli membri facenti parte del team dell'azienda fornitrice, scendendo anche nel dettaglio delle politiche aziendali.
 
@@ -56,9 +60,10 @@ L'esecutore del progetto è la startup "**Punch Code**". Essa è un'azienda info
 
 ### 2.1.1. Startup Team
 
-"Punch Code" è formata da due soli membri ricoprenti entrambi il ruolo di Project Manager. Le competenze di ogni dipendente sono tracciate dall'azienda all'interno di un apposito [documento](project_docs/startup_team_skills.md), tenendo conto sia di *pre skill* (o soft skill) che di *pro skill* (o hard skill). Le prime si riferiscono alle capacità inerenti alla sfera interpersonale e della comunicazione, indipendenti dalla specifica mansione lavorativa e pertanto trasversali. Le seconde sono quelle competenze tecniche relative allo svolgimento di una certa professione, acquisibili tramite lo studio e certificabili. Nell'ottica di andare a delineare un valido strumento di appoggio per un Project Manager ai fini della futura assegnazione delle attività ai membri dello staff in fase di Planning, si è infatti ritenuto utile includere la valutazione di ambo le tipologie di abilità. Per quanto concerne l'assegnazione dei punteggi, si è voluta considerare una scala di valori numerici adimensionali compresa tra 1 e 5 (preferendola ad alternative misure non numeriche che avrebbero impedito la valutazione delle competenze in media di tutto il team su un certo parametro).
+"Punch Code" è formata da due soli membri ricoprenti entrambi il ruolo di Project Manager. Le competenze di ogni dipendente sono tracciate dall'azienda all'interno di un apposito [documento](project_docs/startup_team_skills/startup_team_skills.md), tenendo conto sia di *pre skill* (o soft skill) che di *pro skill* (o hard skill). Le prime si riferiscono alle capacità inerenti alla sfera interpersonale e della comunicazione, indipendenti dalla specifica mansione lavorativa e pertanto trasversali. Le seconde sono quelle competenze tecniche relative allo svolgimento di una certa professione, acquisibili tramite lo studio e certificabili. Nell'ottica di andare a delineare un valido strumento di appoggio per un Project Manager ai fini della futura assegnazione delle attività ai membri dello staff in fase di Planning, si è infatti ritenuto utile includere la valutazione di ambo le tipologie di abilità. Per quanto concerne l'assegnazione dei punteggi, si è voluta considerare una scala di valori numerici adimensionali compresa tra 1 e 5 (preferendola ad alternative misure non numeriche che avrebbero impedito la valutazione delle competenze in media di tutto il team su un certo parametro).
 
-[//]: # (TODO: uno dei due potrebbe lavorare difendendo gli interessi legati al ruolo di un architetto, impersonandolo, per originare conflitti costruttivi)
+Il team è consapevole dell'assenza di una figura interna rivestente il ruolo di Architetto. Per consentire comunque l'instaurazione di dibattiti costruttivi si è scelto - in base alle pre-skill e alle pro-skill - di far sì che un membro difendesse gli interessi legati al ruolo di un architetto (impersonandolo).
+Sotto questo punto di vista, è Marcin Pabich (specie grazie alle sue maggiori capacità creative) ad occuparsi anche di questo aspetto.
 
 ### 2.1.2. Politiche aziendali
 
@@ -69,7 +74,7 @@ Si sottolinea come tali politiche aziendali possano subire modifiche a fronte de
 La startup segue un comune modello di suddivisione delle giornate e dell'orario lavorativo, cosiderando la produzione attiva dal lunedì al venerdì, dalle ore 09:00 alle ore 18:00, con una pausa pranzo intermedia nella fascia 12:00-13:00. La disponibilità del team permette di essere comunque molto flessibili, consentendo eventuali modifiche agli orari e/o giornate lavorative (assecondando eventualmente le esigenze del committente).
 
 #### 2.1.2.2. Modalità di lavoro
-L'azienda consente lo svolgimento del lavoro in forma telematica direttamente da casa, ad eccezzione dei Project Meeting di diversa natura, come discusso in dettaglio nella [prossima sezione](#project-meeting). Inoltre, per la risoluzione dei problemi complessi e per un maggiore coinvolgimento dei dipendenti, il team di sviluppo può avvalersi anche di tecniche di lavoro denominate *Pair Programming*, sia in remoto che in loco; quest'ultime possono essere utilizzate sia in fase di coding, che nella stesura della documentazione. Esse infatti stimolano utili brainstorming e danno la possibilità al management e agli sviluppatori di capire dove siano stati apportati eventuali cambiamenti di rotta e quali questi siano.
+L'azienda consente lo svolgimento del lavoro in forma telematica direttamente da casa, ad eccezzione dei Project Meeting di diversa natura, come discusso in dettaglio nella [prossima sezione](#2.1.2.3.-project-meeting). Inoltre, per la risoluzione dei problemi complessi e per un maggiore coinvolgimento dei dipendenti, il team di sviluppo può avvalersi anche di tecniche di lavoro denominate *Pair Programming*, sia in remoto che in loco; quest'ultime possono essere utilizzate sia in fase di coding, che nella stesura della documentazione. Esse infatti stimolano utili brainstorming e danno la possibilità al management e agli sviluppatori di capire dove siano stati apportati eventuali cambiamenti di rotta e quali questi siano.
 
 ##### 2.1.2.2.1. Gamification
 Al fine di motivare gli impiegati e rendere le loro attività quotidiane meno frustranti nella loro percezione, "PunchCode" si avvale di tecniche di Gamification all'interno dei propri progetti di sviluppo software di durata massima stimata non superiore ai 5 mesi. Questa scelta è frutto di approfondite [ricerche in letteratura](#bibliography-1)<sup>1</sup> che testimoniano come esse influenzino positivamente i risultati di un gruppo di lavoro.  
@@ -109,8 +114,6 @@ Non disponendo delle risorse necessarie, i ruoli di *Facilitatore* e *Tecnografo
 
 Dal momento che il Project Scoping Meeting può comprendere numerose sessioni in giornate diverse, l'azienda preferisce intraprendere una sola riunione di partenza, valutandone eventualmente altre in base alle necessità. Tra due sessioni è richiesto un intervallo di tempo pari a una settimana, al fine di analizzare e organizzare le informazioni raccolte, oltre che preparare la prossima agenda. In ogni caso, una sessione si conclude sempre con la definizione dei punti che occorrerà discutere durante la successiva.
 
-[//]: # (Regole operative per il team)
-
 ##### 2.1.2.3.2. Daily Status Meeting
 
 L'azienda prevede la presenza di riunioni giornaliere per mantenere monitorato lo stato di avanzamento dei task. Nello specifico adotta la forma di Stand-up Meeting, preferendola ad alternative come resoconti di fine giornata.
@@ -142,7 +145,9 @@ Come già evidenziato, le attuali ridotte dimensioni della startup potrebbero av
 
 #### 2.1.2.4. Gestione delle comunicazioni
 
-- L'accettazione di ogni informazione da parte del destinatario (cliente o figura aziendale) avviene esclusivamente per mezzo di feedback con uno specifico [template](project_docs/feedback_template.md), in modo da evitare pericolosi scenari che potrebbero essere dettati dalla presenza di una regola di silenzio assenso;
+- L'accettazione di ogni informazione da parte del destinatario (cliente o figura aziendale) avviene esclusivamente per mezzo di feedback scritto in formato elettronico. Il cliente interagisce direttamente col/i Project Manager dell'azienda e a fronte di ogni comunicazione (anche di tipo one-to-one) viene redatto un documento riassuntivo, seguendo uno specifico [template](project_docs/feedback_template/feedback_template.md). Questo viene successivamente inviato al richiedente, il quale dovrà rispondere per iscritto confermando o rifiutando il contenuto. In questo modo si cercano di evitare pericolosi scenari che potrebbero essere dettati dalla presenza di una regola di silenzio assenso, da fenomeni di incomprensione o da rinnegamenti. Solo al sopraggiungere della conferma, il documento riassuntivo viene inserito nel workbook e - qualora si tratti di un interrogativo o di una richiesta - preso in carico da parte del Project Manager (scatenando eventualmente ulteriori processi basati su documenti con altri template specifici, come il Project Impact Statement per le richieste di cambiamento di scoping - ad esempio). L'azienda considera pertanto richieste solo all'ottenimento del feedback loro associato.  
+Per quanto concerne le comunicazioni interne all'azienda, queste vengono formalizzate solo se rilevanti per il progetto o di interesse (per altri dipendenti, come storico per miglioramento della gestione interna o per progetti futuri) utilizzando lo stesso template. L'azienda tuttavia sollecita i dipendenti a esprimere le proprie idee / osservazioni durante gli Stand-up Meeting approfittando della presenza di tutti gli interessati.
+
 - A fronte di ogni Stand-up Meeting, viene redatta una documentazione scritta soltanto per le attività cui è stata assegnata una colorazione gialla o rossa attraverso lo Spotlight Report da parte del responsabile dello specifico task (concentrandosi sulle sole attività oggetto di scostamenti dal piano o rappresentanti scenari fuori controllo), raccogliendo informazioni motivazionali utili ed evitando di investire tempo nella produzione di comunicazioni scritte per le attività in schedula (verdi). Terminato l'incontro, il documento viene caricato nel repository dell'azienda.
 
 ## 2.2. Committente
@@ -162,6 +167,8 @@ Il progetto è stato assegnato da Enrico Comando (nome di fantasia), che ne rico
 
 ## 2.3. Relazione esecutore-committente
 Il committente è alla ricerca di un fornitore innovativo e giovane, puntando sulle startup locali emergenti. Le due parti non si conoscono e non hanno mai collaborato a nessun progetto, ma grazie alla crescente notorietà nel campo di programmazione di "PunchCode", essa è stata presa in considerazione sin da subito come un potenziale appaltatore.
+
+[//]: # (-------------------------------------------------------------------------)
 
 # 3. Scoping
 In questa sezione...
