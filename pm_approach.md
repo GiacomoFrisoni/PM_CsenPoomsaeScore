@@ -1,4 +1,35 @@
-# Descrizione dell'Approccio Utilizzato
+# Indice
+- [Indice](#Indice)
+- [1. Descrizione dell'Approccio Utilizzato](#1-Descrizione-dellApproccio-Utilizzato)
+- [2. Introduzione](#2-Introduzione)
+  - [2.1. Azienda esecutrice](#21-Azienda-esecutrice)
+    - [2.1.1. Startup Team](#211-Startup-Team)
+    - [2.1.2. Politiche aziendali](#212-Politiche-aziendali)
+      - [2.1.2.1. Orari lavorativi](#2121-Orari-lavorativi)
+      - [2.1.2.2. Modalità di lavoro](#2122-Modalit%C3%A0-di-lavoro)
+        - [2.1.2.2.1. Gamification](#21221-Gamification)
+        - [2.1.2.2.2. Documentazione](#21222-Documentazione)
+      - [2.1.2.3. Project Meeting](#2123-Project-Meeting)
+        - [2.1.2.3.1. Project Scoping Meeting](#21231-Project-Scoping-Meeting)
+        - [2.1.2.3.2. Daily Status Meeting](#21232-Daily-Status-Meeting)
+        - [2.1.2.3.3. Problem Resolution Meeting](#21233-Problem-Resolution-Meeting)
+        - [2.1.2.3.4. Project Review Meeting](#21234-Project-Review-Meeting)
+      - [2.1.2.4. Gestione delle comunicazioni](#2124-Gestione-delle-comunicazioni)
+  - [2.2. Committente](#22-Committente)
+  - [2.3. Relazione esecutore-committente](#23-Relazione-esecutore-committente)
+- [3. Scoping](#3-Scoping)
+  - [3.1. Project Scoping Meeting](#31-Project-Scoping-Meeting)
+  - [3.2. Resources Breakdown Structure (RBS)](#32-Resources-Breakdown-Structure-RBS)
+    - [3.2.1. Raccolta dei requisiti](#321-Raccolta-dei-requisiti)
+    - [3.2.2. Costruzione](#322-Costruzione)
+  - [3.3. Scelta del PMLC Model](#33-Scelta-del-PMLC-Model)
+  - [3.4. Project Overview Statement (POS)](#34-Project-Overview-Statement-POS)
+  - [3.5. Project Definition Statement (PDS)](#35-Project-Definition-Statement-PDS)
+    - [3.5.1. Analisi dei rischi](#351-Analisi-dei-rischi)
+- [4.](#4)
+- [Bibliografia](#Bibliografia)
+
+# 1. Descrizione dell'Approccio Utilizzato
 In questo documento sono presentate tutte le scelte effettuate durante la simulazione di progetto, motivandone l'adozione. È pertanto descritto l'approccio di Project Management che si è deciso di applicare sulla base delle conoscenze apprese durante il corso universitario. La descrizione è articolata seguendo il tipico ordine dei gruppi di processo, che si susseguono in termini di picchi di attività. 
 
 Il progetto è stato strutturato in modo tale da permettere una fluida navigazione tra questa guida e i documenti relativi al vero processo di Project Management: in ogni sezione verranno infatti proposti collegamenti agli allegati, ai quali verrà rimandata nelle successive sezioni la dettagliata descrizione di cosa è avvenuto al momento della loro stesura.
@@ -18,41 +49,51 @@ Per la stesura della documentazione si è fatto uso di diversi software:
 - **TeXstudio** per la generazione di parte della documentazione tramite il linguaggio LaTeX;
 - **GitHub Desktop** per la gestione del repository.
 
-# Introduzione
+# 2. Introduzione
 In questa sezione sono fornite informazioni di carattere generale relative all'esecutore e al committente. Viene analizzato il rapporto tra queste due entità, con lo scopo di fornire una larga veduta sull'intera struttura su cui il progetto si basa e di comprendere le ragioni che hanno portato a intraprendere determinate scelte a discapito di altre. Si illustrano inoltre le competenze dei singoli membri facenti parte del team dell'azienda fornitrice, scendendo anche nel dettaglio delle politiche aziendali.
 
-## Azienda esecutrice
+## 2.1. Azienda esecutrice
 L'esecutore del progetto è la startup "**Punch Code**". Essa è un'azienda informatica specializzata nella costruzione di soluzioni software, composta da due soli dipendenti neo-laureati. Essendosi appena costituita, non presenta esperienza pregressa in altri progetti e conseguentemente non possiede un know-how in alcuna area di mercato. Considerando l'esiguo numero di persone interne all'azienda, quest'ultima non è al momento decomposta in specifiche aree funzionali sul piano organizzativo; tuttavia è in espansione e prevede l'acqusizione nel breve termine di nuovo personale con competenze tecniche specializzate. Il principale motivo per cui l'azienda è stata scelta dal committente, oltre ad aver presentato un'offerta più aggressiva rispetto ai principali concorrenti, è da ricercarsi nella sua propensione all'uso di tecnologie innovative che l'hanno portata ad acquisire un'indubbia fama sul territorio e a ottenere un alto livello di attenzione sul panorama mediatico per mezzo dell'incubatore nel quale è localizzata.
 
-### Startup Team
+### 2.1.1. Startup Team
 
 "Punch Code" è formata da due soli membri ricoprenti entrambi il ruolo di Project Manager. Le competenze di ogni dipendente sono tracciate dall'azienda all'interno di un apposito [documento](project_docs/startup_team_skills.md), tenendo conto sia di *pre skill* (o soft skill) che di *pro skill* (o hard skill). Le prime si riferiscono alle capacità inerenti alla sfera interpersonale e della comunicazione, indipendenti dalla specifica mansione lavorativa e pertanto trasversali. Le seconde sono quelle competenze tecniche relative allo svolgimento di una certa professione, acquisibili tramite lo studio e certificabili. Nell'ottica di andare a delineare un valido strumento di appoggio per un Project Manager ai fini della futura assegnazione delle attività ai membri dello staff in fase di Planning, si è infatti ritenuto utile includere la valutazione di ambo le tipologie di abilità. Per quanto concerne l'assegnazione dei punteggi, si è voluta considerare una scala di valori numerici adimensionali compresa tra 1 e 5 (preferendola ad alternative misure non numeriche che avrebbero impedito la valutazione delle competenze in media di tutto il team su un certo parametro).
 
 [//]: # (TODO: uno dei due potrebbe lavorare difendendo gli interessi legati al ruolo di un architetto, impersonandolo, per originare conflitti costruttivi)
 
-### Politiche aziendali
+### 2.1.2. Politiche aziendali
 
 Per far fronte ipoteticamente a più progetti in parallelo, l'azienda decide di adottare delle buone pratiche di natura generale al fine di uniformare alcuni degli aspetti più critici della gestione dei gruppi di processo (lasciando comunque spazio a eventuali personalizzazioni dettate dalle esigenze di specifici progetti, qualora si dovessero rivelare necessari).
 Si sottolinea come tali politiche aziendali possano subire modifiche a fronte della review operata al termine di ogni progetto, nell'intento di un continuo processo di miglioramento. Un ulteriore motivo di cambiamento potrebbe essere anche la futura evoluzione dell'organizzazione aziendale a causa del maggior numero di dipendenti e di una migliore suddivisione delle responsabilità.
 
-#### Documentazione
+#### 2.1.2.1. Orari lavorativi
+La startup segue un comune modello di suddivisione delle giornate e dell'orario lavorativo, cosiderando la produzione attiva dal lunedì al venerdì, dalle ore 09:00 alle ore 18:00, con una pausa pranzo intermedia nella fascia 12:00-13:00. La disponibilità del team permette di essere comunque molto flessibili, consentendo eventuali modifiche agli orari e/o giornate lavorative (assecondando eventualmente le esigenze del committente).
 
-##### Sviluppo
+#### 2.1.2.2. Modalità di lavoro
+L'azienda consente lo svolgimento del lavoro in forma telematica direttamente da casa, ad eccezzione dei Project Meeting di diversa natura, come discusso in dettaglio nella [prossima sezione](#project-meeting). Inoltre, per la risoluzione dei problemi complessi e per un maggiore coinvolgimento dei dipendenti, il team di sviluppo può avvalersi anche di tecniche di lavoro denominate *Pair Programming*, sia in remoto che in loco; quest'ultime possono essere utilizzate sia in fase di coding, che nella stesura della documentazione. Esse infatti stimolano utili brainstorming e danno la possibilità al management e agli sviluppatori di capire dove siano stati apportati eventuali cambiamenti di rotta e quali questi siano.
+
+##### 2.1.2.2.1. Gamification
+Al fine di motivare gli impiegati e rendere le loro attività quotidiane meno frustranti nella loro percezione, "PunchCode" si avvale di tecniche di Gamification all'interno dei propri progetti di sviluppo software di durata massima stimata non superiore ai 5 mesi. Questa scelta è frutto di approfondite [ricerche in letteratura](#bibliography-1)<sup>1</sup> che testimoniano come esse influenzino positivamente i risultati di un gruppo di lavoro.  
+"Punch Code" - sotto questo punto di vista - si avvale di un proprio sistema di login per il tracciamento delle attività compiute dai dipendenti, premiandoli con dei *punti* (come componente di gioco) in caso di:
+- lettura di codice / documentazione di colleghi con invio di feedback (in forma di rating);
+- ricezione di feedback positivi da parte di un collega.
+
+L'uso di una metodologia di questo tipo porta a diversi vantaggi:
+- stimola i dipendenti a revisionare il lavoro realizzato dagli altri;
+- abilita una forma di trasferimento di conoscenza a partire da esempi positivi forniti dai colleghi.
+
+##### 2.1.2.2.2. Documentazione
+
+- **Sviluppo**  
 "Punch Code" riversa sulla documentazione un ruolo di primaria importanza per numerose ragioni (tra cui riusabilità, manutenibilità, condivisione e storico sia in termini di problematiche che di soluzioni).
 Rientra pertanto nelle politiche aziendali la volontà di dedicarsi alla scrittura di quest'ultima non a progetto finito, ma costantemente nel corso della sua evoluzione. L'overhead legato all'operazione di aggiornamento continuo è così giustificato dall'obiettivo di minimizzare il senso di frustrazione in fase di stesura (partizionando il carico di lavoro complessivo) e di voler risparmiare tempo in futuro.
 
-[//]: # (TODO: tecniche di gamification per rendere la scrittura della documentazione un'attività meno pesante?)
-[//]: # (TODO: anche in pair programming / con più addetti per sollecitare la generazione di utili brainstorming. Nell'aggiornare la documentazione, infatti, il management e gli sviluppatori capiscono dove sono stati apportati eventuali cambiamenti di rotta e quali questi siano)
-
-##### Mantenimento
+- **Mantenimento**
 L'azienda utilizza un repository online come **workbook** per conservare l'insieme della documentazione relativa ai vari progetti, anche a fini legali. Per consentire un facile reperimento delle informazioni, i file vengono suddivisi in directory in base alla loro tipologia e al progetto di appartenenza.
 
-#### Orari lavorativi e modalità
-La startup segue un comune modello di suddivisione delle giornate e dell'orario lavorativo, cosiderando la produzione attiva dal lunedì al venerdì, dalle ore 09:00 alle ore 18:00, con una pausa pranzo intermedia nella fascia 12:00-13:00. La disponibilità del team permette di essere comunque molto flessibili, consentendo eventuali modifiche agli orari e/o giornate lavorative (assecondando eventualmente le esigenze del committente) e consentendo lo svolgimento del lavoro in forma telematica direttamente da casa.
+#### 2.1.2.3. Project Meeting
 
-#### Project Meeting
-
-##### Project Scoping Meeting
+##### 2.1.2.3.1. Project Scoping Meeting
 
 Al fine di entrare in contatto col cliente e iniziare a delineare lo scope del progetto, l'azienda prevede un Project Scoping Meeting organizzato come di seguito descritto.
 Sul piano dello schema, l'obiettivo delle varie riunioni che compongono tale processo consiste nella produzione dei seguenti deliverable:
@@ -71,7 +112,7 @@ Dal momento che il Project Scoping Meeting può comprendere numerose sessioni in
 
 [//]: # (Regole operative per il team)
 
-##### Daily Status Meeting
+##### 2.1.2.3.2. Daily Status Meeting
 
 L'azienda prevede la presenza di riunioni giornaliere per mantenere monitorato lo stato di avanzamento dei task. Nello specifico adotta la forma di Stand-up Meeting, preferendola ad alternative come resoconti di fine giornata.
 
@@ -80,26 +121,53 @@ In queste occasioni, si associa inoltre a ogni task un colore in linea col Spotl
 
 Lo svolgimento degli Stand-Up Meeting dovrebbe sempre avvenire dal vivo, anche se, in via del tutto eccezzionale, è possibile svolgerlo in via telematica: in questo caso, però, è strettamente necessario l'utilizzo di una WebCam per un rapporto semi-diretto con gli interlocutori (che secondo degli studi sociologici favorirebbe lo sviluppo della discussione). Data la natura informale degli incontri, è preferibile parteciparvi "*in piedi*" per stimolare una maggior attenzione e minimizzare la durante del meeting stesso.
 
-##### Problem Resolution Meeting
+##### 2.1.2.3.3. Problem Resolution Meeting
 
-##### Project Review Meeting
+"PunchCode" considera lo svolgimento di Problem Resolution Meeting per la discussione di problematiche riscontrate durante lo svolgimento di un progetto. L'azienda prevede nello specifico che questi siano organizzati qualora si ritengano necessari a fronte dell'individuazione di attività fuori controllo durante uno Stand-up Meeting. In queste riunioni per la risoluzione di un problema l'agenda deve prevedere:
+- la partecipazione dei soli sviluppatori coinvolti nel problema;
+- la determinazione del/i proprietario/i (owner) del problema (potenzialmente molteplici da punti di vista diversi);
+- l'identificazione della soluzione;
+- la determinazione delle modalità (come e quando) attraverso cui stabilire che il problema è da considerarsi risolto.
 
-#### Gestione delle comunicazioni
+Preme tuttavia sottolineare come - a causa del ridotto personale attualmente presente nella startup - tali meeting richiedano necessariamente la presenza di entrambi i membri.
+
+##### 2.1.2.3.4. Project Review Meeting
+
+In concomitanza col raggiungimento di una milestone, l'azienda svolge un Project Review Meeting. Durante questi eventi formali:
+- si svolge la presentazione dello stato del progetto in corrispondenza della milestone e si effettua una sua revisione critica;
+- partecipano il project manager, il senior management, lo sponsor, il committente, gli stakeholder e 2-3 tecnici esperti dell'ambito di progetto della milestone. "PunchCode" richiede pertanto obbligatoriamente la presenza del cliente in questi incontri (ove non sia possibile, è sufficiente un suo referente);
+- si presentano le performance fornite dal progetto fino a quel momento;
+- si identificano eventuali problemi e si propongono anche azioni correttive.
+
+Come già evidenziato, le attuali ridotte dimensioni della startup potrebbero avere un impatto sulle figure partecipanti.
+
+#### 2.1.2.4. Gestione delle comunicazioni
 
 - L'accettazione di ogni informazione da parte del destinatario (cliente o figura aziendale) avviene esclusivamente per mezzo di feedback con uno specifico [template](project_docs/feedback_template.md), in modo da evitare pericolosi scenari che potrebbero essere dettati dalla presenza di una regola di silenzio assenso;
 - A fronte di ogni Stand-up Meeting, viene redatta una documentazione scritta soltanto per le attività cui è stata assegnata una colorazione gialla o rossa attraverso lo Spotlight Report da parte del responsabile dello specifico task (concentrandosi sulle sole attività oggetto di scostamenti dal piano o rappresentanti scenari fuori controllo), raccogliendo informazioni motivazionali utili ed evitando di investire tempo nella produzione di comunicazioni scritte per le attività in schedula (verdi). Terminato l'incontro, il documento viene caricato nel repository dell'azienda.
 
-## Committente
-Csen.
+## 2.2. Committente
+Il committente è CSEN (Centro Sportivo Educativo Nazionale), un ente di elevate dimensioni operante su tutto il territorio nazionale senza finalità di lucro e avente come obiettivo principale quello di perseguire una propaganda sportiva di alto valore sociale. CSEN contribuisce pertanto allo sviluppo della pratica sportiva e a una sua miglior accessibiltà da parte delle persone, creando le condizioni per una più larga crescita dell'educazione fisica, dello sport stesso e della salute. Collabora inoltre con il C.O.N.I. e le Federazioni Sportive, con la Scuola, con le Regioni e gli Enti Locali, con le forze sociali e politiche e con le libere associazioni di altri Paesi.
+Esso è organizzato come segue:
+- 1.650.000 Soci Dirigenti, Tecnici, Atleti, Amatori;
+- 15.540 Associazioni Sportive A.S.D. / S.S.D.;
+- 4.300 Associazioni Sportive (Basi Associative Sportive);
+- 2.000 Associazioni Promozione Sociale e Tempo Libero;
+- 1.300.000 Tesserati Sportivi;
+- 500.000 Tesserati del Tempo Libero;
+- 20 Comitati Regionali;
+- 106 Comitati Provinciali;
+- 25 Comitati di Zona.
 
-## Relazione esecutore-committente
-Csen.
+Il progetto è stato assegnato da Enrico Comando (nome di fantasia), che ne ricopre anche il ruolo di Project Manager. Enrico Comando è stato scelto poichè qualificato sia in termini di competenze informatiche che di dominio, oltre che dotato di una profonda esperienza nella coordinazione di ulteriori progetti per conto di CSEN - comunque legati a quello che verrà successivamente esposto.
 
+## 2.3. Relazione esecutore-committente
+Il committente è alla ricerca di un fornitore innovativo e giovane, puntando sulle startup locali emergenti. Le due parti non si conoscono e non hanno mai collaborato a nessun progetto, ma grazie alla crescente notorietà nel campo di programmazione di "PunchCode", essa è stata presa in considerazione sin da subito come un potenziale appaltatore.
 
-# Scoping
+# 3. Scoping
 In questa sezione...
 
-## Project Scoping Meeting
+## 3.1. Project Scoping Meeting
 
 - Applicando le politiche aziendali, si è reso necessario lo svolgimento di tale fase (che costituisce la prima occasione d'incontro tra il fornitore e il committente) su più giornate (sessioni)
 - Ne sono state realizzate X (es. 5) e gli argomenti trattati in ciascuna con le rispettive date sono disponibili al seguente documento Y. 1° incontro: generale + 2° incontro: tablet + 3° incotro: sw quadrato + 4° incontro: server + comunicazione wireless
@@ -108,32 +176,36 @@ In questa sezione...
 [//]: # (Ricordarsi della discussione budget e tempo alla prima sessione)
 [//]: # (Non sono spiegati ulteriori incontri, in quanto sono presenti nel doc ufficialmente linkato)
 
-## Resources Breakdown Structure (RBS)
+## 3.2. Resources Breakdown Structure (RBS)
 
-### Raccolta dei requisiti
+### 3.2.1. Raccolta dei requisiti
 
 - interviste ai vari stackholder lato cliente (specificando il tipo di intervista: es. imbuto + esempi domande in base al ruolo)
     - ad Andrea (il PM del committente)
     - ai futuri utilizzatori del sw (gestori gare e giudici)
 - osservazioni sul campo (durante i tornei) per una comprensione più chiara delle esigenze
 
-### Costruzione
+### 3.2.2. Costruzione
 Spiegazione dei vari requisiti sui rami.
 
-## Scelta del PMLC Model
+## 3.3. Scelta del PMLC Model
 - siamo pochi, non possiamo avere uno scrum master: ha poco senso essere agili.
 (perchè non possiamo essere agili, ma perchè facciamo di tutto per esserlo nelle nostre possibilità)
 - dato che il cliente si è dimostrato molto disponibile a frequenti feedback nonchè felice di ciò...
 
-## Project Overview Statement (POS)
+## 3.4. Project Overview Statement (POS)
 C'è qualcosa da spiegare (?)
 
 [//]: # (Spiegare la scelta di mettere il Glossiario nel POS)
 
-## Project Definition Statement (PDS)
+## 3.5. Project Definition Statement (PDS)
 C'è qualcosa da spiegare (?)
 
-### Analisi dei rischi
+### 3.5.1. Analisi dei rischi
 Spiegare solo il perchè dell'uso di un diagramma rispetto a un altro.
 
-##
+# 4. #
+
+# Bibliografia
+
+[1]<a id="bibliography-1"></a> [Platonova, Valērija & Bērziša,Solvita. (2017). Gamification in Software Development Projects. Information Technology and Management Science. 20. 10.1515/itms-2017-0010.](https://www.researchgate.net/publication/322409704_Gamification_in_Software_Development_Projects)
