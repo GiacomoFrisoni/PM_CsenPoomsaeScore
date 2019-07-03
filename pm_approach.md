@@ -1,5 +1,4 @@
-# Indice
-- [Indice](#Indice)
+# Indice <!-- omit in toc -->
 - [1. Descrizione dell'Approccio Utilizzato](#1-Descrizione-dellApproccio-Utilizzato)
 - [2. Introduzione](#2-Introduzione)
   - [2.1. Azienda esecutrice](#21-Azienda-esecutrice)
