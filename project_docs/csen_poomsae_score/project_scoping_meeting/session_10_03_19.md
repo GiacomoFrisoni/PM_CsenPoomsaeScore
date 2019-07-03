@@ -29,45 +29,45 @@ Primo incontro conoscitivo con CSEN
     </tr>
     <tr>
         <td>Introduzione</td>
-        <td>09:00 - 09:15</td>
-        <td>Giacomo Frisoni</td>
-        <td></td>
+        <td align="center">09:00 - 09:15</td>
+        <td align="center">Giacomo Frisoni</td>
+        <td align="center"></td>
     </tr>
     <tr>
         <td>Scopo del meeting</td>
-        <td>09:15 - 09:20</td>
-        <td>Giacomo Frisoni</td>
-        <td></td>
+        <td align="center">09:15 - 09:20</td>
+        <td align="center">Giacomo Frisoni</td>
+        <td align="center"></td>
     </tr>
     <tr>
         <td>Descrizione dello stato corrente e del problema</td>
-        <td>09:20 - 11:00</td>
-        <td>Enrico Comando</td>
-        <td></td>
+        <td align="center">09:20 - 11:00</td>
+        <td align="center">Enrico Comando</td>
+        <td align="center"></td>
     </tr>
     <tr>
         <td>Descrizione dello stato finale che si vuole raggiungere</td>
-        <td>11:00 - 12:00</td>
-        <td>Enrico Comando</td>
-        <td></td>
+        <td align="center">11:00 - 12:00</td>
+        <td align="center">Enrico Comando</td>
+        <td align="center"></td>
     </tr>
     <tr>
         <td>Discussione dei requisiti e delle modalità di raccolta</td>
-        <td>12:00 - 13:00</td>
-        <td>Giacomo Frisoni</td>
-        <td></td>
+        <td align="center">12:00 - 13:00</td>
+        <td align="center">Giacomo Frisoni</td>
+        <td align="center"></td>
     </tr>
     <tr>
         <td>Domande varie</td>
-        <td>14:00 - 14:30</td>
-        <td>Giacomo Frisoni</td>
-        <td></td>
+        <td align="center">14:00 - 14:30</td>
+        <td align="center">Giacomo Frisoni</td>
+        <td align="center"></td>
     </tr>
     <tr>
         <td>Documentazione</td>
-        <td>14:30 - 15:00</td>
-        <td>Giacomo Frisoni</td>
-        <td></td>
+        <td align="center">14:30 - 15:00</td>
+        <td align="center">Giacomo Frisoni</td>
+        <td align="center"></td>
     </tr>
 </table>
 
