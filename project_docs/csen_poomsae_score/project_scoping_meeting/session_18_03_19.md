@@ -1,11 +1,13 @@
 # Project Scoping Meeting Agenda
 
-**Data**: 10 marzo 2019  
+**Dipendente**: ________________  
+**Data**: 18 marzo 2019  
 **Orario**: 09:00  
-**Luogo**: Sala Riunioni PunchCode
+**Luogo**: Sala Riunioni PunchCode  
+**Materiale**: ________________ 
 
 ## Oggetto
-Primo incontro conoscitivo con CSEN
+Discussione della soluzione software per la gestione del quadrato di gara.
 
 ## Partecipanti
 - **Project Manager fornitore:**
@@ -13,6 +15,8 @@ Primo incontro conoscitivo con CSEN
     - Marcin Pabich
 - **Project Manager cliente:**
     - Enrico Comando
+- **Operatore di quadrato:**
+    - Anna Bianchi
 
 <br/>
 
@@ -29,43 +33,37 @@ Primo incontro conoscitivo con CSEN
     </tr>
     <tr>
         <td>Introduzione</td>
-        <td align="center">09:00 - 09:15</td>
+        <td align="center">09:00 - 09:10</td>
         <td align="center">Giacomo Frisoni</td>
         <td align="center"></td>
     </tr>
     <tr>
         <td>Scopo del meeting</td>
-        <td align="center">09:15 - 09:20</td>
+        <td align="center">09:10 - 09:20</td>
         <td align="center">Giacomo Frisoni</td>
         <td align="center"></td>
     </tr>
     <tr>
-        <td>Descrizione dello stato corrente e del problema</td>
+        <td>Discussione della soluzione desiderata</td>
         <td align="center">09:20 - 11:00</td>
         <td align="center">Enrico Comando</td>
         <td align="center"></td>
     </tr>
     <tr>
-        <td>Descrizione dello stato finale che si vuole raggiungere</td>
+        <td>Chiarimenti sui requisiti e sulle modalità di raccolta</td>
         <td align="center">11:00 - 12:00</td>
-        <td align="center">Enrico Comando</td>
-        <td align="center"></td>
-    </tr>
-    <tr>
-        <td>Discussione dei requisiti e delle modalità di raccolta</td>
-        <td align="center">12:00 - 13:00</td>
         <td align="center">Giacomo Frisoni</td>
         <td align="center"></td>
     </tr>
     <tr>
         <td>Domande varie</td>
-        <td align="center">14:00 - 14:30</td>
+        <td align="center">12:00 - 12:30</td>
         <td align="center">Giacomo Frisoni</td>
         <td align="center"></td>
     </tr>
     <tr>
         <td>Documentazione</td>
-        <td align="center">14:30 - 15:00</td>
+        <td align="center">12:30 - 13:00</td>
         <td align="center">Giacomo Frisoni</td>
         <td align="center"></td>
     </tr>

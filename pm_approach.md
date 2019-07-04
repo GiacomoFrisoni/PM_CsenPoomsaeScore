@@ -175,24 +175,42 @@ Il committente è alla ricerca di un fornitore innovativo e giovane, puntando su
 [//]: # (-------------------------------------------------------------------------)
 
 # 3. Scoping
-In questa sezione sono riportate tutte le scelte intraprese durante la fase di scoping. Gli argomenti sono proposti in base ai deliverable coinvolti da questo gruppo di processo. Inoltre, è anche discussa l'organizzazione dei meeting (documentando l'ordine del giorno, i partecipanti e una sintesi dell'ipotetico svolgimento).
+In questa sezione sono riportate tutte le scelte intraprese durante la fase di scoping. Dopo una sintetica spiegazione sul come sia avvenuto il primo contatto, gli argomenti sono proposti in base ai deliverable coinvolti da questo gruppo di processo. Inoltre, è anche discussa l'organizzazione dei meeting (documentando l'ordine del giorno, i partecipanti e una sintesi dell'ipotetico svolgimento).
 
 ## 3.1. Primo contatto
-Il primo contatto tra il committente e l'esecutore avviene utilizzando la mail aziendale. Il committente, dopo una breve presentazione dell'azienda, esprime subito la sua volontà di informatizzare il processo di gestione delle gare di Taekwondo organizzate da CSEN, senza adottare in questa sua richiesta una descrizione particolareggiata. La startup, seguendo le buone pratiche descritte in precedenza, decide di proporre al committente un Project Scoping Meeting, al fine di chiarire tutte le ambiguità e valutare la fattibilità della proposta. In base alla disponibilità del cliente viene stabilito che l'incontro si svolgerà nella giornata del 10 marzo, alle ore 09:00, all'interno della sala riunioni di "PunchCode". A rappresentare l'azienda cliente vi sarà il relativo Project Manager: Enrico Comando.
+Il primo contatto tra il committente e l'esecutore avviene utilizzando la mail aziendale. Il committente, dopo una breve presentazione di CSEN, esprime subito la sua volontà di informatizzare il processo di gestione delle gare di Taekwondo organizzate da CSEN, senza adottare in questa sua richiesta una descrizione di dettaglio. La startup, seguendo le buone pratiche descritte in precedenza, decide di proporre al committente un Project Scoping Meeting, al fine di chiarire tutte le ambiguità e valutare la fattibilità della proposta. In base alla disponibilità del cliente viene stabilito che l'incontro si svolgerà il lunedì 11 marzo, alle ore 09:00, all'interno della sala riunioni di "PunchCode". A rappresentare l'azienda cliente vi sarà il relativo Project Manager: Enrico Comando.
 
 ## 3.2. Project Scoping Meeting
 
-Il Project Scoping Meeting costituisce la prima occasione d'incontro tra il fornitore e il committente. Applicando le politiche aziendali, si è svolta una prima sessione e il riassunto di quanto discusso è disponibile nel relativo [allegato](project_docs/csen_poomsae_score/project_scoping_meeting/session_10_03_19.md).
+Il Project Scoping Meeting costituisce la prima occasione d'incontro tra il fornitore e il committente. Applicando le politiche aziendali, si è svolta una prima sessione seguendo l'agenda disponibile nel relativo [allegato](project_docs/csen_poomsae_score/project_scoping_meeting/session_11_03_19.md).
+Tale file è distribuito a tutte le figure aziendali presenti alla riunione e - come è possibile dedurre dal suo contenuto - prevede degli appositi campi "note" compilabili digitalmente al fine di tener traccia delle varie osservazioni emerse in ogni fase di cui il meeting è composto. Prevede inoltre una sezione dedicata alla valutazione dell'incontro e alla pianificazione del successivo.
+Nella costruzione dell'agenda descritta nel documento in oggetto si sono effettuate le seguenti considerazioni.
+- Non disponendo al momento di un Facilitatore, tale ruolo è ricoperto dal Project Manager aziendale con le soft skill più idonee ai suoi compiti (quali organizzazione, comunicazione ed empatia). Tenendo inoltre conto di come Marcin Pabich sia anche incaricato di riflettere gli interessi di un Architetto (interessandosi più della bellezza della soluzione che del costo a essa associata), si è ritenuto che Giacomo Frisoni fosse il membro più idoneo.
+- I tempi relativamente le durate di ogni argomento in agenda sono stimati a partire dal contenuto della mail di contatto pervenuta da CSEN, ricordando tuttavia l'alta probabilità di discostamento a causa della non esperienza di PunchCode.
+- Dal momento che la discussione delle Condition of Satisfaction (CoS) non viene fatta in un unico punto, si è scelto di prevedere un'apposita area all'interno del template del documento in cui annotare man mano gli obiettivi del progetto.
+- Dato che il cliente può fornire materiale di varia natura all'interno di un meeting, si predispone anche un'apposita sezione in cui tener traccia dei riferimenti a quanto fornito.
+- La compilazione digitale del documento è stata scelta per diverse ragioni:
+  - facilita un eventuale processamento automatico delle informazioni in esso contenute;
+  - velocizza il processo di annotazione (anche considerando come un membro dello staff aziendale sia frequentemente impegnato nel dirigire la discussione)
+  - rende il contenuto del documento maggiormente fruibile da parte di tutti gli interessati.
 
+Un esempio di documento compilato per quanto concerne la prima sessione è disponibile nel seguente [allegato](project_docs/csen_poomsae_score/project_scoping_meeting/session_11_03_19_marcin_pabich.md).
 
-- come si puo vedere dall'allegato si denota che ci sarà bisogno di più incontri per approfondimenti bla bla bla
+A causa della complessità del progetto, durante il primo incontro si è subito manifestata la necessità di pianificarne altri. Nello specifico, riconoscendo la presenza di vari sottosistemi, si è pertanto preferito organizzare un meeting per entrare nei dettagli di ciascuno di questi (sollecitando di volta in volta la partecipazione delle figure coinvolte lato committente da parte di quel sottosistema) e limitarsi con la prima riunione a inquadrare il problema solo in termini generali. Tenendo conto di come il cliente abbia manifestato fin da subito la sua disponibilità a più incontri nell'arco di una settimana, l'elenco delle successive sessioni svolte è di seguito riportato (specificando per ognuna data e agenda).
 
-- Applicando le politiche aziendali, si è reso necessario lo svolgimento di tale fase (che costituisce la prima occasione d'incontro tra il fornitore e il committente) su più giornate (sessioni)
-- Ne sono state realizzate X (es. 5) e gli argomenti trattati in ciascuna con le rispettive date sono disponibili al seguente documento Y. 1° incontro: generale + 2° incontro: tablet + 3° incotro: sw quadrato + 4° incontro: server + comunicazione wireless
-- il cliente ha dato disponibilità a contatti frequenti
+14/03/2019 - [agenda per il sottosistema dedicato ai tablet dei giudici](project_docs/csen_poomsae_score/project_scoping_meeting/session_14_03_19.md)  
+18/03/2019 - [agenda per il sottosistema dedicato al software per la gestione di un quadrato di gara](project_docs/csen_poomsae_score/project_scoping_meeting/session_18_03_19.md)  
+22/03/2019 - [agenda per il sottosistema dedicato alla gestione di un torneo lato server](project_docs/csen_poomsae_score/project_scoping_meeting/session_22_03_19.md)
 
-[//]: # (Ricordarsi della discussione budget e tempo alla prima sessione)
-[//]: # (Non sono spiegati ulteriori incontri, in quanto sono presenti nel doc ufficialmente linkato)
+Nell'intervallo di tempo compreso tra una sessione e la successiva, PunchCode si impegna anche alla realizzazione di [mockup](project_docs/csen_poomsae_score/project_scoping_meeting/) (sottoposti al giudizio del committente tramite email).
+
+Dopo aver discusso nel dettaglio di ogni sottosistema (comprendendo problematiche, desiderata e modalità di raccolta dei requisiti), si è infine pianificato un ultimo meeting (successivo all'applicazione delle tecniche finalizzate alla raccolta dei requisiti, alla classificazione del progetto e all'identificazione dei rischi) per la scelta del PMLC Model (descritta nella [prossima sezione](#34-scelta-del-pmlc-model)) che meglio si adattasse alla chiusura del gap individuato (tenendo chiaramente conto anche della disponibilità del cliente). In questa occasione si è anche effettuata la stesura di una bozza del POS (con relativa approvazione).
+
+01/04/2019 - [agenda del meeting conclusivo per la definizione dello scope](project_docs/csen_poomsae_score/project_scoping_meeting/session_01_04_19.md)
+
+Per quanto concerne il budget e la durata del progetto, si è prevista una discussione iniziale di questi aspetti - condotta da parte del Project Manager del cliente - già all'interno della prima sessione (in modo tale da non considerare nemmeno la pianificazione delle riunioni successive in assenza delle condizioni per farlo). Si osserva inoltre come si sia organizzata un'ulteriore e analoga discussione di questi temi all'interno dell'ultima sessione, condotta però da parte del Project Manager dell'azienda (ora consapevole di tutti i dettagli del progetto e in grado di fare una reale valutazione dal suo punto di vista).
+
+Unendo tutte le informazioni raccolte sui bisogni del cliente, il documento di descrizione dell'intero progetto è disponibile al seguente [allegato](project_docs/csen_poomsae_score/project_description.md).
 
 ## 3.3. Resources Breakdown Structure (RBS)
 
@@ -209,10 +227,10 @@ Spiegazione dei vari requisiti sui rami.
 ## 3.4. Scelta del PMLC Model
 - siamo pochi, non possiamo avere uno scrum master: ha poco senso essere agili.
 (perchè non possiamo essere agili, ma perchè facciamo di tutto per esserlo nelle nostre possibilità)
-- dato che il cliente si è dimostrato molto disponibile a frequenti feedback nonchè felice di ciò...
+- dato che il cliente nell'ultima sessione si è dimostrato molto disponibile a frequenti feedback nonchè felice di ciò...
 
 ## 3.5. Project Overview Statement (POS)
-C'è qualcosa da spiegare (?)
+Ottenuta a fronte di un ulteriore raffinamento della bozza approvata con l'ultima sessione di Project Scoping Meeting.
 
 [//]: # (Spiegare la scelta di mettere il Glossiario nel POS)
 
@@ -226,4 +244,5 @@ Spiegare solo il perchè dell'uso di un diagramma rispetto a un altro.
 
 # 5. Bibliografia
 
-[1]<a id="bibliography-1"></a> [Platonova, Valērija & Bērziša,Solvita. (2017). Gamification in Software Development Projects. Information Technology and Management Science. 20. 10.1515/itms-2017-0010.](https://www.researchgate.net/publication/322409704_Gamification_in_Software_Development_Projects)
+[1]<a id="bibliography-1"></a> [Platonova, Valērija & Bērziša, Solvita. "Gamification in Software Development Projects". *Information Technology and Management Science*. Dec 2017.](https://www.researchgate.net/publication/322409704_Gamification_in_Software_Development_Projects)  
+[2]<a id="bibliography-1"></a> [Senthil Rajamarthandan. "Using Gamification to Build a Passionate and Quality-Driven Software Development Team". *Cognizant 20-20 Insights*. Feb 2014.](https://www.cognizant.com/InsightsWhitepapers/Using-Gamification-to-Build-a-Passionate-and-Quality-Driven-Software-Development-Team.pdf)
