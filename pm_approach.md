@@ -210,7 +210,7 @@ Dopo aver discusso nel dettaglio di ogni sottosistema (comprendendo problematich
 
 Per quanto concerne il budget e la durata del progetto, si è prevista una discussione iniziale di questi aspetti - condotta da parte del Project Manager del cliente - già all'interno della prima sessione (in modo tale da non considerare nemmeno la pianificazione delle riunioni successive in assenza delle condizioni per farlo). Si osserva inoltre come si sia organizzata un'ulteriore e analoga discussione di questi temi all'interno dell'ultima sessione, condotta però da parte del Project Manager dell'azienda (ora consapevole di tutti i dettagli del progetto e in grado di fare una reale valutazione dal suo punto di vista).
 
-Unendo tutte le informazioni raccolte sui bisogni del cliente, il documento di descrizione dell'intero progetto è disponibile al seguente [allegato](project_docs/csen_poomsae_score/project_description.md).
+Unendo tutte le informazioni raccolte sui bisogni del cliente, il documento di descrizione dell'intero progetto è disponibile al seguente [allegato](project_docs/csen_poomsae_score/project_scoping_meeting/project_description.md).
 
 ## 3.3. Resources Breakdown Structure (RBS)
 
