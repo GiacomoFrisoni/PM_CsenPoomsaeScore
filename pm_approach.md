@@ -188,7 +188,7 @@ Nella costruzione dell'agenda descritta nel documento in oggetto si sono effettu
 - Non disponendo al momento di un Facilitatore, tale ruolo è ricoperto dal Project Manager aziendale con le soft skill più idonee ai suoi compiti (quali organizzazione, comunicazione ed empatia). Tenendo inoltre conto di come Marcin Pabich sia anche incaricato di riflettere gli interessi di un Architetto (interessandosi più della bellezza della soluzione che del costo a essa associata), si è ritenuto che Giacomo Frisoni fosse il membro più idoneo.
 - I tempi relativamente le durate di ogni argomento in agenda sono stimati a partire dal contenuto della mail di contatto pervenuta da CSEN, ricordando tuttavia l'alta probabilità di discostamento a causa della non esperienza di PunchCode.
 - Dal momento che la discussione delle Condition of Satisfaction (CoS) non viene fatta in un unico punto, si è scelto di prevedere un'apposita area all'interno del template del documento in cui annotare man mano gli obiettivi del progetto.
-- Dal momento che il cliente può fornire materiale di varia natura all'interno di un meeting, si predispone anche un'apposita sezione in cui tener traccia dei riferimenti a quanto fornito.
+- Dato che il cliente può fornire materiale di varia natura all'interno di un meeting, si predispone anche un'apposita sezione in cui tener traccia dei riferimenti a quanto fornito.
 - La compilazione digitale del documento è stata scelta per diverse ragioni:
   - facilita un eventuale processamento automatico delle informazioni in esso contenute;
   - velocizza il processo di annotazione (anche considerando come un membro dello staff aziendale sia frequentemente impegnato nel dirigire la discussione)

@@ -97,6 +97,7 @@ Primo incontro conoscitivo con CSEN
 
 ## Conditions of Satistaction (CoS)
 
+<!--
 Il cliente vuole gestire digitalmente tutti i processi che compongono una gara di Taekwondo, attraverso l'uso di tre categorie di dispositivi elettronici:
 
 - **Tablet**  
@@ -137,8 +138,7 @@ Il cliente esige che il sistema progettato:
   - altro
   - altro
   - altro
-
-
+-->
 
 
 ## Valutazione del Meeting
