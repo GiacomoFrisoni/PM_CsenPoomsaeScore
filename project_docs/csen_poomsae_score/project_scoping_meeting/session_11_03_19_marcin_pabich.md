@@ -140,7 +140,6 @@ Il cliente esige che il sistema progettato:
   - altro
 -->
 
-
 ## Valutazione del Meeting
  - L'agenda è stata rispettata? [NO]
  - Tutti i partecipanti hanno interagito? [YES]
