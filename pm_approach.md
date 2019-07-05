@@ -231,7 +231,7 @@ L'intervistato potrebbe distorcere la realtà, avere difficoltà a esprimersi o,
 Una possibile soluzione a questo problema potrebbe consistere nell'adozione di un approccio deduttivo, chiamato "ad imbuto".
 L'intervistatore parte da domande molto generali per poi restringere l'argomento dell'intervista a temi specifici. Il carattere generale dei quesiti iniziali (normalmente in forma aperta), infatti, allieva la tensione dell'intervistato (che potrebbe altrimenti essere emozionato o eccessivamente deferente).
 
-Un esempio di intervista realizzata da "PunchCode" al gestore del sistema software dedicato ai quadrati di gara è disponibile al seguente [allegato](project_docs/csen_poomsae_score/rbs/interview_26_03_19.md.md).
+Un esempio di intervista realizzata da "PunchCode" al gestore del sistema software dedicato ai quadrati di gara è disponibile al seguente [allegato](project_docs/csen_poomsae_score/rbs/interview_26_03_19.md).
 
 #### 3.3.1.2 Oservazioni
 Grazie agli accordi presi durante i meeting, i mebri della "PunchCode" hanno potuto partecipare direttamente ad una delle gare svolte dallo CSEN.
