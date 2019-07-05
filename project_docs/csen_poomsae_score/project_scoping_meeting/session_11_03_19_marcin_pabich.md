@@ -4,7 +4,9 @@
 **Data**: 11 marzo 2019  
 **Orario**: 09:00  
 **Luogo**: Sala Riunioni PunchCode  
-**Materiale**: [session_11_03_19_res](./session_11_03_19_res/)
+**Materiale**:
+- [Immagini del software usato da aziende competitor](./session_11_03_19_res/competitor)
+- [Architettura immaginata dal cliente](./session_11_03_19_res/customer_architecture_idea.pdf)
 
 ## Oggetto
 Primo incontro conoscitivo con CSEN
@@ -33,7 +35,7 @@ Primo incontro conoscitivo con CSEN
         <td>Introduzione</td>
         <td align="center">09:00 - 09:15</td>
         <td align="center">Giacomo Frisoni</td>
-        <td>CSEN fa parte di una realtà molto grande. Il Project Manager ci comunica come l'organizzazione sia interessata sin da subito alla collaborazione, mostrando interesse verso il nostro modo di lavorare.</td>
+        <td>CSEN fa parte di una realtà molto grande. Il Project Manager ci comunica sin da subito il loro interesse verso il nostro modo di lavorare.</td>
     </tr>
     <tr>
         <td>Scopo del meeting</td>
@@ -53,7 +55,7 @@ Primo incontro conoscitivo con CSEN
         <td>Descrizione dello stato finale che si vuole raggiungere</td>
         <td align="center">11:00 - 12:00</td>
         <td align="center">Enrico Comando</td>
-        <td> CSEN ci comunica che l'idea di ricorrere a una soluzione software sia nata anche osservando la gestione di tornei fatta da un competitor in altri paesi. Sotto questo punto di vista, l'organizzazione ci rilascia del materiale per comprendere meglio le loro esigenze o su cui eventualmente ispirarci. La società - prendendo come riferimento questo approccio - ha pensato a una soluzione nella quale i giudici possono usare un'applicazione Android su dei tablet per esprimere le loro votazioni. I punteggi vengono poi catturati da un software su dei PC centrali (uno per ogni quadrato), incaricati di raccoglierli e mostrarli al pubblico tramite dei monitor esterni. Si pensa già alla presenza di un server per la gestione dei vari tornei che compongono una competizione, sia in fase preparatoria che in termini di calcolo classifiche.</td>
+        <td> CSEN ci comunica che l'idea di ricorrere a una soluzione software sia nata anche osservando la gestione di tornei fatta da un competitor in altri paesi. Sotto questo punto di vista, l'organizzazione ci rilascia del materiale per comprendere meglio le loro esigenze o su cui eventualmente ispirarci. La società - prendendo come riferimento questo approccio - ha pensato a una soluzione nella quale i giudici facciano uso di un'applicazione Android su dei tablet per esprimere le loro votazioni. I punteggi vengono poi catturati da un software su dei PC centrali (uno per ogni quadrato di gara), incaricati di raccoglierli e mostrarli al pubblico tramite dei monitor esterni. Si pensa già alla presenza di un server per la gestione dei vari tornei che compongono una competizione, sia in fase preparatoria che in termini di calcolo classifiche.</td>
     </tr>
     <tr>
         <td>Discussione dei requisiti e delle modalità di raccolta</td>
@@ -82,6 +84,7 @@ Primo incontro conoscitivo con CSEN
         <ul>
             <li>Il procurement dell'hardware non è affidato a noi. L'azienda possiede già computer portatili, monitor esterni e altri componenti correlati. Per quanto concerne i tablet, al momento CSEN non li ha già in dotazione ma prevede di comprarli a breve. Sotto questo punto di vista la scelta del dispositivo è già stata fatta e di conseguenza non abbiamo libertà di manovra. CSEN si promette di portarci al prossimo incontro le caratteristiche tecniche di tali tablet.</li>
             <li>Per ogni atleta si possiedono le seguenti informazioni (disponibili nel documento excel rilasciato): nome, cognome, categoria, grado, sesso, nazionalità, palestra di appartenenza e nazionalità della palestra.</li>
+            <li>Una palestra è normalmente suddivisa in 4 quadrati di gara. La competizione svolta in un certo giorno è l'insieme di tutti i tornei che devono essere intrapresi. Ogni torneo si compone di 3 gare (eliminatorie, semifinali e finali), alcune delle quali potrebbero non essere effettuate qualora il numero dei partecipanti sia ridotto (es. partire direttamente dalle finali). I tornei sono suddivisi tra i 4 quadrati di gara (tipicamente in base all'età degli atleti e al loro grado di cintura), in modo da poterli portare avanti in contemporanea. La gestione di un torneo non può essere fatta su più quadrati di gara: inizia su uno e lì finisce.</li>
         </ul>
         </td>
     </tr>
@@ -149,10 +152,10 @@ Il cliente esige che il sistema progettato:
  - Come potrebbe migliorare il prossimo meeting? *Si punterà a discutere soltanto di una parte del progetto per delimitare meglio le problematiche da affrontare*
 
 ## Pianificazione del prossimo meeting
- - **Obiettivo:** Discussione sul primo step, i tablet
+ - **Obiettivo:** Discussione del primo sottosistema (applicazione Android per i tablet utilizzati dai giudici)
  - **Data**: 14/03/19
  - **Luogo**: Sala Riunioni della "PunchCode"
- - **Partecipanti:** Marcin, Giacomo, Enrico
+ - **Partecipanti:** Giacomo Frisoni, Marcin Pabich, Enrico Comando, 2 giudici
 
 <br/>
 
