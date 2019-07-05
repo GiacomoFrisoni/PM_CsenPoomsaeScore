@@ -10,24 +10,16 @@ Approfondimenti sui requisiti del cliente relativi all'applicazione CSEN Poomsae
 
 ## Svolgimento dell'intervista
 1) Di cosa ti occupi e come sei abituato a gestire l'evolversi dei tornei all'interno di una competizione?
-<br/>
-<br/>
-2) Quali sono le operazioni più frustranti che ti trovi a fare adesso?
-<br/>
-<br/>
-3) C'è qualcosa che cambieresti nel tuo modo di lavorare, se questo ti fosse permesso?
-<br/>
-<br/>
-4) Come pensi che una soluzione software possa aiutarti?
-<br/>
-<br/>
-5) Come ti immagini una schermata di gestione per un torneo?
-<br/>
-<br/>
-6) Come vorresti effettuare il filtraggio degli atleti in una fantomatica schermata?  
-<br/>
-<br/>
 
+2) Quali sono le operazioni più frustranti che ti trovi a fare adesso?
+
+3) C'è qualcosa che cambieresti nel tuo modo di lavorare, se questo ti fosse permesso?
+
+4) Come pensi che una soluzione software possa aiutarti?
+
+5) Come ti immagini una schermata di gestione per un torneo?
+
+6) Come vorresti effettuare il filtraggio degli atleti in una fantomatica schermata?  
 
 ## Note
  ___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
