@@ -33,44 +33,118 @@ Si richiede inoltre che l'applicazione sia in grado di:
 Il secondo è un sottosistema software per la gestione di tutti i tornei svolti su un determinato quadrato di gara.
 
 ### Organizzazione di un torneo
-Un torneo si compone di tre gare: eliminatorie, semifinali e finali. La gara di partenza è dettata dal numero di atleti registrati al torneo; di conseguenza non tutte le gare sono necessariamente svolte. I criteri per la determinazione della gara inziale sono di seguito riportati:
-- ELIMINATORIE: più di 18 atleti;
-- SEMIFINALI: tra i 9 e i 18 atleti (compresi);
-- FINALI: meno di 9 atleti.
+Esistono tre tipologie di torneo in base al numero di atleti che compongono i gruppi partecipanti: individuali (un solo atleta), coppie (due atleti) e team (più di 2 atleti, fino ad un massimo di 5).  
+Ogni torneo è identificato da una serie di parametri con specifici range di possibili valori:
+- *TORNEI INDIVIDUALI*
+  - Categoria
+    - NOVIZI
+    - ESORDIENTI
+    - CADETTI 1
+    - CADETTI 2
+    - JUNIOR
+    - SENIOR 1
+    - SENIOR 2
+    - MASTER 1
+    - MASTER 2
+  
+  - Sesso
+    - M (per maschi)
+    - F (per femmine)
+  
+  - Gruppo di grado
+    - 10-9 KUP
+    - 8-7 KUP
+    - 6-5 KUP
+    - 4-3 KUP
+    - 2-1 KUP
+    - POOM
+    - DAN
 
+- *TORNEI DI COPPIE O TEAM*
+    - Classe
+      - A
+      - B
+      - C
+  
+    - Gruppo di grado
+      - 10/5 KUP
+      - 4/1 KUP
+      - POMM
+      - NERE
 
+Un torneo si compone di tre gare: eliminatorie, semifinali e finali (necessariamente svolte nell'ordine presentato). La gara di partenza è dettata dal numero di atleti registrati al torneo; di conseguenza non tutte le gare sono necessariamente svolte. I criteri per la determinazione della gara inziale e per il passaggio da una gara alla successiva sono di seguito riportati:
 
-- funzionamento del torneo
-    - tre gare
-    - soglie
-    - medaglie
-    - ballottaggi (max 1)
+ - *ELIMINATORIE*
+   - Atleti richiesti: più di 18 atleti;
+   - Passaggio a semifinali: 50% + 1 degli atleti con punteggio totale più alto;
+ - *SEMIFINALI*
+   - Atleti richiesti: tra i 9 e i 18 atleti (compresi); 
+   - Passaggio a finali: i primi 5 atleti con punteggio totale più alto;
+ - *FINALI*
+   - Atleti richiesti: meno di 9 atleti;
+
+L'esibizione di forma fatta da un atleta è chiamata "poomsae".
+Nel momento in cui un atleta inizia a esibirsi, viene avviato un timer per misurare il tempo impiegato per lo svolgimento della forma.  
+Al termine della poomsae, vengono raccolte le votazioni assegnate dai giudici per l'atleta. Il punteggio totale è così calcolato come media delle singole votazioni. Questo può essere ulteriormente oggetto di correzioni, registrando penalità di scarsa entità (-0.1) o di grave entità (-0.3) - similarmente al calcolo della componente di accuratezza da parte di un singolo giudice.
+
+Un atleta in eliminatorie o in semifinali è chiamato a svolgere una sola poomsae; durante la fase finale, invece, ne vengono richieste due (separate da un intervallo temporale, fissato a 30 secondi). In quest'ultimo caso, il punteggio totale è dato dalla somma dei singoli punteggi totali ottenuti attraverso le due poomsae.
+Le regole appena presentate per il calcolo della gara di partenza, per il passaggio da una all'altra e per l'arco temporale tra lo svolgimento della prima e della seconda poomsae finale sono quelle attualmente in vigore. Si sottolinea tuttavia come CSEN possa apportare dei cambiamenti a esse di anno in anno e di come, quindi, il sistema debba prevedere il loro aggiornamento da parte dell'utente.
+
+Giunti al termine della gara finale, avviene l'assegnamento delle medaglie (oro, argento, bronzo). Se il torneo è costituito da un unico atleta, egli - dolo lo svolgimento della sua poomsae - ha automaticamente diritto alla medaglia (oro singolo).
+
+Alla fine dello svolgimento di una gara (sia per il passaggio alla gara successiva che per l'assegnamento delle medaglie) è possibile che più atleti abbiano lo stesso punteggio totale. Qualora tale scenario impedisca la determinazione degli atleti passanti il turno (o riceventi una determinata medaglia) a causa di un pari merito in punti critici (es. sulla soglia semifinali -> finali), si osserva chi possiede la componente di accuratezza più alta. Qualora anche l'accuratezza non dovesse essere un parametro discriminante, gli atleti sono invitati a eseguire un'ulteriore poomsae di ballottaggio. Il nuovo punteggio totale così ottenuto viene confrontato con quello degli avversari per stabilire il vincitore. È previsto un solo ballottaggio: qualora una situazione di pari merito si dovesse nuovamente ripetere, tutti gli atleti coinvolti dal ballottaggio stesso passano il turno o ricevono la medesima medaglia in forma ex aequo. Quest'ultimo, inoltre, non può essere mai ripetuto. 
+
+Prima dell'inizio di un torneo, viene fatto un appello per verificare la presenza degli atleti partecipanti: gli atleti non presenti vengono eliminati dal sistema.
+Un atleta può essere ritirato da un torneo avviato durante una qualsiasi gara. Gli atleti ritirati sono evidenziati dal sistema e non vengono presi in considerazione per il passaggio di gara o per l'assegnamento delle medaglie. I loro punteggi non concorrono pertanto all'elaborazione delle classifiche, ma vengono comunque tracciati.
+Si sottolinea come il ritiro o l'eliminazione di un atleta siano azioni definitive, in quanto non possono essere in nessun modo revocate.
+
+Qualora non sia possibile svoltere la seconda parte di una poomae finale (o un ballottaggio) viene assegnato un'operazione di "assegnamento di punteggio zero". In entrambi i casi, infatti, si consolida il punteggio precedente dell'atleta (quello della prima poomsae) per la poomsae finale, o quello del punteggio che ha determinato il ballottaggio. Un atleta con punteggio azzerato può comunque passare il turno e ricevere medaglie, a differenza di un atleta ritirato.
 
 ### Gestione dei tornei del quadrato di gara
-- riceve dati competizione (nome, numero giudici) + tornei da gestire con l'elenco dei relativi atleti dal server
-- filtro su tripletta
-- visualizzazione degli atleti sulla gara corrente
-- navigazione tra gare
-- gestione poomsae di un atleta
-    - tempo
-    - ricezione wireless dei voti dei giudici o loro inserimento manuale
-    - aggiustamento del punteggio totale
-    - schermata riepilogativa
+Al primo avvio il software riceve i dati della competizione (nome e numero di giudici) e i tornei da gestire con l'elenco dei relativi partecipanti dal server.
 
-### Monitor
-- collegamento a 2 monitor esterni (torneo e poomsae)
-- focus su visibilità da distanza
-- monitor torneo
-    - mostra l'elenco dei partecipanti (in scroll ove necessario), evidenziando coloro che hanno già svolto la poomsae + l'atleta correntemente in gestione + coloro che ancora devono farla
-    - la preview è per atleta (e non per poomsae) con seguenti informazioni: ... + B ballottaggio
-    - a fine torneo, viene mostrata la classifica (evidenziando gli atleti con medaglia)
-- monitor poomsae
-    - mostra le informazioni di dettaglio di una poomsae: ... + nazionalità PALESTRA
-    - deve essere oscurabile
+L'utente deve poter ricercare un torneo attraverso delle caselle a scelta multipla rappresentanti i parametri che lo identificano (varianti sulla base della tipologia).  
+
+Selezionado correttamente i filtri viene visualizzato l'elenco degli atleti corrispondente al torneo scelto, navigabile anche nelle gare che compongono il torneo stesso.
+
+A fronte della scelta di un atleta, sono resi disponibili i controlli per la gestione della sua poomsae. Il sistema deve prevedere quindi un bottone per l'avvio e l'arresto del timer, nonchè la visualizzazione del tempo trascorso, con precisione al millisecondo. Alla conclusione della poomsae viene visualizzata una schermata dedicata alla raccolta delle votazioni dei giudice (manuale o wireless). È quindi calcolato il punteggio medio, con la possibilità di registrare ulteriori penalità a partire da esso.
+Si osserva come sia sempre possibile ripetere una poomsae iniziata per far fronte a scenari pratici quali la distrazione dell'atleta in esame, per esempio.
+
+Al completamento della poomsae, in base alla fase del torneo attualmente occupata dall'atleta, possono essere visualizzate due schermate:
+
+ - nelle gare *eliminatorie* e *semifinali*, si passa immediatamente ad una schermata riepilogativa, illustrante i dettagli della prova stessa e consentente l'annullamento della poomsae (abilitando conseguentemente la possibilità di ripeterla);
+
+ - nella gara delle *finali* - se la poomsae terminata è la prima delle due - viene mostrato un timer (con la possibilità di saltarlo), allo scadere del quale l'atleta è invitato ad eseguire la poomsae successiva (ripetendo, di conseguenza, tutte le schermate precedenti). Alla chiusura della seconda poomsae, invece, viene mostrata la schermata riepilogativa.
+
+### Monitor esterni
+Il software per la gestione del quadrato di gara è connesso mediante cavi HDMI a 2 monitor esterni:
+
+- **Monitor di torneo**  
+    - Mostra l'elenco degli atleti nella gara corrente del torneo, abilitando uno scorrimento verticale, nel caso in cui le preview dei partecipanti non siano visualizzabili interamente sul monitor esterno.
+    - Il sistema deve prevedere una diversificazione grafica atta a distinguere le poomsae già svolte, da quelle che non lo sono ancora e da quella attualmente in gestione.
+    - Ogni preview fa riferimento a un atleta (e non a una singola poomsae). Essa deve riportare le seguenti informazioni: ordine in lista, nome e cognome, nazionalità e nome della palestra, punteggio totale ed eventuale punteggio di ballottaggio.
+    - Nel momento in cui un torneo giunge al termine, viene mostrata la classifica ottenuta, evidenziando gli atleti che hanno ottenuto una medaglia.
+
+- **Monitor di poomsae**  
+    - Mostra i dettagli della poomsae correntemente in esecuzione: timer (anche in fase di aggiornamento), nome e cognome dell'atleta, nazionalità e nome della palestra, punteggio totale (con le due componenti per poomsae finali).
+    - Deve essere possibile oscurare il monitor in qualunque momento.
+
+In entrambi i casi, qualora il torneo si riferisca a coppie o team, le informazioni anagrafiche dell'atleta sono sostituite con quelle dei membri che compongono il gruppo (prestando attenzione a denominare i team con il nome della palestra per cui partecipano).
+Sia nel monitor di torneo che in quello di poomsae, inoltre, la tipologia e i parametri che identificano il torneo devono essere visibili nell'area superiore dello schermo. Sotto questo punto di vista CSEN raccomando l'uso del seguente sistema di colori:
+ - **ELIMINATORIE** - verde;
+ - **SEMIFINALI** - arancione;
+ - **FINALI** - rosso.
+  
+Sul piano dei requisiti non funzionali, il cliente ribadisce inoltre come tutte le informazioni presentate sui monitor esterni appena discussi debbano essere ben visibili anche da circa 15 metri di distanza.
 
 ## Sottosistema 3 - Server
-- creazione competizione (nome + numero giudici)
-- parsing excel
+Il terzo è il sottosistema software rappresentante il server. Esso deve consentire la creazione e la configurazione di un'intera competizione.
+Per creare una competizione occorre specificare il nome di quest'ultima e il numero di giudici che concorrono alla valutazione degli atleti in torneo, in ogni quadrato di gara.  
+Il sistema deve prevedere il caricamento di tutti gli atleti, realizzando un parsing a partire dal contenuto del file Excel fornito (con una struttura diversa per ogni tipologia di torneo, su uno specifico foglio). Durante il caricamento di queste informazioni, gli atleti devono essere già inseriti all'interno del loro torneo di appartenenza (non specificato su file ma desumibile a partire dai parametri dell'atleta stesso o del gruppo di atleti in caso di coppie o team).
+
+
+
+
 - ordinamento alfabetico degli atleti
 - gestione trasferimenti
 - partizionamento tornei tra quadrati di gara
