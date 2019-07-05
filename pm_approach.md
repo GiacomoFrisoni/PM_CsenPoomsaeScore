@@ -22,6 +22,8 @@
   - [3.2. Project Scoping Meeting](#32-Project-Scoping-Meeting)
   - [3.3. Resources Breakdown Structure (RBS)](#33-Resources-Breakdown-Structure-RBS)
     - [3.3.1. Raccolta dei requisiti](#331-Raccolta-dei-requisiti)
+      - [3.3.1.1 Interviste](#3311-Interviste)
+      - [3.3.1.2 Oservazioni](#3312-Oservazioni)
     - [3.3.2. Costruzione](#332-Costruzione)
   - [3.4. Scelta del PMLC Model](#34-Scelta-del-PMLC-Model)
   - [3.5. Project Overview Statement (POS)](#35-Project-Overview-Statement-POS)
@@ -215,6 +217,26 @@ Unendo tutte le informazioni raccolte sui bisogni del cliente, il documento di d
 ## 3.3. Resources Breakdown Structure (RBS)
 
 ### 3.3.1. Raccolta dei requisiti
+
+In ogni Project Scoping Meeting dedicato a uno specifico sottosistema, si sono discusse e definite le modalità di acquisizione dei relativi requisiti (con approcci ulteriori alla singola riunione). Dopo un'attenta analisi, considerando la disponibilità manifestata dal cliente, si è deciso di optare per **Interviste** e **Osservazioni**. Altri metodi, come il "Requirements Reuse" e il "Prototyping" non sono stati adottati dal momento che non si verificano le condizioni necessarie alla loro attuazione (l'azienda non ha esperienza su progetti precedenti da cui riprendere parte di implementazione e la realizzazione di un prototipo si rivela eccessivamente costosa e rischiosa).
+
+#### 3.3.1.1 Interviste
+Al fine di avere una descrizione dei processi e delle problematiche attuali direttamente da chi li gestisce, si è ritenuto opportuno prevedere tre interviste: due per gli addetti responsabili alle gestione dei quadrati e una per il gestore del server.
+
+Essendo "PunchCode" formata da due soli membri, per compensare l'assenza di un analista interno all'azienda, viene presa la decisione di far rivestire il ruolo di intervistatore a entrambi i membri (formulando e sottoponendo le domande agli intervistati in coppia). Questa scelta va anche nella direzione di ridurre il rischio di un'interpretazione errata delle risposte, nonostante si sia consapevoli che un simile approcio potrebbe scoraggiare l'intervistato ad espripersi in piena libertà.
+
+Un ulteriore motivo che ha portato alla scelta di questo metodo è da ricercarsi nel fatto che l'esecutore non ha mai condotto progetti antecedenti simili a quello in esame. Di conseguenza potrebbe per lui risultare difficile dedurre ciò di cui il committente ha bisogno solamente attraverso le discussioni svolte durante i meeting.
+
+L'intervistato potrebbe distorcere la realtà, avere difficoltà a esprimersi o, in preda ad agitazione, fornire informazioni poco precise.
+Una possibile soluzione a questo problema potrebbe consistere nell'adozione di un approccio deduttivo, chiamato "ad imbuto".
+L'intervistatore parte da domande molto generali per poi restringere l'argomento dell'intervista a temi specifici. Il carattere generale dei quesiti iniziali (normalmente in forma aperta), infatti, allieva la tensione dell'intervistato (che potrebbe altrimenti essere emozionato o eccessivamente deferente).
+
+Un esempio di intervista realizzata da "PunchCode" al gestore del sistema software dedicato ai quadrati di gara è disponibile al seguente [allegato](project_docs/csen_poomsae_score/rbs/interview_26_03_19.md.md).
+
+#### 3.3.1.2 Oservazioni
+Grazie agli accordi presi durante i meeting, i mebri della "PunchCode" hanno potuto partecipare direttamente ad una delle gare svolte dallo CSEN.
+
+
 
 - interviste ai vari stackholder lato cliente (specificando il tipo di intervista: es. imbuto + esempi domande in base al ruolo)
     - ad Andrea (il PM del committente)
