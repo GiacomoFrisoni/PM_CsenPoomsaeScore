@@ -2,7 +2,7 @@
 
 ## Introduzione
 
-CSEN (Centro Sportivo Educativo Nazionale) è un ente di elevate dimensioni incentrato sullo sviluppo della pratica sportiva e sulla sua accessibilità. CSEN ha avuto una forte crescita negli ultimi 10 anni a cui non è seguita una razionalizzazione delle procedure operative. Recentemente ha deciso di informatizzare il proprio processo di gestione dei tornei di Taekwondo, organizzati nelle varie competizioni svolte sul territorio nazionale. Loro attribuiscono questa esigenza a due fattori principali: l'inefficienza legata a una completa gestione manuale e la presenza di soluzioni software già in uso da parte di aziende competitor. 
+CSEN (Centro Sportivo Educativo Nazionale) è un ente di elevate dimensioni incentrato sullo sviluppo della pratica sportiva e sulla sua accessibilità. CSEN ha avuto una forte crescita negli ultimi 10 anni a cui non è seguita una razionalizzazione delle procedure operative. Recentemente ha deciso di informatizzare il proprio processo di gestione dei tornei di Taekwondo, organizzati nelle varie competizioni svolte sul territorio nazionale. Loro attribuiscono questa esigenza a due fattori principali: l'inefficienza legata a una completa gestione manuale e la presenza di soluzioni software già in uso da parte di aziende competitor. CSEN ha inizialmente valutato l'acquisizione di soluzioni già esistenti ma, non riscontrando in queste le caratteristiche richieste in termini di funzionalità e usabilità, ha preferito considerare la costruzione di un nuovo sistema personalizzato per far fronte alle proprie esigenze.  
 La Direzione Aziendale si è rivolta alla nostra startup per commissionare la realizzazione di un sistema software, in grado di migliorare la situazione attuale del cliente, fornendo una soluzione capace di coprire le esigenze avvertite.
 Enrico Comando, Project Manager di CSEN, afferma come i principali obiettivi dell'intervento siano sviluppare un'applicazione Android per automatizzare l'assegnamento dei punteggi da parte dei giudici e la loro raccolta / elaborazione, introdurre un software per la completa gestione di un quadrato di gara e un'applicazione lato server per la configurazione dei tornei e l'elaborazione delle classifiche. Il cliente vuole che il team si impegni a ricercare una soluzione efficace ed efficiente per la realizzazione dei tre sottosistemi.
 
@@ -94,7 +94,8 @@ Giunti al termine della gara finale, avviene l'assegnamento delle medaglie (oro,
 
 Alla fine dello svolgimento di una gara (sia per il passaggio alla gara successiva che per l'assegnamento delle medaglie) è possibile che più atleti abbiano lo stesso punteggio totale. Qualora tale scenario impedisca la determinazione degli atleti passanti il turno (o riceventi una determinata medaglia) a causa di un pari merito in punti critici (es. sulla soglia semifinali -> finali), si osserva chi possiede la componente di accuratezza più alta. Qualora anche l'accuratezza non dovesse essere un parametro discriminante, gli atleti sono invitati a eseguire un'ulteriore poomsae di ballottaggio. Il nuovo punteggio totale così ottenuto viene confrontato con quello degli avversari per stabilire il vincitore. È previsto un solo ballottaggio: qualora una situazione di pari merito si dovesse nuovamente ripetere, tutti gli atleti coinvolti dal ballottaggio stesso passano il turno o ricevono la medesima medaglia in forma ex aequo. Quest'ultimo, inoltre, non può essere mai ripetuto. 
 
-Prima dell'inizio di un torneo, viene fatto un appello per verificare la presenza degli atleti partecipanti: gli atleti non presenti vengono eliminati dal sistema.
+Prima dell'inizio di un torneo, viene fatto un appello per verificare la presenza degli atleti partecipanti: gli atleti non presenti vengono eliminati dal sistema. Specularmente, se il torneo non è ancora stato avviato, deve essere possibile poter aggiungere atleti non previsti. L'eliminazione e l'aggiunta di atleti sono operazioni che hanno chiaramente effetto sul numero iniziale di membri per il torneo e in quanto tali possono alterare la gara di partenza per quest'ultimo. Nello specifico, è sia possibile avanzare di gara (eliminando atleti) che retrocedere di gara (aggiungendone di nuovi).
+
 Un atleta può essere ritirato da un torneo avviato durante una qualsiasi gara. Gli atleti ritirati sono evidenziati dal sistema e non vengono presi in considerazione per il passaggio di gara o per l'assegnamento delle medaglie. I loro punteggi non concorrono pertanto all'elaborazione delle classifiche, ma vengono comunque tracciati.
 Si sottolinea come il ritiro o l'eliminazione di un atleta siano azioni definitive, in quanto non possono essere in nessun modo revocate.
 
@@ -104,17 +105,17 @@ Qualora non sia possibile svoltere la seconda parte di una poomae finale (o un b
 Al primo avvio il software riceve i dati della competizione (nome e numero di giudici) e i tornei da gestire con l'elenco dei relativi partecipanti dal server.
 
 L'utente deve poter ricercare un torneo attraverso delle caselle a scelta multipla rappresentanti i parametri che lo identificano (varianti sulla base della tipologia).  
-
 Selezionado correttamente i filtri viene visualizzato l'elenco degli atleti corrispondente al torneo scelto, navigabile anche nelle gare che compongono il torneo stesso.
 
 A fronte della scelta di un atleta, sono resi disponibili i controlli per la gestione della sua poomsae. Il sistema deve prevedere quindi un bottone per l'avvio e l'arresto del timer, nonchè la visualizzazione del tempo trascorso, con precisione al millisecondo. Alla conclusione della poomsae viene visualizzata una schermata dedicata alla raccolta delle votazioni dei giudice (manuale o wireless). È quindi calcolato il punteggio medio, con la possibilità di registrare ulteriori penalità a partire da esso.
 Si osserva come sia sempre possibile ripetere una poomsae iniziata per far fronte a scenari pratici quali la distrazione dell'atleta in esame, per esempio.
 
 Al completamento della poomsae, in base alla fase del torneo attualmente occupata dall'atleta, possono essere visualizzate due schermate:
-
  - nelle gare *eliminatorie* e *semifinali*, si passa immediatamente ad una schermata riepilogativa, illustrante i dettagli della prova stessa e consentente l'annullamento della poomsae (abilitando conseguentemente la possibilità di ripeterla);
 
  - nella gara delle *finali* - se la poomsae terminata è la prima delle due - viene mostrato un timer (con la possibilità di saltarlo), allo scadere del quale l'atleta è invitato ad eseguire la poomsae successiva (ripetendo, di conseguenza, tutte le schermate precedenti). Alla chiusura della seconda poomsae, invece, viene mostrata la schermata riepilogativa.
+
+Ogni tal volta che una poomsae giunge in uno stato consistente (tempo registrato, voti dei giudici ricevuti, correzzione al punteggio medio applicata, completamento), viene effettuato anche il salvataggio dello stato attuale del torneo cui questa appartiene in maniera permanente sul disco rigido. Ciò consente di affrontare gli eventuali disagi che potrebbero emergere durante la gestione. Il file risultante può essere utilizzato successivamente per riprendere l'avanzamento della gara da dove la si era lasciata. Tutte le volte in cui una poomsae viene portata a termine, i dati di quest'ultima sono anche inviati al server centrale. Il software di gestione del quadrato, inoltre, deve notificare il server con la classifica parziale ottenuta a fronte di ogni chiusura di torneo (per consentire l'aggiornamento della classifica globale delle palestre).
 
 ### Monitor esterni
 Il software per la gestione del quadrato di gara è connesso mediante cavi HDMI a 2 monitor esterni:
@@ -139,15 +140,22 @@ Sul piano dei requisiti non funzionali, il cliente ribadisce inoltre come tutte 
 
 ## Sottosistema 3 - Server
 Il terzo è il sottosistema software rappresentante il server. Esso deve consentire la creazione e la configurazione di un'intera competizione.
-Per creare una competizione occorre specificare il nome di quest'ultima e il numero di giudici che concorrono alla valutazione degli atleti in torneo, in ogni quadrato di gara.  
-Il sistema deve prevedere il caricamento di tutti gli atleti, realizzando un parsing a partire dal contenuto del file Excel fornito (con una struttura diversa per ogni tipologia di torneo, su uno specifico foglio). Durante il caricamento di queste informazioni, gli atleti devono essere già inseriti all'interno del loro torneo di appartenenza (non specificato su file ma desumibile a partire dai parametri dell'atleta stesso o del gruppo di atleti in caso di coppie o team).
 
+Per creare una competizione occorre specificare il nome di quest'ultima e il numero di giudici che concorrono alla valutazione degli atleti in torneo, in ogni quadrato di gara.
 
+Il sistema deve prevedere il caricamento di tutti gli atleti, realizzando un parsing a partire dal contenuto del file Excel fornito (con una struttura diversa per ogni tipologia di torneo, su uno specifico foglio). Durante il caricamento di queste informazioni, gli atleti devono essere già inseriti (in ordine alfabetico) all'interno del loro torneo di appartenenza (non specificato su file ma desumibile a partire dai parametri dell'atleta stesso o del gruppo di atleti in caso di coppie o team). A seguito del caricamento degli atleti e dell'iniziale costruzione automatica dei tornei, deve essere visualizzata una schermata riepilogativa per validare i dati raccolti (assieme alla visualizzazione di alcune statistiche, quali il numero di atleti e di palestre partecipanti alla competizione).  
 
+Il sistema deve anche consentire la gestione di eventuali trasferimenti (spostando cioè tutti o alcuni degli atleti facenti parte di un torneo all'interno di un altro). 
+Se a fronte di un trasferimento un torneo rimane senza partecipanti, questo deve essere eliminato.
 
-- ordinamento alfabetico degli atleti
-- gestione trasferimenti
-- partizionamento tornei tra quadrati di gara
+Completati i trasferimenti, deve essere possibile assegnare a ogni quadrato di gara i tornei che questo deve prendere in carico. Uno stesso torneo chiaramente non può essere gestito da più quadrati.
 
-Note UI/UX
+Dal momento che queste operazioni di configurazione possono essere realizzate anche in sessioni diverse nei giorni antecedenti alla gara, è necessario salvare i dati di ogni competizione. È infatti possibile predisporre più competizioni concorrentemente, e non necessariamente gestirle una alla volta. Il software lato server deve pertanto prevedere anche la possibilità di aprire una competizione già creata in precedenza, per riprendere il lavoro da dove lo si era lasciato.
 
+Nel momento in cui la configurazione della competizione è completata e la si avvia, il server è incaricato di accogliere i risultati delle poomsae registrate dai vari software di gestione dei quadrati di gara man mano che questi divengono disponibili. Nell'eventualità in cui per problematiche di rete non sia possibile svolgere l'aggregazione di queste informazioni mediante una comunicazione wireless tra i quadrati e il server stesso, il sistema deve prevedere la possibilità di caricare i file contenenti i dati di tutti i tornei gestiti da ogni quadrato di gara (e prodotti dal rispettivo software) per fondere le varie informazioni in un'unica soluzione.
+
+I punteggi totali delle varie poomsae vengono inviati al server al fine di costruire lo storico completo della competizione. Inoltre, man mano che i tornei vengono completati, il server viene notificato dai quadrati al fine di aggiornare la classifica globale delle varie palestre (elaborata sulla base delle medaglie ricevute dai propri atleti sui vari tornei). Tale classifica è mostrata in tempo reale su un apposito monitor esterno.
+
+### Note
+
+Sul piano dei requisiti, CSEN richiede inoltre che l'interfaccia grafica di tutti i sottosistemi sia semplice, intuitiva e utilizzabile anche dal persona aziendale senza profonda esperienza nel campo dell'informatica.
