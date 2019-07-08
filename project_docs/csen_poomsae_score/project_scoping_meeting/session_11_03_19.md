@@ -7,7 +7,7 @@
 **Materiale**: ________________ 
 
 ## Oggetto
-Primo incontro conoscitivo con CSEN
+Primo incontro conoscitivo con CSEN.
 
 ## Partecipanti
 - **Project Manager fornitore:**
