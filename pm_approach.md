@@ -221,35 +221,84 @@ Unendo tutte le informazioni raccolte sui bisogni del cliente, il documento di d
 In ogni Project Scoping Meeting dedicato a uno specifico sottosistema, si sono discusse e definite le modalità di acquisizione dei relativi requisiti (con approcci ulteriori alla singola riunione). Dopo un'attenta analisi, considerando la disponibilità manifestata dal cliente, si è deciso di optare per **Interviste** e **Osservazioni**. Altri metodi, come il "Requirements Reuse" e il "Prototyping" non sono stati adottati dal momento che non si verificano le condizioni necessarie alla loro attuazione (l'azienda non ha esperienza su progetti precedenti da cui riprendere parte di implementazione e la realizzazione di un prototipo si rivela eccessivamente costosa e rischiosa).
 
 #### 3.3.1.1 Interviste
-Al fine di avere una descrizione dei processi e delle problematiche attuali direttamente da chi li gestisce, si è ritenuto opportuno prevedere tre interviste: due per gli addetti responsabili alle gestione dei quadrati e una per il gestore del server.
+Al fine di avere una descrizione dei processi e delle problematiche attuali direttamente da chi li gestisce, si è ritenuto opportuno prevedere *tre interviste*: due per gli addetti responsabili alle gestione dei quadrati e una per il gestore del server.
 
-Essendo "PunchCode" formata da due soli membri, per compensare l'assenza di un analista interno all'azienda, viene presa la decisione di far rivestire il ruolo di intervistatore a entrambi i membri (formulando e sottoponendo le domande agli intervistati in coppia). Questa scelta va anche nella direzione di ridurre il rischio di un'interpretazione errata delle risposte, nonostante si sia consapevoli che un simile approcio potrebbe scoraggiare l'intervistato ad espripersi in piena libertà.
+Essendo "PunchCode" formata da due soli membri, per compensare l'assenza di un analista interno all'azienda, viene presa la decisione di far rivestire il ruolo di intervistatore a entrambi i membri (formulando e sottoponendo le domande agli intervistati in coppia). Questa scelta va anche nella direzione di ridurre il rischio di un'interpretazione errata delle risposte, nonostante si sia consapevoli che un simile approcio potrebbe scoraggiare l'intervistato ad esprimersi in piena libertà.
 
 Un ulteriore motivo che ha portato alla scelta di questo metodo è da ricercarsi nel fatto che l'esecutore non ha mai condotto progetti antecedenti simili a quello in esame. Di conseguenza potrebbe per lui risultare difficile dedurre ciò di cui il committente ha bisogno solamente attraverso le discussioni svolte durante i meeting.
 
 L'intervistato potrebbe distorcere la realtà, avere difficoltà a esprimersi o, in preda ad agitazione, fornire informazioni poco precise.
-Una possibile soluzione a questo problema potrebbe consistere nell'adozione di un approccio deduttivo, chiamato "ad imbuto".
+Una possibile soluzione a questo problema consiste normalmente nell'adozione di un approccio deduttivo, chiamato "ad imbuto".
 L'intervistatore parte da domande molto generali per poi restringere l'argomento dell'intervista a temi specifici. Il carattere generale dei quesiti iniziali (normalmente in forma aperta), infatti, allieva la tensione dell'intervistato (che potrebbe altrimenti essere emozionato o eccessivamente deferente).
+
+Per la definizione delle domande legate a ogni intervista, inoltre, si è ritenuto fondamentale tener conto della posizione ricoperta e delle mansioni svolte dell'intervistato (ricercando sempre un focus preciso).
 
 Un esempio di intervista realizzata da "PunchCode" al gestore del sistema software dedicato ai quadrati di gara è disponibile al seguente [allegato](project_docs/csen_poomsae_score/rbs/interview_26_03_19.md).
 
-#### 3.3.1.2 Oservazioni
-Grazie agli accordi presi durante i meeting, i mebri della "PunchCode" hanno potuto partecipare direttamente ad una delle gare svolte dallo CSEN.
+#### 3.3.1.2 Osservazioni
+Per risolvere ulteriormente i tipici problemi di un'intervista, si è scelto di integrare quest'ultima con un'osservazione. Questo ulteriore approccio è molto educativo e permette di comprendere al meglio il modo di lavorare del cliente, dimostrandosi di conseguenza utile per rilevare requisiti del sistema che altrimenti rischierebbero di non emergere da domande.  
 
-
-
-- interviste ai vari stackholder lato cliente (specificando il tipo di intervista: es. imbuto + esempi domande in base al ruolo)
-    - ad Andrea (il PM del committente)
-    - ai futuri utilizzatori del sw (gestori gare e giudici)
-- osservazioni sul campo (durante i tornei) per una comprensione più chiara delle esigenze
+Grazie agli accordi presi durante i meeting, i membri di "PunchCode" hanno così potuto partecipare direttamente a una delle gare svolte dallo CSEN.
 
 ### 3.3.2. Costruzione
-Spiegazione dei vari requisiti sui rami.
+Al fine di esprimere all'utente in maniera chiara, intuitiva e significativa i requsiti raccolti, si è scelto di costruire un RBS, in linea con le buone pratiche del PMBOK proposto da PMI. Nel far ciò, si è prestata attenzione nel non definire attività con una granularità troppo fine (che avrebbe altrimenti portato ad alti costi in fase di monitoraggio e controllo).   
+
+Nella stestura dell'[RBS](project_docs/csen_poomsae_score/rbs/rbs.png), "PunchCode" ha ritenuto opportuno affrontare la decomposizione gerarchica dei requisiti tenendo conto di tre macro-aree (rappresentanti i tre principali sottosistemi del progetto).
+
+#### 3.3.2.1 App Android
+È il sottosistema incentrato sullo sviluppo dell'applicazione Android per la registrazione dei punteggi associati alle poomsae da parte dei giudici.
+
+- *Registrazione Punteggio*  
+  Deve essere possibile registrare il punteggio per una determinata poomsae, attraverso step successivi e tenendo conto di parametri diversi.
+  
+- *Invio Punteggio*  
+  Il punteggio calcolato dal giudice necessita - qualora ci si trovi in modalità online - di essere inviato al software per la gestione del quadrato di gara. 
+
+- *Storico*  
+  Si deve mantenere traccia di tutti i punteggi registrati attraverso l'uso dell'applicazione.
+
+- *Impostazioni*  
+  L'applicazione deve prevedere un'area dedicata al settaggio di impostazioni di utilità.
+
+#### 3.3.2.2 Software Gestione Quadrato
+È il sottosistema incentrato sullo sviluppo della soluzione software atta a gestire i tornei all'interno di un quadrato.
+
+- *Ricezione Tornei*  
+  Ogni quadrato, all'inizio di una competizione, riceve una serie di tornei da gestire (sulla base della decomposizione realizzata dal server).
+
+- *Selezione Torneo*  
+  Prima di procedere alla selezione degli alteti, è necessario selezionare il torneo dal quale sceglierli.
+
+- *Gestione Torneo*  
+  Prevede la gestione delle singole poomsae nelle diverse **gare** e il mantenimento in forma permanente dei dati acquisiti (**salvataggio**).
+
+- *Visualizzazione*
+  I dati acquisiti dai quadrati devono essere visualizzati al pubblico su appositi monitor.
+
+#### 3.3.2.3 *Server*  
+È il sottosistema software rappresentante la parte centrale nella gestione di competizioni. Esso consente di crearle e configurarle, oltre che gestirle una volta inizializzate.
+
+- *Configurazione Competizione*  
+  Prima di essere operativa, la competizione dev'essere opportunamente *configurata*. La configurazione avviene attraverso due macro-fasi:
+  
+  - *Creazione*, stabilendo i parametri generici della competizione stessa e importando i dati degli atleti dall'apposito file;
+  
+  - *Aggiornamento*, consentendo la *manipolazione dei tornei* interni alla competizione nei momenti antecedenti alla sua inizializzazione e il *partizionamento* sul piano gestionale dei tornei definiti ai vari software di quadrato.
+
+- *Inizializzazione Competizione*  
+  Dopo averla opportunamente configurata, la competizione può essere avviata. Durante tutta la sua durata, il server rimane in ascolto sull'avanzamento di stato di ogni singolo torneo (*raccogliendo sia i punteggi legati alle varie poomsae che le classifiche locali al termine di ogni torneo*). Questo processo permette di elaborare la classifica globale delle singole palestre.
+
+- *Gestione Salvataggio*  
+  Procedura permettente di mantenere integro e recuperabile lo stato e l'avanzamento dell'intera competizione.
+
+- *Visualizzazione*  
+  Il server è connesso ad un monitor, consentendo al pubblico sia di consultare informazioni generali legate ai quadrati di gara che i risultati ottenuti a partire dai dati raccolti.
 
 ## 3.4. Scelta del PMLC Model
 - siamo pochi, non possiamo avere uno scrum master: ha poco senso essere agili.
 (perchè non possiamo essere agili, ma perchè facciamo di tutto per esserlo nelle nostre possibilità)
 - dato che il cliente nell'ultima sessione si è dimostrato molto disponibile a frequenti feedback nonchè felice di ciò...
+- discutere del perchè usare RBS anche se adottiamo uno stile vicino a quello agile
 
 ## 3.5. Project Overview Statement (POS)
 Ottenuta a fronte di un ulteriore raffinamento della bozza approvata con l'ultima sessione di Project Scoping Meeting.
