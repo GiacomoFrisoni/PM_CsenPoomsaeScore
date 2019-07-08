@@ -74,7 +74,7 @@ Primo incontro conoscitivo con CSEN
         <td>Budget e tempi</td>
         <td align="center">14:00 - 14:30</td>
         <td align="center">Enrico Comando</td>
-        <td>Il cliente non può sostenere costi eccessivamente alti e il budget è stimato essere di circa 6000€. Si rimanderà ad una valutazione più congrua, una volta definiti tutti i dettagli del progetto con le prossime sessioni. Per quanto concerne le tempistiche, il cliente è disposto ad attendere diversi mesi per la soluzione software completa ma necessita al più presto del sottosistema incentrato sui tablet per la raccolta dei voti da parte dei giudici. Il cliente inoltre osserva come il numero delle gare sia destinato a intensificarsi entro la fine dell'estate e come necessiti di almeno un primo rilascio entro breve termine.</td>
+        <td>Il cliente non può sostenere costi eccessivamente alti e il budget è stimato essere di circa 8000€. Si rimanderà ad una valutazione più congrua, una volta definiti tutti i dettagli del progetto con le prossime sessioni. Per quanto concerne le tempistiche, il cliente è disposto ad attendere diversi mesi per la soluzione software completa ma necessita al più presto del sottosistema incentrato sui tablet per la raccolta dei voti da parte dei giudici. Il cliente inoltre osserva come il numero delle gare sia destinato a intensificarsi entro la fine dell'estate e come necessiti di almeno un primo rilascio entro breve termine.</td>
     </tr>
     <tr>
         <td>Domande varie</td>

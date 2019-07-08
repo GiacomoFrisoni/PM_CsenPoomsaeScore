@@ -275,7 +275,7 @@ Nella stestura dell'[RBS](project_docs/csen_poomsae_score/rbs/rbs.png), "PunchCo
 - *Visualizzazione*
   I dati acquisiti dai quadrati devono essere visualizzati al pubblico su appositi monitor.
 
-#### 3.3.2.3 *Server*  
+#### 3.3.2.3 Server  
 È il sottosistema software rappresentante la parte centrale nella gestione di competizioni. Esso consente di crearle e configurarle, oltre che gestirle una volta inizializzate.
 
 - *Configurazione Competizione*  
@@ -295,23 +295,43 @@ Nella stestura dell'[RBS](project_docs/csen_poomsae_score/rbs/rbs.png), "PunchCo
   Il server è connesso ad un monitor, consentendo al pubblico sia di consultare informazioni generali legate ai quadrati di gara che i risultati ottenuti a partire dai dati raccolti.
 
 ## 3.4. Scelta del PMLC Model
-- siamo pochi, non possiamo avere uno scrum master: ha poco senso essere agili.
-(perchè non possiamo essere agili, ma perchè facciamo di tutto per esserlo nelle nostre possibilità)
-- dato che il cliente nell'ultima sessione si è dimostrato molto disponibile a frequenti feedback nonchè felice di ciò...
-- discutere del perchè usare RBS anche se adottiamo uno stile vicino a quello agile
 
-## 3.5. Project Overview Statement (POS)
+Per quanto riguarda la scelta del modello per il ciclo di vita del progetto, i Project Manager di "PunchCode" hanno deciso - dopo un'attenta analisi - di adottare una modalità **incrementale**. Le principali ragioni che hanno portato a questa scelta scaturiscono direttamente dalle caratteristiche del progetto stesso e dalle esigenze del cliente:
+- i requisiti sono stati chiaramente definiti (così come le loro priorità);
+- non sono previste modifiche rilevanti allo scope (anche se ci sono delle probabilità che ciò accada);
+- il cliente desidera ricevere business value presto e con una certa frequenza.
+
+Dal momento che vi è una qualche probabilità che lo scope subisca delle modifiche, un approccio incrementale fornisce della flessibilità per accettare cambiamenti di scope (che comunque dovrebbero essere molto ridotti). L'identificazione di più sottosistemi interni al progetto, inoltre, favorisce il progressivo rilascio di incrementi usabili da parte dell'utente.
+
+Si sono immaginate tre major-release, considerando i sottosistemi identificati, le dipendenze tra loro e le priorità assegnate da parte del committente. Oltre a queste, vengono previsti anche dei rilasci incrementali minori, a scopo di ottenere man mano un diretto riscontro dal cliente (che nel corso delle sessioni del Project Scoping Meeting ha manifestato più volte la sua disponibilità a essere contattato per il rilascio di feedback).
+
+## 3.5. Budget e tempi
+Durante l'ultima sessione del Project Scoping Meeting si è arrivati al compromesso di 8000€ e un tempo di realizzazione pari ad un anno. Sotto quest'ultimo punto di vista si tenga presente come si sia scelto di ricorrere ad un modello incrementale, garantendo di conseguenza al cliente rilasci graduali e continui durante questo arco temporale. Il tempo e budget qui discussi tengono anche conto delle operazioni di installazione, manutenzione, monitoraggio e formazione del personale.
+
+## 3.6. Project Overview Statement (POS)
 Ottenuta a fronte di un ulteriore raffinamento della bozza approvata con l'ultima sessione di Project Scoping Meeting.
 
 [//]: # (Spiegare la scelta di mettere il Glossiario nel POS)
 
-## 3.6. Project Definition Statement (PDS)
+## 3.7. Project Definition Statement (PDS)
 C'è qualcosa da spiegare (?)
 
-### 3.6.1. Analisi dei rischi
+### 3.7.1. Analisi dei rischi
 Spiegare solo il perchè dell'uso di un diagramma rispetto a un altro.
 
+
 # 4. #
+
+- *Applicazione Android*.  
+Per automatizzare la valutazione delle poomsae svolte dagli atleti da parte dei giudici.
+
+- *Software per la gestione del quadrato di gara abbinato all'applicazione Android*.  
+Per la gestione dei tornei interni a una competizione su un quadrato di gara e la raccolta dei punteggi da parte delle applicazioni in esecuzione sui tablet dei giudici, anticipando alcune funzionalità lato server (importazione dati da file Excel, creazione della competizione, gestione dei trasferimenti ed elaborazione classifica globale localmente al quadrato).
+
+- *Sistema software completo*  
+Per l'integrazione del server, spostando la configurazione delle competizioni su un unico nodo, gestendo il partizionamento dei tornei tra i vari quadrati al fine di evitare sovrapposizioni e raccogliendo i dati elaborati da ogni software di gestione di quadrato.
+
+Si vuole sottolineare come - per garantire i rilasci intermedi di cui il committente necessita - si sia scelto di anticipare funzionalità di sottosistemi ancora non realizzati (con la consapevolezza che ciò richieda un ulteriore lavoro in termini di modifiche e integrazione).
 
 # 5. Bibliografia
 
