@@ -313,9 +313,23 @@ Si sono immaginate tre major-release, considerando i sottosistemi identificati, 
 Durante l'ultima sessione del Project Scoping Meeting si è arrivati al compromesso di 8000€ e un tempo di realizzazione pari ad un anno. Sotto quest'ultimo punto di vista si tenga presente come si sia scelto di ricorrere ad un modello incrementale, garantendo di conseguenza al cliente rilasci graduali e continui durante questo arco temporale. Il tempo e budget qui discussi tengono anche conto delle operazioni di installazione, manutenzione, monitoraggio e formazione del personale.
 
 ## 3.6. Project Overview Statement (POS)
-Ottenuta a fronte di un ulteriore raffinamento della bozza approvata con l'ultima sessione di Project Scoping Meeting.
 
-[//]: # (Spiegare la scelta di mettere il Glossiario nel POS)
+La stesura della bozza del [POS](project_docs/csen_poomsae_score/pos/pos.md) è stata fatta iterativamente (assieme al raffinamento delle Condition of Satisfaction e del RBS), con l'avanzare delle sessioni di Project Scoping Meeting (giungendo infine alla sua approvazione). Esso rappresenta una dichiarazione generale che descrive sinteticamente in cosa consiste il progetto, fungendo da riferimento per il team di pianificazione e costituendo un valido aiuto per le decisioni riguardanti il progetto stesso. È infatti utilizzato come nulla osta a procedere con la pianificazione.  
+
+Gli aspetti principali che si sono considerati per la creazione del documento sono di seguito riportati.
+- Chiarire cosa è incluso nel progetto e cosa invece non lo è (delineando pertanto obiettivi necessari e sufficienti).
+
+- Includere solo gli elementi di interesse ai fini dell'approvazione, rimandando gli aspetti specifici e di dettaglio al PDS.
+
+- Prestare attenzione a specificare dei sucess criteria strettamente correlati al business value (IR - Increase Revenue, AC - Avoid Costs, IS - Improve Service) e ben misurabili (facendo esclusivamente uso di metriche quantitative):
+  - per definire dei KPI, attraverso cui misurare il raggiungimento di un business value, si è optato anche per l'utilizzo di diverse tabelle comparative;
+  - ogni tabella confronta i risultati forniti dal cliente durante la fase di Project Scoping Meeting (relativamente la situazione attuale oggetto del problema) con quelli posti come obiettivo di miglioramento;
+  - dal momento che non è realistico ipotizzare che tutti i tempi a seguito dell'introduzione del sistema software rispecchino sempre quelli attesi, si è scelto di quantificare non solo il tempo medio desiderato, ma anche il massimo tempo accettabile e la massima deviazione standard (come misura di dispersione dei dati temporali rispetto alla media aritmetica). La deviazione standard (o scarto quadratico medio), infatti, possiede il vantaggio - rispetto alla varianza - di avere la stessa unità di misura dei valori osservati;
+  - poichè si prevede che i singoli obiettivi possano essere soddisfatti con un graduale rilascio delle major-release, si è specificato per ciascuno di essi il momento da cui si prevede di poterne trarre beneficio.
+  
+- Mostrare solo i rischi più importanti che si sono individuati e quantificati già alla fine della fase di scoping, che potrebbero portare PunchCode a scegliere di non continuare il progetto.
+  
+- Inserire un glossario al fine di evitare ambiguità e chiarire i principali concetti di dominio.
 
 ## 3.7. Project Definition Statement (PDS)
 
