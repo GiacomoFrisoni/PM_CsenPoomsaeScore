@@ -90,7 +90,13 @@ Al termine della poomsae, vengono raccolte le votazioni assegnate dai giudici pe
 Un atleta in eliminatorie o in semifinali è chiamato a svolgere una sola poomsae; durante la fase finale, invece, ne vengono richieste due (separate da un intervallo temporale, fissato a 30 secondi). In quest'ultimo caso, il punteggio totale è dato dalla somma dei singoli punteggi totali ottenuti attraverso le due poomsae.
 Le regole appena presentate per il calcolo della gara di partenza, per il passaggio da una all'altra e per l'arco temporale tra lo svolgimento della prima e della seconda poomsae finale sono quelle attualmente in vigore. Si sottolinea tuttavia come CSEN possa apportare dei cambiamenti a esse di anno in anno e di come, quindi, il sistema debba prevedere il loro aggiornamento da parte dell'utente.
 
-Giunti al termine della gara finale, avviene l'assegnamento delle medaglie (oro, argento, bronzo). Se il torneo è costituito da un unico atleta, egli - dolo lo svolgimento della sua poomsae - ha automaticamente diritto alla medaglia (oro singolo).
+Giunti al termine della gara finale, avviene l'assegnamento delle medaglie (oro, argento, bronzo). Se il torneo è costituito da un unico atleta, egli - dolo lo svolgimento della sua poomsae - ha automaticamente diritto alla medaglia (oro singolo).  
+Ad ogni palestra viene assegnato un punteggio in base al numero di medaglie conseguite dai suoi atleti in un qualunque torneo della competizione, seguendo le regole di seguito riportate:
+- per ogni oro in categoria, 10 punti;
+- per ogni argento in categoria, 7 punti;
+- per ogni bronzo in categoria, 4 punti;
+- per ogni oro singolo in categoria, 3 punti.
+Sulla base dei punteggi complessivi conquistati dalle palestre, si calcola una loro classifica globale.
 
 Alla fine dello svolgimento di una gara (sia per il passaggio alla gara successiva che per l'assegnamento delle medaglie) è possibile che più atleti abbiano lo stesso punteggio totale. Qualora tale scenario impedisca la determinazione degli atleti passanti il turno (o riceventi una determinata medaglia) a causa di un pari merito in punti critici (es. sulla soglia semifinali &rarr; finali), si osserva chi possiede la componente di accuratezza più alta. Qualora anche l'accuratezza non dovesse essere un parametro discriminante, gli atleti sono invitati a eseguire un'ulteriore poomsae di ballottaggio. Il nuovo punteggio totale così ottenuto viene confrontato con quello degli avversari per stabilire il vincitore. È previsto un solo ballottaggio: qualora una situazione di pari merito si dovesse nuovamente ripetere, tutti gli atleti coinvolti dal ballottaggio stesso passano il turno o ricevono la medesima medaglia in forma ex aequo. Quest'ultimo, inoltre, non può essere mai ripetuto. 
 
