@@ -23,13 +23,17 @@
   - [3.3. Resources Breakdown Structure (RBS)](#33-Resources-Breakdown-Structure-RBS)
     - [3.3.1. Raccolta dei requisiti](#331-Raccolta-dei-requisiti)
       - [3.3.1.1 Interviste](#3311-Interviste)
-      - [3.3.1.2 Oservazioni](#3312-Oservazioni)
+      - [3.3.1.2 Osservazioni](#3312-Osservazioni)
     - [3.3.2. Costruzione](#332-Costruzione)
+      - [3.3.2.1 App Android](#3321-App-Android)
+      - [3.3.2.2 Software Gestione Quadrato](#3322-Software-Gestione-Quadrato)
+      - [3.3.2.3 Server](#3323-Server)
   - [3.4. Scelta del PMLC Model](#34-Scelta-del-PMLC-Model)
-  - [3.5. Project Overview Statement (POS)](#35-Project-Overview-Statement-POS)
-  - [3.6. Project Definition Statement (PDS)](#36-Project-Definition-Statement-PDS)
-    - [3.6.1. Analisi dei rischi](#361-Analisi-dei-rischi)
-- [4.](#4)
+  - [3.5. Budget e tempi](#35-Budget-e-tempi)
+  - [3.6. Project Overview Statement (POS)](#36-Project-Overview-Statement-POS)
+  - [3.7. Project Definition Statement (PDS)](#37-Project-Definition-Statement-PDS)
+    - [3.7.1. Analisi dei rischi](#371-Analisi-dei-rischi)
+- [4. Planning](#4-Planning)
 - [5. Bibliografia](#5-Bibliografia)
 
 [//]: # (-------------------------------------------------------------------------)
@@ -314,13 +318,11 @@ Ottenuta a fronte di un ulteriore raffinamento della bozza approvata con l'ultim
 [//]: # (Spiegare la scelta di mettere il Glossiario nel POS)
 
 ## 3.7. Project Definition Statement (PDS)
-C'è qualcosa da spiegare (?)
 
 ### 3.7.1. Analisi dei rischi
-Spiegare solo il perchè dell'uso di un diagramma rispetto a un altro.
+Spiegare il perchè dell'uso di un diagramma rispetto a un altro.
 
-
-# 4. #
+# 4. Planning
 
 - *Applicazione Android*.  
 Per automatizzare la valutazione delle poomsae svolte dagli atleti da parte dei giudici.
