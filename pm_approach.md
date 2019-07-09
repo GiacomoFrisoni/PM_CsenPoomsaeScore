@@ -31,8 +31,8 @@
   - [3.4. Scelta del PMLC Model](#34-Scelta-del-PMLC-Model)
   - [3.5. Budget e tempi](#35-Budget-e-tempi)
   - [3.6. Project Overview Statement (POS)](#36-Project-Overview-Statement-POS)
-  - [3.7. Project Definition Statement (PDS)](#37-Project-Definition-Statement-PDS)
 - [4. Planning](#4-Planning)
+  - [4.1. Project Definition Statement (PDS)](#41-Project-Definition-Statement-PDS)
 - [5. Bibliografia](#5-Bibliografia)
 
 [//]: # (-------------------------------------------------------------------------)
@@ -330,7 +330,9 @@ Gli aspetti principali che si sono considerati per la creazione del documento so
   
 - Inserire un glossario al fine di evitare ambiguità e chiarire i principali concetti di dominio.
 
-## 3.7. Project Definition Statement (PDS)
+# 4. Planning
+
+## 4.1. Project Definition Statement (PDS)
 
 Il [PDS](project_docs/csen_poomsae_score/pds/pds.md) è una versione estesa del POS a uso del team di progetto. In esso si sono riportati elementi di maggior dettaglio, costituenti un ottimo input per le fasi successive e per approfondimenti. Il PDS rappresenta così un punto di riferimento anche per eventuali nuovi membri del team, consentendo loro di rimanere focalizzati sulla corretta direzione e sugli aspetti importanti per il successo del progetto.
 
@@ -339,8 +341,7 @@ Tale classificazione è svolta con la partecipazione di entrambi i dipendenti di
 
 Nonostante si sia classificato il progetto con un rischio medio-alto (tipo B), "PunchCode" decide comunque di assumersi il rischio di proseguirlo nella sua gestione, considerando questa opportunità come base per lanciarsi in un nuovo mercato ed acquisire esperienza (know how).
 
-# 4. Planning
-
+<!--
 - *Applicazione Android*.  
 Per automatizzare la valutazione delle poomsae svolte dagli atleti da parte dei giudici.
 
@@ -351,6 +352,7 @@ Per la gestione dei tornei interni a una competizione su un quadrato di gara e l
 Per l'integrazione del server, spostando la configurazione delle competizioni su un unico nodo, gestendo il partizionamento dei tornei tra i vari quadrati al fine di evitare sovrapposizioni e raccogliendo i dati elaborati da ogni software di gestione di quadrato.
 
 Si vuole sottolineare come - per garantire i rilasci intermedi di cui il committente necessita - si sia scelto di anticipare funzionalità di sottosistemi ancora non realizzati (con la consapevolezza che ciò richieda un ulteriore lavoro in termini di modifiche e integrazione).
+-->
 
 # 5. Bibliografia
 

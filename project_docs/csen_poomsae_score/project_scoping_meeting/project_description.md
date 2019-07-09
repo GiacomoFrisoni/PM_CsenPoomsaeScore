@@ -96,6 +96,7 @@ Ad ogni palestra viene assegnato un punteggio in base al numero di medaglie cons
 - per ogni argento in categoria, 7 punti;
 - per ogni bronzo in categoria, 4 punti;
 - per ogni oro singolo in categoria, 3 punti.
+
 Sulla base dei punteggi complessivi conquistati dalle palestre, si calcola una loro classifica globale.
 
 Alla fine dello svolgimento di una gara (sia per il passaggio alla gara successiva che per l'assegnamento delle medaglie) è possibile che più atleti abbiano lo stesso punteggio totale. Qualora tale scenario impedisca la determinazione degli atleti passanti il turno (o riceventi una determinata medaglia) a causa di un pari merito in punti critici (es. sulla soglia semifinali &rarr; finali), si osserva chi possiede la componente di accuratezza più alta. Qualora anche l'accuratezza non dovesse essere un parametro discriminante, gli atleti sono invitati a eseguire un'ulteriore poomsae di ballottaggio. Il nuovo punteggio totale così ottenuto viene confrontato con quello degli avversari per stabilire il vincitore. È previsto un solo ballottaggio: qualora una situazione di pari merito si dovesse nuovamente ripetere, tutti gli atleti coinvolti dal ballottaggio stesso passano il turno o ricevono la medesima medaglia in forma ex aequo. Quest'ultimo, inoltre, non può essere mai ripetuto. 
