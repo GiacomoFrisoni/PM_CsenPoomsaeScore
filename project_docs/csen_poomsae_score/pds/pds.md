@@ -34,19 +34,19 @@
             <ul>
                 <li>
                     Sviluppare un'applicazione Android per automatizzare la valutazione di poomsae da parte dei giudici.
-                    <ol>
+                    <ul>
                         <li>
                         Prevedere la realizzazione delle schermate seguendo i <a href="../project_scoping_meeting/session_14_03_19_res/mockup">mockup</a> definiti nel Project Scoping Meeting.
                         </li>
                         <li>
                         Porre una particolare attenzione all'usabilità dei controlli, in quanto potrebbero essere fruiti anche da persone con scarse competenze informatiche.
                         </li>
-                    </ol>
+                    </ul>
                 </li>
                 <br/>
                 <li>
                     Sviluppare un sistema software per la gestione dei tornei nei quadrati di gara.
-                    <ol>
+                    <ul>
                         <li>
                         Prevedere la realizzazione delle schermate seguendo i <a href="../project_scoping_meeting/session_18_03_19_res/mockup">mockup</a> definiti nel Project Scoping Meeting.
                         </li>
@@ -59,12 +59,12 @@
                         <li>
                         La visualizazzione dei dati sui monitor esterni non richiede la realizzazione di ulteriori applicazioni, ma consiste semplicemente in finestre secondarie, aperte e gestite dal software.
                         </li>
-                    </ol>
+                    </ul>
                 </li>
                 <br/>
                 <li>
                     Realizzare un server capace di creare, configurare e gestire competizioni.
-                    <ol>
+                    <ul>
                         <li>
                         Il file con gli atleti arriva in formato Excel (.xls).
                         </li>
@@ -74,19 +74,19 @@
                         <li>
                         La visualizazzione della classifica globale e degli atleti partecipanti ai vari quadrati sul monitor esterno non richiede la realizzazione di ulteriori applicazioni, ma consiste semplicemente in finestre secondarie, aperte e gestite dal software.
                         </li>
-                    </ol>
+                    </ul>
                 </li>
                 <br/>
                 <li>
                     Provvedere all'implementazione di una forma di comunicazione tra i vari sottosistemi.
-                    <ol>
+                    <ul>
                         <li>
                         Non è sempre garantito un accesso a Internet: la comunicazione si svolge pertanto via LAN, utilizzando sia collegamenti fisici che rete wireless (e comunque attraverso tramite un router). 
                         </li>
                         <li>
                         Tutte le funzionalità dipendenti dalla comunicazione in rete devono essere progettate per funzionare anche in assenza di quest'ultima (ad esempio, permettendo il caricamento dei dati da file)
                         </li>
-                    </ol>
+                    </ul>
                 </li>
             </ul>
         </td>
