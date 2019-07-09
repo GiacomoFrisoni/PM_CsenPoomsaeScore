@@ -210,6 +210,12 @@
                 <li>
                 L'eventuale aggiornamento della dotazione tecnica utilizzata dal cliente in futuro potrebbe rivelarsi incompatibile con la soluzione proposta.
                 </li>
+                <li>
+                Il ruolo dell'Architetto è ricoperto dal Project Manager Marcin Pabich. Nonostante questa scelta abbia l'intento di far emergere considerazioni derivanti da un conflitto d'interessi tra le due figure, ciò potrebbe comunque rivelarsi inefficace (a causa dell'impersonificazione dei due ruoli contrastanti da parte della stessa persona). 
+                </li>
+                <li>
+                A causa del ridotto numero di dipendenti, "PunchCode" si assume il rischio di non presentare le risorse sufficienti per affrontare il progetto in questione nei tempi concordati.
+                </li>
             </ul>
             <br/>
             <i>Ostacoli</i>
