@@ -32,7 +32,6 @@
   - [3.5. Budget e tempi](#35-Budget-e-tempi)
   - [3.6. Project Overview Statement (POS)](#36-Project-Overview-Statement-POS)
   - [3.7. Project Definition Statement (PDS)](#37-Project-Definition-Statement-PDS)
-    - [3.7.1. Analisi dei rischi](#371-Analisi-dei-rischi)
 - [4. Planning](#4-Planning)
 - [5. Bibliografia](#5-Bibliografia)
 
@@ -333,8 +332,12 @@ Gli aspetti principali che si sono considerati per la creazione del documento so
 
 ## 3.7. Project Definition Statement (PDS)
 
-### 3.7.1. Analisi dei rischi
-Spiegare il perchè dell'uso di un diagramma rispetto a un altro.
+Il [PDS](project_docs/csen_poomsae_score/pds/pds.md) è una versione estesa del POS a uso del team di progetto. In esso si sono riportati elementi di maggior dettaglio, costituenti un ottimo input per le fasi successive e per approfondimenti. Il PDS rappresenta così un punto di riferimento anche per eventuali nuovi membri del team, consentendo loro di rimanere focalizzati sulla corretta direzione e sugli aspetti importanti per il successo del progetto.
+
+Al fine di avere una prima indicazione dell'overhead (ovvero del tempo di gestione da dedicare al progetto), al suo interno si è voluto inserire anche una classificazione di Csen Poomsae Score. Per far ciò, "PunchCode" si appoggia a un proprio template, basandosi su caratteristiche quali durata in ordine di grandezza, classe di rischio, livello di complessità (determinato, ad esempio, dal numero di persone che vi lavorano e dal conseguenziale bisogno di comunicazione), tecnologia impiegata e probabilità di problemi.
+Tale classificazione è svolta con la partecipazione di entrambi i dipendenti di PunchCode (che rappresentano sia i Project Manager - con l'impersonificazione da parte di uno del ruolo di Architetto, che il team). Si osserva quindi come la sua funzione sia anche quella di comprendere se valga la pena approfondire o meno (dal momento che anche tale operazione ha un costo).
+
+Nonostante si sia classificato il progetto con un rischio medio-alto (tipo B), "PunchCode" decide comunque di assumersi il rischio di proseguirlo nella sua gestione, considerando questa opportunità come base per lanciarsi in un nuovo mercato ed acquisire esperienza (know how).
 
 # 4. Planning
 
