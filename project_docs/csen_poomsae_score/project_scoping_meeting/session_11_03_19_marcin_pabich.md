@@ -84,6 +84,7 @@ Primo incontro conoscitivo con CSEN
         <td>
         <ul>
             <li>Il procurement dell'hardware non è affidato a noi. L'azienda possiede già computer portatili, monitor esterni e altri componenti correlati. Per quanto concerne i tablet, al momento CSEN non li ha già in dotazione ma prevede di comprarli a breve. Sotto questo punto di vista la scelta del dispositivo è già stata fatta e di conseguenza non abbiamo libertà di manovra. CSEN si promette di portarci al prossimo incontro le caratteristiche tecniche di tali tablet.</li>
+            <li>I laptop forniti da CSEN possiedono Windows 10 come sistema operativo.</li>
             <li>Per ogni atleta si possiedono le seguenti informazioni (disponibili nel documento excel rilasciato): nome, cognome, categoria, grado, sesso, nazionalità, palestra di appartenenza e nazionalità della palestra.</li>
             <li>Una palestra è normalmente suddivisa in 4 quadrati di gara. La competizione svolta in un certo giorno è l'insieme di tutti i tornei che devono essere intrapresi. Ogni torneo si compone di 3 gare (eliminatorie, semifinali e finali), alcune delle quali potrebbero non essere effettuate qualora il numero dei partecipanti sia ridotto (es. partire direttamente dalle finali). I tornei sono suddivisi tra i 4 quadrati di gara (tipicamente in base all'età degli atleti e al loro grado di cintura), in modo da poterli portare avanti in contemporanea. La gestione di un torneo non può essere fatta su più quadrati di gara: inizia su uno e lì finisce.</li>
         </ul>
