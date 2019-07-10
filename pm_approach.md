@@ -65,11 +65,11 @@ Per la stesura della documentazione si è fatto uso di diversi software:
 In questa sezione sono fornite informazioni di carattere generale relative all'esecutore e al committente. Viene analizzato il rapporto tra queste due entità, con lo scopo di fornire una larga veduta sull'intera struttura su cui il progetto si basa e di comprendere le ragioni che hanno portato a intraprendere determinate scelte a discapito di altre. Si illustrano inoltre le competenze dei singoli membri facenti parte del team dell'azienda fornitrice, scendendo anche nel dettaglio delle politiche aziendali.
 
 ## 2.1. Azienda esecutrice
-L'esecutore del progetto è la startup "**Punch Code**". Essa è un'azienda informatica specializzata nella costruzione di soluzioni software, composta da due soli dipendenti neo-laureati. Essendosi appena costituita, non presenta esperienza pregressa in altri progetti e conseguentemente non possiede un know-how in alcuna area di mercato. Considerando l'esiguo numero di persone interne all'azienda, quest'ultima non è al momento decomposta in specifiche aree funzionali sul piano organizzativo; tuttavia è in espansione e prevede l'acqusizione nel breve termine di nuovo personale con competenze tecniche specializzate. Il principale motivo per cui l'azienda è stata scelta dal committente, oltre ad aver presentato un'offerta più aggressiva rispetto ai principali concorrenti, è da ricercarsi nella sua propensione all'uso di tecnologie innovative che l'hanno portata ad acquisire un'indubbia fama sul territorio e a ottenere un alto livello di attenzione sul panorama mediatico per mezzo dell'incubatore nel quale è localizzata.
+L'esecutore del progetto è la startup "**PunchCode**". Essa è un'azienda informatica specializzata nella costruzione di soluzioni software, composta da due soli dipendenti neo-laureati. Essendosi appena costituita, non presenta esperienza pregressa in altri progetti e conseguentemente non possiede un know-how in alcuna area di mercato. Considerando l'esiguo numero di persone interne all'azienda, quest'ultima non è al momento decomposta in specifiche aree funzionali sul piano organizzativo; tuttavia è in espansione e prevede l'acqusizione nel breve termine di nuovo personale con competenze tecniche specializzate. Il principale motivo per cui l'azienda è stata scelta dal committente, oltre ad aver presentato un'offerta più aggressiva rispetto ai principali concorrenti, è da ricercarsi nella sua propensione all'uso di tecnologie innovative che l'hanno portata ad acquisire un'indubbia fama sul territorio e a ottenere un alto livello di attenzione sul panorama mediatico per mezzo dell'incubatore nel quale è localizzata.
 
 ### 2.1.1. Startup Team
 
-"Punch Code" è formata da due soli membri ricoprenti entrambi il ruolo di Project Manager. Le competenze di ogni dipendente sono tracciate dall'azienda all'interno di un apposito [documento](project_docs/startup_team_skills/startup_team_skills.md), tenendo conto sia di *pre skill* (o soft skill) che di *pro skill* (o hard skill). Le prime si riferiscono alle capacità inerenti alla sfera interpersonale e della comunicazione, indipendenti dalla specifica mansione lavorativa e pertanto trasversali. Le seconde sono quelle competenze tecniche relative allo svolgimento di una certa professione, acquisibili tramite lo studio e certificabili. Nell'ottica di andare a delineare un valido strumento di appoggio per un Project Manager ai fini della futura assegnazione delle attività ai membri dello staff in fase di Planning, si è infatti ritenuto utile includere la valutazione di ambo le tipologie di abilità. Per quanto concerne l'assegnazione dei punteggi, si è voluta considerare una scala di valori numerici adimensionali compresa tra 1 e 5 (preferendola ad alternative misure non numeriche che avrebbero impedito la valutazione delle competenze in media di tutto il team su un certo parametro).
+PunchCode è formata da due soli membri ricoprenti entrambi il ruolo di Project Manager. Le competenze di ogni dipendente sono tracciate dall'azienda all'interno di un apposito [documento](project_docs/startup_team_skills/startup_team_skills.md), tenendo conto sia di *pre skill* (o soft skill) che di *pro skill* (o hard skill). Le prime si riferiscono alle capacità inerenti alla sfera interpersonale e della comunicazione, indipendenti dalla specifica mansione lavorativa e pertanto trasversali. Le seconde sono quelle competenze tecniche relative allo svolgimento di una certa professione, acquisibili tramite lo studio e certificabili. Nell'ottica di andare a delineare un valido strumento di appoggio per un Project Manager ai fini della futura assegnazione delle attività ai membri dello staff in fase di Planning, si è infatti ritenuto utile includere la valutazione di ambo le tipologie di abilità. Per quanto concerne l'assegnazione dei punteggi, si è voluta considerare una scala di valori numerici adimensionali compresa tra 1 e 5 (preferendola ad alternative misure non numeriche che avrebbero impedito la valutazione delle competenze in media di tutto il team su un certo parametro).
 
 Il team è consapevole dell'assenza di una figura interna rivestente il ruolo di Architetto. Per consentire comunque l'instaurazione di dibattiti costruttivi si è scelto - in base alle pre-skill e alle pro-skill - di far sì che un membro difendesse gli interessi legati al ruolo di un architetto (impersonandolo).
 Sotto questo punto di vista, è Marcin Pabich (specie grazie alle sue maggiori capacità creative) ad occuparsi anche di questo aspetto.
@@ -86,8 +86,8 @@ La startup segue un comune modello di suddivisione delle giornate e dell'orario 
 L'azienda consente lo svolgimento del lavoro in forma telematica direttamente da casa, ad eccezzione dei Project Meeting di diversa natura, come discusso in dettaglio nella [prossima sezione](#2123-project-meeting). Inoltre, per la risoluzione dei problemi complessi e per un maggiore coinvolgimento dei dipendenti, il team di sviluppo può avvalersi anche di tecniche di lavoro denominate *Pair Programming*, sia in remoto che in loco; quest'ultime possono essere utilizzate sia in fase di coding, che nella stesura della documentazione. Esse infatti stimolano utili brainstorming e danno la possibilità al management e agli sviluppatori di capire dove siano stati apportati eventuali cambiamenti di rotta e quali questi siano.
 
 ##### 2.1.2.2.1. Gamification
-Al fine di motivare gli impiegati e rendere le loro attività quotidiane meno frustranti nella loro percezione, "PunchCode" si avvale di tecniche di Gamification all'interno dei propri progetti di sviluppo software di durata massima stimata non superiore ai 5 mesi. Questa scelta è frutto di approfondite [ricerche in letteratura](#bibliography-1)<sup>1</sup> che testimoniano come esse influenzino positivamente i risultati di un gruppo di lavoro.  
-"Punch Code" - sotto questo punto di vista - si avvale di un proprio sistema di login per il tracciamento delle attività compiute dai dipendenti, premiandoli con dei *punti* (come componente di gioco) in caso di:
+Al fine di motivare gli impiegati e rendere le loro attività quotidiane meno frustranti nella loro percezione, PunchCode si avvale di tecniche di Gamification all'interno dei propri progetti di sviluppo software di durata massima stimata non superiore ai 5 mesi. Questa scelta è frutto di approfondite [ricerche in letteratura](#bibliography-1)<sup>1</sup> che testimoniano come esse influenzino positivamente i risultati di un gruppo di lavoro.  
+PunchCode - sotto questo punto di vista - si avvale di un proprio sistema di login per il tracciamento delle attività compiute dai dipendenti, premiandoli con dei *punti* (come componente di gioco) in caso di:
 - lettura di codice / documentazione di colleghi con invio di feedback (in forma di rating);
 - ricezione di feedback positivi da parte di un collega.
 
@@ -98,7 +98,7 @@ L'uso di una metodologia di questo tipo porta a diversi vantaggi:
 ##### 2.1.2.2.2. Documentazione
 
 - **Sviluppo**  
-"Punch Code" riversa sulla documentazione un ruolo di primaria importanza per numerose ragioni (tra cui riusabilità, manutenibilità, condivisione e storico sia in termini di problematiche che di soluzioni).
+PunchCode riversa sulla documentazione un ruolo di primaria importanza per numerose ragioni (tra cui riusabilità, manutenibilità, condivisione e storico sia in termini di problematiche che di soluzioni).
 Rientra pertanto nelle politiche aziendali la volontà di dedicarsi alla scrittura di quest'ultima non a progetto finito, ma costantemente nel corso della sua evoluzione. L'overhead legato all'operazione di aggiornamento continuo è così giustificato dall'obiettivo di minimizzare il senso di frustrazione in fase di stesura (partizionando il carico di lavoro complessivo) e di voler risparmiare tempo in futuro.
 
 - **Mantenimento**
@@ -136,7 +136,7 @@ Lo svolgimento degli Stand-Up Meeting dovrebbe sempre avvenire dal vivo, anche s
 
 ##### 2.1.2.3.3. Problem Resolution Meeting
 
-"PunchCode" considera lo svolgimento di Problem Resolution Meeting per la discussione di problematiche riscontrate durante lo svolgimento di un progetto. L'azienda prevede nello specifico che questi siano organizzati qualora si ritengano necessari a fronte dell'individuazione di attività fuori controllo durante uno Stand-up Meeting. In queste riunioni per la risoluzione di un problema l'agenda deve prevedere:
+PunchCode considera lo svolgimento di Problem Resolution Meeting per la discussione di problematiche riscontrate durante lo svolgimento di un progetto. L'azienda prevede nello specifico che questi siano organizzati qualora si ritengano necessari a fronte dell'individuazione di attività fuori controllo durante uno Stand-up Meeting. In queste riunioni per la risoluzione di un problema l'agenda deve prevedere:
 - la partecipazione dei soli sviluppatori coinvolti nel problema;
 - la determinazione del/i proprietario/i (owner) del problema (potenzialmente molteplici da punti di vista diversi);
 - l'identificazione della soluzione;
@@ -148,7 +148,7 @@ Preme tuttavia sottolineare come - a causa del ridotto personale attualmente pre
 
 In concomitanza col raggiungimento di una milestone, l'azienda svolge un Project Review Meeting. Durante questi eventi formali:
 - si svolge la presentazione dello stato del progetto in corrispondenza della milestone e si effettua una sua revisione critica;
-- partecipano il project manager, il senior management, lo sponsor, il committente, gli stakeholder e 2-3 tecnici esperti dell'ambito di progetto della milestone. "PunchCode" richiede pertanto obbligatoriamente la presenza del cliente in questi incontri (ove non sia possibile, è sufficiente un suo referente);
+- partecipano il project manager, il senior management, lo sponsor, il committente, gli stakeholder e 2-3 tecnici esperti dell'ambito di progetto della milestone. PunchCode richiede pertanto obbligatoriamente la presenza del cliente in questi incontri (ove non sia possibile, è sufficiente un suo referente);
 - si presentano le performance fornite dal progetto fino a quel momento;
 - si identificano eventuali problemi e si propongono anche azioni correttive.
 
@@ -177,7 +177,7 @@ Esso è organizzato come segue:
 Il progetto è stato assegnato da Enrico Comando (nome di fantasia), che ne ricopre anche il ruolo di Project Manager. Enrico Comando è stato scelto poichè qualificato sia in termini di competenze informatiche che di dominio, oltre che dotato di una profonda esperienza nella coordinazione di ulteriori progetti per conto di CSEN - comunque legati a quello che verrà successivamente esposto.
 
 ## 2.3. Relazione esecutore-committente
-Il committente è alla ricerca di un fornitore innovativo e giovane, puntando sulle startup locali emergenti. Le due parti non si conoscono e non hanno mai collaborato a nessun progetto, ma grazie alla crescente notorietà nel campo di programmazione di "PunchCode", essa è stata presa in considerazione sin da subito come un potenziale appaltatore.
+Il committente è alla ricerca di un fornitore innovativo e giovane, puntando sulle startup locali emergenti. Le due parti non si conoscono e non hanno mai collaborato a nessun progetto, ma grazie alla crescente notorietà nel campo di programmazione di PunchCode, essa è stata presa in considerazione sin da subito come un potenziale appaltatore.
 
 [//]: # (-------------------------------------------------------------------------)
 
@@ -185,7 +185,7 @@ Il committente è alla ricerca di un fornitore innovativo e giovane, puntando su
 In questa sezione sono riportate tutte le scelte intraprese durante la fase di scoping. Dopo una sintetica spiegazione sul come sia avvenuto il primo contatto, gli argomenti sono proposti in base ai deliverable coinvolti da questo gruppo di processo. Inoltre, è anche discussa l'organizzazione dei meeting (documentando l'ordine del giorno, i partecipanti e una sintesi dell'ipotetico svolgimento).
 
 ## 3.1. Primo contatto
-Il primo contatto tra il committente e l'esecutore avviene utilizzando la mail aziendale. Il committente, dopo una breve presentazione di CSEN, esprime subito la sua volontà di informatizzare il processo di gestione delle gare di Taekwondo organizzate da CSEN, senza adottare in questa sua richiesta una descrizione di dettaglio. La startup, seguendo le buone pratiche descritte in precedenza, decide di proporre al committente un Project Scoping Meeting, al fine di chiarire tutte le ambiguità e valutare la fattibilità della proposta. In base alla disponibilità del cliente viene stabilito che l'incontro si svolgerà il lunedì 11 marzo, alle ore 09:00, all'interno della sala riunioni di "PunchCode". A rappresentare l'azienda cliente vi sarà il relativo Project Manager: Enrico Comando.
+Il primo contatto tra il committente e l'esecutore avviene utilizzando la mail aziendale. Il committente, dopo una breve presentazione di CSEN, esprime subito la sua volontà di informatizzare il processo di gestione delle gare di Taekwondo organizzate da CSEN, senza adottare in questa sua richiesta una descrizione di dettaglio. La startup, seguendo le buone pratiche descritte in precedenza, decide di proporre al committente un Project Scoping Meeting, al fine di chiarire tutte le ambiguità e valutare la fattibilità della proposta. In base alla disponibilità del cliente viene stabilito che l'incontro si svolgerà il lunedì 11 marzo, alle ore 09:00, all'interno della sala riunioni di PunchCode. A rappresentare l'azienda cliente vi sarà il relativo Project Manager: Enrico Comando.
 
 ## 3.2. Project Scoping Meeting
 
@@ -228,7 +228,7 @@ In ogni Project Scoping Meeting dedicato a uno specifico sottosistema, si sono d
 #### 3.3.1.1 Interviste
 Al fine di avere una descrizione dei processi e delle problematiche attuali direttamente da chi li gestisce, si è ritenuto opportuno prevedere *tre interviste*: due per gli addetti responsabili alle gestione dei quadrati e una per il gestore del server.
 
-Essendo "PunchCode" formata da due soli membri, per compensare l'assenza di un analista interno all'azienda, viene presa la decisione di far rivestire il ruolo di intervistatore a entrambi i membri (formulando e sottoponendo le domande agli intervistati in coppia). Questa scelta va anche nella direzione di ridurre il rischio di un'interpretazione errata delle risposte, nonostante si sia consapevoli che un simile approcio potrebbe scoraggiare l'intervistato ad esprimersi in piena libertà.
+Essendo PunchCode formata da due soli membri, per compensare l'assenza di un analista interno all'azienda, viene presa la decisione di far rivestire il ruolo di intervistatore a entrambi i membri (formulando e sottoponendo le domande agli intervistati in coppia). Questa scelta va anche nella direzione di ridurre il rischio di un'interpretazione errata delle risposte, nonostante si sia consapevoli che un simile approcio potrebbe scoraggiare l'intervistato ad esprimersi in piena libertà.
 
 Un ulteriore motivo che ha portato alla scelta di questo metodo è da ricercarsi nel fatto che l'esecutore non ha mai condotto progetti antecedenti simili a quello in esame. Di conseguenza potrebbe per lui risultare difficile dedurre ciò di cui il committente ha bisogno solamente attraverso le discussioni svolte durante i meeting.
 
@@ -238,17 +238,17 @@ L'intervistatore parte da domande molto generali per poi restringere l'argomento
 
 Per la definizione delle domande legate a ogni intervista, inoltre, si è ritenuto fondamentale tener conto della posizione ricoperta e delle mansioni svolte dell'intervistato (ricercando sempre un focus preciso).
 
-Un esempio di intervista realizzata da "PunchCode" al gestore del sistema software dedicato ai quadrati di gara è disponibile al seguente [allegato](project_docs/csen_poomsae_score/rbs/interview_26_03_19.md).
+Un esempio di intervista realizzata da PunchCode al gestore del sistema software dedicato ai quadrati di gara è disponibile al seguente [allegato](project_docs/csen_poomsae_score/rbs/interview_26_03_19.md).
 
 #### 3.3.1.2 Osservazioni
 Per risolvere ulteriormente i tipici problemi di un'intervista, si è scelto di integrare quest'ultima con un'osservazione. Questo ulteriore approccio è molto educativo e permette di comprendere al meglio il modo di lavorare del cliente, dimostrandosi di conseguenza utile per rilevare requisiti del sistema che altrimenti rischierebbero di non emergere da domande.  
 
-Grazie agli accordi presi durante i meeting, i membri di "PunchCode" hanno così potuto partecipare direttamente a una delle gare svolte dallo CSEN.
+Grazie agli accordi presi durante i meeting, i membri di PunchCode hanno così potuto partecipare direttamente a una delle gare svolte dallo CSEN.
 
 ### 3.3.2. Costruzione
 Al fine di esprimere all'utente in maniera chiara, intuitiva e significativa i requsiti raccolti, si è scelto di costruire un RBS, in linea con le buone pratiche del PMBOK proposto da PMI. Nel far ciò, si è prestata attenzione nel non definire attività con una granularità troppo fine (che avrebbe altrimenti portato ad alti costi in fase di monitoraggio e controllo).   
 
-Nella stestura dell'[RBS](project_docs/csen_poomsae_score/rbs/rbs.png), "PunchCode" ha ritenuto opportuno affrontare la decomposizione gerarchica dei requisiti tenendo conto di tre macro-aree (rappresentanti i tre principali sottosistemi del progetto).
+Nella stestura dell'[RBS](project_docs/csen_poomsae_score/rbs/rbs.png), PunchCode ha ritenuto opportuno affrontare la decomposizione gerarchica dei requisiti tenendo conto di tre macro-aree (rappresentanti i tre principali sottosistemi del progetto).
 
 #### 3.3.2.1 App Android
 È il sottosistema incentrato sullo sviluppo dell'applicazione Android per la registrazione dei punteggi associati alle poomsae da parte dei giudici.
@@ -286,7 +286,7 @@ Nella stestura dell'[RBS](project_docs/csen_poomsae_score/rbs/rbs.png), "PunchCo
 - *Configurazione Competizione*  
   Prima di essere operativa, la competizione dev'essere opportunamente *configurata*. La configurazione avviene attraverso due macro-fasi:
   
-  - *Creazione*, stabilendo i parametri generici della competizione stessa e importando i dati degli atleti dall'apposito file;
+  - *Creazione*, stabilendo i parametri generici (anagrafica) della competizione stessa e importando i dati degli atleti dall'apposito file;
   
   - *Aggiornamento*, consentendo la *manipolazione dei tornei* interni alla competizione nei momenti antecedenti alla sua inizializzazione e il *partizionamento* sul piano gestionale dei tornei definiti ai vari software di quadrato.
 
@@ -301,7 +301,7 @@ Nella stestura dell'[RBS](project_docs/csen_poomsae_score/rbs/rbs.png), "PunchCo
 
 ## 3.4. Scelta del PMLC Model
 
-Per quanto riguarda la scelta del modello per il ciclo di vita del progetto, i Project Manager di "PunchCode" hanno deciso - dopo un'attenta analisi - di adottare una modalità **incrementale**. Le principali ragioni che hanno portato a questa scelta scaturiscono direttamente dalle caratteristiche del progetto stesso e dalle esigenze del cliente:
+Per quanto riguarda la scelta del modello per il ciclo di vita del progetto, i Project Manager di PunchCode hanno deciso - dopo un'attenta analisi - di adottare una modalità **incrementale**. Le principali ragioni che hanno portato a questa scelta scaturiscono direttamente dalle caratteristiche del progetto stesso e dalle esigenze del cliente:
 - i requisiti sono stati chiaramente definiti (così come le loro priorità);
 - non sono previste modifiche rilevanti allo scope (anche se ci sono delle probabilità che ciò accada);
 - il cliente desidera ricevere business value presto e con una certa frequenza.
@@ -336,16 +336,168 @@ Gli aspetti principali che si sono considerati per la creazione del documento so
 Al fine di avere una prima indicazione dell'overhead (ovvero del tempo di gestione da dedicare al progetto), si è realizzata anche una classificazione di Csen Poomsae Score. Per far ciò, PunchCode si appoggia a un proprio [template](project_docs/project_classification/project_classification.md), basandosi su caratteristiche quali durata in ordine di grandezza, classe di rischio, livello di complessità (determinato, ad esempio, dal numero di persone che vi lavorano e dal conseguenziale bisogno di comunicazione), tecnologia impiegata e probabilità di problemi.
 Tale classificazione è svolta con la partecipazione di entrambi i dipendenti di PunchCode (che rappresentano sia i Project Manager - con l'impersonificazione da parte di uno del ruolo di Architetto, che il team). Si osserva quindi come la sua funzione sia anche quella di comprendere se valga la pena approfondire o meno (dal momento che anche tale operazione ha un costo).
 
-Nonostante si sia classificato il progetto con un rischio medio-alto (tipo B), "PunchCode" decide comunque di assumersi il rischio di proseguirlo nella sua gestione, considerando questa opportunità come base per lanciarsi in un nuovo mercato ed acquisire esperienza (know how).
+Nonostante si sia classificato il progetto con un rischio medio-alto (tipo B), PunchCode decide comunque di assumersi il rischio di proseguirlo nella sua gestione, considerando questa opportunità come base per lanciarsi in un nuovo mercato ed acquisire esperienza (know how).
 
 ## 3.8. Scelta del Core Team
 Una volta conclusa la fase di Scoping (raggiunti e consolidati tutti i suoi deliverable) - prima di iniziare il Planning - è necessario definire i membri del Core Team (o addirittura di tutto il team, ove possibile) per il progetto. Questo passaggio è molto importante dal momento che la partecipazione del Core Team alla fase di pianificazione sarà fondamentale per il successo del progetto. Dato che sarà poi impegnato nell'esecuzione del progetto stesso, infatti, il suo contributo sarà fondamentale nella stima della durata delle attività e nella previsione delle risorse necessarie.  
-Disponendo di due soli dipendenti, questa fase si rivela automatica per "PunchCode" che è costretta a scegliere sotto questo punto di vista entrambe le sue risorse: Giacomo Frisoni e Marcin Pabich.  
-Si sottolinea comunque come, disponendo di più personale, tale decisione possa cambiare in progetti futuri (andando a selezionare solo le figure maggiormente motivate, flessibili, con esperienza, abili nel rispettare dei tempi e dei vincoli previsti, con responsabilità frammentata, propense a concedere fiducia e supporto reciproco, team-oriented, open-minded e con capacità nell'utilizzo di strumenti - anche software - per il Project Management).  
+Disponendo di due soli dipendenti, questa fase si rivela automatica per PunchCode che è costretta a scegliere sotto questo punto di vista entrambe le sue risorse: Giacomo Frisoni e Marcin Pabich.  
+Si sottolinea comunque come, disponendo di più personale, tale decisione possa cambiare in progetti futuri (andando a selezionare solo le figure maggiormente motivate, flessibili, con esperienza, abili nel rispettare i tempi e i vincoli previsti, con responsabilità frammentata, propense a concedere fiducia e supporto reciproco, team-oriented, open-minded e con capacità nell'utilizzo di strumenti - anche software - per il Project Management).  
 
 # 4. Planning
 
-## 4.1. Project Definition Statement (PDS)
+Un corretto svolgimento della fase di Scoping non è sufficiente: con esso si sa il *cosa* fare, ma non si conosce ancora le attività (che richiedono l'aver stabilito il *come*) e i tempi stimati per la loro realizzazione. Oltre che per la definizione del calendario delle attività, il Planning rappresenta anche un'ulteriore occasione per verificare la piena comprensione del progetto. Durante l'approfondimento delle attività, infatti, potrebbero venir fuori aspetti tralasciati o errati al momento della definizione del *cosa* (portando alla estensione o alla modifica sia del RBS che del POS).
+
+Come evidenziato dalla "*pain curve*" descritta da Wysocki, la pianificazione costituisce un processo frustrante e richiedente tempo, ma va nella direzione di evitare l'insorgere di problemi, panico e risorse fuori controllo (che potrebbero rappresentare un alto rischio di non convergenza con la fine del progetto). Faticare pertanto nella sua realizzazione all'inizio del progetto, serve per evitare la formazione di difficoltà in seguito.
+
+La fase di Planning è, quindi, di primaria importanza per il buon esito di un progetto e consente di:
+- ridurre l'incertezza, dal momento che con la presenza di un piano si sa cosa accadrà in seguito;
+- aumentare la comprensione, facendo domande e comprendendo in misura maggiore cosa il cliente vuole;
+- migliorare l'efficienza, facendo sì che ogni membro del team sia a conoscenza del lavoro da svolgere in una determinata giornata.
+
+PunchCode decide di far uso di pacchetti software di supporto alla pianificazione, specie considerando come al progetto sia stata attribuita una classe B in termini di complessità (nonostante non preveda la presenza di team diversi e di parti di lavoro in appalto).
+
+A fronte di una stima iniziale, si suppone che il tempo richiesto per la pianificazione sia di 3/4 giorni.
+
+Per maggior chiarezza vengono elencati i deliverable che la fase di Planning deve produrre:
+- Project Definition Statement (PDS);
+- Work Breakdown Structure (WBS);
+- Stima della durata delle attività;
+- Risorse necessarie;
+- Project network schedule;
+- Schedulazione delle attività;
+- Assegnamento delle risorse;
+- Project Notebook;
+- Project proposal.
+
+## 4.2 Joint Project Planning Session
+Le riunioni sono uno strumento di base per il Planning. Una JPPS è una sessione di lavoro realizzata con lo scopo di attuare la panificazione del progetto. Durante le JPPS vengono così definite le attività volte a soddisfare le esigenze del cliente, stabilendo dei vincoli in termini di tempo, di budget e di risorse disponibili. Un meeting si basa sulla definizione di alcuni elementi di principale importanza, quali:
+ - i partecipanti;
+ - le facility;
+ - la strumentazione;
+ - l'agenda;
+ - i deliverable;
+ - la proposta di progetto.
+
+Generalmete, le attività da svolgere durante la sessione superano di gran lunga l'arco temporale di una giornata, per cui si preferisce intraprendere più sessioni. La startup pianifica dunque 3 meeting, sollecitando il Project Manager del cliente a partecipare soltanto alla prima sessione.
+I partecipanti a questi incontri dovrebbero essere: il/i Project Manager dell'esecutore e del committente, il Core Project Team, il rappresentante del cliente, il Resource Manager, il Facilitatore e il Tecnografo.
+A causa del ridotto numero del personale, la figura del Resource Manager non si rivela necessaria e PunchCode decide far partecipare entrambi i membri del team agli incontri, cercando di coprire le figure mancanti basandosi sulle skill dei dipendenti.
+
+I meeting si terranno nelle giornate dell'8, 9 e 10 aprile presso la sede di PunchCode. Lo svolgimento avverrà all'interno di una stanza, dotata di una lavagna bianca, proiettore, computer e, all'occorrenza, carta e penna.  
+Le agende delle tre sessioni sono di seguito riportate:
+
+ - 08/04/2019 - [agenda sessione 1](project_docs/csen_poomsae_score/joint_project_planning_session/session_08_04_19.md)  
+ - 09/04/2019 - [agenda sessione 2](project_docs/csen_poomsae_score/joint_project_planning_session/session_09_04_19.md)  
+ - 10/04/2019 - [agenda sessione 3](project_docs/csen_poomsae_score/joint_project_planning_session/session_10_04_19.md) 
+
+### 4.2.1 Sessione #1
+Alla prima sessione vi partecipano i due membri di PunchCode (sia nel ruolo di Project Manager che di Core Team), il Project Manager del cliente e la sua rappresentanza.
+Questo è l'unico JPPS in cui è presente il team di lavoro lato committente, in quanto necessario per definire le priorità dei vari requisiti.
+
+La startup ha preferito non dedicare interamente la prima riunione alla revisitazione apposita dei CoS, del RBS e del POS (appena conclusi in forma non definitiva al termine della fase di Scoping, con la relativa approvazione del cliente). Si è ritenuto opportuno, piuttosto, procedere con una pianificazione in dettaglio delle attività da svolgere (WBS), in quanto il cliente si è reso disponibile fin dal Project Scoping Meeting ad un alto coinvolgimento durante l'intera pianificazione. 
+È proprio durante la definizione delle attività a partire dal RBS che i partecipanti al meeting possono eventualmente constatare la presenza di elementi trascurati o di errori compiuti al momento della stesura dei deliverable della fase precedente (provvedendo di conseguenza alla loro risoluzione, avvalendosi di un diretto confronto con il cliente). Rimettere 
+
+Lo scopo del primo incontro dovrebbe essere anche quello di introdurre i vari soggetti che seguiranno l'intero progetto, pur considerando come il team di sviluppo possa essere scelto soltanto nella fase di Launching (a causa della distanza temporale potenzialmente presente tra la pianificazione e l'avvio effettivo del contratto). Tuttavia, dal momento che il Core Team di PunchCode è formato dagli stessi Project Manager, il cliente ha già avuto modo di conoscere tali figure.
+Una volta concluse le presentazioni, è discussa la prioritizzazione dei requisiti definiti durante le sessioni di Project Scoping Meeting. Soltanto in seguito viene ampliato l'RBS per dar vita alla [Work Breakdown Structure (WBS)](project_docs/csen_poomsae_score/planning/wbs.png) precedentemente citata (che è pertanto realizzata da tutti i membri del team nell'obiettivo di giungere a una soluzione migliore, nonostante ciò sia più dispendioso). Rimettere mano allo scoping adesso, infatti, è molto meno costoso che farlo in seguito (nonostante tale operazione debba comunque avvenire il meno possibile).
+
+### 4.2.2 Sessione #2
+Alla seconda sessione partecipano soltanto i membri di PunchCode.
+
+L'incontro ha inizio con la stima della quantità di lavoro, della durata e delle risorse richieste per lo svolgimento delle singole attività che si sono individuate con la WBS. Si giunge così alla costruzione del [Gantt](project_docs/csen_poomsae_score/gantt/gantt.png).
+
+Successivamente si procede alla definizione delle dipendenze tra le varie attività, ottenendo il diagramma di [PERT](project_docs/csen_poomsae_score/pert/pert.png) e continuando con la parte centrale del meeting: l'individuazione e la discussione del *critical path*, delle date previste per il completamente del progetto e delle diverse milestone. Se necessario, si considera una compressione della schedula a fini di ottimizzazione. Una scelta non corretta delle date di completamento di una o più milestone potrebbe originare un malcontento da parte del committente e la crescita di stress all'interno del gruppo di lavoro.
+
+<!-- Microsoft Project -->
+
+### 4.2.3 Sessione #3
+Alla terza sessione prendono parte gli stessi partecipanti della seconda.
+
+L'obiettivo principale dell'incontro riguarda l'identificazione dei [rischi](project_docs/csen_poomsae_score/wbs/wbs.png), la loro valutazione e l'individuazione di eventuali piani di mitigazione (valutando alternative e soluzioni per eliminare o ridurre le perdite).
+La gestione del rischio costituisce un argomento fondamentale e può rivelarsi anche molto complessa. Una non corretta individuazione dei rischi in fase di Planning potrebbe portare a scontrarsi con problematiche più o meno gravi durante le successive fasi del ciclo di vita del progetto (non prevedendo eventi con conseguenze negative sul progetto stesso o compiendo errori nella valutazione del loro impatto). Sotto quest'ultimo punto di vista, occorre anche osservare come una sovrastima dell'impatto di un rischio possa determinare l'inserimento di complessità non necessaria in termini di monitoraggio e controllo, capace di rendere difficoltosa la gestione del progetto e di far lievitare al tempo stesso anche budget e tempistiche.
+
+La fase successiva riguarda l'ottenimento dell'approvazione da parte di tutti i partecipanti sui contenuti del piano (facendo emergere eventuali perplessità). Ciò è molto importante in quanto una volta arrivati a questo punto eventuali modifiche si ripercuoteranno su un gran numero di attività. 
+
+L'ultimo obiettivo della sessione si riferisce alla redazione del [Project Definition Statement (PDS)](project_docs/csen_poomsae_score/pds/pds.md) , con la partecipazione di tutto il team.
+
+## 4.3 Prioritizzazione dei requisiti
+
+Non tutti i requisiti vengono trattati con le stesse priorità, in quanto vi è un processo di classificazione (o meglio, prioritizzazione) dei requisiti. Esistono diversi approci nell'eseguire quest'attività; quello adottato dall'azienda risulta essere **MoSCoW**, che è basato su una categorizzazione in 4 classi:
+
+- *Must*: requisiti che **devono** essere soddisfatti per ritenere il progetto completato con successo.
+- *Should*: requisiti che **dovrebbero** essere inclusi nella soluzione. Sono abbastanza critici da essere considerati necessari, ma è possibile sostituirli con dei requisiti alternativi.
+- *Could*: requisiti che **potrebbero** essere inclusi alla consegna, ma non sono strettamente necessari, in quanto considerati soltanto in caso di disponibilità del tempo e delle risorse.
+- *Won't*: requisiti che **sarebbero** da includere, ma vengono rinviati per una futura release, in quanto non strettamente necessari.
+
+PunchCode, nello specifico, decide di assegnare una priorità ai soli requisiti "foglia" del RBS. Il risultato di questa fase è osservabile al seguente [allegato](project_docs/csen_poomsae_score/moscow_prioritisation/moscow_prioritisation.md).
+
+
+## 4.4 Work Breakdown Structure (WBS)
+
+Consiste nella suddivisione tassonomica di tutte le singole attività che devono essere svolte all'interno del progetto per soddisfare i bisogni del cliente (rappresentando una mappa gerarchica di tutto il lavoro).
+
+È generata e validata nella JPPS, subito dopo la prioritizzazione MoSCoW dei requisiti.
+
+Uno dei principali motivi per cui PunchCode ne fa uso è che - oltre a essere uno strumento di reporting - facilita la definizione dell'architettura (dal momento che attività ripetute sono infatti indice di componenti che, a causa di un loro molteplice uso, necessitano di essere progettati con cura).
+La WBS è usata anche nel seguente modo:
+- aiuta i Project Manager e il team a visualizzare esattamente come il lavoro sia definito e debba essere gestito efficientemente;
+- consente di non dimenticare parti di lavoro ed evitare duplicazioni (assegnando una numerazione univoca a tutte le attività);
+- facilita la comunicazione tra gli stakeholder (permettendo a tutti di riferirsi in maniera omogenea ed inequivocabile al lavoro da eseguirsi);
+- consente la realizzazione di valutazioni di costo o di tempo aggregate, seguendo la struttura gerarchica definita.
+
+La WBS inizia là dove finisce l'RBS. PunchCode, infatti, la ricava considerando le foglie dell'RBS e decomponendole ulteriormente (approccio classico). Si presta inoltre attenzione a non spingersi troppo nel dettaglio, per evitare di dover fare un numero elevato di stime (richiedenti tempo e costi); allo stesso tempo si cerca di non avere nemmeno una granularità troppo grande, in modo da ridurre il rischio che le attività siano difficili da stimare e pericolose da monitorare.  
+Per comprendere quando arrestarsi a causa del raggiungimento di un adeguato livello di decomposizione che decreti il completamento della WBS, PunchCode adotta 6+1 criteri:
+
+1) lo stato e il completamento sono misurabili (si deve essere in grado di indicare la percentuale di completamento);
+2) le attività sono ben delimitate (con un inizio e una fine definiti);
+3) le attività hanno associato un deliverable;
+4) i tempi e i costi sono facilmente stimabili;
+5) la durata delle attività rientra in un limite accettabile;
+6) ciascun task è considerato come un'attività non interrompibile;
+7) qualora il *cosa* sia chiaro ma il *come* no, il Project Manager deve gestire tale incertezza.
+
+Per convertire la RBS in WBS, PunchCode utilizza il *Team Approach* (prevedendo cioè la partecipazione di tutto il team alla definizione dell'intera WBS). La ragione di questa scelta è nuovamente da ricercarsi nel ridotto numero di membri interni alla startup, che impedisce al momento l'adozione di una modalità di lavoro parallela a sotto-team.
+
+Confermando un modello PMLC incrementale, la WBS è necessariamente completa.
+
+Infine, si osserva come la WBS non abbia alcuna logica temporale e conseguentemente non imponga un ordine cronologico. Il rapporto delle attività rispetto al tempo è introdotto col diagramma di Gantt e col diagramma di PERT.
+
+## 4.5 Diagramma di Gantt
+
+<!--
+Nella sua versione base, consiste semplicemente nel prendere le attività previste dalla WBS e posizionarle sull'asse temporale, capendo cioè quando iniziano e quando finiscono.
+
+Assieme al PERT è lo strumento principale con cui si comprende lo stato di avanzamento del progetto. Viene infatti mantenuto aggiornato dal Project Manager durante lo svolgimento del progetto stesso. Man mano che esso progredisce, delle barre colorate possono essere aggiunte al diagramma per indicare le attività completate o una porzione completata di queste.
+Es. l'attività 3 è svolta al 70%
+Non solo... Il Project Manager potrebbe anche dire "questa attività è in ritardo, allora l'altra la sposto più avanti".
+
+Il diagramma di Gantt è lo strumento ufficiale per gestire la pianificazione temporale del progetto.
+-->
+
+## 4.6 Diagramma di PERT
+<!--
+A differenza del diagramma di Gantt che non considera la presenza di legami tra le varie attività, col diagramma di PERT ci si arricchisce e si vanno a identificare tutte le relazioni di precedenza tra le attività stesse.
+
+La sua rappresentazione interna è quella di un grafo, con le attività come i nodi e gli archi come legami di vario tipo:
+1) Finish to Start
+2) Start to Start
+3) Start to Finish
+4) Finish to Finish
+
+A partire dal diagramma di PERT è possibile riconoscere - attraverso un Forward pass (->) e un Backward pass (<-) - la presenza di percorsi critici (insiemi di attività in cui un ritardo su una singola attività determina un ritardo sull'intero progetto).
+Un percorso critico è pertanto caratterizzato dall'assenza di margine (Total Float = Late Start - Early Start = 0).
+I percorsi critici o quelli con basso margine (es. pochi giorni) sono gli insiemi di attività che devo monitorare con maggiore attenzione.
+
+Non ci lavoro solo in fase di PIANIFICAZIONE, ma anche in OTTIMIZZAZIONE (es. voglio che il progetto finisca prima -> aggiungo risorse con l'obiettivo di ridurre la durata delle attività sul percorso critico) e in CONTROLLO.
+-->
+
+## 4.7 Analisi dei Rischi
+
+<!--
+- 4 categorie.
+- Nel valutare l'impatto si è ragionato tenendo conto del caso peggiore.
+- Ogni quanto ri-identificare e rivalutare i rischi (approccio dinamico).
+-->
+
+## 4.8. Project Definition Statement (PDS)
 
 Il [PDS](project_docs/csen_poomsae_score/pds/pds.md) è una versione estesa del POS a uso del team di progetto. In esso si sono riportati elementi di maggior dettaglio, costituenti un ottimo input per le fasi successive e per approfondimenti. Il PDS rappresenta così un punto di riferimento anche per eventuali nuovi membri del team, consentendo loro di rimanere focalizzati sulla corretta direzione e sugli aspetti importanti per il successo del progetto.
 
