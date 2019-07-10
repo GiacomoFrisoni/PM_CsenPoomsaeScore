@@ -34,16 +34,16 @@
   - [3.7. Classificazione del progetto](#37-Classificazione-del-progetto)
   - [3.8. Scelta del Core Team](#38-Scelta-del-Core-Team)
 - [4. Planning](#4-Planning)
-  - [4.2 Joint Project Planning Session](#42-Joint-Project-Planning-Session)
-    - [4.2.1 Sessione #1](#421-Sessione-1)
-    - [4.2.2 Sessione #2](#422-Sessione-2)
-    - [4.2.3 Sessione #3](#423-Sessione-3)
-  - [4.3 Prioritizzazione dei requisiti](#43-Prioritizzazione-dei-requisiti)
-  - [4.4 Work Breakdown Structure (WBS)](#44-Work-Breakdown-Structure-WBS)
-  - [4.5 Diagramma di Gantt](#45-Diagramma-di-Gantt)
-  - [4.6 Diagramma di PERT](#46-Diagramma-di-PERT)
-  - [4.7 Analisi dei Rischi](#47-Analisi-dei-Rischi)
-  - [4.8. Project Definition Statement (PDS)](#48-Project-Definition-Statement-PDS)
+  - [4.1 Joint Project Planning Session](#41-Joint-Project-Planning-Session)
+    - [4.1.1 Sessione #1](#411-Sessione-1)
+    - [4.1.2 Sessione #2](#412-Sessione-2)
+    - [4.1.3 Sessione #3](#413-Sessione-3)
+  - [4.2 Prioritizzazione dei requisiti](#42-Prioritizzazione-dei-requisiti)
+  - [4.3 Work Breakdown Structure (WBS)](#43-Work-Breakdown-Structure-WBS)
+  - [4.4 Diagramma di Gantt](#44-Diagramma-di-Gantt)
+  - [4.5 Diagramma di PERT](#45-Diagramma-di-PERT)
+  - [4.6 Analisi dei Rischi](#46-Analisi-dei-Rischi)
+  - [4.7. Project Definition Statement (PDS)](#47-Project-Definition-Statement-PDS)
 - [5. Bibliografia](#5-Bibliografia)
 
 [//]: # (-------------------------------------------------------------------------)
@@ -378,7 +378,7 @@ Per maggior chiarezza vengono elencati i deliverable che la fase di Planning dev
 - Project Notebook;
 - Project proposal.
 
-## 4.2 Joint Project Planning Session
+## 4.1 Joint Project Planning Session
 Le riunioni sono uno strumento di base per il Planning. Una JPPS è una sessione di lavoro realizzata con lo scopo di attuare la panificazione del progetto. Durante le JPPS vengono così definite le attività volte a soddisfare le esigenze del cliente, stabilendo dei vincoli in termini di tempo, di budget e di risorse disponibili. Un meeting si basa sulla definizione di alcuni elementi di principale importanza, quali:
  - i partecipanti;
  - le facility;
@@ -398,7 +398,7 @@ Le agende delle tre sessioni sono di seguito riportate:
  - 09/04/2019 - [agenda sessione 2](project_docs/csen_poomsae_score/joint_project_planning_session/session_09_04_19.md)  
  - 10/04/2019 - [agenda sessione 3](project_docs/csen_poomsae_score/joint_project_planning_session/session_10_04_19.md) 
 
-### 4.2.1 Sessione #1
+### 4.1.1 Sessione #1
 Alla prima sessione vi partecipano i due membri di PunchCode (sia nel ruolo di Project Manager che di Core Team), il Project Manager del cliente e la sua rappresentanza.
 Questo è l'unico JPPS in cui è presente il team di lavoro lato committente, in quanto necessario per definire le priorità dei vari requisiti.
 
@@ -408,7 +408,7 @@ La startup ha preferito non dedicare interamente la prima riunione alla revisita
 Lo scopo del primo incontro dovrebbe essere anche quello di introdurre i vari soggetti che seguiranno l'intero progetto, pur considerando come il team di sviluppo possa essere scelto soltanto nella fase di Launching (a causa della distanza temporale potenzialmente presente tra la pianificazione e l'avvio effettivo del contratto). Tuttavia, dal momento che il Core Team di PunchCode è formato dagli stessi Project Manager, il cliente ha già avuto modo di conoscere tali figure.
 Una volta concluse le presentazioni, è discussa la prioritizzazione dei requisiti definiti durante le sessioni di Project Scoping Meeting. Soltanto in seguito viene ampliato l'RBS per dar vita alla [Work Breakdown Structure (WBS)](project_docs/csen_poomsae_score/planning/wbs.png) precedentemente citata (che è pertanto realizzata da tutti i membri del team nell'obiettivo di giungere a una soluzione migliore, nonostante ciò sia più dispendioso). Rimettere mano allo scoping adesso, infatti, è molto meno costoso che farlo in seguito (nonostante tale operazione debba comunque avvenire il meno possibile).
 
-### 4.2.2 Sessione #2
+### 4.1.2 Sessione #2
 Alla seconda sessione partecipano soltanto i membri di PunchCode.
 
 L'incontro ha inizio con la stima della quantità di lavoro, della durata e delle risorse richieste per lo svolgimento delle singole attività che si sono individuate con la WBS. Si giunge così alla costruzione del [Gantt](project_docs/csen_poomsae_score/gantt/gantt.png).
@@ -417,7 +417,7 @@ Successivamente si procede alla definizione delle dipendenze tra le varie attivi
 
 <!-- Microsoft Project -->
 
-### 4.2.3 Sessione #3
+### 4.1.3 Sessione #3
 Alla terza sessione prendono parte gli stessi partecipanti della seconda.
 
 L'obiettivo principale dell'incontro riguarda l'identificazione dei [rischi](project_docs/csen_poomsae_score/wbs/wbs.png), la loro valutazione e l'individuazione di eventuali piani di mitigazione (valutando alternative e soluzioni per eliminare o ridurre le perdite).
@@ -427,7 +427,7 @@ La fase successiva riguarda l'ottenimento dell'approvazione da parte di tutti i 
 
 L'ultimo obiettivo della sessione si riferisce alla redazione del [Project Definition Statement (PDS)](project_docs/csen_poomsae_score/pds/pds.md) , con la partecipazione di tutto il team.
 
-## 4.3 Prioritizzazione dei requisiti
+## 4.2 Prioritizzazione dei requisiti
 
 Non tutti i requisiti vengono trattati con le stesse priorità, in quanto vi è un processo di classificazione (o meglio, prioritizzazione) dei requisiti. Esistono diversi approci nell'eseguire quest'attività; quello adottato dall'azienda risulta essere **MoSCoW**, che è basato su una categorizzazione in 4 classi:
 
@@ -439,7 +439,7 @@ Non tutti i requisiti vengono trattati con le stesse priorità, in quanto vi è 
 PunchCode, nello specifico, decide di assegnare una priorità ai soli requisiti "foglia" del RBS. Il risultato di questa fase è osservabile al seguente [allegato](project_docs/csen_poomsae_score/moscow_prioritisation/moscow_prioritisation.md).
 
 
-## 4.4 Work Breakdown Structure (WBS)
+## 4.3 Work Breakdown Structure (WBS)
 
 Consiste nella suddivisione tassonomica di tutte le singole attività che devono essere svolte all'interno del progetto per soddisfare i bisogni del cliente (rappresentando una mappa gerarchica di tutto il lavoro).
 
@@ -469,7 +469,7 @@ Confermando un modello PMLC incrementale, la WBS è necessariamente completa.
 
 Infine, si osserva come la WBS non abbia alcuna logica temporale e conseguentemente non imponga un ordine cronologico. Il rapporto delle attività rispetto al tempo è introdotto col diagramma di Gantt e col diagramma di PERT.
 
-## 4.5 Diagramma di Gantt
+## 4.4 Diagramma di Gantt
 
 <!--
 Nella sua versione base, consiste semplicemente nel prendere le attività previste dalla WBS e posizionarle sull'asse temporale, capendo cioè quando iniziano e quando finiscono.
@@ -481,7 +481,7 @@ Non solo... Il Project Manager potrebbe anche dire "questa attività è in ritar
 Il diagramma di Gantt è lo strumento ufficiale per gestire la pianificazione temporale del progetto.
 -->
 
-## 4.6 Diagramma di PERT
+## 4.5 Diagramma di PERT
 <!--
 A differenza del diagramma di Gantt che non considera la presenza di legami tra le varie attività, col diagramma di PERT ci si arricchisce e si vanno a identificare tutte le relazioni di precedenza tra le attività stesse.
 
@@ -498,7 +498,7 @@ I percorsi critici o quelli con basso margine (es. pochi giorni) sono gli insiem
 Non ci lavoro solo in fase di PIANIFICAZIONE, ma anche in OTTIMIZZAZIONE (es. voglio che il progetto finisca prima -> aggiungo risorse con l'obiettivo di ridurre la durata delle attività sul percorso critico) e in CONTROLLO.
 -->
 
-## 4.7 Analisi dei Rischi
+## 4.6 Analisi dei Rischi
 
 <!--
 - 4 categorie.
@@ -506,7 +506,7 @@ Non ci lavoro solo in fase di PIANIFICAZIONE, ma anche in OTTIMIZZAZIONE (es. vo
 - Ogni quanto ri-identificare e rivalutare i rischi (approccio dinamico).
 -->
 
-## 4.8. Project Definition Statement (PDS)
+## 4.7. Project Definition Statement (PDS)
 
 Il [PDS](project_docs/csen_poomsae_score/pds/pds.md) è una versione estesa del POS a uso del team di progetto. In esso si sono riportati elementi di maggior dettaglio, costituenti un ottimo input per le fasi successive e per approfondimenti. Il PDS rappresenta così un punto di riferimento anche per eventuali nuovi membri del team, consentendo loro di rimanere focalizzati sulla corretta direzione e sugli aspetti importanti per il successo del progetto.
 
