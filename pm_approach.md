@@ -330,16 +330,24 @@ Gli aspetti principali che si sono considerati per la creazione del documento so
   
 - Inserire un glossario al fine di evitare ambiguità e chiarire i principali concetti di dominio.
 
+## 3.7. Classificazione del progetto
+Al fine di avere una prima indicazione dell'overhead (ovvero del tempo di gestione da dedicare al progetto), si è realizzata anche una classificazione di Csen Poomsae Score. Per far ciò, PunchCode si appoggia a un proprio [template](project_docs/project_classification/project_classification.md), basandosi su caratteristiche quali durata in ordine di grandezza, classe di rischio, livello di complessità (determinato, ad esempio, dal numero di persone che vi lavorano e dal conseguenziale bisogno di comunicazione), tecnologia impiegata e probabilità di problemi.
+Tale classificazione è svolta con la partecipazione di entrambi i dipendenti di PunchCode (che rappresentano sia i Project Manager - con l'impersonificazione da parte di uno del ruolo di Architetto, che il team). Si osserva quindi come la sua funzione sia anche quella di comprendere se valga la pena approfondire o meno (dal momento che anche tale operazione ha un costo).
+
+Nonostante si sia classificato il progetto con un rischio medio-alto (tipo B), "PunchCode" decide comunque di assumersi il rischio di proseguirlo nella sua gestione, considerando questa opportunità come base per lanciarsi in un nuovo mercato ed acquisire esperienza (know how).
+
+## 3.8. Scelta del Core Team
+Una volta conclusa la fase di Scoping (raggiunti e consolidati tutti i suoi deliverable) - prima di iniziare il Planning - è necessario definire i membri del Core Team (o addirittura di tutto il team, ove possibile) per il progetto. Questo passaggio è molto importante dal momento che la partecipazione del Core Team alla fase di pianificazione sarà fondamentale per il successo del progetto. Dato che sarà poi impegnato nell'esecuzione del progetto stesso, infatti, il suo contributo sarà fondamentale nella stima della durata delle attività e nella previsione delle risorse necessarie.  
+Disponendo di due soli dipendenti, questa fase si rivela automatica per "PunchCode" che è costretta a scegliere sotto questo punto di vista entrambe le sue risorse: Giacomo Frisoni e Marcin Pabich.  
+Si sottolinea comunque come, disponendo di più personale, tale decisione possa cambiare in progetti futuri (andando a selezionare solo le figure maggiormente motivate, flessibili, con esperienza, abili nel rispettare dei tempi e dei vincoli previsti, con responsabilità frammentata, propense a concedere fiducia e supporto reciproco, team-oriented, open-minded e con capacità nell'utilizzo di strumenti - anche software - per il Project Management).  
+
 # 4. Planning
 
 ## 4.1. Project Definition Statement (PDS)
 
 Il [PDS](project_docs/csen_poomsae_score/pds/pds.md) è una versione estesa del POS a uso del team di progetto. In esso si sono riportati elementi di maggior dettaglio, costituenti un ottimo input per le fasi successive e per approfondimenti. Il PDS rappresenta così un punto di riferimento anche per eventuali nuovi membri del team, consentendo loro di rimanere focalizzati sulla corretta direzione e sugli aspetti importanti per il successo del progetto.
 
-Al fine di avere una prima indicazione dell'overhead (ovvero del tempo di gestione da dedicare al progetto), al suo interno si è voluto inserire anche una classificazione di Csen Poomsae Score. Per far ciò, "PunchCode" si appoggia a un proprio template, basandosi su caratteristiche quali durata in ordine di grandezza, classe di rischio, livello di complessità (determinato, ad esempio, dal numero di persone che vi lavorano e dal conseguenziale bisogno di comunicazione), tecnologia impiegata e probabilità di problemi.
-Tale classificazione è svolta con la partecipazione di entrambi i dipendenti di PunchCode (che rappresentano sia i Project Manager - con l'impersonificazione da parte di uno del ruolo di Architetto, che il team). Si osserva quindi come la sua funzione sia anche quella di comprendere se valga la pena approfondire o meno (dal momento che anche tale operazione ha un costo).
 
-Nonostante si sia classificato il progetto con un rischio medio-alto (tipo B), "PunchCode" decide comunque di assumersi il rischio di proseguirlo nella sua gestione, considerando questa opportunità come base per lanciarsi in un nuovo mercato ed acquisire esperienza (know how).
 
 <!--
 - *Applicazione Android*.  
