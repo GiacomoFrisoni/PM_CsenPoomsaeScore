@@ -31,6 +31,8 @@
   - [3.4. Scelta del PMLC Model](#34-Scelta-del-PMLC-Model)
   - [3.5. Budget e tempi](#35-Budget-e-tempi)
   - [3.6. Project Overview Statement (POS)](#36-Project-Overview-Statement-POS)
+  - [3.7. Classificazione del progetto](#37-Classificazione-del-progetto)
+  - [3.8. Scelta del Core Team](#38-Scelta-del-Core-Team)
 - [4. Planning](#4-Planning)
   - [4.1. Project Definition Statement (PDS)](#41-Project-Definition-Statement-PDS)
 - [5. Bibliografia](#5-Bibliografia)
