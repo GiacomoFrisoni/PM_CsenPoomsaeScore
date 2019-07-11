@@ -223,8 +223,8 @@
   <tr>
     <td>1.3.2.1.2.2</td>
     <td>Apertura Competizione Esistente</td>
-    <td align="center">X</td>
-    <td align="center">-</td>
+    <td align="center">Coding</td>
+    <td align="center">UI/UX</td>
   </tr>
   <tr>
     <td>1.3.2.1.2.3</td>
