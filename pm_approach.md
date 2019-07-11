@@ -40,10 +40,15 @@
     - [4.1.3 Sessione #3](#413-Sessione-3)
   - [4.2 Prioritizzazione dei requisiti](#42-Prioritizzazione-dei-requisiti)
   - [4.3 Work Breakdown Structure (WBS)](#43-Work-Breakdown-Structure-WBS)
-  - [4.4 Diagramma di Gantt](#44-Diagramma-di-Gantt)
-  - [4.5 Diagramma di PERT](#45-Diagramma-di-PERT)
-  - [4.6 Analisi dei Rischi](#46-Analisi-dei-Rischi)
-  - [4.7. Project Definition Statement (PDS)](#47-Project-Definition-Statement-PDS)
+  - [4.4 Stima delle risorse necessarie](#44-Stima-delle-risorse-necessarie)
+    - [4.4.1 Valutazione delle skills richieste dai task](#441-Valutazione-delle-skills-richieste-dai-task)
+    - [4.4.2 Assegnamento membri dello staff ai task](#442-Assegnamento-membri-dello-staff-ai-task)
+    - [4.4.3 Stima della durata dei task](#443-Stima-della-durata-dei-task)
+    - [4.4.4 Stima dei costi](#444-Stima-dei-costi)
+  - [4.5 Diagramma di Gantt](#45-Diagramma-di-Gantt)
+  - [4.6 Diagramma di PERT](#46-Diagramma-di-PERT)
+  - [4.7 Analisi dei Rischi](#47-Analisi-dei-Rischi)
+  - [4.8 Project Definition Statement (PDS)](#48-Project-Definition-Statement-PDS)
 - [5. Bibliografia](#5-Bibliografia)
 
 [//]: # (-------------------------------------------------------------------------)
@@ -65,8 +70,9 @@ Per la stesura della documentazione si è fatto uso di diversi software:
 - **Trello**, per l'organizzazione e il tracciamento del lavoro ([link alla bacheca](https://trello.com/b/dfDeDMvi/pm-project));
 - **Visual Studio Code** per la stesura della documentazione in MarkDown, anche in modalità "Live Sharing" (per permettere la contemporanea stesura del documento da parte di entrambi i membri);
 - **Microsoft Project** (in versione di prova) per ...;
-- **TeXstudio** per la generazione di parte della documentazione tramite il linguaggio LaTeX;
 - **GitHub Desktop** per la gestione del repository.
+  
+<!--- **TeXstudio** per la generazione di parte della documentazione tramite il linguaggio LaTeX;-->
 
 [//]: # (-------------------------------------------------------------------------)
 
@@ -370,8 +376,8 @@ A fronte di una stima iniziale, si suppone che il tempo richiesto per la pianifi
 Per maggior chiarezza vengono elencati i deliverable che la fase di Planning deve produrre:
 - Project Definition Statement (PDS);
 - Work Breakdown Structure (WBS);
-- Stima della durata delle attività;
 - Risorse necessarie;
+- Stima della durata delle attività;
 - Project network schedule;
 - Schedulazione delle attività;
 - Assegnamento delle risorse;
@@ -425,7 +431,7 @@ La gestione del rischio costituisce un argomento fondamentale e può rivelarsi a
 
 La fase successiva riguarda l'ottenimento dell'approvazione da parte di tutti i partecipanti sui contenuti del piano (facendo emergere eventuali perplessità). Ciò è molto importante in quanto una volta arrivati a questo punto eventuali modifiche si ripercuoteranno su un gran numero di attività. 
 
-L'ultimo obiettivo della sessione si riferisce alla redazione del [Project Definition Statement (PDS)](project_docs/csen_poomsae_score/pds/pds.md) , con la partecipazione di tutto il team.
+L'ultimo obiettivo della sessione si riferisce alla redazione del [Project Definition Statement (PDS)](project_docs/csen_poomsae_score/pds/pds.md), con la partecipazione di tutto il team.
 
 ## 4.2 Prioritizzazione dei requisiti
 
@@ -471,7 +477,29 @@ Infine, si osserva come la WBS non abbia alcuna logica temporale e conseguenteme
 
 <!-- Link a WBS.png e a indice (wbs.md) -->
 
-## 4.4 Diagramma di Gantt
+## 4.4 Stima delle risorse necessarie
+
+### 4.4.1 Valutazione delle skills richieste dai task
+
+Per assegnare i membri dello staff ai task della WBS nel modo più efficace possibile, PunchCode sviluppa prima una [matrice "skill-need" (need inventory)](project_docs/csen_poomsae_score/staff_skills_assignments/needs_inventory.md) con un'indicazione delle skill richieste da ciascuno di essi.  
+Nel far ciò, la startup considera tutte le pro skill e le sole pre skill effettivamente legate a tale passaggio. Inoltre, si è ritenuto non necessario adottare una valutazione numerica, preferendo di conseguenza un semplice indicatore booleano (per esprimere la necessità o meno di una certa skill da parte di un task).
+
+### 4.4.2 Assegnamento membri dello staff ai task
+
+Tenendo conto delle skill possedute dallo staff ([skills inventory](project_docs/startup_team_skills/startup_team_skills.md)) e di quelle realmente richieste dai task da svolgere ([need inventory](project_docs/csen_poomsae_score/staff_skills_assignments/needs_inventory.md)), PunchCOde incrocia le due matrici al fine di individuare i corretti match. 
+Ad ogni dipendente si assegnano quindi i task da svolgere che meglio si adattano alle sue abilità.
+
+È importante sottolineare la necessità di parallerizarre molti dei task da svolgere, a causa del limitato numero dei membri del team e delle loro capacità diversificate. Nella risultante tabella di [staff assignment](project_docs/csen_poomsae_score/staff_skills_assignments/staff_assignment.md) (ove non vi è presente una "X" simboleggiante una completa gestione da parte di un solo membro) sono state indicate le skill effettivamente sfruttate dai dipendenti durante lo svolgimento di una determinata attività.
+
+### 4.4.3 Stima della durata dei task
+
+
+
+### 4.4.4 Stima dei costi
+
+
+
+## 4.5 Diagramma di Gantt
 
 <!--
 Nella sua versione base, consiste semplicemente nel prendere le attività previste dalla WBS e posizionarle sull'asse temporale, capendo cioè quando iniziano e quando finiscono.
@@ -482,10 +510,11 @@ Non solo... Il Project Manager potrebbe anche dire "questa attività è in ritar
 
 Il diagramma di Gantt è lo strumento ufficiale per gestire la pianificazione temporale del progetto.
 
-Aggiungere la spiegazione del perchè abbiamo omesso alcune colonne pre skills in needs_inventory e del perchè abbiamo messo solo X (on/off) e non un punteggio (= perchè alcune non erano mai citate)
+
+Aggiungere la spiegazione del perchè abbiamo differenziato tra X, UI/UX e coding
 -->
 
-## 4.5 Diagramma di PERT
+## 4.6 Diagramma di PERT
 <!--
 A differenza del diagramma di Gantt che non considera la presenza di legami tra le varie attività, col diagramma di PERT ci si arricchisce e si vanno a identificare tutte le relazioni di precedenza tra le attività stesse.
 
@@ -502,7 +531,7 @@ I percorsi critici o quelli con basso margine (es. pochi giorni) sono gli insiem
 Non ci lavoro solo in fase di PIANIFICAZIONE, ma anche in OTTIMIZZAZIONE (es. voglio che il progetto finisca prima -> aggiungo risorse con l'obiettivo di ridurre la durata delle attività sul percorso critico) e in CONTROLLO.
 -->
 
-## 4.6 Analisi dei Rischi
+## 4.7 Analisi dei Rischi
 
 <!--
 - 4 categorie.
@@ -510,7 +539,7 @@ Non ci lavoro solo in fase di PIANIFICAZIONE, ma anche in OTTIMIZZAZIONE (es. vo
 - Ogni quanto ri-identificare e rivalutare i rischi (approccio dinamico).
 -->
 
-## 4.7. Project Definition Statement (PDS)
+## 4.8 Project Definition Statement (PDS)
 
 Il [PDS](project_docs/csen_poomsae_score/pds/pds.md) è una versione estesa del POS a uso del team di progetto. In esso si sono riportati elementi di maggior dettaglio, costituenti un ottimo input per le fasi successive e per approfondimenti. Il PDS rappresenta così un punto di riferimento anche per eventuali nuovi membri del team, consentendo loro di rimanere focalizzati sulla corretta direzione e sugli aspetti importanti per il successo del progetto.
 
