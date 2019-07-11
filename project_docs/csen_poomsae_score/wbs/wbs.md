@@ -107,7 +107,7 @@ Gestione del salvataggio consistente su file .json di tutti i dati relativi ai t
 
 ### 1.2.4.2.2 Invio Risultati al Server
 
-Invio al server del punteggio finale di ogni poomsae al completamento della sua valutazione e invio della classifica locale di un torneo all'atto della sua chisura.
+Invio al server del punteggio finale di ogni poomsae al completamento della sua valutazione, invio delle casistiche di ritiro e invio della classifica locale di un torneo all'atto della sua chisura.
 
 ### 1.2.5.1 Monitor Poomsae
 
@@ -145,7 +145,7 @@ Sviluppo della schermata riepilogativa per quanto concerne i tornei automaticame
 
 ### 1.3.2.2.1.1 Gestione Atleti
 
-Realizzazione delle funzionalità di inserimento ed eliminazione di atleti.
+Realizzazione delle funzionalità di inserimento, modifica ed eliminazione di atleti.
 
 ### 1.3.2.2.1.2 Gestione Trasferimenti
 
