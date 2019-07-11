@@ -1,0 +1,687 @@
+*Data*: __ /__ /__
+
+# Needs Inventory
+
+## App Android
+<table>
+  <tr>
+    <th rowspan="3">Task ID</th>
+    <th rowspan="3">Task Description</th>
+    <th colspan="11">Skills</th>
+  </tr>
+  <tr>
+    <th colspan="3">Pre Skills</th>
+    <th colspan="8">Pro Skills</th>
+  </tr>
+  <tr>
+    <th>Stress Resistance</th>
+    <th>Creativity</th>
+    <th>Problem Solving</th>
+    <th>OS</th>
+    <th>Coding</th>
+    <th>UI/UX</th>
+    <th>Database</th>
+    <th>Data Analysis</th>
+    <th>Security</th>
+    <th>Mobile Development</th>
+    <th>Networking</th>
+  </tr>
+  <tr>
+    <td>1.1.1.1</td>
+    <td>Menù Principale</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.1.2.1</td>
+    <td>Registrazione Accuratezza</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.1.2.2</td>
+    <td>Registrazione Presentazione</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.1.2.3</td>
+    <td>Visualizzazione Riepilogo</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.1.3</td>
+    <td>Invio Punteggio</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+  </tr>
+  <tr>
+    <td>1.1.4</td>
+    <td>Storico</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.1.5</td>
+    <td>Impostazioni</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+  </tr>
+</table>
+
+## Software Gestione Quadrato
+<table>
+  <tr>
+    <th rowspan="3">Task ID</th>
+    <th rowspan="3">Task Description</th>
+    <th colspan="11">Skills</th>
+  </tr>
+  <tr>
+    <th colspan="3">Pre Skills</th>
+    <th colspan="8">Pro Skills</th>
+  </tr>
+  <tr>
+    <th>Stress Resistance</th>
+    <th>Creativity</th>
+    <th>Problem Solving</th>
+    <th>OS</th>
+    <th>Coding</th>
+    <th>UI/UX</th>
+    <th>Database</th>
+    <th>Data Analysis</th>
+    <th>Security</th>
+    <th>Mobile Development</th>
+    <th>Networking</th>
+  </tr>
+  <tr>
+    <td>1.2.1</td>
+    <td>Menù Principale</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.2</td>
+    <td>Ricezione Tornei</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+  </tr>
+  <tr>
+    <td>1.2.3</td>
+    <td>Selezione Torneo</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.4.1.1</td>
+    <td>Selezione Atleta</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.4.1.2.1</td>
+    <td>Gestione Timer</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center"></td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.4.1.2.2</td>
+    <td>Raccolta Punteggi Giudici</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+  </tr>
+  <tr>
+    <td>1.2.4.1.2.3</td>
+    <td>Raffinamento Punteggio</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.4.1.2.4</td>
+    <td>Visualizzazione Risultati</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.4.1.2.5</td>
+    <td>Gestione Poomsae Finali</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.4.1.3</td>
+    <td>Gestione Ballottaggi</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.4.1.4</td>
+    <td>Gestione Ritiri ed Eliminazioni</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.4.1.5</td>
+    <td>Gestione Azzeramenti</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.4.1.6</td>
+    <td>Gestione Ripetizioni</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center"></td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.4.1.7.1</td>
+    <td>Gestione Passaggio Turno</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.3.1.7.2</td>
+    <td>Gestione Assegnazione Medaglie</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center"></td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.4.2.1</td>
+    <td>Salvataggio su file</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.4.2.2</td>
+    <td>Invio Risultati al Server</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+  </tr>
+  <tr>
+    <td>1.2.5.1</td>
+    <td>Monitor Poomsae</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.5.2.1</td>
+    <td>Elenco Atleti</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center"></td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.5.2.2</td>
+    <td>Classifica Torneo</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+</table>
+
+## Server
+
+<table>
+  <tr>
+    <th rowspan="3">Task ID</th>
+    <th rowspan="3">Task Description</th>
+    <th colspan="11">Skills</th>
+  </tr>
+  <tr>
+    <th colspan="3">Pre Skills</th>
+    <th colspan="8">Pro Skills</th>
+  </tr>
+  <tr>
+    <th>Stress Resistance</th>
+    <th>Creativity</th>
+    <th>Problem Solving</th>
+    <th>OS</th>
+    <th>Coding</th>
+    <th>UI/UX</th>
+    <th>Database</th>
+    <th>Data Analysis</th>
+    <th>Security</th>
+    <th>Mobile Development</th>
+    <th>Networking</th>
+  </tr>
+  <tr>
+    <td>1.3.1</td>
+    <td>Menù Principale</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center"></td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.3.2.1.1</td>
+    <td>Inserimento Anagrafica</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.3.2.1.2.1</td>
+    <td>Parsing da File Excel</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.3.2.1.2.2</td>
+    <td>Apertura Competizione Esistente</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.3.2.1.2.3</td>
+    <td>Validazione dei Dati Importati</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.3.2.2.1.1</td>
+    <td>Gestione Atleti</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.3.2.2.1.2</td>
+    <td>Gestione Trasferimenti</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.3.2.2.2</td>
+    <td>Partizionamenti Tornei - Quadrati</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+  </tr>
+  <tr>
+    <td>1.3.3.1</td>
+    <td>Raccolta Punteggi e Classifiche Locali</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+  </tr>
+  <tr>
+    <td>1.3.3.2</td>
+    <td>Gestione Classifica Globale</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.3.4</td>
+    <td>Gestione Salvataggio</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.3.5.1</td>
+    <td>Legame Atleta - Quadrato</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.3.5.2</td>
+    <td>Classifica Globale</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+</table>
+
+
+*Firma*: ________
+
+*Data*: __ /__ /__

@@ -52,7 +52,7 @@ Sviluppo dei filtri attraverso cui selezionare un torneo, specificando i paramet
 
 ### 1.2.4.1.1 Selezione Atleta
 
-Visualizzazione degli atlenti partecipanti a una gara interna a un torneo e gestione della selezione di uno di essi.
+Visualizzazione delle poomsae degli atleti partecipanti a una gara interna a un torneo e gestione della loro selezione. Inserire nelle preview il numero d'ordine, il nome e il cognome dell'atleta, il punteggio eventualmente associato e un semaforo (rosso: non ancora svolta; arancione: in svolgimento; verde: completata).
 
 ### 1.2.4.1.2.1 Gestione Timer
 

@@ -469,6 +469,8 @@ Confermando un modello PMLC incrementale, la WBS è necessariamente completa.
 
 Infine, si osserva come la WBS non abbia alcuna logica temporale e conseguentemente non imponga un ordine cronologico. Il rapporto delle attività rispetto al tempo è introdotto col diagramma di Gantt e col diagramma di PERT.
 
+<!-- Link a WBS.png e a indice (wbs.md) -->
+
 ## 4.4 Diagramma di Gantt
 
 <!--
@@ -479,6 +481,8 @@ Es. l'attività 3 è svolta al 70%
 Non solo... Il Project Manager potrebbe anche dire "questa attività è in ritardo, allora l'altra la sposto più avanti".
 
 Il diagramma di Gantt è lo strumento ufficiale per gestire la pianificazione temporale del progetto.
+
+Aggiungere la spiegazione del perchè abbiamo omesso alcune colonne pre skills in needs_inventory e del perchè abbiamo messo solo X (on/off) e non un punteggio (= perchè alcune non erano mai citate)
 -->
 
 ## 4.5 Diagramma di PERT
