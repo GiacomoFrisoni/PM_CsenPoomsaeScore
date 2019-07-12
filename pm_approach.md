@@ -41,14 +41,14 @@
   - [4.2 Prioritizzazione dei requisiti](#42-Prioritizzazione-dei-requisiti)
   - [4.3 Work Breakdown Structure (WBS)](#43-Work-Breakdown-Structure-WBS)
   - [4.4 Stima delle risorse necessarie](#44-Stima-delle-risorse-necessarie)
-    - [4.4.1 Valutazione delle skills richieste dai task](#441-Valutazione-delle-skills-richieste-dai-task)
+    - [4.4.1 Valutazione delle skill richieste dai task](#441-Valutazione-delle-skill-richieste-dai-task)
     - [4.4.2 Assegnamento membri dello staff ai task](#442-Assegnamento-membri-dello-staff-ai-task)
-    - [4.4.3 Stima della durata dei task](#443-Stima-della-durata-dei-task)
-    - [4.4.4 Stima dei costi](#444-Stima-dei-costi)
-  - [4.5 Diagramma di Gantt](#45-Diagramma-di-Gantt)
-  - [4.6 Diagramma di PERT](#46-Diagramma-di-PERT)
-  - [4.7 Analisi dei Rischi](#47-Analisi-dei-Rischi)
-  - [4.8 Project Definition Statement (PDS)](#48-Project-Definition-Statement-PDS)
+    - [4.5 Stima della durata dei task](#45-Stima-della-durata-dei-task)
+    - [4.6 Stima dei costi](#46-Stima-dei-costi)
+  - [4.7 Diagramma di Gantt](#47-Diagramma-di-Gantt)
+  - [4.8 Diagramma di PERT](#48-Diagramma-di-PERT)
+  - [4.9 Analisi dei Rischi](#49-Analisi-dei-Rischi)
+  - [4.10 Project Definition Statement (PDS)](#410-Project-Definition-Statement-PDS)
 - [5. Bibliografia](#5-Bibliografia)
 
 [//]: # (-------------------------------------------------------------------------)
@@ -475,31 +475,57 @@ Confermando un modello PMLC incrementale, la WBS è necessariamente completa.
 
 Infine, si osserva come la WBS non abbia alcuna logica temporale e conseguentemente non imponga un ordine cronologico. Il rapporto delle attività rispetto al tempo è introdotto col diagramma di Gantt e col diagramma di PERT.
 
+<!-- Spiegare attività in arancione scuro e task in arancione -->
 <!-- Link a WBS.png e a indice (wbs.md) -->
 
 ## 4.4 Stima delle risorse necessarie
 
-### 4.4.1 Valutazione delle skills richieste dai task
+La stima delle risorse che potrebbero essere necessarie all'esecuzione dei task rappresenta un passaggio essenziale per la buona riuscita del progetto. Col termine "risorse" non si fa riferimento alle sole persone fisiche, ma anche alle facility, all'attrezzatura, ai materiali e al costo. Nei paragrafi di seguito proposti ci si focalizza tuttavia sui soli processi legati all'assegnamento delle risorse umane ai task (la stima dei costi sarà discussa in una [successiva sezione](#46-stima-dei-costi)).  
+PunchCode sceglie pertanto di stimare prima le risorse in termini di personale da assegnare alle varie attività e soltanto dopo la durata dei task in funzione di esse. Questa decisione ha come obiettivo la produzione di stime temporali più accurate che tengano conto sin da subito sia delle persone incaricate per la realizzazione dei task stessi che delle loro singole capacità.
+
+### 4.4.1 Valutazione delle skill richieste dai task
 
 Per assegnare i membri dello staff ai task della WBS nel modo più efficace possibile, PunchCode sviluppa prima una [matrice "skill-need" (need inventory)](project_docs/csen_poomsae_score/staff_skills_assignments/needs_inventory.md) con un'indicazione delle skill richieste da ciascuno di essi.  
 Nel far ciò, la startup considera tutte le pro skill e le sole pre skill effettivamente legate a tale passaggio. Inoltre, si è ritenuto non necessario adottare una valutazione numerica, preferendo di conseguenza un semplice indicatore booleano (per esprimere la necessità o meno di una certa skill da parte di un task).
 
 ### 4.4.2 Assegnamento membri dello staff ai task
 
-Tenendo conto delle skill possedute dallo staff ([skills inventory](project_docs/startup_team_skills/startup_team_skills.md)) e di quelle realmente richieste dai task da svolgere ([need inventory](project_docs/csen_poomsae_score/staff_skills_assignments/needs_inventory.md)), PunchCOde incrocia le due matrici al fine di individuare i corretti match. 
+Tenendo conto delle skill possedute dallo staff ([skills inventory](project_docs/startup_team_skills/startup_team_skills.md)) e di quelle realmente richieste dai task da svolgere ([need inventory](project_docs/csen_poomsae_score/staff_skills_assignments/needs_inventory.md)), PunchCode incrocia le due matrici al fine di individuare i corretti match. 
 Ad ogni dipendente si assegnano quindi i task da svolgere che meglio si adattano alle sue abilità.
 
 È importante sottolineare la necessità di parallerizarre molti dei task da svolgere, a causa del limitato numero dei membri del team e delle loro capacità diversificate. Nella risultante tabella di [staff assignment](project_docs/csen_poomsae_score/staff_skills_assignments/staff_assignment.md) (ove non vi è presente una "X" simboleggiante una completa gestione da parte di un solo membro) sono state indicate le skill effettivamente sfruttate dai dipendenti durante lo svolgimento di una determinata attività.
 
-### 4.4.3 Stima della durata dei task
+### 4.5 Stima della durata dei task
 
+La stima della durata dei task costituisce la parte centrale del Planning, nonchè quella in cui spesso le aziende falliscono. Tale fase, infatti, è molto complicata: in aggiunta al già difficile compito della stima in quanto tale, si deve anche considerare come si possa non andare alla velocità prevista o come si possano verificare interruzioni non prevedibili anche a fronte di una valutazione corretta. L'importanza di questa operazione è anche legata al fatto che permette di costruire la schedula e di determinare i tempi necessari al raggiungimento delle varie milestone e al completamento del progetto.
 
+Dal momento che la persona che meglio può entrare nel merito di un'attività è chi la realizza, PunchCode decide di far svolgere questa fase a entrambi i membri del team. La stima della durata richiede tuttavia l'aver prima scelto il come svolgerla.
 
-### 4.4.4 Stima dei costi
+La durata di un task può variare per diverse ragioni, tra cui livelli di esperienza e competenza differenti da parte dello staff stesso. Un'altra scelta della startup è pertanto quella di tener conto al momento della stima, oltre che del numero di risorse assegnate al task in esame (osservabile dallo [staff assignment](project_docs/csen_poomsae_score/staff_skills_assignments/staff_assignment.md)), anche delle singole capacità del/i membro/i assegnato/i (indicate nello [skills inventory](project_docs/startup_team_skills/startup_team_skills.md)), in modo da dedurre le velocità di lavoro di ogni persona sulla base delle varie skill. Occorre comunque sottolineare come tutti i processi abbiano una durata variabile per cause comuni: non esiste una sola attività (anche operativa) che svolta tutti i giorni impieghi sempre lo stesso tempo.
 
+Non avendo esperienza con progetti precedenti, PunchCode non può ricorrere all'analisi di dati storici o all'uso di estrapolazioni basate su attività simili per la costruzione delle stime. Inoltre, non avendo le risorse economiche necessarie, preferisce non affidarsi a terzi per avvalersi del giudizio di un esperto.  
+La startup decide pertanto di ricorrere all'applicazione di una tecnica "**consensus-based**". Disponendo in tale fase di due sole figure interne al team, metodologie quali *Three-point technique* e l'uso di indici statistici come la mediana non risultano applicabili. Non potendo poi usufruire di anonimato, PunchCode ha scelto di far riferimento a una versione modificata della *Delphi Technique* nell'obiettivo di favorire sin da subito l'insorgere di interazioni atte a comprendere le ragioni alla base di stime ottimistiche o pessimistiche.  
+Il metodo richiede ai due membri del team di effettuare segretamente le stime ad ogni round (in un numero compreso tra 1 e 3, sulla base delle necessità). Al termine di ogni round, le durate stimate vengono rivelate e ogni partecipante è così incoraggiato a rivedere la propria stima in base a quella rilasciata dall'altro e alle motivazioni che l'accompagnano. Il processo termina quando si soddisfa un criterio di stop, consistente nel raggiungimento del numero massimo di round pari a 3 o di un consenso unanime). La stima finale è rappresentata dalla media. Si osserva dunque come durante questo processo il gap tra le stime si dovrebbe ridurre, portando alla convergenza verso un valore condiviso.  
+Nonostante spesso si preferisca adottare una misura adimensionale (distaccata sia dai tempi che dai costi), PunchCode preferisce adottare un'unità di misura tradizionale in *giorni/uomo*. Ciò è anche legato all'inesperienza dell'azienda con tali aspetti metodologici, dove vi sarebbe il rischio di non essere in grado di quantificare opportunamente il lavoro da svolgere a partire da una misura adimensionale (come una carta poker, un numero di Fibonacci o una taglia T-shirt).  
+Infine, si evidenzia come una stima non debba considerare solo il tempo di scrittura del codice, ma quello per la costruzione di una soluzione robusta che sia completa e funzionante (che comprenda quindi anche la scrittura dei rispettivi test e il loro superamento).
 
+Il documento contenente le stime in termini di effort giorni/uomo rilasciate da parte del team per le varie attività presenti in WBS è disponibile nel relativo [allegato](project_docs/csen_poomsae_score/task_duration_estimate/task_duration_estimate.md).
+È interessante osservare come i membri del team siano generalmente molto in sintonia (probabilmente a causa della loro profonda esperienza nel lavorare assieme, che li ha di fatto spinti alla costituzione di PunchCode). In talune circostanze si evince tuttavia come le stime iniziali sarebbero state molto diverse senza essere condizionati. In alcuni casi si osserva anche la presenza di un'oscillazione (1° round: ottimistico, 2° round: pessimistico, 3° round: valutazione intermedia).
 
-## 4.5 Diagramma di Gantt
+### 4.6 Stima dei costi
+
+<!--
+Per quanto riguarda i costi delle singole attivita' ci si basera' molto su:
+
+Esperienze Precedenti
+Risorse Particolari (licenze, consulenti..)
+Personale Coinvolto
+Altro
+
+Al termine di ogni stima il tutto viene formalizzato attraverso l'apposito template che indichera' effettivamente il tempo che si e' deciso e il costo ad esso associato. Quindi l'analisi dei costi viene effettuata nello stesso momento delle stime delle tempistiche delle singole attivita'. Il calcolo e' agevolato dalla scelta dell'unita' di misura classica (giorni/uomo) che, anche se risulta non proprio ottimale per una stima corretta, puo' essere facilmente intuibile anche da reparti amministrativi, a cui puo' essere delegata la stima dei costi stessa, e da eventuali consulenti esterni o altri che non conoscono eventuali misurazioni alternative. Inoltre si riduce il trade off data da un'eventuale conversione da un'unita' di misura personalizzata adimensionale.
+-->
+
+## 4.7 Diagramma di Gantt
 
 <!--
 Nella sua versione base, consiste semplicemente nel prendere le attività previste dalla WBS e posizionarle sull'asse temporale, capendo cioè quando iniziano e quando finiscono.
@@ -514,7 +540,7 @@ Il diagramma di Gantt è lo strumento ufficiale per gestire la pianificazione te
 Aggiungere la spiegazione del perchè abbiamo differenziato tra X, UI/UX e coding
 -->
 
-## 4.6 Diagramma di PERT
+## 4.8 Diagramma di PERT
 <!--
 A differenza del diagramma di Gantt che non considera la presenza di legami tra le varie attività, col diagramma di PERT ci si arricchisce e si vanno a identificare tutte le relazioni di precedenza tra le attività stesse.
 
@@ -531,7 +557,7 @@ I percorsi critici o quelli con basso margine (es. pochi giorni) sono gli insiem
 Non ci lavoro solo in fase di PIANIFICAZIONE, ma anche in OTTIMIZZAZIONE (es. voglio che il progetto finisca prima -> aggiungo risorse con l'obiettivo di ridurre la durata delle attività sul percorso critico) e in CONTROLLO.
 -->
 
-## 4.7 Analisi dei Rischi
+## 4.9 Analisi dei Rischi
 
 <!--
 - 4 categorie.
@@ -539,7 +565,7 @@ Non ci lavoro solo in fase di PIANIFICAZIONE, ma anche in OTTIMIZZAZIONE (es. vo
 - Ogni quanto ri-identificare e rivalutare i rischi (approccio dinamico).
 -->
 
-## 4.8 Project Definition Statement (PDS)
+## 4.10 Project Definition Statement (PDS)
 
 Il [PDS](project_docs/csen_poomsae_score/pds/pds.md) è una versione estesa del POS a uso del team di progetto. In esso si sono riportati elementi di maggior dettaglio, costituenti un ottimo input per le fasi successive e per approfondimenti. Il PDS rappresenta così un punto di riferimento anche per eventuali nuovi membri del team, consentendo loro di rimanere focalizzati sulla corretta direzione e sugli aspetti importanti per il successo del progetto.
 
