@@ -528,6 +528,18 @@ Al termine di ogni stima il tutto viene formalizzato attraverso l'apposito templ
 ## 4.7 Diagramma di Gantt
 
 <!--
+- Abbiamo definito le risorse umane
+- Abbiamo definito il calendario (orario lavorativo) di PunchCode
+- Abbiamo fissato la data d'inizio del progetto
+- Abbiamo riportato le attività della WBS (aggiungendo anche la colonna del rispettivo identificativo)
+- Abbiamo assegnato le risorse per ogni attività (quando siamo in 2, Project considera 50 e 50 di lavoro (?))
+- Abbiamo riportato la durata stimata per ogni attività
+- Abbiamo definito le attività padre (corrispondenti alle tre macro-release)
+- Abbiamo definito le precedenze tra le attività
+- Abbiamo adottato la programmazione automatico con il livellamento delle risorse per evitare sovrapposizioni
+-->
+
+<!--
 Nella sua versione base, consiste semplicemente nel prendere le attività previste dalla WBS e posizionarle sull'asse temporale, capendo cioè quando iniziano e quando finiscono.
 
 Assieme al PERT è lo strumento principale con cui si comprende lo stato di avanzamento del progetto. Viene infatti mantenuto aggiornato dal Project Manager durante lo svolgimento del progetto stesso. Man mano che esso progredisce, delle barre colorate possono essere aggiunte al diagramma per indicare le attività completate o una porzione completata di queste.
@@ -563,6 +575,22 @@ Non ci lavoro solo in fase di PIANIFICAZIONE, ma anche in OTTIMIZZAZIONE (es. vo
 - 4 categorie.
 - Nel valutare l'impatto si è ragionato tenendo conto del caso peggiore.
 - Ogni quanto ri-identificare e rivalutare i rischi (approccio dinamico).
+-->
+
+<!-- 
+ - Ricordarsi del caso peggiore (tutte le analisi sono nel caso peggiore)
+ - Consensus-based può essere usato nell'analisi dei riski (l'abbiamo usata anche per questo
+  
+RISCHI:
+ - Tecnologia che conosciamo bene? Incompatibilità?
+ - Project Manager lo fa l'architetto
+ - La prima volta che facciamo SCRUM
+ - Risorse non necessarie, incomprensioni, non concentrazione sufficiente
+ - Rischi esterni: nuovi requisiti legali, normative?
+ - Il cliente abortisce il progetto
+ - Fascia, alta bassa, media
+ - Impatto attezo = probabilita / impatto
+ - 1% 
 -->
 
 ## 4.10 Project Definition Statement (PDS)
