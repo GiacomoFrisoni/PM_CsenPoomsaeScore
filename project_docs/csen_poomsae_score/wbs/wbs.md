@@ -4,7 +4,7 @@ Tutte le attività di seguito riportate comprendono anche lo sviluppo della rela
 
 ## App Android
 
-### 1.1.1.1 Menù Principale
+### 1.1.1 Menù Principale
 
 L'applicazione deve prevedere una schermata iniziale, nella quale selezionare la modalità di utilizzo: registrazione punteggio, storico o impostazioni.
 
@@ -20,15 +20,18 @@ Realizzazione di una schermata con controlli che abilitano la detrazione o l'inc
 
 Realizzazione di una schermata che visualizzi i punteggi progressivi e quello totale, dopo che l'atleta ha concluso di esibirsi.
 
-### 1.1.3 Invio Punteggio
+### 1.1.3 Gestione Navigazione
+Realizzazione di una navigazione efficiente tra le varie schermate previste dall'applicazione (con particolare attenzione a quelle dedicate alle fasi di raccolta punti durante l'esibizione di un atleta). Tenere in considerazione la voce delle impostazioni per l'abilitazione o meno della possibilità - a partire dalla schermata di riepilogo - di far ritorno alla modifica dei parametri.
+
+### 1.1.4 Invio Punteggio
 
 Realizzazione di una schermata abilitante il giudice ad inviare i punteggi acquisiti al software del quadrato. Lato backend, studio del protocollo da utilizzare per l'invio dei dati.
 
-### 1.1.4 Storico
+### 1.1.5 Storico
 
 Sviluppo di una schermata riepilogativa con lo storico dei punteggi assegnati agli atleti, in ordine cronologico. Ci dev'essere possibilità di azzerare questa lista. Non è importante che sia permanente.
 
-### 1.1.5 Impostazioni
+### 1.1.6 Impostazioni
 
 Sviluppo di una schermata con delle impostazioni per l'applicazione e per il device, quali:
 - regolazione della luminosità dello schermo,
@@ -40,7 +43,7 @@ Sviluppo di una schermata con delle impostazioni per l'applicazione e per il dev
 
 ### 1.2.1 Menù Principale
 
-Realizzazione della schermata d'apertura del software contenente il menù per l'accesso alle funzionalità di creazione di una nuova competizione, apertura di una competizione già esistente e impostazioni.
+Realizzazione della schermata d'apertura del software contenente il menù per l'accesso alle funzionalità di avvio di una nuova competizione e impostazioni.
 
 ### 1.2.2 Ricezione Tornei
 
@@ -109,23 +112,27 @@ Gestione del salvataggio consistente su file .json di tutti i dati relativi ai t
 
 Invio al server del punteggio finale di ogni poomsae al completamento della sua valutazione, invio delle casistiche di ritiro e invio della classifica locale di un torneo all'atto della sua chisura.
 
-### 1.2.5.1 Monitor Poomsae
+### 1.2.5 Impostazioni
+Sviluppo della schermata dedicata alla gestione dell'associazione coi tablet dei giudici (necessaria per la raccolta wireless dei punteggi). Deve essere mostrato il riepilogo dei dispositivi attualmente connessi, permettendo eventualmente il loro disaccoppiamento.
+
+### 1.2.6.1 Monitor Poomsae
 
 Gestione della finestra da visualizzare sul monitor di poomsae. Mostrare i dati del torneo, l'anagrafica dell'atleta, il tempo trascorso dall'avvio della poomsae, i punteggi dei giudici man mano che questi vengono registrati.
 Sviluppo anche della funzionalità relativa al suo oscuramento.
 
-### 1.2.5.2.1 Elenco Atleti
+### 1.2.6.2.1 Elenco Atleti
 
 Gestione della schermata da visualizzare sulla finestra del monitor di torneo dedicata all'elenco degli atleti presenti nell'attuale gara. Realizzare sul piano grafico una preview per ogni atleta contenente il suo numero d'ordine, il nome, il cognome, la palestra di appartenenza, il punteggio ottenuto per la sua poomsae principale ed eventualmente quello di ballottaggio.
 Utilizzo di colorazioni diverse per le preview di atleti con poomsae completate, in svolgimento e non completate.
 
-### 1.2.5.2.2 Classifica Torneo
+### 1.2.6.2.2 Classifica Torneo
 
 Gestione della schermata da visualizzare sulla finestra del monitor di torneo dedicata alla classifica locale di quest'ultimo. Mostrare gli atleti in ordine di posizione sulla base del punteggio da loro ottenuto. A parità di punteggio considerare l'ordine alfabetico del nome e del cognome. Evidenziare graficamente gli atleti vincitori di medaglia.
 
 ## Server
 
 ### 1.3.1 Menù Principale
+Realizzazione della schermata d'apertura del software contenente il menù per l'accesso alle funzionalità di creazione di una nuova competizione, apertura di una competizione già esistente e impostazioni.
 
 ### 1.3.2.1.1 Inserimento Anagrafica
 
@@ -167,10 +174,17 @@ Elaborazione della classifica globale dedicata alle palestre sulla base delle me
 
 Gestione del salvataggio consistente su file .json di tutti i dati legati alla competizione.
 
-### 1.3.5.1 Legame Atleta - Quadrato
+### 1.3.5 Impostazioni
+Sviluppo della schermata dedicata alla gestione delle impostazioni generali per un qualunque torneo interno alla competizione. Le voci previste devono essere le seguenti:
+- soglia di passaggio da eliminatorie a semifinali;
+- soglia di passaggio da semifinali a finali;
+- tempo di attesa tra prima e seconda poomsae.
+L'apportamento di modifiche deve essere possibile solo prima dell'avvio di una competizione.
+
+### 1.3.6.1 Legame Atleta - Quadrato
 
 Gestione della schermata da visualizzare sulla finestra del monitor esterno dedicata alla composizione di ogni quadrato in termini di atleti.
 
-### 1.3.5.2 Classifica Globale
+### 1.3.6.2 Classifica Globale
 
 Gestione della schermata da visualizzare sulla finestra del monitor esterno dedicata alla classifica globale delle palestre.

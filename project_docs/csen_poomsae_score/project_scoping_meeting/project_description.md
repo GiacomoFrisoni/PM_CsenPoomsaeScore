@@ -109,7 +109,7 @@ Si sottolinea come il ritiro o l'eliminazione di un atleta siano azioni definiti
 Qualora non sia possibile svoltere la seconda parte di una poomae finale (o un ballottaggio) viene assegnato un'operazione di "assegnamento di punteggio zero". In entrambi i casi, infatti, si consolida il punteggio precedente dell'atleta (quello della prima poomsae) per la poomsae finale, o quello del punteggio che ha determinato il ballottaggio. Un atleta con punteggio azzerato può comunque passare il turno e ricevere medaglie, a differenza di un atleta ritirato.
 
 ### Gestione dei tornei del quadrato di gara
-Al primo avvio il software riceve i dati della competizione (nome e numero di giudici) e i tornei da gestire con l'elenco dei relativi partecipanti dal server.
+Al primo avvio il software riceve i dati della competizione (nome, numero di giudici e dati di configurazione) e i tornei da gestire con l'elenco dei relativi partecipanti dal server.
 
 L'utente deve poter ricercare un torneo attraverso delle caselle a scelta multipla rappresentanti i parametri che lo identificano (varianti sulla base della tipologia).  
 Selezionado correttamente i filtri viene visualizzato l'elenco degli atleti corrispondente al torneo scelto, navigabile anche nelle gare che compongono il torneo stesso.
@@ -123,6 +123,9 @@ Al completamento della poomsae, in base alla fase del torneo attualmente occupat
  - nella gara delle *finali* - se la poomsae terminata è la prima delle due - viene mostrato un timer (con la possibilità di saltarlo), allo scadere del quale l'atleta è invitato ad eseguire la poomsae successiva (ripetendo, di conseguenza, tutte le schermate precedenti). Alla chiusura della seconda poomsae, invece, viene mostrata la schermata riepilogativa.
 
 Ogni tal volta che una poomsae giunge in uno stato consistente (tempo registrato, voti dei giudici ricevuti, correzzione al punteggio medio applicata, completamento), viene effettuato anche il salvataggio dello stato attuale del torneo cui questa appartiene in maniera permanente sul disco rigido. Ciò consente di affrontare gli eventuali disagi che potrebbero emergere durante la gestione. Il file risultante può essere utilizzato successivamente per riprendere l'avanzamento della gara da dove la si era lasciata. Tutte le volte in cui una poomsae viene portata a termine, i dati di quest'ultima sono anche inviati al server centrale. Il software di gestione del quadrato, inoltre, deve notificare il server con la classifica parziale ottenuta a fronte di ogni chiusura di torneo (per consentire l'aggiornamento della classifica globale delle palestre).
+
+### Associazione tablet (impostazioni)
+Al fine di acquisire correttamente i punteggi dai tablet, occorre stabilire una connessione tra i device mobili e la postazione del quadrato; questo avviene all'interno di un'apposita schermata, nella quale viene riepilogato quali dispositivi sono attualmente connessi, permettendo eventualmente il loro disaccoppiamento.
 
 ### Monitor esterni
 Il software per la gestione del quadrato di gara è connesso mediante cavi HDMI a 2 monitor esterni:
@@ -161,7 +164,12 @@ Dal momento che queste operazioni di configurazione possono essere realizzate an
 
 Nel momento in cui la configurazione della competizione è completata e la si avvia, il server è incaricato di accogliere i risultati delle poomsae registrate dai vari software di gestione dei quadrati di gara man mano che questi divengono disponibili. Nell'eventualità in cui per problematiche di rete non sia possibile svolgere l'aggregazione di queste informazioni mediante una comunicazione wireless tra i quadrati e il server stesso, il sistema deve prevedere la possibilità di caricare i file contenenti i dati di tutti i tornei gestiti da ogni quadrato di gara (e prodotti dal rispettivo software) per fondere le varie informazioni in un'unica soluzione.
 
-I punteggi totali delle varie poomsae vengono inviati al server al fine di costruire lo storico completo della competizione. Inoltre, man mano che i tornei vengono completati, il server viene notificato dai quadrati al fine di aggiornare la classifica globale delle varie palestre (elaborata sulla base delle medaglie ricevute dai propri atleti sui vari tornei). Tale classifica è mostrata in tempo reale su un apposito monitor esterno (dedicato anche alla visualizzazione degli atleti partecipanti a tornei correntemente in svolgimento sui quadrati di gara disponibili, permettendo loro di sapere dove recarsi).
+I punteggi totali delle varie poomsae vengono inviati al server al fine di costruire lo storico completo della competizione. Inoltre, man mano che i tornei vengono completati, il server viene notificato dai quadrati al fine di aggiornare la classifica globale delle varie palestre (elaborata sulla base delle medaglie ricevute dai propri atleti sui vari tornei); tale classifica è mostrata in tempo reale su un apposito monitor esterno.
+
+Quest'ultimo dev'essere inoltre capace di visualizzare una schermata riepilogativa con i tornei che sono svolti nei quadrati disponibili e gli atleti ad essi associati. Nel caso di un elevato numero di tornei e partecipanti si abilita uno scroll verticale. Per gestire in modo flessibile i quadrati, invece, viene impostato un tempo limite (di circa 2 minuti), dopo lo scadere del quale si passa alla visualizzazione dei dettaggli del quadrato successivo.
+
+Il software deve anche prevedere la presenza di un'area dedicata alle impostazioni di carattere generale per la gestione di un qualunque torneo interno alla competizione. In questa sezione deve essere prevista la possibilità di indicare le soglie di passaggio da eliminatorie a semifinali e da semifinali a finali. In aggiunta, occorre considerare la specifica del tempo di attesa tra lo svolgimento della prima e della seconda poomsae finale.
+L'apportamento di modifiche deve essere possibile solo in momenti antecedenti al reale avvio di una competizione.
 
 ### Note
 

@@ -19,17 +19,17 @@
     <th>Round 3</th>
   </tr>
   <tr>
-    <td rowspan="2">1.1.1.1</td>
+    <td rowspan="2">1.1.1</td>
     <td rowspan="2">Menù Principale</td>
     <td align="right">Giacomo Frisoni</td>
-    <td align="center">1</td>
+    <td align="center">2</td>
     <td align="center">-</td>
     <td align="center">-</td>
-    <td rowspan="2" align="center">1</td>
+    <td rowspan="2" align="center">2</td>
   </tr>
   <tr>
     <td align="right">Marcin Pabich</td>
-    <td align="center">1</td>
+    <td align="center">2</td>
     <td align="center">-</td>
     <td align="center">-</td>
   </tr>
@@ -37,29 +37,29 @@
     <td rowspan="2">1.1.2.1</td>
     <td rowspan="2">Registrazione Accuratezza</td>
     <td align="right">Giacomo Frisoni</td>
-    <td align="center">2</td>
+    <td align="center">3</td>
+    <td align="center">3</td>
     <td align="center">-</td>
-    <td align="center">-</td>
-    <td rowspan="2" align="center">2</td>
+    <td rowspan="2" align="center">3</td>
   </tr>
   <tr>
     <td align="right">Marcin Pabich</td>
-    <td align="center">2</td>
-    <td align="center">-</td>
+    <td align="center">4</td>
+    <td align="center">3</td>
     <td align="center">-</td>
   </tr>
   <tr>
     <td rowspan="2">1.1.2.2</td>
     <td rowspan="2">Registrazione Presentazione</td>
     <td align="right">Giacomo Frisoni</td>
-    <td align="center">2</td>
+    <td align="center">4</td>
     <td align="center">-</td>
     <td align="center">-</td>
-    <td rowspan="2" align="center">2</td>
+    <td rowspan="2" align="center">4</td>
   </tr>
   <tr>
     <td align="right">Marcin Pabich</td>
-    <td align="center">2</td>
+    <td align="center">4</td>
     <td align="center">-</td>
     <td align="center">-</td>
   </tr>
@@ -67,20 +67,50 @@
     <td rowspan="2">1.1.2.3</td>
     <td rowspan="2">Visualizzazione Riepilogo</td>
     <td align="right">Giacomo Frisoni</td>
-    <td align="center">1</td>
+    <td align="center">2</td>
     <td align="center">-</td>
     <td align="center">-</td>
-    <td rowspan="2" align="center">1</td>
+    <td rowspan="2" align="center">2</td>
   </tr>
   <tr>
     <td align="right">Marcin Pabich</td>
-    <td align="center">1</td>
+    <td align="center">2</td>
     <td align="center">-</td>
     <td align="center">-</td>
   </tr>
   <tr>
     <td rowspan="2">1.1.3</td>
+    <td rowspan="2">Gestione Navigazione</td>
+    <td align="right">Giacomo Frisoni</td>
+    <td align="center">3</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td rowspan="2" align="center">3</td>
+  </tr>
+  <tr>
+    <td align="right">Marcin Pabich</td>
+    <td align="center">3</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td rowspan="2">1.1.4</td>
     <td rowspan="2">Invio Punteggio</td>
+    <td align="right">Giacomo Frisoni</td>
+    <td align="center">2</td>
+    <td align="center">3</td>
+    <td align="center">-</td>
+    <td rowspan="2" align="center">3</td>
+  </tr>
+  <tr>
+    <td align="right">Marcin Pabich</td>
+    <td align="center">3</td>
+    <td align="center">3</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td rowspan="2">1.1.5</td>
+    <td rowspan="2">Storico</td>
     <td align="right">Giacomo Frisoni</td>
     <td align="center">2</td>
     <td align="center">-</td>
@@ -94,22 +124,7 @@
     <td align="center">-</td>
   </tr>
   <tr>
-    <td rowspan="2">1.1.4</td>
-    <td rowspan="2">Storico</td>
-    <td align="right">Giacomo Frisoni</td>
-    <td align="center">1</td>
-    <td align="center">-</td>
-    <td align="center">-</td>
-    <td rowspan="2" align="center">1</td>
-  </tr>
-  <tr>
-    <td align="right">Marcin Pabich</td>
-    <td align="center">1</td>
-    <td align="center">-</td>
-    <td align="center">-</td>
-  </tr>
-  <tr>
-    <td rowspan="2">1.1.5</td>
+    <td rowspan="2">1.1.6</td>
     <td rowspan="2">Impostazioni</td>
     <td align="right">Giacomo Frisoni</td>
     <td align="center">2</td>
@@ -350,7 +365,7 @@
     <td align="center">-</td>
   </tr>
   <tr>
-    <td rowspan="2">1.2.3.1.7.2</td>
+    <td rowspan="2">1.2.4.1.7.2</td>
     <td rowspan="2">Gestione Assegnazione Medaglie</td>
     <td align="right">Giacomo Frisoni</td>
     <td align="center">7</td>
@@ -395,7 +410,22 @@
     <td align="center">-</td>
   </tr>
   <tr>
-    <td rowspan="2">1.2.5.1</td>
+    <td rowspan="2">1.2.5</td>
+    <td rowspan="2">Impostazioni</td>
+    <td align="right">Giacomo Frisoni</td>
+    <td align="center">3</td>
+    <td align="center">3</td>
+    <td align="center">-</td>
+    <td rowspan="2" align="center">3</td>
+  </tr>
+  <tr>
+    <td align="right">Marcin Pabich</td>
+    <td align="center">4</td>
+    <td align="center">3</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td rowspan="2">1.2.6.1</td>
     <td rowspan="2">Monitor Poomsae</td>
     <td align="right">Giacomo Frisoni</td>
     <td align="center">5</td>
@@ -410,7 +440,7 @@
     <td align="center">-</td>
   </tr>
   <tr>
-    <td rowspan="2">1.2.5.2.1</td>
+    <td rowspan="2">1.2.6.2.1</td>
     <td rowspan="2">Elenco Atleti</td>
     <td align="right">Giacomo Frisoni</td>
     <td align="center">5</td>
@@ -425,7 +455,7 @@
     <td align="center">-</td>
   </tr>
   <tr>
-    <td rowspan="2">1.2.5.2.2</td>
+    <td rowspan="2">1.2.6.2.2</td>
     <td rowspan="2">Classifica Torneo</td>
     <td align="right">Giacomo Frisoni</td>
     <td align="center">3</td>
@@ -622,7 +652,22 @@
     <td align="center">-</td>
   </tr>
   <tr>
-    <td rowspan="2">1.3.5.1</td>
+    <td rowspan="2">1.3.5</td>
+    <td rowspan="2">Impostazioni</td>
+    <td align="right">Giacomo Frisoni</td>
+    <td align="center">4</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td rowspan="2" align="center">4</td>
+  </tr>
+  <tr>
+    <td align="right">Marcin Pabich</td>
+    <td align="center">4</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td rowspan="2">1.3.6.1</td>
     <td rowspan="2">Legame Atleta - Quadrato</td>
     <td align="right">Giacomo Frisoni</td>
     <td align="center">4</td>
@@ -637,7 +682,7 @@
     <td align="center">4</td>
   </tr>
   <tr>
-    <td rowspan="2">1.3.5.2</td>
+    <td rowspan="2">1.3.6.2</td>
     <td rowspan="2">Classifica Globale</td>
     <td align="right">Giacomo Frisoni</td>
     <td align="center">1</td>

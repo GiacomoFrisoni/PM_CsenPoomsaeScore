@@ -88,6 +88,21 @@
   </tr>
   <tr>
     <td>1.1.3</td>
+    <td>Gestione Navigazione</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.1.4</td>
     <td>Invio Punteggio</td>
     <td align="center">-</td>
     <td align="center">-</td>
@@ -102,7 +117,7 @@
     <td align="center">X</td>
   </tr>
   <tr>
-    <td>1.1.4</td>
+    <td>1.1.5</td>
     <td>Storico</td>
     <td align="center">-</td>
     <td align="center">-</td>
@@ -117,7 +132,7 @@
     <td align="center">-</td>
   </tr>
   <tr>
-    <td>1.1.5</td>
+    <td>1.1.6</td>
     <td>Impostazioni</td>
     <td align="center">-</td>
     <td align="center">-</td>
@@ -368,7 +383,7 @@
     <td align="center">-</td>
   </tr>
   <tr>
-    <td>1.2.3.1.7.2</td>
+    <td>1.2.4.1.7.2</td>
     <td>Gestione Assegnazione Medaglie</td>
     <td align="center">X</td>
     <td align="center">-</td>
@@ -413,7 +428,22 @@
     <td align="center">X</td>
   </tr>
   <tr>
-    <td>1.2.5.1</td>
+    <td>1.2.5</td>
+    <td>Impostazioni</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.6.1</td>
     <td>Monitor Poomsae</td>
     <td align="center">-</td>
     <td align="center">X</td>
@@ -428,7 +458,7 @@
     <td align="center">-</td>
   </tr>
   <tr>
-    <td>1.2.5.2.1</td>
+    <td>1.2.6.2.1</td>
     <td>Elenco Atleti</td>
     <td align="center">-</td>
     <td align="center">X</td>
@@ -443,7 +473,7 @@
     <td align="center">-</td>
   </tr>
   <tr>
-    <td>1.2.5.2.2</td>
+    <td>1.2.6.2.2</td>
     <td>Classifica Torneo</td>
     <td align="center">-</td>
     <td align="center">X</td>
@@ -650,7 +680,22 @@
     <td align="center">-</td>
   </tr>
   <tr>
-    <td>1.3.5.1</td>
+    <td>1.3.5</td>
+    <td>Impostazioni</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.3.6.1</td>
     <td>Legame Atleta - Quadrato</td>
     <td align="center">-</td>
     <td align="center">X</td>
@@ -665,7 +710,7 @@
     <td align="center">-</td>
   </tr>
   <tr>
-    <td>1.3.5.2</td>
+    <td>1.3.6.2</td>
     <td>Classifica Globale</td>
     <td align="center">-</td>
     <td align="center">X</td>
