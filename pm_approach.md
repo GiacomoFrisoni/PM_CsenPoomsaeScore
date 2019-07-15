@@ -433,17 +433,35 @@ La fase successiva riguarda l'ottenimento dell'approvazione da parte di tutti i 
 
 L'ultimo obiettivo della sessione si riferisce alla redazione del [Project Definition Statement (PDS)](project_docs/csen_poomsae_score/pds/pds.md), con la partecipazione di tutto il team.
 
-## 4.2 Prioritizzazione dei requisiti
+## 4.2 Scelta del PMLC Model
 
-Non tutti i requisiti vengono trattati con le stesse priorità, in quanto vi è un processo di classificazione (o meglio, prioritizzazione) dei requisiti. Esistono diversi approci nell'eseguire quest'attività; quello adottato dall'azienda risulta essere **MoSCoW**, che è basato su una categorizzazione in 4 classi:
+A fronte delle JPPS, si è da subito confermata la scelta del PMLC Model già anticipata durante la fase di Scoping. I Project Manager di PunchCode decidono pertanto di adottare una modalità **incrementale** per rispondere al bisogno espresso da parte del cliente, relativamente a una maggior urgenza nella disponibilità di alcune parti di soluzione piuttosto che altre.
 
-- *Must*: requisiti che **devono** essere soddisfatti per ritenere il progetto completato con successo.
-- *Should*: requisiti che **dovrebbero** essere inclusi nella soluzione. Sono abbastanza critici da essere considerati necessari, ma è possibile sostituirli con dei requisiti alternativi.
-- *Could*: requisiti che **potrebbero** essere inclusi alla consegna, ma non sono strettamente necessari, in quanto considerati soltanto in caso di disponibilità del tempo e delle risorse.
-- *Won't*: requisiti che **sarebbero** da includere, ma vengono rinviati per una futura release, in quanto non strettamente necessari.
+Nello specifico, si pianificano tre incrementi:
+1) sottosistema dedicato all'applicazione Android per i tablet dei giudici;
+2) software per la gestione di un quadrato di gara, con l'anticipazione di funzionalità lato server (necessarie per il suo funzionamento);
+3) sottosistema dedicato al server e completamento del software di quadrato.
 
-PunchCode, nello specifico, decide di assegnare una priorità ai soli requisiti "foglia" del RBS. Il risultato di questa fase è osservabile al seguente [allegato](project_docs/csen_poomsae_score/moscow_prioritisation/moscow_prioritisation.md).
+Questa strutturazione è frutto delle priorità espresse da parte del committente. Dal momento che questi sottosistemi sono dipendenti tra loro (il software di gestione del quadrato riceve l'elenco dei tornei di cui deve occuparsi dal server, ottiene i punteggi dei giudici dai tablet e invia le elaborazioni locali al server), le tre release non riflettono a pieno i tre sottosistemi identificati in fase di Scoping.
 
+Il primo incremento mira al rilascio completo dell'applicazione Android (già predisposta alla comunicazione wireless con il futuro software per la gestione di un quadrato di gara).  
+
+Dal momento che non si potrebbe beneficiare del server senza aver prima rilasciato il software di gestione del quadrato di gara, si è scelto di avere quest'ultimo come seconda release principale (arricchito con alcune funzionalità appartenenti al server per renderlo usabile).
+Nonostante questa scelta provochi una ricaduta sia sui tempi di realizzazione che sui costi, dal momento che rende necessarie ulteriori attività di integrazione all'atto dello spostamento delle funzionalità in oggetto sul server stesso, ciò consente un graduale rilascio di business value al committente (che non sarà costretto ad attendere la conclusione dell'intero progetto e potrà offrire feedback intermedi).
+
+Inoltre, si osserva come gli incrementi appena descritti si compongano di numerose attività (specie nel caso della seconda release principale). Considerando l'elevata disponibilità da parte del cliente - oltre alle milestone discussse - si sono anche considerati dei rilasci intermedi (sempre sulla base delle priorità legate alle attività di cui ogni macro-release si compone).
+
+Nei vari meeting intrapresi col committente è emerso come CSEN disponga anticipatamente del [calendario](project_docs/csen_poomsae_score/pds/pds.md) di tutti i tornei previsti nel corso dell'anno. 
+A differenza degli incrementi principali, le release minori non sono pianificate. 
+
+- Calendario tornei e micro-release
+
+<!--
+
+L'applicazione Android è sufficientemente di ridotte dimensioni per consentire un unico rilascio.
+
+Oltre a queste, vengono previsti anche dei rilasci incrementali minori, a scopo di ottenere man mano un diretto riscontro dal cliente (che nel corso delle sessioni del Project Scoping Meeting ha manifestato più volte la sua disponibilità a essere contattato per il rilascio di feedback).
+-->
 
 ## 4.3 Work Breakdown Structure (WBS)
 
@@ -458,7 +476,7 @@ La WBS è usata anche nel seguente modo:
 - facilita la comunicazione tra gli stakeholder (permettendo a tutti di riferirsi in maniera omogenea ed inequivocabile al lavoro da eseguirsi);
 - consente la realizzazione di valutazioni di costo o di tempo aggregate, seguendo la struttura gerarchica definita.
 
-La WBS inizia là dove finisce l'RBS. PunchCode, infatti, la ricava considerando le foglie dell'RBS e decomponendole ulteriormente (approccio classico). Si presta inoltre attenzione a non spingersi troppo nel dettaglio, per evitare di dover fare un numero elevato di stime (richiedenti tempo e costi); allo stesso tempo si cerca di non avere nemmeno una granularità troppo grande, in modo da ridurre il rischio che le attività siano difficili da stimare e pericolose da monitorare.  
+La WBS inizia là dove finisce l'RBS. PunchCode, infatti, la ricava considerando le foglie dell'RBS e decomponendole ulteriormente (approccio classico). Si presta inoltre attenzione a non spingersi troppo nel dettaglio, per evitare di dover fare un numero elevato di stime (richiedenti tempo e costi); allo stesso modo si cerca di non avere nemmeno una granularità troppo grande, in modo da ridurre il rischio che le attività siano difficili da stimare e pericolose da monitorare.  
 Per comprendere quando arrestarsi a causa del raggiungimento di un adeguato livello di decomposizione che decreti il completamento della WBS, PunchCode adotta 6+1 criteri:
 
 1) lo stato e il completamento sono misurabili (si deve essere in grado di indicare la percentuale di completamento);
@@ -473,29 +491,44 @@ Per convertire la RBS in WBS, PunchCode utilizza il *Team Approach* (prevedendo 
 
 Confermando un modello PMLC incrementale, la WBS è necessariamente completa.
 
-Infine, si osserva come la WBS non abbia alcuna logica temporale e conseguentemente non imponga un ordine cronologico. Il rapporto delle attività rispetto al tempo è introdotto col diagramma di Gantt e col diagramma di PERT.
+Si osserva come la WBS non abbia alcuna logica temporale e conseguentemente non imponga un ordine cronologico. Il rapporto delle attività rispetto al tempo è introdotto col diagramma di Gantt e col diagramma di PERT.
 
 <!-- Spiegare attività in arancione scuro e task in arancione -->
 <!-- Link a WBS.png e a indice (wbs.md) -->
 
-## 4.4 Stima delle risorse necessarie
+## 4.4 Prioritizzazione dei task
+
+<!-- Durante i meeting si è steso un documento in stile product backlog contenente la priorità dei task componenti la seconda e la terza release principale -->
+
+<!--
+Non tutti i requisiti vengono trattati con le stesse priorità, in quanto vi è un processo di classificazione (o meglio, prioritizzazione) dei requisiti. Esistono diversi approci nell'eseguire quest'attività; quello adottato dall'azienda risulta essere **MoSCoW**, che è basato su una categorizzazione in 4 classi:
+
+- *Must*: requisiti che **devono** essere soddisfatti per ritenere il progetto completato con successo.
+- *Should*: requisiti che **dovrebbero** essere inclusi nella soluzione. Sono abbastanza critici da essere considerati necessari, ma è possibile sostituirli con dei requisiti alternativi.
+- *Could*: requisiti che **potrebbero** essere inclusi alla consegna, ma non sono strettamente necessari, in quanto considerati soltanto in caso di disponibilità del tempo e delle risorse.
+- *Won't*: requisiti che **sarebbero** da includere, ma vengono rinviati per una futura release, in quanto non strettamente necessari.
+
+PunchCode, nello specifico, decide di assegnare una priorità ai soli requisiti "foglia" del RBS. Il risultato di questa fase è osservabile al seguente [allegato](project_docs/csen_poomsae_score/moscow_prioritisation/moscow_prioritisation.md).
+-->
+
+## 4.5 Stima delle risorse necessarie
 
 La stima delle risorse che potrebbero essere necessarie all'esecuzione dei task rappresenta un passaggio essenziale per la buona riuscita del progetto. Col termine "risorse" non si fa riferimento alle sole persone fisiche, ma anche alle facility, all'attrezzatura, ai materiali e al costo. Nei paragrafi di seguito proposti ci si focalizza tuttavia sui soli processi legati all'assegnamento delle risorse umane ai task (la stima dei costi sarà discussa in una [successiva sezione](#46-stima-dei-costi)).  
 PunchCode sceglie pertanto di stimare prima le risorse in termini di personale da assegnare alle varie attività e soltanto dopo la durata dei task in funzione di esse. Questa decisione ha come obiettivo la produzione di stime temporali più accurate che tengano conto sin da subito sia delle persone incaricate per la realizzazione dei task stessi che delle loro singole capacità.
 
-### 4.4.1 Valutazione delle skill richieste dai task
+### 4.5.1 Valutazione delle skill richieste dai task
 
 Per assegnare i membri dello staff ai task della WBS nel modo più efficace possibile, PunchCode sviluppa prima una [matrice "skill-need" (need inventory)](project_docs/csen_poomsae_score/staff_skills_assignments/needs_inventory.md) con un'indicazione delle skill richieste da ciascuno di essi.  
 Nel far ciò, la startup considera tutte le pro skill e le sole pre skill effettivamente legate a tale passaggio. Inoltre, si è ritenuto non necessario adottare una valutazione numerica, preferendo di conseguenza un semplice indicatore booleano (per esprimere la necessità o meno di una certa skill da parte di un task).
 
-### 4.4.2 Assegnamento membri dello staff ai task
+### 4.5.2 Assegnamento membri dello staff ai task
 
 Tenendo conto delle skill possedute dallo staff ([skills inventory](project_docs/startup_team_skills/startup_team_skills.md)) e di quelle realmente richieste dai task da svolgere ([need inventory](project_docs/csen_poomsae_score/staff_skills_assignments/needs_inventory.md)), PunchCode incrocia le due matrici al fine di individuare i corretti match. 
 Ad ogni dipendente si assegnano quindi i task da svolgere che meglio si adattano alle sue abilità.
 
 È importante sottolineare la necessità di parallerizarre molti dei task da svolgere, a causa del limitato numero dei membri del team e delle loro capacità diversificate. Nella risultante tabella di [staff assignment](project_docs/csen_poomsae_score/staff_skills_assignments/staff_assignment.md) (ove non vi è presente una "X" simboleggiante una completa gestione da parte di un solo membro) sono state indicate le skill effettivamente sfruttate dai dipendenti durante lo svolgimento di una determinata attività.
 
-### 4.5 Stima della durata dei task
+### 4.6 Stima della durata dei task
 
 La stima della durata dei task costituisce la parte centrale del Planning, nonchè quella in cui spesso le aziende falliscono. Tale fase, infatti, è molto complicata: in aggiunta al già difficile compito della stima in quanto tale, si deve anche considerare come si possa non andare alla velocità prevista o come si possano verificare interruzioni non prevedibili anche a fronte di una valutazione corretta. L'importanza di questa operazione è anche legata al fatto che permette di costruire la schedula e di determinare i tempi necessari al raggiungimento delle varie milestone e al completamento del progetto.
 
@@ -512,7 +545,7 @@ Infine, si evidenzia come una stima non debba considerare solo il tempo di scrit
 Il documento contenente le stime in termini di effort giorni/uomo rilasciate da parte del team per le varie attività presenti in WBS è disponibile nel relativo [allegato](project_docs/csen_poomsae_score/task_duration_estimate/task_duration_estimate.md).
 È interessante osservare come i membri del team siano generalmente molto in sintonia (probabilmente a causa della loro profonda esperienza nel lavorare assieme, che li ha di fatto spinti alla costituzione di PunchCode). In talune circostanze si evince tuttavia come le stime iniziali sarebbero state molto diverse senza essere condizionati. In alcuni casi si osserva anche la presenza di un'oscillazione (1° round: ottimistico, 2° round: pessimistico, 3° round: valutazione intermedia).
 
-### 4.6 Stima dei costi
+### 4.7 Stima dei costi
 
 <!--
 Per quanto riguarda i costi delle singole attivita' ci si basera' molto su:
@@ -525,7 +558,7 @@ Altro
 Al termine di ogni stima il tutto viene formalizzato attraverso l'apposito template che indichera' effettivamente il tempo che si e' deciso e il costo ad esso associato. Quindi l'analisi dei costi viene effettuata nello stesso momento delle stime delle tempistiche delle singole attivita'. Il calcolo e' agevolato dalla scelta dell'unita' di misura classica (giorni/uomo) che, anche se risulta non proprio ottimale per una stima corretta, puo' essere facilmente intuibile anche da reparti amministrativi, a cui puo' essere delegata la stima dei costi stessa, e da eventuali consulenti esterni o altri che non conoscono eventuali misurazioni alternative. Inoltre si riduce il trade off data da un'eventuale conversione da un'unita' di misura personalizzata adimensionale.
 -->
 
-## 4.7 Diagramma di Gantt
+## 4.8 Diagramma di Gantt
 
 <!--
 - Abbiamo definito le risorse umane
@@ -552,7 +585,7 @@ Il diagramma di Gantt è lo strumento ufficiale per gestire la pianificazione te
 Aggiungere la spiegazione del perchè abbiamo differenziato tra X, UI/UX e coding
 -->
 
-## 4.8 Diagramma di PERT
+## 4.9 Diagramma di PERT
 <!--
 A differenza del diagramma di Gantt che non considera la presenza di legami tra le varie attività, col diagramma di PERT ci si arricchisce e si vanno a identificare tutte le relazioni di precedenza tra le attività stesse.
 
@@ -569,7 +602,7 @@ I percorsi critici o quelli con basso margine (es. pochi giorni) sono gli insiem
 Non ci lavoro solo in fase di PIANIFICAZIONE, ma anche in OTTIMIZZAZIONE (es. voglio che il progetto finisca prima -> aggiungo risorse con l'obiettivo di ridurre la durata delle attività sul percorso critico) e in CONTROLLO.
 -->
 
-## 4.9 Analisi dei Rischi
+## 4.10 Analisi dei Rischi
 
 La gestione dei rischi costituisce un argomento fondamentale, potenzialmente anche molto complesso. Una prima analisi dei rischi era già stata fatta durante lo Scoping (citando i rischi identificati all'interno del POS), ma qui viene arricchita.
 
@@ -598,7 +631,7 @@ Si rimanda il lettore al documento associato, al suo intero sara' presente anche
 -->
 
 
-## 4.10 Project Definition Statement (PDS)
+## 4.11 Project Definition Statement (PDS)
 
 Il [PDS](project_docs/csen_poomsae_score/pds/pds.md) è una versione estesa del POS a uso del team di progetto. In esso si sono riportati elementi di maggior dettaglio, costituenti un ottimo input per le fasi successive e per approfondimenti. Il PDS rappresenta così un punto di riferimento anche per eventuali nuovi membri del team, consentendo loro di rimanere focalizzati sulla corretta direzione e sugli aspetti importanti per il successo del progetto.
 
