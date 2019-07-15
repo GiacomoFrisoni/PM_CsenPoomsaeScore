@@ -2,7 +2,7 @@
 
 # Staff Assignment
 
-## App Android
+## Prima Release (App Android)
 <table>
   <tr>
     <th rowspan="2">Task ID</th>
@@ -63,7 +63,7 @@
   </tr>
 </table>
 
-## Software Gestione Quadrato
+## Seconda Release (Quadrato)
 <table>
   <tr>
     <th rowspan="2">Task ID</th>
@@ -81,10 +81,34 @@
     <td align="center">X</td>
   </tr>
   <tr>
-    <td>1.2.2</td>
-    <td>Ricezione Tornei</td>
+    <td>1.2.2.1</td>
+    <td>Inserimento Anagrafica</td>
+    <td align="center">-</td>
     <td align="center">X</td>
+  </tr>
+  <tr>
+    <td>1.2.2.2.1</td>
+    <td>Parsing da File Excel</td>
     <td align="center">X</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>1.2.2.2.2</td>
+    <td>Apertura Competizione Esistente</td>
+    <td align="center">Coding</td>
+    <td align="center">UI/UX</td>
+  </tr>
+  <tr>
+    <td>1.2.2.3</td>
+    <td>Validazione dei Dati Importati</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+  </tr>
+  <tr>
+    <td>1.2.2.3</td>
+    <td>Gestione Atleti</td>
+    <td align="center">Coding</td>
+    <td align="center">UI/UX</td>
   </tr>
   <tr>
     <td>1.2.3</td>
@@ -159,22 +183,16 @@
     <td align="center">-</td>
   </tr>
   <tr>
-    <td>1.2.3.1.7.2</td>
+    <td>1.2.4.1.7.2</td>
     <td>Gestione Assegnazione Medaglie</td>
     <td align="center">X</td>
     <td align="center">-</td>
   </tr>
   <tr>
-    <td>1.2.4.2.1</td>
-    <td>Salvataggio su file</td>
+    <td>1.2.4.2</td>
+    <td>Gestione Salvataggio</td>
     <td align="center">X</td>
     <td align="center">-</td>
-  </tr>
-  <tr>
-    <td>1.2.4.2.2</td>
-    <td>Invio Risultati al Server</td>
-    <td align="center">X</td>
-    <td align="center">X</td>
   </tr>
   <tr>
     <td>1.2.5</td>
@@ -202,7 +220,7 @@
   </tr>
 </table>
 
-## Server
+## Terza Release (Server + Quadrato)
 
 <table>
   <tr>
@@ -221,81 +239,75 @@
     <td align="center">X</td>
   </tr>
   <tr>
-    <td>1.3.2.1.1</td>
-    <td>Inserimento Anagrafica</td>
-    <td align="center">-</td>
+    <td>1.3.1.2.1</td>
+    <td>Spostamento Configurazione Competizione sul Server</td>
+    <td align="center">X</td>
     <td align="center">X</td>
   </tr>
-  <tr>
-    <td>1.3.2.1.2.1</td>
-    <td>Parsing da File Excel</td>
-    <td align="center">X</td>
-    <td align="center">-</td>
-  </tr>
-  <tr>
-    <td>1.3.2.1.2.2</td>
-    <td>Apertura Competizione Esistente</td>
-    <td align="center">Coding</td>
-    <td align="center">UI/UX</td>
-  </tr>
-  <tr>
-    <td>1.3.2.1.2.3</td>
-    <td>Validazione dei Dati Importati</td>
-    <td align="center">-</td>
-    <td align="center">X</td>
-  </tr>
-  <tr>
-    <td>1.3.2.2.1.1</td>
-    <td>Gestione Atleti</td>
-    <td align="center">Coding</td>
-    <td align="center">UI/UX</td>
-  </tr>
-  <tr>
-    <td>1.3.2.2.1.2</td>
+    <tr>
+    <td>1.3.1.2.2</td>
     <td>Gestione Trasferimenti</td>
     <td align="center">Coding</td>
     <td align="center">UI/UX</td>
   </tr>
   <tr>
-    <td>1.3.2.2.2</td>
+    <td>1.3.2.2.3</td>
     <td>Partizionamenti Tornei - Quadrati</td>
     <td align="center">Coding</td>
     <td align="center">UI/UX</td>
   </tr>
   <tr>
-    <td>1.3.3.1</td>
+    <td>1.3.1.3.1</td>
     <td>Raccolta Punteggi e Classifiche Locali</td>
     <td align="center">X</td>
     <td align="center">X</td>
   </tr>
   <tr>
-    <td>1.3.3.2</td>
+    <td>1.3.1.3.2</td>
     <td>Gestione Classifica Globale</td>
     <td align="center">X</td>
     <td align="center">-</td>
   </tr>
   <tr>
-    <td>1.3.4</td>
+    <td>1.3.1.4</td>
     <td>Gestione Salvataggio</td>
     <td align="center">X</td>
     <td align="center">-</td>
   </tr>
   <tr>
-    <td>1.3.5</td>
+    <td>1.3.1.5</td>
     <td>Impostazioni</td>
     <td align="center">Coding</td>
     <td align="center">UI/UX</td>
   </tr>
   <tr>
-    <td>1.3.6.1</td>
+    <td>1.3.1.6.1</td>
     <td>Legame Atleta - Quadrato</td>
     <td align="center">-</td>
     <td align="center">X</td>
   </tr>
   <tr>
-    <td>1.3.6.2</td>
+    <td>1.3.1.6.2</td>
     <td>Classifica Globale</td>
     <td align="center">-</td>
+    <td align="center">X</td>
+  </tr>
+  <tr>
+    <td>1.3.2.1.1</td>
+    <td>Rimozione Feature Coperte dal Server</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+  </tr>
+  <tr>
+    <td>1.3.2.1.2</td>
+    <td>Ricezione Tornei</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+  </tr>
+  <tr>
+    <td>1.3.2.1.3</td>
+    <td>Invio Risultati al Server</td>
+    <td align="center">X</td>
     <td align="center">X</td>
   </tr>
 </table>

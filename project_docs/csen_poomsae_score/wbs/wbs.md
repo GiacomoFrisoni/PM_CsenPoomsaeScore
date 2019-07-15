@@ -150,13 +150,13 @@ Realizzazione della schermata d'apertura del software contenente il menù per l'
 ### 1.3.1.2.1 Spostamento Configurazione Competizione sul Server
 Il carico di lavoro della "Configurazione Competizione" viene sposto sul server, integrando e aggiundendo parti relative alla comunicazione quadrato-server.
 
-### 1.3.1.2.2 Partizionamento Tornei - Quadrati
-
-Divisione dei tornei da gestire tra i vari software di quadrato di gara e realizzazione della relativa comunicazione wireless. In caso di assenza di rete, prevedere il salvataggio di tali informazioni su file per consentire un loro caricamento manuale.
-
-### 1.3.1.2.3 Gestione Trasferimenti
+### 1.3.1.2.2 Gestione Trasferimenti
 
 Gestione dei trasferimenti degli atleti tra tornei. Per facilitare tale operazione, si prevede anche lo sviluppo di una funzionalità per l'individuazione automatica di atleti con un solo partecipante e la visualizzazione ordinata dei tornei in base al numero di partecipanti.
+
+### 1.3.1.2.3 Partizionamento Tornei - Quadrati
+
+Divisione dei tornei da gestire tra i vari software di quadrato di gara e realizzazione della relativa comunicazione wireless. In caso di assenza di rete, prevedere il salvataggio di tali informazioni su file per consentire un loro caricamento manuale.
 
 ### 1.3.1.3.1 Raccolta Puntegggi e Classifiche Locali
 
