@@ -349,7 +349,7 @@ Gli aspetti principali che si sono considerati per la creazione del documento so
 
 ## 3.7. Classificazione del progetto
 Al fine di avere una prima indicazione dell'overhead (ovvero del tempo di gestione da dedicare al progetto), si è realizzata anche una classificazione di Csen Poomsae Score. Per far ciò, PunchCode si appoggia a un proprio [template](project_docs/project_classification/project_classification.md), basandosi su caratteristiche quali durata in ordine di grandezza, classe di rischio, livello di complessità (determinato, ad esempio, dal numero di persone che vi lavorano e dal conseguenziale bisogno di comunicazione), tecnologia impiegata e probabilità di problemi.
-Tale classificazione è svolta con la partecipazione di entrambi i dipendenti di PunchCode (che rappresentano sia i Project Manager - con l'impersonificazione da parte di uno del ruolo di Architetto, che il team). Si osserva quindi come la sua funzione sia anche quella di comprendere se valga la pena approfondire o meno (dal momento che anche tale operazione ha un costo).
+Tale classificazione è svolta con la partecipazione di entrambi i dipendenti di PunchCode (che rappresentano sia i Project Manager - con l'impersonificazione da parte di uno del ruolo di Architetto, che il team). Si osserva quindi come la sua funzione sia anche quella di comprendere se valga la pena approfondire o meno (dal momento che anche tale operazione ha un costo). Un'operazione di questo tipo consente anche di avere una stima grossolana per quanto concerne il rischio complessivo dell'intero progetto, che potrebbe influenzare effettivamente la partenza o meno del progetto stesso.
 
 Nonostante si sia classificato il progetto con un rischio medio-alto (tipo B), PunchCode decide comunque di assumersi il rischio di proseguirlo nella sua gestione, considerando questa opportunità come base per lanciarsi in un nuovo mercato ed acquisire esperienza (know how).
 
@@ -571,33 +571,36 @@ Non ci lavoro solo in fase di PIANIFICAZIONE, ma anche in OTTIMIZZAZIONE (es. vo
 
 ## 4.9 Analisi dei Rischi
 
-<!--
-- 4 categorie.
-- Nel valutare l'impatto si è ragionato tenendo conto del caso peggiore.
-- Ogni quanto ri-identificare e rivalutare i rischi (approccio dinamico).
+La gestione dei rischi costituisce un argomento fondamentale, potenzialmente anche molto complesso. Una prima analisi dei rischi era già stata fatta durante lo Scoping (citando i rischi identificati all'interno del POS), ma qui viene arricchita.
+
+Un rischio è un evento non certo che può portare a conseguenze negative sul progetto.
+Il documento all'interno del quale si sono riportate le varie informazioni associate alle prime fasi del ciclo di vita del Risk Management è disponibile al seguente [allegato](project_docs/csen_poomsae_score/risk_management/risk_identification_assessment.md).  
+Il template della tabella in oggetto elenca gli eventi costituenti un rischio per il progetto CsenPoomsaeScore e il loro identificativo. Per ogni rischio identificato si specificano anche la relativa categoria di appartenenza (*technical*, *project management*, *organizational*, *external*) e gli aspetti del triangolo dello scope su cui esso incide (*scope*, *time*, *cost*, *quality*, *resources*). Sotto quest'ultimo punto di vista, PunchCode ha ritenuto opportuno non limitarsi a indicare una sola area d'incidenza, ritenendo questa scelta eccessivamente approssimatoria. Per quanto concerne la fase di valutazione, invece, la stima della *probabilità* che l'evento avverso si verifichi e dell'eventuale *impatto* sul progetto è indicata nelle rispettive colonne. Si osserva come nel far questo, l'azienda abbia preferito non esprimere un valore puntuale con una precisione espressa in decimali (sia in termini probabilistici che economici) ma ricorrere all'impiego di fasce (*high*, *medium*, *low*). Come conseguenza di quest'ultima scelta, appare chiaro come non sia possibile esprimere un impatto atteso in forma economica. PunchCode ha così deciso di limitarsi alla specifica della rilevanza di ogni rischio sulla base della sua probabilità e del suo impatto, seguendo una [Risk Matrix](project_docs/csen_poomsae_score/risk_management/qualitative_risk_assessment.md) per la valutazione qualitativa. Attraverso l'uso di tale matrice, infatti, si è in grado di classificare l'impatto atteso di un certo rischio in una tra le seguenti tre categorie.
+1) *Ignore*. Il rischio ha un impatto atteso irrilevante e può pertanto essere ignorato (evitando un investimento economico e l'attivazione di una fase di monitoraggio e controllo non necessari).
+2) *Consider*. Il rischio ha un impatto atteso che merita di essere considerato.
+3) *Take Action*. Il rischio ha un impatto atteso elevato e richiede indubbiamente un intervento.
+
+Come è possibile vedere dal documento, il rischio di lock-in verso CSEN identificato in Scoping qui non è più presente dal momento che - giunti a questa fase del Planning - esso costituisce un evento certo (di cui si è già discusso e che verrà riportato anche nella successiva fase di stesura del contratto).
+
+Sempre sul piano della valutazione, la startup preferisce adottare un **Risk Assessment Dinamico**, reidentificando i rischi e rivalutandoli periodicamente (compiendo aggiornamenti con l'avanzare del progetto e non limitarsi a un'unica operazione di questa natura durante il Planning). Man mano che le attività vengono eseguite, infatti, si acquisiscono nuove informazioni che possono essere utilizzate nella stima della probabilità e dell'impatto di ciascun rischio. Nonostante abbia un overhead (anche in termini di costo) maggiore, l'approccio dinamico si rivela pertanto più efficace e capace di realizzare un'analisi puntuale.  
+Segue pertanto come la tabella precedentemente descritta sia frutto di modifiche periodiche, di cui si tiene traccia grazie a sistemi di versioning.
+
+Inoltre, nello svolgere la stima sia della probabilità che dell'impatto di ogni rischio, si è deciso di adottare la stessa tecnica "**consensus-based**" impiegata per la stima della durata dei task (con l'obiettivo di giungere a risultati più accurati e stimolare discussioni relativamente alle visioni di ogni membro di PunchCode). Si sottolinea anche come ogni valutazione sia stata effettuata considerando sempre il caso peggiore. Per semplificare la trattazione e concentrarsi sugli aspetti di maggior interesse, il documento riporta direttamente le stime finali ottenute a seguito dei vari round. 
+
+Confrontando il documento dell'analisi dei rischi presentato in questa sezione con il contenuto del POS ottenuto a fine Scoping, si può evincere la presenza di rischi prima non identificati (emersi solo durante il Planning). Come è possibile vedere dal documento, infine, il rischio di lock-in verso CSEN identificato in Scoping qui non è più presente dal momento che - giunti a questa fase del Planning - esso costituisce un evento certo (di cui si è già discusso e che verrà riportato anche nella successiva fase di stesura del contratto).
+
+<!-- Ogni quanto rivalutare -->
+<!-- Mitigazione (ridurre l'impatto qualora dovesse capitare davvero)
+
+Le motivazioni e le contromisure sono state direttamente spiegate all'interno del documento per far si di snellire questo documento e perche' puo' essere effettivamente utile avere all'interno del template una spiegazione discorsiva dell'analisi.
+
+Si rimanda il lettore al documento associato, al suo intero sara' presente anche una spiegazione delle motivazioni percui si sono scelti certi rischi e le possibili contromisure. La presenza di un'analisi dei rischi a questo livello consente di individuare problematiche specifiche del requisito in esame e di prepararsi quindi nel caso qualcuno di quelli individuati si verifichi.
 -->
 
-<!-- 
- - Ricordarsi del caso peggiore (tutte le analisi sono nel caso peggiore)
- - Consensus-based può essere usato nell'analisi dei riski (l'abbiamo usata anche per questo
-  
-RISCHI:
- - Tecnologia che conosciamo bene? Incompatibilità?
- - Project Manager lo fa l'architetto
- - La prima volta che facciamo SCRUM
- - Risorse non necessarie, incomprensioni, non concentrazione sufficiente
- - Rischi esterni: nuovi requisiti legali, normative?
- - Il cliente abortisce il progetto
- - Fascia, alta bassa, media
- - Impatto attezo = probabilita / impatto
- - 1% 
--->
 
 ## 4.10 Project Definition Statement (PDS)
 
 Il [PDS](project_docs/csen_poomsae_score/pds/pds.md) è una versione estesa del POS a uso del team di progetto. In esso si sono riportati elementi di maggior dettaglio, costituenti un ottimo input per le fasi successive e per approfondimenti. Il PDS rappresenta così un punto di riferimento anche per eventuali nuovi membri del team, consentendo loro di rimanere focalizzati sulla corretta direzione e sugli aspetti importanti per il successo del progetto.
-
-
 
 <!--
 - *Applicazione Android*.  
