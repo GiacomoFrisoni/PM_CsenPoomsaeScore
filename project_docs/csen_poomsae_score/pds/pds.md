@@ -243,25 +243,46 @@
             <i>Rischi</i>
             <ul>
                 <li>
-                Essendo il primo progetto per "PunchCode", vi è il rischio che questo fallisca a causa dell'inesperienza nella gestione dei processi relativi alla progettazione e allo sviluppo.
+                Le caratterristiche tecniche dei laptop e del server in dotazione al cliente potrebbero incidere sull'usabilità delle soluzioni software, limitandone le performance.
                 </li>
                 <li>
-                Il passaggio da una soluzione completamente manuale ad una pienamente informatizzata, potrebbe costituire - sul piano del change management - un cambiamento non pienamente accolto da tutto il personale di CSEN. Di conseguenza, la soluzione fornita potrebbe non essere sfruttata al massimo delle sue potenzialità (discostandosi dai success criteria definiti).
+                A causa dell'anticipazione di alcune funzionalità per il rilascio di release intermedie, la loro futura integrazione potrebbe richiedere di svolgere nuovamente alcune parti di lavoro.
                 </li>
                 <li>
-                Essendo una soluzione sviluppata ad hoc per il cliente, vi è il rischio di un lock-in verso CSEN.
+                Bisogno inaspettato di acquistare software.
                 </li>
                 <li>
-                La flessibilità lasciata al committente con le minor-release potrebbe portare ad un non rispetto del rilascio puntuale delle major-release.
+                PunchCode potrebbe riscontrare difficoltà nella gestione delle comunicazioni a causa della sua inesperienza coi protocolli di rete.
                 </li>
                 <li>
-                L'eventuale aggiornamento della dotazione tecnica utilizzata dal cliente in futuro potrebbe rivelarsi incompatibile con la soluzione proposta.
+                Le stime delle durate dei task potrebbero essere inaccurate (ottimistiche o pessimistiche) a causa dell'inesperienza di PunchCode. 
                 </li>
                 <li>
-                Il ruolo dell'Architetto è ricoperto dal Project Manager Marcin Pabich. Nonostante questa scelta abbia l'intento di far emergere considerazioni derivanti da un conflitto d'interessi tra le due figure, ciò potrebbe comunque rivelarsi inefficace (a causa dell'impersonificazione dei due ruoli contrastanti da parte della stessa persona). 
+                L'assenza di dati storici da parte di PunchCode potrebbe causare un'errata quantificazione delle probabilità di perdite associate ai rischi.
                 </li>
                 <li>
-                A causa del ridotto numero di dipendenti, "PunchCode" si assume il rischio di non presentare le risorse sufficienti per affrontare il progetto in questione nei tempi concordati.
+                Le richieste di cambiamento di scope da parte del committente potrebbero essere frequenti e significative.
+                </li>
+                <li>
+                Le assunzioni potrebbero essere inaccurate.
+                </li>
+                <li>
+                La mancanza di figure specializzate nella conduzione e gestione dei meeting potrebbe rendere quest'ultimi inefficienti.
+                </li>
+                <li>
+                L'interpretazione del ruolo di Architetto da parte di un Project Manager potrebbe non portare ai vantaggi attesi (anche a causa dell'inesperienza).
+                </li>
+                <li>
+                La scarsa competenza informatica degli utilizzatori del sistema potrebbe portare a un uso inefficiente di quest'ultimo.
+                </li>
+                <li>
+                Il ridotto numero dei dipendenti di PunchCode potrebbe portare non essere sufficiente per affrontare il progetto nei tempi concordati.
+                </li>
+                <li>
+                CSEN potrebbe modificare le modalità di gestione delle competizioni di Taekwondo in maniera significativa.
+                </li>
+                <li>
+                CSEN potrebbe decidere di abortire il progetto.
                 </li>
             </ul>
             <br/>
