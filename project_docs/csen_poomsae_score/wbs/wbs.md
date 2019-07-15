@@ -1,6 +1,6 @@
 # WBS
 
-Tutte le attività di seguito riportate comprendono anche lo sviluppo della relativa parte grafica, ove questo non sia esplicitamente specificato.
+Tutte le attività di seguito riportate comprendono anche lo sviluppo della relativa parte grafica, ove questo non sia esplicitamente specificato (escluse le parti di integrazione quadrato-server, le relative comunicazioni e feature riguardanti il salvataggio su file).
 
 ## App Android
 
@@ -45,9 +45,25 @@ Sviluppo di una schermata con delle impostazioni per l'applicazione e per il dev
 
 Realizzazione della schermata d'apertura del software contenente il menù per l'accesso alle funzionalità di avvio di una nuova competizione e impostazioni.
 
-### 1.2.2 Ricezione Tornei
+### 1.2.2.1 Inserimento Anagrafica
 
-Raccolta dal server dell'elenco di tornei che il software di quadrato deve gestire. Qualora la rete non sia disponibile, prevedere il caricamento di tali dati da file.
+Registrazione dell'anagrafica della competizione (nome della competizione e numero di giudici nei quadrati di gara).
+
+### 1.2.2.2.1 Parsing da File Excel
+
+Sviluppo del parsing per il caricamento dei dati a partire dal file Excel degli atleti. Creazione automatica dei tornei (di ogni tipologia) e dei relativi partecipanti in base ai parametri di ogni atleta.
+
+### 1.2.2.2.2 Apertura Competizione Esistente
+
+Deserializzazione del file .json contenente tutti i dati della competizione selezionata, consentendo la scelta tra quelli presenti all'interno della directory di default o il caricamento di quello desiderato da file system.
+
+### 1.2.2.2.3 Validazione dei Dati Importati
+
+Sviluppo della schermata riepilogativa per quanto concerne i tornei automaticamente creati e l'elenco dei rispettivi atleti partecipanti, ottenuta a partire dal file Excel. Ottenimento della conferma da parte dell'utente per la loro validazione.
+
+### 1.2.2.3 Gestione Atleti
+
+Realizzazione delle funzionalità di inserimento, modifica ed eliminazione di atleti.
 
 ### 1.2.3 Selezione Torneo
 
@@ -104,13 +120,10 @@ Applicazione delle regole per la determinazione degli atleti vincitori del passa
 
 Calcolo dei vincitori del torneo e relativa assegnazione delle medaglie (calcolo della classifica locale).
 
-### 1.2.4.2.1 Salvataggio su file
+### 1.2.4.2 Gestione Salvataggio
 
-Gestione del salvataggio consistente su file .json di tutti i dati relativi ai tornei in carico al quadrato (serializzazione).
+Salvataggio consistente su file .json di tutti i dati relativi ai tornei in carico al quadrato (serializzazione).
 
-### 1.2.4.2.2 Invio Risultati al Server
-
-Invio al server del punteggio finale di ogni poomsae al completamento della sua valutazione, invio delle casistiche di ritiro e invio della classifica locale di un torneo all'atto della sua chisura.
 
 ### 1.2.5 Impostazioni
 Sviluppo della schermata dedicata alla gestione dell'associazione coi tablet dei giudici (necessaria per la raccolta wireless dei punteggi). Deve essere mostrato il riepilogo dei dispositivi attualmente connessi, permettendo eventualmente il loro disaccoppiamento.
@@ -134,57 +147,51 @@ Gestione della schermata da visualizzare sulla finestra del monitor di torneo de
 ### 1.3.1 Menù Principale
 Realizzazione della schermata d'apertura del software contenente il menù per l'accesso alle funzionalità di creazione di una nuova competizione, apertura di una competizione già esistente e impostazioni.
 
-### 1.3.2.1.1 Inserimento Anagrafica
+### 1.3.1.2.1 Spostamento Configurazione Competizione sul Server
+Il carico di lavoro della "Configurazione Competizione" viene sposto sul server, integrando e aggiundendo parti relative alla comunicazione quadrato-server.
 
-Registrazione dell'anagrafica della competizione (nome della competizione e numero di giudici nei quadrati di gara).
-
-### 1.3.2.1.2.1 Parsing da File Excel
-
-Sviluppo del parsing per il caricamento dei dati a partire dal file Excel degli atleti. Creazione automatica dei tornei (di ogni tipologia) e dei relativi partecipanti in base ai parametri di ogni atleta.
-
-### 1.3.2.1.2.2 Apertura Competizione Esistente
-
-Deserializzazione del file .json contenente tutti i dati della competizione selezionata, consentendo la scelta tra quelli presenti all'interno della directory di default o il caricamento di quello desiderato da file system.
-
-### 1.3.2.1.2.3 Validazione dei Dati Importati
-
-Sviluppo della schermata riepilogativa per quanto concerne i tornei automaticamente creati e l'elenco dei rispettivi atleti partecipanti, ottenuta a partire dal file Excel. Ottenimento della conferma da parte dell'utente per la loro validazione.
-
-### 1.3.2.2.1.1 Gestione Atleti
-
-Realizzazione delle funzionalità di inserimento, modifica ed eliminazione di atleti.
-
-### 1.3.2.2.1.2 Gestione Trasferimenti
-
-Gestione dei trasferimenti degli atleti tra tornei. Per facilitare tale operazione, si prevede anche lo sviluppo di una funzionalità per l'individuazione automatica di atleti con un solo partecipante e la visualizzazione ordinata dei tornei in base al numero di partecipanti.
-
-### 1.3.2.2.2 Partizionamento Tornei - Quadrati
+### 1.3.1.2.2 Partizionamento Tornei - Quadrati
 
 Divisione dei tornei da gestire tra i vari software di quadrato di gara e realizzazione della relativa comunicazione wireless. In caso di assenza di rete, prevedere il salvataggio di tali informazioni su file per consentire un loro caricamento manuale.
 
-### 1.3.3.1 Raccolta Puntegggi e Classifiche Locali
+### 1.3.1.2.3 Gestione Trasferimenti
+
+Gestione dei trasferimenti degli atleti tra tornei. Per facilitare tale operazione, si prevede anche lo sviluppo di una funzionalità per l'individuazione automatica di atleti con un solo partecipante e la visualizzazione ordinata dei tornei in base al numero di partecipanti.
+
+### 1.3.1.3.1 Raccolta Puntegggi e Classifiche Locali
 
 Gestione della raccolta dei punteggi legati a ogni poomsae e delle classifiche di fine torneo, da parte dei software di gestione di gara (con caricamento manuale di questi ultimi in caso di assenza di rete).
 
-### 1.3.3.2 Gestione Classifica Globale
+### 1.3.1.3.2 Gestione Classifica Globale
 
 Elaborazione della classifica globale dedicata alle palestre sulla base delle medaglie ricevute dai loro atleti. Gestire l'aggiornamento di quest'ultima ogni qualvolta venga ricevuta una classifica locale all'atto di completamento di un torneo. 
 
-### 1.3.4 Gestione Salvataggio
+### 1.3.1.4 Gestione Salvataggio
 
 Gestione del salvataggio consistente su file .json di tutti i dati legati alla competizione.
 
-### 1.3.5 Impostazioni
+### 1.3.1.5 Impostazioni
 Sviluppo della schermata dedicata alla gestione delle impostazioni generali per un qualunque torneo interno alla competizione. Le voci previste devono essere le seguenti:
 - soglia di passaggio da eliminatorie a semifinali;
 - soglia di passaggio da semifinali a finali;
 - tempo di attesa tra prima e seconda poomsae.
 L'apportamento di modifiche deve essere possibile solo prima dell'avvio di una competizione.
 
-### 1.3.6.1 Legame Atleta - Quadrato
+### 1.3.1.6.1 Legame Atleta - Quadrato
 
 Gestione della schermata da visualizzare sulla finestra del monitor esterno dedicata alla composizione di ogni quadrato in termini di atleti.
 
-### 1.3.6.2 Classifica Globale
+### 1.3.1.6.2 Classifica Globale
 
 Gestione della schermata da visualizzare sulla finestra del monitor esterno dedicata alla classifica globale delle palestre.
+
+### 1.3.2.1.1 Rimozione Feature Coperte dal Server
+Eliminazione delle funzionalità coperte ora lato server, gestendo anche la relativa comunicazione quadrato-server.
+
+### 1.3.2.1.2 Ricezione Tornei
+
+Raccolta dal server dell'elenco di tornei che il software di quadrato deve gestire. Qualora la rete non sia disponibile, prevedere il caricamento di tali dati da file.
+
+### 1.3.2.1.3 Invio Risultati al Server
+
+Invio al server del punteggio finale di ogni poomsae al completamento della sua valutazione, invio delle casistiche di ritiro e invio della classifica locale di un torneo all'atto della sua chisura.
