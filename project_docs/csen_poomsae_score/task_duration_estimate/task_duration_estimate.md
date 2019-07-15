@@ -169,14 +169,80 @@
     <td align="center">2</td>
     <td align="center">-</td>
   </tr>
-  <tr>
-    <td rowspan="2">1.2.2</td>
-    <td rowspan="2">Ricezione Tornei</td>
+<tr>
+    <td rowspan="2">1.2.2.1</td>
+    <td rowspan="2">Inserimento Anagrafica</td>
     <td align="right">Giacomo Frisoni</td>
+    <td align="center">1</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td rowspan="2" align="center">1</td>
+  </tr>
+  <tr>
+    <td align="right">Marcin Pabich</td>
+    <td align="center">1</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td rowspan="2">1.2.2.2.1</td>
+    <td rowspan="2">Parsing da File Excel</td>
+    <td align="right">Giacomo Frisoni</td>
+    <td align="center">8</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td rowspan="2" align="center">8</td>
+  </tr>
+  <tr>
+    <td align="right">Marcin Pabich</td>
+    <td align="center">8</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td rowspan="2">1.2.2.2.2</td>
+    <td rowspan="2">Apertura Competizione Esistente</td>
+    <td align="right">Giacomo Frisoni</td>
+    <td align="center">3</td>
+    <td align="center">3</td>
+    <td align="center">-</td>
+    <td rowspan="2" align="center">3</td>
+  </tr>
+  <tr>
+    <td align="right">Marcin Pabich</td>
     <td align="center">2</td>
-    <td align="center">2</td>
-    <td align="center">2</td>
-    <td rowspan="2" align="center">2</td>
+    <td align="center">3</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td rowspan="2">1.2.2.2.3</td>
+    <td rowspan="2">Validazione dei Dati Importati</td>
+    <td align="right">Giacomo Frisoni</td>
+    <td align="center">3</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td rowspan="2" align="center">3</td>
+  </tr>
+  <tr>
+    <td align="right">Marcin Pabich</td>
+    <td align="center">3</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td rowspan="2">1.2.2.3</td>
+    <td rowspan="2">Gestione Atleti</td>
+    <td align="right">Giacomo Frisoni</td>
+    <td align="center">3</td>
+    <td align="center">3</td>
+    <td align="center">4</td>
+    <td rowspan="2" align="center">4</td>
+  </tr>
+  <tr>
+    <td align="right">Marcin Pabich</td>
+    <td align="center">4</td>
+    <td align="center">4</td>
+    <td align="center">4</td>
   </tr>
   <tr>
     <td align="right">Marcin Pabich</td>
@@ -380,8 +446,8 @@
     <td align="center">-</td>
   </tr>
   <tr>
-    <td rowspan="2">1.2.4.2.1</td>
-    <td rowspan="2">Salvataggio su file</td>
+    <td rowspan="2">1.2.4.2</td>
+    <td rowspan="2">Gestione Salvataggio</td>
     <td align="right">Giacomo Frisoni</td>
     <td align="center">7</td>
     <td align="center">7</td>
@@ -393,21 +459,6 @@
     <td align="center">4</td>
     <td align="center">8</td>
     <td align="center">8</td>
-  </tr>
-  <tr>
-    <td rowspan="2">1.2.4.2.2</td>
-    <td rowspan="2">Invio Risultati al Server</td>
-    <td align="right">Giacomo Frisoni</td>
-    <td align="center">3</td>
-    <td align="center">-</td>
-    <td align="center">-</td>
-    <td rowspan="2" align="center">3</td>
-  </tr>
-  <tr>
-    <td align="right">Marcin Pabich</td>
-    <td align="center">3</td>
-    <td align="center">-</td>
-    <td align="center">-</td>
   </tr>
   <tr>
     <td rowspan="2">1.2.5</td>
@@ -502,80 +553,21 @@
     <td align="center">-</td>
   </tr>
   <tr>
-    <td rowspan="2">1.3.2.1.1</td>
-    <td rowspan="2">Inserimento Anagrafica</td>
+    <td rowspan="2">1.3.1</td>
+    <td rowspan="2">Spostamento Configurazione Competizione sul Server</td>
     <td align="right">Giacomo Frisoni</td>
-    <td align="center">1</td>
+    <td align="center">( ͡° ͜ʖ ͡°)</td>
     <td align="center">-</td>
     <td align="center">-</td>
-    <td rowspan="2" align="center">1</td>
+    <td rowspan="2" align="center">2</td>
   </tr>
   <tr>
     <td align="right">Marcin Pabich</td>
-    <td align="center">1</td>
+    <td align="center">5</td>
     <td align="center">-</td>
     <td align="center">-</td>
   </tr>
-  <tr>
-    <td rowspan="2">1.3.2.1.2.1</td>
-    <td rowspan="2">Parsing da File Excel</td>
-    <td align="right">Giacomo Frisoni</td>
-    <td align="center">8</td>
-    <td align="center">-</td>
-    <td align="center">-</td>
-    <td rowspan="2" align="center">8</td>
-  </tr>
-  <tr>
-    <td align="right">Marcin Pabich</td>
-    <td align="center">8</td>
-    <td align="center">-</td>
-    <td align="center">-</td>
-  </tr>
-  <tr>
-    <td rowspan="2">1.3.2.1.2.2</td>
-    <td rowspan="2">Apertura Competizione Esistente</td>
-    <td align="right">Giacomo Frisoni</td>
-    <td align="center">3</td>
-    <td align="center">3</td>
-    <td align="center">-</td>
-    <td rowspan="2" align="center">3</td>
-  </tr>
-  <tr>
-    <td align="right">Marcin Pabich</td>
-    <td align="center">2</td>
-    <td align="center">3</td>
-    <td align="center">-</td>
-  </tr>
-  <tr>
-    <td rowspan="2">1.3.2.1.2.3</td>
-    <td rowspan="2">Validazione dei Dati Importati</td>
-    <td align="right">Giacomo Frisoni</td>
-    <td align="center">3</td>
-    <td align="center">-</td>
-    <td align="center">-</td>
-    <td rowspan="2" align="center">3</td>
-  </tr>
-  <tr>
-    <td align="right">Marcin Pabich</td>
-    <td align="center">3</td>
-    <td align="center">-</td>
-    <td align="center">-</td>
-  </tr>
-  <tr>
-    <td rowspan="2">1.3.2.2.1.1</td>
-    <td rowspan="2">Gestione Atleti</td>
-    <td align="right">Giacomo Frisoni</td>
-    <td align="center">3</td>
-    <td align="center">3</td>
-    <td align="center">4</td>
-    <td rowspan="2" align="center">4</td>
-  </tr>
-  <tr>
-    <td align="right">Marcin Pabich</td>
-    <td align="center">4</td>
-    <td align="center">4</td>
-    <td align="center">4</td>
-  </tr>
+  <!--oooooooooooooooooooooooooooooooooooooooooooooooooooooooooo-->
   <tr>
     <td rowspan="2">1.3.2.2.1.2</td>
     <td rowspan="2">Gestione Trasferimenti</td>
@@ -694,6 +686,30 @@
     <td align="right">Marcin Pabich</td>
     <td align="center">2</td>
     <td align="center">2</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td rowspan="2">1.2.2</td>
+    <td rowspan="2">Ricezione Tornei</td>
+    <td align="right">Giacomo Frisoni</td>
+    <td align="center">2</td>
+    <td align="center">2</td>
+    <td align="center">2</td>
+    <td rowspan="2" align="center">2</td>
+  </tr>
+  <tr>
+    <td rowspan="2">1.2.4.2.2</td>
+    <td rowspan="2">Invio Risultati al Server</td>
+    <td align="right">Giacomo Frisoni</td>
+    <td align="center">3</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td rowspan="2" align="center">3</td>
+  </tr>
+  <tr>
+    <td align="right">Marcin Pabich</td>
+    <td align="center">3</td>
+    <td align="center">-</td>
     <td align="center">-</td>
   </tr>
 </table>
