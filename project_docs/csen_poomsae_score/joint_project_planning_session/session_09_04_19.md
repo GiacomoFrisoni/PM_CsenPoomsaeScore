@@ -6,7 +6,7 @@
 **Materiale**: ____________________
 
 ## Oggetto
-Seconda sessione JPPS riguardante il progetto CSEN Poomsae Score. Verranno stimati i tempi e le risorse necessarie. Inoltre saranno costruiti i diagrammi di Gant e di PERT.
+Seconda sessione JPPS riguardante il progetto CSEN Poomsae Score. Verranno stimati i tempi e le risorse necessarie. Inoltre sarà costruito il Project Network Diagram.
 
 ## Partecipanti
 - **Project Manager fornitore:**
@@ -39,14 +39,11 @@ Seconda sessione JPPS riguardante il progetto CSEN Poomsae Score. Verranno stima
         <td align="center"></td>
     </tr>
     <tr>
-        <td>Costruzione del diagramma di Gantt</td>
-        <td align="center">11:00 - 13:00</td>
-        <td align="center">Giacomo Frisoni</td>
-        <td align="center"></td>
-    </tr>
-    <tr>
-        <td>Costruzione del diagramma di PERT</td>
-        <td align="center">14:00 - 16:00</td>
+        <td>Costruzione del Project Network Diagram</td>
+        <td align="center">
+            11:00 - 13:00<br/>
+            14:00 - 16:00
+        </td>
         <td align="center">Giacomo Frisoni</td>
         <td align="center"></td>
     </tr>
