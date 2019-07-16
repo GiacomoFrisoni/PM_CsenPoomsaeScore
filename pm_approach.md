@@ -417,11 +417,9 @@ Una volta concluse le presentazioni, è discussa la prioritizzazione dei requisi
 ### 4.1.2 Sessione #2
 Alla seconda sessione partecipano soltanto i membri di PunchCode.
 
-L'incontro ha inizio con la stima della quantità di lavoro, della durata e delle risorse richieste per lo svolgimento delle singole attività che si sono individuate con la WBS. Si giunge così alla costruzione del [Gantt](project_docs/csen_poomsae_score/gantt/gantt.png).
+L'incontro ha inizio con la stima della quantità di lavoro, della durata e delle risorse richieste per lo svolgimento delle singole attività che si sono individuate con la WBS. Si giunge così alla costruzione del [Gantt](project_docs/csen_poomsae_score/gantt/gantt.gif).
 
-Successivamente si procede alla definizione delle dipendenze tra le varie attività, ottenendo il diagramma di [PERT](project_docs/csen_poomsae_score/pert/pert.png) e continuando con la parte centrale del meeting: l'individuazione e la discussione del *critical path*, delle date previste per il completamente del progetto e delle diverse milestone. Se necessario, si considera una compressione della schedula a fini di ottimizzazione. Una scelta non corretta delle date di completamento di una o più milestone potrebbe originare un malcontento da parte del committente e la crescita di stress all'interno del gruppo di lavoro.
-
-<!-- Microsoft Project -->
+Successivamente si procede alla definizione delle dipendenze tra le varie attività, ottenendo il diagramma di PERT e continuando con la parte centrale del meeting: l'individuazione e la discussione del *critical path*, delle date previste per il completamente del progetto e delle diverse milestone. Se necessario, si considera una compressione della schedula a fini di ottimizzazione. Una scelta non corretta delle date di completamento di una o più milestone potrebbe originare un malcontento da parte del committente e la crescita di stress all'interno del gruppo di lavoro.
 
 ### 4.1.3 Sessione #3
 Alla terza sessione prendono parte gli stessi partecipanti della seconda.
