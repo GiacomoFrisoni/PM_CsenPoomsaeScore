@@ -451,23 +451,16 @@ Nonostante questa scelta provochi una ricaduta sia sui tempi di realizzazione ch
 
 Inoltre, si osserva come gli incrementi appena descritti si compongano di numerose attività (specie nel caso della seconda release principale). Considerando l'elevata disponibilità da parte del cliente - oltre alle milestone discussse - si sono anche considerati dei rilasci intermedi (sempre sulla base delle priorità legate alle attività di cui ogni macro-release si compone).
 
-Nei vari meeting intrapresi col committente è emerso come CSEN disponga anticipatamente del [calendario](project_docs/csen_poomsae_score/pds/pds.md) di tutti i tornei previsti nel corso dell'anno. 
-A differenza degli incrementi principali, le release minori non sono pianificate. 
+Nei vari meeting intrapresi col committente è emerso come CSEN disponga anticipatamente del [calendario](project_docs/csen_poomsae_score/pds/pds.md) di tutte le competizioni previste nel corso dell'anno.
+In accordo col cliente, si è così scelto di rilasciare le release minori eventualmente disponibili (con le nuove funzionalità sviluppate internamente a una macro release) con almeno 3 giorni di anticipo rispetto la data di ogni competizione. Questa scelta consente di coinvolgere maggiormente il committente nel corso della realizzazione del progetto e di ricevere un maggior numero di riscontri da parte sua. In questo modo, inoltre, si ha la possibilità di testare le nuove funzionalità sviluppate direttamente in un ambiente e in un contesto reale (facendo emergere eventuali problematiche da correggere che altrimenti sarebbe stato difficile riconoscere).
+A differenza degli incrementi principali, le release minori non sono pianificate (anche al fine di lasciare al fornitore una maggiore flessibilità nella gestione del progetto). Esse fanno riferimento a nuove versioni utilizzabili dell'applicazione cui si è giunti nei giorni subito antecedenti a una competizione, a partire dalle attività con maggior priorità. 
 
-- Calendario tornei e micro-release
+Si sottolinea anche come l'applicazione Android sia di dimensioni sufficientemente ridotte da consentire un suo rilascio in un'unica soluzione. Di conseguenza, le release minori avranno luogo solo nel contesto della seconda e della terza macro-release.
 
-<!--
-
-L'applicazione Android è sufficientemente di ridotte dimensioni per consentire un unico rilascio.
-
-Oltre a queste, vengono previsti anche dei rilasci incrementali minori, a scopo di ottenere man mano un diretto riscontro dal cliente (che nel corso delle sessioni del Project Scoping Meeting ha manifestato più volte la sua disponibilità a essere contattato per il rilascio di feedback).
--->
 
 ## 4.3 Work Breakdown Structure (WBS)
 
 Consiste nella suddivisione tassonomica di tutte le singole attività che devono essere svolte all'interno del progetto per soddisfare i bisogni del cliente (rappresentando una mappa gerarchica di tutto il lavoro).
-
-È generata e validata nella JPPS, subito dopo la prioritizzazione MoSCoW dei requisiti.
 
 Uno dei principali motivi per cui PunchCode ne fa uso è che - oltre a essere uno strumento di reporting - facilita la definizione dell'architettura (dal momento che attività ripetute sono infatti indice di componenti che, a causa di un loro molteplice uso, necessitano di essere progettati con cura).
 La WBS è usata anche nel seguente modo:
@@ -487,14 +480,19 @@ Per comprendere quando arrestarsi a causa del raggiungimento di un adeguato live
 6) ciascun task è considerato come un'attività non interrompibile;
 7) qualora il *cosa* sia chiaro ma il *come* no, il Project Manager deve gestire tale incertezza.
 
-Per convertire la RBS in WBS, PunchCode utilizza il *Team Approach* (prevedendo cioè la partecipazione di tutto il team alla definizione dell'intera WBS). La ragione di questa scelta è nuovamente da ricercarsi nel ridotto numero di membri interni alla startup, che impedisce al momento l'adozione di una modalità di lavoro parallela a sotto-team.
+Per convertire la RBS in WBS, l'azienda utilizza il *Team Approach* (prevedendo cioè la partecipazione di tutto il team alla definizione dell'intera WBS). La ragione di questa scelta è nuovamente da ricercarsi nel ridotto numero di membri interni alla startup, che impedisce al momento l'adozione di una modalità di lavoro parallela a sotto-team.
 
 Confermando un modello PMLC incrementale, la WBS è necessariamente completa.
 
 Si osserva come la WBS non abbia alcuna logica temporale e conseguentemente non imponga un ordine cronologico. Il rapporto delle attività rispetto al tempo è introdotto col diagramma di Gantt e col diagramma di PERT.
 
-<!-- Spiegare attività in arancione scuro e task in arancione -->
-<!-- Link a WBS.png e a indice (wbs.md) -->
+La WBS dell'intero progetto, ottenuta a partire dall'RBS, è disponibile nel seguente [documento](project_docs/csen_poomsae_score/wbs/wbs.png). Per facilitarne la lettura e la comprensione, si è scelto di adottare una colorazione di tipo arancione scuro per le attività e una di tipo arancione chiaro per i task (ovvero le foglie della WBS stessa).
+
+Dal momento che le attività d'integrazione introdotte dal modello PMLC stabilito si portano dietro un impatto sui costi e sui tempi, PunchCode ritiene opportuno considerarle ai fini delle stime ed inserirle sia nel diagramma di Gantt che di PERT. Di conseguenza, l'azienda realizza in Planning un'[ulteriore versione della WBS](project_docs/csen_poomsae_score/wbs/final_wbs.png) strutturata seguendo le principali release del progetto e non i sottosistemi identificati durante lo Scoping.
+Dato che la scelta del modello PMLC stesso fatta in Scoping non era definitiva e poteva subire cambiamenti importanti all'interno del Planning, infatti, si è preferito non adottare un'organizzazione di questo tipo già all'interno dell'RBS (astraendo) poichè ritenuto rischioso e prematuro.  
+La startup ritiene utile conservare entrambe le versioni di WBS, nonostante quella impiegata per tutte le fasi successive sia chiaramente l'ultima legata all'approccio Incrementale cui si è fatto riferimento.
+
+In termini di documentazione, si è anche realizzato un [file integrativo](project_docs/csen_poomsae_score/wbs/final_wbs.md) per esplicitare al meglio il contenuto di ogni attività.
 
 ## 4.4 Prioritizzazione dei task
 
