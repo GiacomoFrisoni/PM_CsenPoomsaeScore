@@ -38,17 +38,18 @@
     - [4.1.1 Sessione #1](#411-Sessione-1)
     - [4.1.2 Sessione #2](#412-Sessione-2)
     - [4.1.3 Sessione #3](#413-Sessione-3)
-  - [4.2 Prioritizzazione dei requisiti](#42-Prioritizzazione-dei-requisiti)
+  - [4.2 Scelta del PMLC Model](#42-Scelta-del-PMLC-Model)
   - [4.3 Work Breakdown Structure (WBS)](#43-Work-Breakdown-Structure-WBS)
-  - [4.4 Stima delle risorse necessarie](#44-Stima-delle-risorse-necessarie)
-    - [4.4.1 Valutazione delle skill richieste dai task](#441-Valutazione-delle-skill-richieste-dai-task)
-    - [4.4.2 Assegnamento membri dello staff ai task](#442-Assegnamento-membri-dello-staff-ai-task)
-    - [4.5 Stima della durata dei task](#45-Stima-della-durata-dei-task)
-    - [4.6 Stima dei costi](#46-Stima-dei-costi)
-  - [4.7 Diagramma di Gantt](#47-Diagramma-di-Gantt)
-  - [4.8 Diagramma di PERT](#48-Diagramma-di-PERT)
-  - [4.9 Analisi dei Rischi](#49-Analisi-dei-Rischi)
-  - [4.10 Project Definition Statement (PDS)](#410-Project-Definition-Statement-PDS)
+  - [4.4 Prioritizzazione dei task](#44-Prioritizzazione-dei-task)
+  - [4.5 Stima delle risorse necessarie](#45-Stima-delle-risorse-necessarie)
+    - [4.5.1 Valutazione delle skill richieste dai task](#451-Valutazione-delle-skill-richieste-dai-task)
+    - [4.5.2 Assegnamento membri dello staff ai task](#452-Assegnamento-membri-dello-staff-ai-task)
+    - [4.6 Stima della durata dei task](#46-Stima-della-durata-dei-task)
+    - [4.7 Stima dei costi](#47-Stima-dei-costi)
+  - [4.8 Diagramma di Gantt](#48-Diagramma-di-Gantt)
+  - [4.9 Diagramma di PERT](#49-Diagramma-di-PERT)
+  - [4.10 Analisi dei Rischi](#410-Analisi-dei-Rischi)
+  - [4.11 Project Definition Statement (PDS)](#411-Project-Definition-Statement-PDS)
 - [5. Bibliografia](#5-Bibliografia)
 
 [//]: # (-------------------------------------------------------------------------)
@@ -449,7 +450,7 @@ Nonostante questa scelta provochi una ricaduta sia sui tempi di realizzazione ch
 
 Inoltre, si osserva come gli incrementi appena descritti si compongano di numerose attività (specie nel caso della seconda release principale). Considerando l'elevata disponibilità da parte del cliente - oltre alle milestone discussse - si sono anche considerati dei rilasci intermedi (sempre sulla base delle priorità legate alle attività di cui ogni macro-release si compone).
 
-Nei vari meeting intrapresi col committente è emerso come CSEN disponga anticipatamente del [calendario](project_docs/csen_poomsae_score/pds/pds.md) di tutte le competizioni previste nel corso dell'anno.
+Nei vari meeting intrapresi col committente è emerso come CSEN disponga anticipatamente del [calendario](project_docs/csen_poomsae_score/project_scoping_meeting/session_18_03_19_res/csen_competitions_dates.pdf) di tutte le competizioni previste nel corso dell'anno.
 In accordo col cliente, si è così scelto di rilasciare le release minori eventualmente disponibili (con le nuove funzionalità sviluppate internamente a una macro release) con almeno 3 giorni di anticipo rispetto la data di ogni competizione. Questa scelta consente di coinvolgere maggiormente il committente nel corso della realizzazione del progetto e di ricevere un maggior numero di riscontri da parte sua. In questo modo, inoltre, si ha la possibilità di testare le nuove funzionalità sviluppate direttamente in un ambiente e in un contesto reale (facendo emergere eventuali problematiche da correggere che altrimenti sarebbe stato difficile riconoscere).
 A differenza degli incrementi principali, le release minori non sono pianificate (anche al fine di lasciare al fornitore una maggiore flessibilità nella gestione del progetto). Esse fanno riferimento a nuove versioni utilizzabili dell'applicazione cui si è giunti nei giorni subito antecedenti a una competizione, a partire dalle attività con maggior priorità. 
 
