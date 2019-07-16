@@ -71,8 +71,70 @@ Per la stesura della documentazione si è fatto uso di diversi software:
 - **Visual Studio Code** per la stesura della documentazione in MarkDown, anche in modalità "Live Sharing" (per permettere la contemporanea stesura del documento da parte di entrambi i membri);
 - **Microsoft Project** (in versione di prova) per la costruzione del Project Network Diagram;
 - **GitHub Desktop** per la gestione del repository.
+
+## 1.1 Elenco documenti
+
+Per una facile esplorazione del repository, si riporta nel seguente elenco tutta la documentazione significativa realizzata durante la progettazione.
+
+### 1.1.1 Documentazione delle aziende
+
+ - **Documenti fornitore**
+   - Startup Team Skills, in formato [testuale](project_docs/startup_team_skills/startup_team_skills.md) e come grafico ([pre skills](project_docs/startup_team_skills/pre_skills_radar_chart.md) e [pro skills](project_docs/startup_team_skills/pro_skills_radar_chart.md));
+   - [Project Classification](project_docs/project_classification/project_classification.md) - classificazione dei progetti secondo l'azienda;
+   - [Request Acknowledge Template](project_docs/request_acknowledge_template/request_acknowledge_template.md) - documento aziendale inviato al committente per confermare una sua richiesta;
   
-<!--- **TeXstudio** per la generazione di parte della documentazione tramite il linguaggio LaTeX;-->
+- **Documenti committente**
+  - [Calendario](project_docs/csen_poomsae_score/project_scoping_meeting/session_18_03_19_res/csen_competitions_dates.pdf) delle competizioni.
+
+### 1.1.2 Documentazione del progetto 
+- **Scoping**
+  - Project Scoping Meeting
+    - 5 sessioni, aventi ognuno un proprio template e cartella risorse
+      - 11/03/2019 - introduzione al progetto - ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_11_03_19.md), [risorse](project_docs/csen_poomsae_score/project_scoping_meeting/session_11_03_19_res));
+      - 14/03/2019 - discussione della prima parte (tablet) ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_14_03_19.md), [risorse](project_docs/csen_poomsae_score/project_scoping_meeting/session_14_03_19_res));
+      - 18/03/2019 - discussione della seconda parte (quadrato) ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_18_03_19.md), [risorse](project_docs/csen_poomsae_score/project_scoping_meeting/session_18_03_19_res));
+      - 22/03/2019 - discussione della terza parte (server) ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_22_03_19.md), [risorse](project_docs/csen_poomsae_score/project_scoping_meeting/session_22_03_19_res));
+      - 01/04/2019 - scelta approcio, pos, budget, tempistiche ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_01_04_19.md), [risorse](project_docs/csen_poomsae_score/project_scoping_meeting/session_01_01_19_res));
+    - Esempio di [sessione compilata](project_docs/csen_poomsae_score/project_scoping_meeting/session_11_03_19_marcin_pabich.md) da Marcin Pabich, del 11/03/2019;
+    - [Descrizione del progetto](project_docs/csen_poomsae_score/project_scoping_meeting/project_description.md);
+
+  - Resources Breakdown Structure (RBS)
+    - Esempio di [intervista](project_docs/csen_poomsae_score/rbs/interview_26_03_19.md);
+    - RBS in formato [Visual Paradigm (.vpp)](project_docs/csen_poomsae_score/rbs/rbs.vpp) e come [immagine](project_docs/csen_poomsae_score/rbs/rbs.png);
+
+
+  - [Project Overview Statement (POS)](project_docs/csen_poomsae_score/pos/pos.md);
+
+- **Planning**
+  - Joint Project Planning Session
+    -  08/04/2019 - [agenda sessione 1](project_docs/csen_poomsae_score/joint_project_planning_session/session_08_04_19.md);
+    - 09/04/2019 - [agenda sessione 2](project_docs/csen_poomsae_score/joint_project_planning_session/session_09_04_19.md);
+    - 10/04/2019 - [agenda sessione 3](project_docs/csen_poomsae_score/joint_project_planning_session/session_10_04_19.md);
+  
+  - Work Breakdown Structure (WBS)
+    - WBS iniziale, in formato [Visual Paradigm (.vpp)](project_docs/csen_poomsae_score/planning/wbs.vpp) e come  [immagine](project_docs/csen_poomsae_score/planning/wbs.png);
+    - WBS definitiva, in formato [Visual Paradigm (.vpp)](project_docs/csen_poomsae_score/planning/final_wbs.vpp) e come [immagine](project_docs/csen_poomsae_score/planning/final_wbs.png);
+    - [File integrativo](project_docs/csen_poomsae_score/wbs/final_wbs.md) contenenti le descrizioni delle singole attività;
+
+  - [Task Prioritizations](project_docs/csen_poomsae_score/wbs/task_prioritizations.md) - assegnazione delle priorità ai task;
+
+  - Stime delle risorse e del tempo
+    - [Need inventory](project_docs/csen_poomsae_score/staff_skills_assignments/needs_inventory.md);
+    - [Skills inventory](project_docs/startup_team_skills/startup_team_skills.md);
+    - [Staff assignment](project_docs/csen_poomsae_score/staff_skills_assignments/staff_assignment.md);
+    - [Stime durata dei task](project_docs/csen_poomsae_score/task_duration_estimate/task_duration_estimate.md);
+  
+  - [Project Network Diagram](project_docs/csen_poomsae_score/project_network_diagram/)
+    - PND [non ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/pnd_not_optimized.mpp) e [ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/pnd_optimized.mpp), in formato Microsoft Project;
+    - Gantt [non ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/gantt_not_optimized.gif) e [ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/gantt_optimized.mpp), in formato immagine;
+    - Critical Path [non ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/critical_path_not_optimized.gif) e [ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/critical_path_optimized.mpp), in formato immagine;
+  
+  - Rischi
+    - [Analisi dei rischi](project_docs/csen_poomsae_score/risk_management/risk_identification_assessment.md);
+    - [Risk Matrix](project_docs/csen_poomsae_score/risk_management/qualitative_risk_assessment.md);
+  
+  - [Project Definition Statement (PDS)](project_docs/csen_poomsae_score/pds/pds.md);
+
 
 [//]: # (-------------------------------------------------------------------------)
 
@@ -496,28 +558,16 @@ In termini di documentazione, si è anche realizzato un [file integrativo](proje
 
 ## 4.4 Prioritizzazione dei task
 
-Durante i meeting viene steso un [documento](project_docs/csen_poomsae_score/wbs/task_prioritizations.md) contenente le priorità, utili a determinare l'ordine dei task da svolgere. La valutazione è stata fatta in base a tre criteri di valutazione, concordati con il committente durante gli incontri precedenti:
+Durante i meeting viene steso un [documento](project_docs/csen_poomsae_score/wbs/task_prioritizations.md) contenente le priorità dei task, utili a determinarne l'ordine di esecuzione. La valutazione - concordata con il committente durante gli incontri precedenti - è stata fatta assegnando una fascia di priorità a ogni task:
 
-- **low**: attività con priorità bassa, non strettamente necessarie al corretto funzionamento delle applicazioni o comprendenti feature avanzate non urgentemente richieste;
-- **medium**: attività con priorità media, incidenti sul corretto funzionamento delle applicazioni e non dovrebbero essere rimandate più del necessario;
-- **high**: attività con priorità alta, necessarie per un corretto funzionamento delle applicazioni e non possono essere rimandate.
+- **low**: attività con priorità bassa, non strettamente necessaria al corretto funzionamento del sistema o comprendente feature avanzate non urgentemente richieste;
+- **medium**: attività con priorità media, incidente sul corretto funzionamento del sistema e che non dovrebbe essere rimandata più del necessario;
+- **high**: attività con priorità alta, necessaria per un corretto funzionamento del sistema e non rimandabile.
 
-È bene sottolineare che tutte le attività facenti parte di una release devono essere svolte all'interno del ciclo di quest'ultima: è necessario, infatti, concludere una release svolgendo tutti i task ad essa assegnati; nello specifico, il cliente si è trovato pienamente d'accordo sull'assegnazione delle priorità, ribadendo comunque l'impossibilità di rimandare i task per una eventuale futura release.
+È bene sottolineare che tutte le attività facenti parte di una release devono essere svolte all'interno del ciclo di quest'ultima: è necessario, infatti, concludere una release eseguendo tutti i task ad essa assegnati.
+Considerando come tutti i task debbano essere svolti, si è preferito non ricorrere a una prioritizzazione MoSCoW dei requisiti.
 
-La prioritizzazione è stata utilizzata nella stesura del Project Network Diagram. A causa del numero ridotto dei dipendenti, l'azienda ha preferito ottimizzare le attività anche in base alle risorse disponibili, parallelizzando il lavoro ove questo era possibile; infatti, l'ordine di esecuzione dei task coincide in linea generale con le priorità assegnate, ma permette di discostarsi da esse in presenza di attività svolgibili contemporaneamente da entrambi i membri del team, permettendo così di ridurre i tempi per la realizzazione dell'intero progetto.
-
-<!-- Durante i meeting si è steso un documento in stile product backlog contenente la priorità dei task componenti la seconda e la terza release principale -->
-
-<!--
-Non tutti i requisiti vengono trattati con le stesse priorità, in quanto vi è un processo di classificazione (o meglio, prioritizzazione) dei requisiti. Esistono diversi approci nell'eseguire quest'attività; quello adottato dall'azienda risulta essere **MoSCoW**, che è basato su una categorizzazione in 4 classi:
-
-- *Must*: requisiti che **devono** essere soddisfatti per ritenere il progetto completato con successo.
-- *Should*: requisiti che **dovrebbero** essere inclusi nella soluzione. Sono abbastanza critici da essere considerati necessari, ma è possibile sostituirli con dei requisiti alternativi.
-- *Could*: requisiti che **potrebbero** essere inclusi alla consegna, ma non sono strettamente necessari, in quanto considerati soltanto in caso di disponibilità del tempo e delle risorse.
-- *Won't*: requisiti che **sarebbero** da includere, ma vengono rinviati per una futura release, in quanto non strettamente necessari.
-
-PunchCode, nello specifico, decide di assegnare una priorità ai soli requisiti "foglia" del RBS. Il risultato di questa fase è osservabile al seguente [allegato](project_docs/csen_poomsae_score/moscow_prioritisation/moscow_prioritisation.md).
--->
+La prioritizzazione è stata utilizzata nella stesura del Project Network Diagram (descritta nella [successiva sezione](#48-project-network-diagram)). A causa del numero ridotto dei dipendenti, l'azienda ha preferito ottimizzare le attività anche in base alle risorse disponibili, parallelizzando il lavoro ove questo era possibile; infatti, l'ordine di esecuzione dei task coincide in linea generale con le priorità assegnate, ma permette di discostarsi da esse in presenza di attività svolgibili contemporaneamente da entrambi i membri del team, permettendo così di ridurre i tempi per la realizzazione dell'intero progetto.
 
 ## 4.5 Stima delle risorse necessarie
 
@@ -593,14 +643,50 @@ Dopo aver individuato le attività e dopo aver stimato la loro durata e le risor
 Per far ciò si è adottato **Microsoft Project**: un software sviluppato e venduto da Microsoft per assistere i Project Manager nella pianificazione, nell'assegnazione delle risorse, nella verifica del rispetto dei tempi, nella gestione dei budget e nell'analisi dei carichi di lavoro.
 
 Attraverso questo tool si è innanzitutto costruito un **diagramma di Gantt**.
-Nella sua versione di base, il diagramma di Gantt si realizza semplicemente posizionando sull'asse temporale le varie attività previste dalla WBS (con una lunghezza pari alla loro durata stimata). È così possibile comprendere il loro inizio e la loro fine. Esso è pertanto lo strumento ufficiale per gestire la pianificazione temporale del progetto e, assieme al PERT, consente di comprendere lo stato di avanzamento del progetto.  
-La versione rilasciata da Microsoft Project ne rappresenta tuttavia un'evoluzione dal momento che richiede anche la specifica dei predecessori di ogni attività (anticipando pertanto l'introduzione delle dipendenze, tipica del **diagramma di PERT**). È proprio per questa ragione che la generazione del PERT è agevolata e si rivela automatica (grazie al già previo inserimento delle relazioni di dipendenza *Finish-to-Start*).  
-A partire dal diagramma di PERT è possibile riconoscere - attraverso un Forward Pass (Early Schedule) e un Backward Pass (Late Schedule) - la presenza di *percorsi critici* (insiemi di attività in cui un ritardo su una singola attività determina un ritardo sull'intero progetto).
-Un percorso critico è pertanto caratterizzato dall'assenza di margine (Total Float = Late Start - Early Start = 0). I percorsi critici o quelli con basso margine (es. pochi giorni) sono proprio gli insiemi di attività che un Project Manager deve monitorare con maggiore attenzione.
+Nella sua versione di base, il diagramma di Gantt si realizza semplicemente posizionando sull'asse temporale le varie attività previste dalla WBS (con una lunghezza pari alla loro durata stimata). È così possibile comprendere il loro inizio e la loro fine. Esso è pertanto lo strumento ufficiale per gestire la pianificazione temporale del progetto e, assieme al PERT, consente di comprenderne lo stato di avanzamento.  
+La versione rilasciata da Microsoft Project ne rappresenta tuttavia un'evoluzione, dal momento che richiede anche la specifica dei predecessori di ogni attività (anticipando pertanto l'introduzione delle dipendenze, tipica del **diagramma di PERT**). È proprio per questa ragione che la generazione del PERT è agevolata e si rivela automatica (grazie al già previo inserimento delle relazioni di dipendenza *Finish-to-Start*).  
+A partire dal diagramma di PERT è possibile riconoscere - attraverso un Forward Pass (Early Schedule) e un Backward Pass (Late Schedule) - la presenza di *percorsi critici* (insiemi di attività in cui un ritardo su una sola di esse determina un ritardo sull'intero progetto).
+Un percorso critico è pertanto caratterizzato dall'assenza di margine (Total Float = Late Start - Early Start = 0). I percorsi critici o quelli con basso margine (es. pochi giorni) sono proprio gli insiemi di attività che un Project Manager deve monitorare con maggiore attenzione, poichè determinano la durata complessiva del progetto (riducibile solo investendo risorse su tali attività). 
 
-<!--Non ottimizzato-->
+Durante la realizzazione del file Project si sono svolte le seguenti operazioni:
+- definizione delle risorse umane;
+- definizione del calendario di PunchCode, sulla base di quanto indicato nella [sezione dedicata agli orari lavorativi](#2121-orari-lavorativi);
+- definizione della data d'inizio del progetto, fissata al giorno 1 Maggio 2019;
+- registrazione dei task della WBS (con inserimento della colonna dedicata all'identificativo), come riportato nel rispettivo [documento](project_docs/csen_poomsae_score/wbs/final_wbs.md);
+- assegnazione delle risorse ai task, sulla base del [documento](project_docs/csen_poomsae_score/staff_skills_assignments/staff_assignment.md) già realizzato;
+- registrazione della durata stimata per ogni task, in accordo coi [risultati](project_docs/csen_poomsae_score/task_duration_estimate/task_duration_estimate.md) già ottenuti con l'approccio consensus-based;
+- definizione delle attività padre, corrispondenti alle tre macro-release discusse nella [sezione della scelta del PMLC Model](#42-scelta-del-pmlc-model);
+- specifica delle precedenze tra le attività;
+- adozione della programmazione automatica con livellamento delle risorse al fine di evitare sovrapposizioni.
 
-<!--Ottimizzato-->
+La pianificazione ottenuta a fronte di quanto descritto è disponibile nel relativo [file](project_docs/csen_poomsae_score/project_network_diagram/pnd_not_optimized.mpp).  
+Si vuole sottolineare come, a fronte di un assegnamento molteplice di risorse-personale a un task, sia considerato un carico di lavoro equo.
+
+Dopo un'analisi del [Gantt](project_docs/csen_poomsae_score/project_network_diagram/gantt_not_optimized.gif) di questa prima soluzione è emerso come le risorse non fossero sfruttate a dovere e come, a causa dei rapporti di precedenza tra le varie attività, alcune di queste risultassero non utilizzate per differenti giorni (aumentando conseguentemente la durata delle attività nel [percorso critico](project_docs/csen_poomsae_score/project_network_diagram/critical_path_not_optimized.gif) e, quindi, i tempi necessari per il rilascio delle milestone).  
+Si è così scelto di ottimizzare il piano, attraverso la messa in atto di una serie di modifiche (consistenti principalmente nel riassegnamento delle risorse ai task, nel conseguenziale aggiornamento delle stime e nella modifica dei rapporti di precedenza). Questa scelta va nella direzione di fare un uso migliore del personale a disposizione, parallelizzando l'esecuzione di alcuni task e riducendo pertanto la durata delle attività costituenti il percorso critico stesso. Preme sottolineare sotto questo punto di vista come il riassegnamento delle risorse vada a contrastare con le scelte inizialmente fatte da PunchCode sulla base delle skill di ogni dipendente, ma come un'operazione di questo tipo in talune circostanze sia necessaria per abbattere tempi e costi. Le skill continuano comunque a rivestire un ruolo primario, dal momento che il riassegnamento viene realizzato solo ove ritenuto indispensabile per evitare attese. In certi contesti le stime delle durate di alcuni task possono subire aumenti (pocihè svolti da personale senza le capacità prima considerate), ma il reale vantaggio è ottenuto dall'introduzione di parallelismo. L'elenco delle modifiche appena citate è di seguito riportato.
+
+- Prima release
+  - Il task "*1.1.5 - Storico*" è svolto esclusivamente da Giacomo Frisoni (e non anche da Marcin Pabich), aumentando la durata stimata da 2 a 3 giorni.
+  - Il task "*1.1.6 - Impostazioni*" è svolto da Giacomo Frisoni (e non da Marcin Pabich), mantenendo una durata stimata sempre pari a 2 giorni.
+  - Spostamento temporale di attività a scopo di parallelizzazione.
+  
+- Seconda release
+  - Il task "*1.2.5 - Impostazioni*" è svolto esclusivamente da Marcin Pabich (e non anche da Giacomo Frisoni), aumentando la durata stimata da 3 a 5 giorni.
+  - Il task "*1.2.3 - Selezione Torneo*" ha come predecessore il task "*1.2.2.2.2 - Apertura competizione esistente*" e non più "*1.2.2.2.3 - Validazione dei dati importati*". Dal momento che la validazione dei dati importati richiede semplicemente la visualizzazione gerarchica dei tornei costruiti automaticamente e la predisposizione di un pulsante per confermarne il contenuto, è infatti possibile pensare di procedere direttamente all'esecuzione del task dedicato selezione del torneo già dopo l'apertura della competizione.
+  - Il task "*1.2.4.1.2.5 - Gestione Poomsae Finali*" è svolto anche da Marcin Pabich (consentendo una parallelizzazione tra codice e UI) e la durata stimata passa da 4 a 3 giorni.
+  - Il task "*1.2.2.3 - Gestione Atleti*" è svolto da Marcin Pabich (e non da Giacomo Frisoni), mantenendo invariata la durata stimata di 5 giorni.
+  - Il task "*1.2.4.1.7.1 - Gestione Passaggio Turno*" è svolto anche da Marcin Pabich che - occupandosi della componente grafica - consente di ridurre la durata stimata da 7 a 6 giorni.
+  - Il task "*1.2.4.1.7.2 - Gestione Assegnazione Medaglie*" è svolto anche da Marcin Pabich che - occupandosi della componente grafica - consente di ridurre la durata stimata da 8 a 7 giorni.
+  - Spostamento temporale di attività a scopo di parallelizzazione.
+  - Il task "*1.2.6.2.2 - Classifica Torneo*" è svolto anche da Giacomo Frisoni (e non solo Marcin Pabich), riducendo la durata stimata da 4 a 3 giorni.
+  
+- Terza release
+  - I rapporti di precedenza sono aggiornati in accordo con la prioritizzazione svolta col committente (il task "*1.3.1.2.2 - Gestione Trasferimenti*", ad esempio, è svolto il più tardi possibile). Questo consente di rispondere meglio alle release minori.
+  - Spostamento temporale di attività a scopo di parallelizzazione.
+
+Il repository del progetto contiene il [piano ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/pnd_optimized.mpp), il [relativo Gantt](project_docs/csen_poomsae_score/project_network_diagram/gantt_optimized.gif) e il [nuovo percorso critico](project_docs/csen_poomsae_score/project_network_diagram/critical_path_optimized.gif).
+
+<!--Scope Bank-->
 
 <!--
 Non ci lavoro solo in fase di PIANIFICAZIONE, ma anche in OTTIMIZZAZIONE (es. voglio che il progetto finisca prima -> aggiungo risorse con l'obiettivo di ridurre la durata delle attività sul percorso critico) e in CONTROLLO.
@@ -625,17 +711,7 @@ Si noti inoltre come in ogni attivita' sono presenti almeno 2 risorse, questo e'
 -->
 
 
-<!--
-- Abbiamo definito le risorse umane
-- Abbiamo definito il calendario (orario lavorativo) di PunchCode
-- Abbiamo fissato la data d'inizio del progetto
-- Abbiamo riportato le attività della WBS (aggiungendo anche la colonna del rispettivo identificativo)
-- Abbiamo assegnato le risorse per ogni attività (quando siamo in 2, Project considera 50 e 50 di lavoro (?))
-- Abbiamo riportato la durata stimata per ogni attività
-- Abbiamo definito le attività padre (corrispondenti alle tre macro-release)
-- Abbiamo definito le precedenze tra le attività
-- Abbiamo adottato la programmazione automatico con il livellamento delle risorse per evitare sovrapposizioni
--->
+
 
 
 ## 4.9 Analisi dei Rischi
