@@ -46,10 +46,9 @@
     - [4.5.2 Assegnamento membri dello staff ai task](#452-Assegnamento-membri-dello-staff-ai-task)
     - [4.6 Stima della durata dei task](#46-Stima-della-durata-dei-task)
     - [4.7 Stima dei costi](#47-Stima-dei-costi)
-  - [4.8 Diagramma di Gantt](#48-Diagramma-di-Gantt)
-  - [4.9 Diagramma di PERT](#49-Diagramma-di-PERT)
-  - [4.10 Analisi dei Rischi](#410-Analisi-dei-Rischi)
-  - [4.11 Project Definition Statement (PDS)](#411-Project-Definition-Statement-PDS)
+  - [4.8 Project Network Diagram](#48-Project-Network-Diagram)
+  - [4.9 Analisi dei Rischi](#49-Analisi-dei-Rischi)
+  - [4.10 Project Definition Statement (PDS)](#410-Project-Definition-Statement-PDS)
 - [5. Bibliografia](#5-Bibliografia)
 
 [//]: # (-------------------------------------------------------------------------)
@@ -70,7 +69,7 @@ Per la stesura della documentazione si è fatto uso di diversi software:
 - **Skype**, per la comunicazione a distanza (ove non era possibile un incontro dal vivo), abilitato anche alla condivisione dello schermo, per un maggiore coinvolgimento;
 - **Trello**, per l'organizzazione e il tracciamento del lavoro ([link alla bacheca](https://trello.com/b/dfDeDMvi/pm-project));
 - **Visual Studio Code** per la stesura della documentazione in MarkDown, anche in modalità "Live Sharing" (per permettere la contemporanea stesura del documento da parte di entrambi i membri);
-- **Microsoft Project** (in versione di prova) per ...;
+- **Microsoft Project** (in versione di prova) per la costruzione del Project Network Diagram;
 - **GitHub Desktop** per la gestione del repository.
   
 <!--- **TeXstudio** per la generazione di parte della documentazione tramite il linguaggio LaTeX;-->
@@ -418,14 +417,16 @@ Una volta concluse le presentazioni, è discussa la prioritizzazione dei requisi
 ### 4.1.2 Sessione #2
 Alla seconda sessione partecipano soltanto i membri di PunchCode.
 
-L'incontro ha inizio con la stima della quantità di lavoro, della durata e delle risorse richieste per lo svolgimento delle singole attività che si sono individuate con la WBS. Si giunge così alla costruzione del [Gantt](project_docs/csen_poomsae_score/gantt/gantt.gif).
+L'incontro ha inizio con la stima della quantità di lavoro, della durata e delle risorse richieste per lo svolgimento delle singole attività che si sono individuate con la WBS.
 
-Successivamente si procede alla definizione delle dipendenze tra le varie attività, ottenendo il diagramma di PERT e continuando con la parte centrale del meeting: l'individuazione e la discussione del *critical path*, delle date previste per il completamente del progetto e delle diverse milestone. Se necessario, si considera una compressione della schedula a fini di ottimizzazione. Una scelta non corretta delle date di completamento di una o più milestone potrebbe originare un malcontento da parte del committente e la crescita di stress all'interno del gruppo di lavoro.
+Successivamente si procede alla definizione delle dipendenze tra le varie attività e continuando con la parte centrale del meeting: l'individuazione e la discussione del *critical path*, delle date previste per il completamente del progetto e delle diverse milestone. Se necessario, si considera una compressione della schedula a fini di ottimizzazione. Una scelta non corretta delle date di completamento di una o più milestone potrebbe originare un malcontento da parte del committente e la crescita di stress all'interno del gruppo di lavoro.
+
+Si giunge così alla costruzione del [Project Network Diagram](project_docs/csen_poomsae_score/project_network_diagram/).
 
 ### 4.1.3 Sessione #3
 Alla terza sessione prendono parte gli stessi partecipanti della seconda.
 
-L'obiettivo principale dell'incontro riguarda l'identificazione dei [rischi](project_docs/csen_poomsae_score/wbs/wbs.png), la loro valutazione e l'individuazione di eventuali piani di mitigazione (valutando alternative e soluzioni per eliminare o ridurre le perdite).
+L'obiettivo principale dell'incontro riguarda l'identificazione dei [rischi](project_docs/csen_poomsae_score/risk_management/risk_identification_assessment.png), la loro valutazione e l'individuazione di eventuali piani di mitigazione (valutando alternative e soluzioni per eliminare o ridurre le perdite).
 La gestione del rischio costituisce un argomento fondamentale e può rivelarsi anche molto complessa. Una non corretta individuazione dei rischi in fase di Planning potrebbe portare a scontrarsi con problematiche più o meno gravi durante le successive fasi del ciclo di vita del progetto (non prevedendo eventi con conseguenze negative sul progetto stesso o compiendo errori nella valutazione del loro impatto). Sotto quest'ultimo punto di vista, occorre anche osservare come una sovrastima dell'impatto di un rischio possa determinare l'inserimento di complessità non necessaria in termini di monitoraggio e controllo, capace di rendere difficoltosa la gestione del progetto e di far lievitare al tempo stesso anche budget e tempistiche.
 
 La fase successiva riguarda l'ottenimento dell'approvazione da parte di tutti i partecipanti sui contenuti del piano (facendo emergere eventuali perplessità). Ciò è molto importante in quanto una volta arrivati a questo punto eventuali modifiche si ripercuoteranno su un gran numero di attività. 
@@ -483,7 +484,7 @@ Per convertire la RBS in WBS, l'azienda utilizza il *Team Approach* (prevedendo 
 
 Confermando un modello PMLC incrementale, la WBS è necessariamente completa.
 
-Si osserva come la WBS non abbia alcuna logica temporale e conseguentemente non imponga un ordine cronologico. Il rapporto delle attività rispetto al tempo è introdotto col diagramma di Gantt e col diagramma di PERT.
+Si osserva come la WBS non abbia alcuna logica temporale e conseguentemente non imponga un ordine cronologico. Il rapporto delle attività rispetto al tempo è introdotto col Project Network Diagram.
 
 La WBS dell'intero progetto, ottenuta a partire dall'RBS, è disponibile nel seguente [documento](project_docs/csen_poomsae_score/wbs/wbs.png). Per facilitarne la lettura e la comprensione, si è scelto di adottare una colorazione di tipo arancione scuro per le attività e una di tipo arancione chiaro per i task (ovvero le foglie della WBS stessa).
 
@@ -494,6 +495,16 @@ La startup ritiene utile conservare entrambe le versioni di WBS, nonostante quel
 In termini di documentazione, si è anche realizzato un [file integrativo](project_docs/csen_poomsae_score/wbs/final_wbs.md) per esplicitare al meglio il contenuto di ogni attività.
 
 ## 4.4 Prioritizzazione dei task
+
+Durante i meeting viene steso un [documento](project_docs/csen_poomsae_score/wbs/task_prioritizations.md) contenente le priorità, utili a determinare l'ordine dei task da svolgere. La valutazione è stata fatta in base a tre criteri di valutazione, concordati con il committente durante gli incontri precedenti:
+
+- **low**: attività con priorità bassa, non strettamente necessarie al corretto funzionamento delle applicazioni o comprendenti feature avanzate non urgentemente richieste;
+- **medium**: attività con priorità media, incidenti sul corretto funzionamento delle applicazioni e non dovrebbero essere rimandate più del necessario;
+- **high**: attività con priorità alta, necessarie per un corretto funzionamento delle applicazioni e non possono essere rimandate.
+
+È bene sottolineare che tutte le attività facenti parte di una release devono essere svolte all'interno del ciclo di quest'ultima: è necessario, infatti, concludere una release svolgendo tutti i task ad essa assegnati; nello specifico, il cliente si è trovato pienamente d'accordo sull'assegnazione delle priorità, ribadendo comunque l'impossibilità di rimandare i task per una eventuale futura release.
+
+La prioritizzazione è stata utilizzata nella stesura del Project Network Diagram. A causa del numero ridotto dei dipendenti, l'azienda ha preferito ottimizzare le attività anche in base alle risorse disponibili, parallelizzando il lavoro ove questo era possibile; infatti, l'ordine di esecuzione dei task coincide in linea generale con le priorità assegnate, ma permette di discostarsi da esse in presenza di attività svolgibili contemporaneamente da entrambi i membri del team, permettendo così di ridurre i tempi per la realizzazione dell'intero progetto.
 
 <!-- Durante i meeting si è steso un documento in stile product backlog contenente la priorità dei task componenti la seconda e la terza release principale -->
 
@@ -553,9 +564,66 @@ Personale Coinvolto
 Altro
 
 Al termine di ogni stima il tutto viene formalizzato attraverso l'apposito template che indichera' effettivamente il tempo che si e' deciso e il costo ad esso associato. Quindi l'analisi dei costi viene effettuata nello stesso momento delle stime delle tempistiche delle singole attivita'. Il calcolo e' agevolato dalla scelta dell'unita' di misura classica (giorni/uomo) che, anche se risulta non proprio ottimale per una stima corretta, puo' essere facilmente intuibile anche da reparti amministrativi, a cui puo' essere delegata la stima dei costi stessa, e da eventuali consulenti esterni o altri che non conoscono eventuali misurazioni alternative. Inoltre si riduce il trade off data da un'eventuale conversione da un'unita' di misura personalizzata adimensionale.
+
+--------------
+
+Durante la fase di Scoping si è già parlato di una prima stima dei costi, bisogna però tener presente che
+lo Scoping rappresenta solamente la fase iniziale del progetto, quindi non è assolutamente possibile
+definire una stima certa all’interno di essa. Le stime dei costi saranno aggiornate man mano che si
+procede con la pianificazione del progetto, fino ad arrivare ad una stima più o meno definitiva alla fine
+della fase di planning. Più nello specifico, la stima dei costi avverrà in tre fasi:
+
+1.Stima dell’ordine di grandezza dei costi: avviene durante la fase di scoping, una volta definito
+l’RBS
+2.Stima del budget: avviene durante la fase di planning, una volta definito il WBS.
+3.Stima definitiva: avviene alla fine della fase di planning, in cui tutte le attività e le risorse sono
+già state definite.
+Bisogna però notare che le stime potrebbero non essere state effettuate correttamente e quindi
+potrebbero essere riviste in futuro.
+Una volta definito un budget, bisogna mettere su un meccanismo di controllo per verificare che essi
+non vengano sforati in corso d’opera. Un approccio valido potrebbe essere quello di verificare, con una
+certa frequenza, che i costi reali non superino quelli preventivati e cercare immediatamente un
+rimedio nel caso ciò accada.
 -->
 
-## 4.8 Diagramma di Gantt
+## 4.8 Project Network Diagram
+
+Dopo aver individuato le attività e dopo aver stimato la loro durata e le risorse assegnate, è necessario collocarle nel tempo e individuare le dipendenze presenti tra esse.
+
+Per far ciò si è adottato **Microsoft Project**: un software sviluppato e venduto da Microsoft per assistere i Project Manager nella pianificazione, nell'assegnazione delle risorse, nella verifica del rispetto dei tempi, nella gestione dei budget e nell'analisi dei carichi di lavoro.
+
+Attraverso questo tool si è innanzitutto costruito un **diagramma di Gantt**.
+Nella sua versione di base, il diagramma di Gantt si realizza semplicemente posizionando sull'asse temporale le varie attività previste dalla WBS (con una lunghezza pari alla loro durata stimata). È così possibile comprendere il loro inizio e la loro fine. Esso è pertanto lo strumento ufficiale per gestire la pianificazione temporale del progetto e, assieme al PERT, consente di comprendere lo stato di avanzamento del progetto.  
+La versione rilasciata da Microsoft Project ne rappresenta tuttavia un'evoluzione dal momento che richiede anche la specifica dei predecessori di ogni attività (anticipando pertanto l'introduzione delle dipendenze, tipica del **diagramma di PERT**). È proprio per questa ragione che la generazione del PERT è agevolata e si rivela automatica (grazie al già previo inserimento delle relazioni di dipendenza *Finish-to-Start*).  
+A partire dal diagramma di PERT è possibile riconoscere - attraverso un Forward Pass (Early Schedule) e un Backward Pass (Late Schedule) - la presenza di *percorsi critici* (insiemi di attività in cui un ritardo su una singola attività determina un ritardo sull'intero progetto).
+Un percorso critico è pertanto caratterizzato dall'assenza di margine (Total Float = Late Start - Early Start = 0). I percorsi critici o quelli con basso margine (es. pochi giorni) sono proprio gli insiemi di attività che un Project Manager deve monitorare con maggiore attenzione.
+
+<!--Non ottimizzato-->
+
+<!--Ottimizzato-->
+
+<!--
+Non ci lavoro solo in fase di PIANIFICAZIONE, ma anche in OTTIMIZZAZIONE (es. voglio che il progetto finisca prima -> aggiungo risorse con l'obiettivo di ridurre la durata delle attività sul percorso critico) e in CONTROLLO.
+-->
+
+
+
+<!--
+A seguito del Launching, infatti, viene mantenuto aggiornato dal/i Project Manager per tutta la fase di esecuzione (appoggiandosi a barre colorate per indicare le attività completate o una porzione completata di queste). Sotto quest'ultimo punto di vista potrebbero anche essere spostate attività qualora lo si ritenga opportuno (ad esempio, a fronte di ritardi).
+-->
+
+
+
+<!--
+Chiaramente la costruzione del Gantt e' fatta in concomitanza con le stime, questo rende possibile rivedere quanto scritto in base ad accorgimenti sulle risorse come sovraccarichi di lavoro o sottocarichi di lavoro. Quando il Gantt risulta corretto e le stime saranno sincronizzate con questo sara' possibile procedere con la fase di realizzazione della pianificazione.
+
+Alcune attivita' nel Gantt sono state accorpate in 1 perche' il tempo minimo e' 1 giorno di durata.
+
+Una possibile aggiunta che si puo' effettuare alla fase di pianificazione riguarda l'aggiunta delle attivita' di monitoring, come il collaudo alla fine di ogni requisito ad esempio, oppure si potrebbe utilizzare il gantt anche come strumento della pianificazione delle attivita' di scoping.
+
+Si noti inoltre come in ogni attivita' sono presenti almeno 2 risorse, questo e' voluto per varie ragioni: * Avere diversi punti di vista e feedback sull'attivita' stessa * Gestire all'interno dell'attivita' anche le parti relative a Testing e Documentazione, si veda la parte nella sezione "altre policies" * Formazione e condivisione della conoscenza
+-->
+
 
 <!--
 - Abbiamo definito le risorse umane
@@ -569,37 +637,8 @@ Al termine di ogni stima il tutto viene formalizzato attraverso l'apposito templ
 - Abbiamo adottato la programmazione automatico con il livellamento delle risorse per evitare sovrapposizioni
 -->
 
-<!--
-Nella sua versione base, consiste semplicemente nel prendere le attività previste dalla WBS e posizionarle sull'asse temporale, capendo cioè quando iniziano e quando finiscono.
 
-Assieme al PERT è lo strumento principale con cui si comprende lo stato di avanzamento del progetto. Viene infatti mantenuto aggiornato dal Project Manager durante lo svolgimento del progetto stesso. Man mano che esso progredisce, delle barre colorate possono essere aggiunte al diagramma per indicare le attività completate o una porzione completata di queste.
-Es. l'attività 3 è svolta al 70%
-Non solo... Il Project Manager potrebbe anche dire "questa attività è in ritardo, allora l'altra la sposto più avanti".
-
-Il diagramma di Gantt è lo strumento ufficiale per gestire la pianificazione temporale del progetto.
-
-
-Aggiungere la spiegazione del perchè abbiamo differenziato tra X, UI/UX e coding
--->
-
-## 4.9 Diagramma di PERT
-<!--
-A differenza del diagramma di Gantt che non considera la presenza di legami tra le varie attività, col diagramma di PERT ci si arricchisce e si vanno a identificare tutte le relazioni di precedenza tra le attività stesse.
-
-La sua rappresentazione interna è quella di un grafo, con le attività come i nodi e gli archi come legami di vario tipo:
-1) Finish to Start
-2) Start to Start
-3) Start to Finish
-4) Finish to Finish
-
-A partire dal diagramma di PERT è possibile riconoscere - attraverso un Forward pass (->) e un Backward pass (<-) - la presenza di percorsi critici (insiemi di attività in cui un ritardo su una singola attività determina un ritardo sull'intero progetto).
-Un percorso critico è pertanto caratterizzato dall'assenza di margine (Total Float = Late Start - Early Start = 0).
-I percorsi critici o quelli con basso margine (es. pochi giorni) sono gli insiemi di attività che devo monitorare con maggiore attenzione.
-
-Non ci lavoro solo in fase di PIANIFICAZIONE, ma anche in OTTIMIZZAZIONE (es. voglio che il progetto finisca prima -> aggiungo risorse con l'obiettivo di ridurre la durata delle attività sul percorso critico) e in CONTROLLO.
--->
-
-## 4.10 Analisi dei Rischi
+## 4.9 Analisi dei Rischi
 
 La gestione dei rischi costituisce un argomento fondamentale, potenzialmente anche molto complesso. Una prima analisi dei rischi era già stata fatta durante lo Scoping (citando i rischi identificati all'interno del POS), ma qui viene arricchita.
 
@@ -628,7 +667,7 @@ Si rimanda il lettore al documento associato, al suo intero sara' presente anche
 -->
 
 
-## 4.11 Project Definition Statement (PDS)
+## 4.10 Project Definition Statement (PDS)
 
 Il [PDS](project_docs/csen_poomsae_score/pds/pds.md) è una versione estesa del POS a uso del team di progetto. In esso si sono riportati elementi di maggior dettaglio, costituenti un ottimo input per le fasi successive e per approfondimenti. Il PDS rappresenta così un punto di riferimento anche per eventuali nuovi membri del team, consentendo loro di rimanere focalizzati sulla corretta direzione e sugli aspetti importanti per il successo del progetto.
 
