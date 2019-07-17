@@ -138,6 +138,21 @@
     <td align="center">2</td>
     <td align="center">-</td>
   </tr>
+  <tr>
+    <td rowspan="2">1.1.7</td>
+    <td rowspan="2">Collaudo</td>
+    <td align="right">Giacomo Frisoni</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
+    <td align="center">-</td>
+    <td rowspan="2" align="center">1</td>
+  </tr>
+  <tr>
+    <td align="right">Marcin Pabich</td>
+    <td align="center">2</td>
+    <td align="center">1</td>
+    <td align="center">-</td>
+  </tr>
 </table>
 
 ## Seconda Release (Quadrato)
@@ -514,6 +529,21 @@
     <td align="center">4</td>
     <td align="center">-</td>
   </tr>
+  <tr>
+    <td rowspan="2">1.1.7</td>
+    <td rowspan="2">Collaudo</td>
+    <td align="right">Giacomo Frisoni</td>
+    <td align="center">2</td>
+    <td align="center">3</td>
+    <td align="center">-</td>
+    <td rowspan="2" align="center">3</td>
+  </tr>
+  <tr>
+    <td align="right">Marcin Pabich</td>
+    <td align="center">3</td>
+    <td align="center">3</td>
+    <td align="center">-</td>
+  </tr>
 </table>
 
 ## Terza Release (Server + Quadrato)
@@ -714,6 +744,21 @@
   <tr>
     <td rowspan="2">1.3.2.1.3</td>
     <td rowspan="2">Invio Risultati al Server</td>
+    <td align="right">Giacomo Frisoni</td>
+    <td align="center">3</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td rowspan="2" align="center">3</td>
+  </tr>
+  <tr>
+    <td align="right">Marcin Pabich</td>
+    <td align="center">3</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td rowspan="2">1.3.3</td>
+    <td rowspan="2">Collaudo</td>
     <td align="right">Giacomo Frisoni</td>
     <td align="center">3</td>
     <td align="center">-</td>

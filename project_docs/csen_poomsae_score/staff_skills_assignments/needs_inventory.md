@@ -146,6 +146,21 @@
     <td align="center">X</td>
     <td align="center">-</td>
   </tr>
+  <tr>
+    <td>1.1.7</td>
+    <td>Collaudo</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
 </table>
 
 ## Seconda Release (Quadrato)
@@ -532,6 +547,21 @@
     <td align="center">-</td>
     <td align="center">-</td>
   </tr>
+  <tr>
+    <td>1.2.7</td>
+    <td>Collaudo</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+  </tr>
 </table>
 
 ## Terza Release (Server + Quadrato)
@@ -747,6 +777,21 @@
     <td align="center">-</td>
     <td align="center">-</td>
     <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+  </tr>
+  <tr>
+    <td>1.3.3</td>
+    <td>Collaudo</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
     <td align="center">-</td>
     <td align="center">-</td>
     <td align="center">-</td>

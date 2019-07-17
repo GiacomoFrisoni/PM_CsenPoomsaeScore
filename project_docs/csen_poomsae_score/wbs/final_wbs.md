@@ -38,6 +38,9 @@ Sviluppo di una schermata con delle impostazioni per l'applicazione e per il dev
 - abilitazione / disabilitazione della retro-modifica dei punteggi assegnati,
 - abilitazione dell'invio dei punteggi, a fronte di inserimento di un indirizzo IP valido.
 
+### 1.1.7 Collaudo
+
+Progettazione del collaudo e verifica del corretto funzionamento della prima release assieme al cliente.
 
 ## Software Gestione Quadrato
 
@@ -142,6 +145,10 @@ Utilizzo di colorazioni diverse per le preview di atleti con poomsae completate,
 
 Gestione della schermata da visualizzare sulla finestra del monitor di torneo dedicata alla classifica locale di quest'ultimo. Mostrare gli atleti in ordine di posizione sulla base del punteggio da loro ottenuto. A parità di punteggio considerare l'ordine alfabetico del nome e del cognome. Evidenziare graficamente gli atleti vincitori di medaglia.
 
+### 1.2.7 Collaudo
+
+Progettazione del collaudo e verifica del corretto funzionamento della seconda release assieme al cliente.
+
 ## Server
 
 ### 1.3.1 Menù Principale
@@ -195,3 +202,7 @@ Raccolta dal server dell'elenco di tornei che il software di quadrato deve gesti
 ### 1.3.2.1.3 Invio Risultati al Server
 
 Invio al server del punteggio finale di ogni poomsae al completamento della sua valutazione, invio delle casistiche di ritiro e invio della classifica locale di un torneo all'atto della sua chisura.
+
+### 1.3.3 Collaudo
+
+Progettazione del collaudo e verifica del corretto funzionamento della terza release assieme al cliente.

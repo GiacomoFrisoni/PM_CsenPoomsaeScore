@@ -49,6 +49,11 @@
     <td>Impostazioni</td>
     <td align="center">Medium</td>
   </tr>
+  <tr>
+    <td>1.1.7</td>
+    <td>Collaudo</td>
+    <td align="center">High</td>
+  </tr>
 </table>
 
 ## Seconda Release (Quadrato)
@@ -178,6 +183,11 @@
     <td>Classifica Torneo</td>
     <td align="center">Low</td>
   </tr>
+  <tr>
+    <td>1.2.7</td>
+    <td>Collaudo</td>
+    <td align="center">High</td>
+  </tr>
 </table>
 
 ## Terza Release (Server + Quadrato)
@@ -251,6 +261,11 @@
   <tr>
     <td>1.3.2.1.3</td>
     <td>Invio Risultati al Server</td>
+    <td align="center">High</td>
+  </tr>
+  <tr>
+    <td>1.3.3</td>
+    <td>Collaudo</td>
     <td align="center">High</td>
   </tr>
 </table>
