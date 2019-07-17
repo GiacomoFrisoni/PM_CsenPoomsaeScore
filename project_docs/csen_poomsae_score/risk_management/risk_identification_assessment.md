@@ -6,8 +6,8 @@
   <tr>
     <th rowspan="2">Risk Category</th>
     <th colspan="5">Scope Triangle</th>
-    <th rowspan="2">Event #</th>
-    <th rowspan="2">Event</th>
+    <th rowspan="2">Risk ID</th>
+    <th rowspan="2">Risk</th>
     <th rowspan="2">Probability<br/>L/M/H</th>
     <th rowspan="2">Impact<br/>L/M/H</th>
     <th rowspan="2">Priority<br/>I/C/T</th>

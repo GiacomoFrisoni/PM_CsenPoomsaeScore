@@ -132,6 +132,7 @@ Per una facile esplorazione del repository, si riporta nel seguente elenco tutta
   - Rischi
     - [Analisi dei rischi](project_docs/csen_poomsae_score/risk_management/risk_identification_assessment.md);
     - [Risk Matrix](project_docs/csen_poomsae_score/risk_management/qualitative_risk_assessment.md);
+    - [Risk Mitigation Planning](project_docs/csen_poomsae_score/risk_management/risk_mitigation_planning.md);
   
   - [Project Definition Statement (PDS)](project_docs/csen_poomsae_score/pds/pds.md);
 
