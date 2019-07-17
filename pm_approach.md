@@ -376,6 +376,8 @@ Nella stestura dell'[RBS](project_docs/csen_poomsae_score/rbs/rbs.png), PunchCod
 - *Visualizzazione*  
   Il server è connesso ad un monitor, consentendo al pubblico sia di consultare informazioni generali legate ai quadrati di gara che i risultati ottenuti a partire dai dati raccolti.
 
+Ogni macro-area, infine, prevede un'attività di *collaudo*, nella quale si procederà, in concomitanza col cliente, alla verifica e accettazione delle funzionalità implementate.
+
 ## 3.4. Scelta del PMLC Model
 
 Per quanto riguarda la scelta del modello per il ciclo di vita del progetto, i Project Manager di PunchCode hanno deciso - dopo un'attenta analisi - di adottare una modalità **incrementale**. Le principali ragioni che hanno portato a questa scelta scaturiscono direttamente dalle caratteristiche del progetto stesso e dalle esigenze del cliente:
@@ -684,34 +686,28 @@ Si è così scelto di ottimizzare il piano, attraverso la messa in atto di una s
   - I rapporti di precedenza sono aggiornati in accordo con la prioritizzazione svolta col committente (il task "*1.3.1.2.2 - Gestione Trasferimenti*", ad esempio, è svolto il più tardi possibile). Questo consente di rispondere meglio alle release minori.
   - Spostamento temporale di attività a scopo di parallelizzazione.
 
+Nella versione ottimizzata del Gantt si passa così da una durata di 18 giorni a una di 16 per la prima release, da 65,5 giorni a 58,5 per la seconda release. Nell'ambito della terza release, invece, avendo principalmente agito sulla ridefinizione dell'ordine di esecuzione dei task, la durata rimane invariata e pari a 53 giorni. 
+
 Il repository del progetto contiene il [piano ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/pnd_optimized.mpp), il [relativo Gantt](project_docs/csen_poomsae_score/project_network_diagram/gantt_optimized.gif) e il [nuovo percorso critico](project_docs/csen_poomsae_score/project_network_diagram/critical_path_optimized.gif).
 
-<!--Scope Bank-->
+Si osserva anche come i Project Manager di PunchCode non vogliano basare la loro pianificazione sugli slack calcolati (considerando i task come privi di margine e beneficiando di quest'ultimo solo in caso di necessità).
 
-<!--
-Non ci lavoro solo in fase di PIANIFICAZIONE, ma anche in OTTIMIZZAZIONE (es. voglio che il progetto finisca prima -> aggiungo risorse con l'obiettivo di ridurre la durata delle attività sul percorso critico) e in CONTROLLO.
--->
+Si evidenzia, inoltre, come nel Gantt si sia considerato anche il task di collaudo (svolto con la partecipazione di entrambi i dipendenti) a fine di ogni macro-release.
 
+Nelle attività richiedenti competenze specifiche non già possedute appieno da parte dei membri del team (come gli aspetti di rete), si è scelto anche qui di assegnare entrambe le risorse. Questa decisione ha come obiettivo un confronto dettato da molteplici punti di vista, una miglior realizzazione di testing e documentazione, oltre che una formazione comune e una condivisione della conoscenza. 
 
+Il Gantt costituisce un ottimo strumento per comprendere in maniera visuale la localizzazione nel tempo di ogni attività. Esso non è costruito solo durante la fase di Pianificazione (e relativa ottimizzazione), ma si rivela molto utile anche durante la fase di **Monitoraggio e Controllo**.
+A seguito del Launching, infatti, viene mantenuto aggiornato dal/i Project Manager per tutta l'esecuzione del progetto (appoggiandosi a barre colorate per indicare le attività completate o una porzione ultimata di queste). Sotto quest'ultimo punto di vista potrebbero anche essere spostate attività qualora lo si ritenga opportuno (ad esempio, a fronte di ritardi).
+PunchCode prevede così un aggiornamento settimanale della schedula da parte dei Project Manager, facendo già - nel corso di una settimana - la preview della successiva (avendo conseguentemente modo di intervenire per tempo).
 
-<!--
-A seguito del Launching, infatti, viene mantenuto aggiornato dal/i Project Manager per tutta la fase di esecuzione (appoggiandosi a barre colorate per indicare le attività completate o una porzione completata di queste). Sotto quest'ultimo punto di vista potrebbero anche essere spostate attività qualora lo si ritenga opportuno (ad esempio, a fronte di ritardi).
--->
+### 4.8.1 Scope Bank
 
+Considerando come le stime possano essere non corrette e come si possano verificare degli imprevisti di varia natura, PunchCode sceglie di introdurrre una riserva di tempo.
+Nel gestire quest'ultima non si incrementano le durate dei singoli task (gonfiando di conseguenza anche i costi), ma si predispone un task dummy inserito come ultima attività del progetto (da cui prelevare in caso di contrattempi o depositare nell'eventuale anticipo sulla schedula).
 
+A causa della sua inesperienza, la startup prevede per la riserva una durata pari al 15% del tempo totale del progetto (con un arrotondamento per eccesso), discostandosi dai range più diffusi nell'intorno del 5-10%.
 
-<!--
-Chiaramente la costruzione del Gantt e' fatta in concomitanza con le stime, questo rende possibile rivedere quanto scritto in base ad accorgimenti sulle risorse come sovraccarichi di lavoro o sottocarichi di lavoro. Quando il Gantt risulta corretto e le stime saranno sincronizzate con questo sara' possibile procedere con la fase di realizzazione della pianificazione.
-
-Alcune attivita' nel Gantt sono state accorpate in 1 perche' il tempo minimo e' 1 giorno di durata.
-
-Una possibile aggiunta che si puo' effettuare alla fase di pianificazione riguarda l'aggiunta delle attivita' di monitoring, come il collaudo alla fine di ogni requisito ad esempio, oppure si potrebbe utilizzare il gantt anche come strumento della pianificazione delle attivita' di scoping.
-
-Si noti inoltre come in ogni attivita' sono presenti almeno 2 risorse, questo e' voluto per varie ragioni: * Avere diversi punti di vista e feedback sull'attivita' stessa * Gestire all'interno dell'attivita' anche le parti relative a Testing e Documentazione, si veda la parte nella sezione "altre policies" * Formazione e condivisione della conoscenza
--->
-
-
-
+Ogni volta che un ritardo si ripercuote sulla durata del progetto, si sottrae il ritardo alla durata dell'ultimo task dummy corrispondente alla riserva. È necessario che la riserva e il suo utilizzo sia ben visibile, dopodichè occorre gestirla correttamente.
 
 
 ## 4.9 Analisi dei Rischi
