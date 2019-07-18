@@ -299,6 +299,8 @@ Dopo aver discusso nel dettaglio di ogni sottosistema (comprendendo problematich
 
 Per quanto concerne il budget e la durata del progetto, si è prevista una discussione iniziale di questi aspetti - condotta da parte del Project Manager del cliente - già all'interno della prima sessione (in modo tale da non considerare nemmeno la pianificazione delle riunioni successive in assenza delle condizioni per farlo). Si osserva inoltre come si sia organizzata un'ulteriore e analoga discussione di questi temi all'interno dell'ultima sessione, condotta però da parte del Project Manager dell'azienda (ora consapevole di tutti i dettagli del progetto e in grado di fare una reale valutazione dal suo punto di vista).
 
+Si osserva anche come, durante l'ultimo incontro, Enrico Comando abbia manifestato la sua disponibilità a prendersi carico della formazione dei vari utilizzatori dei sottosistemi (richiedendo pertanto a PunchCode una sua sola formazione, agevolata da un suo frequente coinvolgimento e dalla sua già previa esperienza con progetti di natura informatica).
+
 Unendo tutte le informazioni raccolte sui bisogni del cliente, il documento di descrizione dell'intero progetto è disponibile al seguente [allegato](project_docs/csen_poomsae_score/project_scoping_meeting/project_description.md).
 
 ## 3.3. Resources Breakdown Structure (RBS)
@@ -395,7 +397,7 @@ Dal momento che vi è una qualche probabilità che lo scope subisca delle modifi
 Si sono immaginate tre major-release, considerando i sottosistemi identificati, le dipendenze tra loro e le priorità assegnate da parte del committente. Oltre a queste, vengono previsti anche dei rilasci incrementali minori, a scopo di ottenere man mano un diretto riscontro dal cliente (che nel corso delle sessioni del Project Scoping Meeting ha manifestato più volte la sua disponibilità a essere contattato per il rilascio di feedback).
 
 ## 3.5. Budget e tempi
-Durante l'ultima sessione del Project Scoping Meeting si è arrivati al compromesso di 8000€ e un tempo di realizzazione pari ad un anno. Sotto quest'ultimo punto di vista si tenga presente come si sia scelto di ricorrere ad un modello incrementale, garantendo di conseguenza al cliente rilasci graduali e continui durante questo arco temporale. Il tempo e budget qui discussi tengono anche conto delle operazioni di installazione, manutenzione, monitoraggio e formazione del personale.
+Durante l'ultima sessione del Project Scoping Meeting si è arrivati al compromesso di 8000€ e alla consegna del sistema prevista entro la fine dell'anno corrente. Sotto quest'ultimo punto di vista si tenga presente come si sia scelto di ricorrere ad un modello incrementale, garantendo di conseguenza al cliente rilasci graduali e continui durante questo arco temporale. Il tempo e budget qui discussi tengono anche conto delle operazioni di installazione, manutenzione, monitoraggio e formazione del personale.
 
 ## 3.6. Project Overview Statement (POS)
 
@@ -697,7 +699,7 @@ Il repository del progetto contiene il [piano ottimizzato](project_docs/csen_poo
 
 Si osserva anche come i Project Manager di PunchCode non vogliano basare la loro pianificazione sugli slack calcolati (considerando i task come privi di margine e beneficiando di quest'ultimo solo in caso di necessità).
 
-Si evidenzia, inoltre, come nel Gantt si sia considerato anche il task di collaudo (svolto con la partecipazione di entrambi i dipendenti) a fine di ogni macro-release.
+Si evidenzia, inoltre, come nel Gantt si sia considerato anche il task di collaudo (svolto con la partecipazione di entrambi i dipendenti) a fine di ogni macro-release. L'attività di formazione, invece, non è stata inserita dal momento che questa è di lieve entità e si limita alla sola figura di Enrico Comando (comunque aggiornato sulle funzionalità attualmente in sviluppo e su quelle già rilasciate).
 
 Nelle attività richiedenti competenze specifiche non già possedute appieno da parte dei membri del team (come gli aspetti di rete), si è scelto anche qui di assegnare entrambe le risorse. Questa decisione ha come obiettivo un confronto dettato da molteplici punti di vista, una miglior realizzazione di testing e documentazione, oltre che una formazione comune e una condivisione della conoscenza. 
 
@@ -728,21 +730,16 @@ Il template della tabella in oggetto elenca gli eventi costituenti un rischio pe
 
 Come è possibile vedere dal documento, il rischio di lock-in verso CSEN identificato in Scoping qui non è più presente dal momento che - giunti a questa fase del Planning - esso costituisce un evento certo (di cui si è già discusso e che verrà riportato anche nella successiva fase di stesura del contratto).
 
-Sempre sul piano della valutazione, la startup preferisce adottare un **Risk Assessment Dinamico**, reidentificando i rischi e rivalutandoli periodicamente (compiendo aggiornamenti con l'avanzare del progetto e non limitarsi a un'unica operazione di questa natura durante il Planning). Man mano che le attività vengono eseguite, infatti, si acquisiscono nuove informazioni che possono essere utilizzate nella stima della probabilità e dell'impatto di ciascun rischio. Nonostante abbia un overhead (anche in termini di costo) maggiore, l'approccio dinamico si rivela pertanto più efficace e capace di realizzare un'analisi puntuale.  
-Segue pertanto come la tabella precedentemente descritta sia frutto di modifiche periodiche, di cui si tiene traccia grazie a sistemi di versioning.
+Sempre sul piano della valutazione, la startup preferisce adottare un **Risk Assessment Dinamico**, reidentificando i rischi e rivalutandoli periodicamente (compiendo aggiornamenti con l'avanzare del progetto e non limitarsi a un'unica operazione di questa natura durante il Planning). Man mano che le attività vengono eseguite, infatti, si acquisiscono nuove informazioni che possono essere utilizzate nella stima della probabilità e dell'impatto di ciascun rischio. Nonostante abbia un overhead (anche in termini di costo) maggiore, l'approccio dinamico si rivela pertanto più efficace e capace di realizzare un'analisi puntuale. PunchCode, nello specifico, decide in fase di Planning di ripetere l'individuazione di rischi e la loro valutazione al termine di ogni micro-release.  
+Segue pertanto come la tabella precedentemente descritta sia frutto di modifiche periodiche, di cui si tiene traccia grazie a sistemi di versioning. 
 
 Inoltre, nello svolgere la stima sia della probabilità che dell'impatto di ogni rischio, si è deciso di adottare la stessa tecnica "**consensus-based**" impiegata per la stima della durata dei task (con l'obiettivo di giungere a risultati più accurati e stimolare discussioni relativamente alle visioni di ogni membro di PunchCode). Si sottolinea anche come ogni valutazione sia stata effettuata considerando sempre il caso peggiore. Per semplificare la trattazione e concentrarsi sugli aspetti di maggior interesse, il documento riporta direttamente le stime finali ottenute a seguito dei vari round. 
 
 Confrontando il documento dell'analisi dei rischi presentato in questa sezione con il contenuto del POS ottenuto a fine Scoping, si può evincere la presenza di rischi prima non identificati (emersi solo durante il Planning). Come è possibile vedere dal documento, infine, il rischio di lock-in verso CSEN identificato in Scoping qui non è più presente dal momento che - giunti a questa fase del Planning - esso costituisce un evento certo (di cui si è già discusso e che verrà riportato anche nella successiva fase di stesura del contratto).
 
-<!-- Ogni quanto rivalutare -->
-<!-- Mitigazione (ridurre l'impatto qualora dovesse capitare davvero)
-
-Le motivazioni e le contromisure sono state direttamente spiegate all'interno del documento per far si di snellire questo documento e perche' puo' essere effettivamente utile avere all'interno del template una spiegazione discorsiva dell'analisi.
-
-Si rimanda il lettore al documento associato, al suo intero sara' presente anche una spiegazione delle motivazioni percui si sono scelti certi rischi e le possibili contromisure. La presenza di un'analisi dei rischi a questo livello consente di individuare problematiche specifiche del requisito in esame e di prepararsi quindi nel caso qualcuno di quelli individuati si verifichi.
--->
-
+Per quanto riguarda la mitigazione del rischio (ovvero la terza fase di Risk Management) si è redatto un apposito [documento](project_docs/csen_poomsae_score/risk_management/risk_mitigation_planning.md). Al suo interno si sono valutate le alternative possibili attraverso cui eliminare o ridurre le perdite associate a ogni evento negativo meritevole di attenzione.
+Nel far questo si sono principalmente considerate azioni quali *avoid* (modifica al piano di progetto per l'eliminazione della situazione producente il rischio), *contingency planning* (definizione di cosa debba essere fatto qualora l'evento avverso si verifichi) e *mitigate* (definizione di cosa debba essere fatto per minimizzare l'impatto dell'evento avverso qualora si verifichi). Preme sottolineare come si sia prevista una mitigazione del rischio per i soli driver con una valutazione qualitativa pari a *Consider* e a *Take Action*, al fine di evitare un dispendio di risorse economiche e temporali per l'attivazione di un Monitoraggio e Controllo rivolto a rischi di bassa considerazione in termini di probabilità e impatto. All'interno della tabella contenuta nel file si sono tuttavia riportati anche i rischi di entità minore (*Ignore*), per consentire la loro tracciabilità nel remoto caso in cui essi si verifichino (log).  
+Si osserva come le attività di mitigazione introducano in certi casi, a loro volta, dei rischi per l'azienda legati specialmente a fattori temporali ed economici.
 
 ## 4.10 Project Definition Statement (PDS)
 
