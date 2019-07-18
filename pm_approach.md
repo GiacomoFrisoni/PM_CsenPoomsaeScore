@@ -83,7 +83,7 @@ Per una facile esplorazione del repository, si riporta nel seguente elenco tutta
 ### 1.1.1 Documentazione delle aziende
 
  - **Documenti fornitore**
-   - Startup Team Skills, in formato [testuale](project_docs/startup_team_skills/startup_team_skills.md) e come grafico ([pre skills](project_docs/startup_team_skills/pre_skills_radar_chart.md) e [pro skills](project_docs/startup_team_skills/pro_skills_radar_chart.md));
+   - Startup Team Skills, in formato [testuale](project_docs/startup_team_skills/startup_team_skills.md) e come grafico ([pre skills](project_docs/startup_team_skills/pre_skills_radar_chart.png) e [pro skills](project_docs/startup_team_skills/pro_skills_radar_chart.png));
    - [Project Classification](project_docs/project_classification/project_classification.md) - classificazione dei progetti secondo l'azienda;
    - [Request Acknowledge Template](project_docs/request_acknowledge_template/request_acknowledge_template.md) - documento aziendale inviato al committente per confermare una sua richiesta;
   
@@ -98,7 +98,7 @@ Per una facile esplorazione del repository, si riporta nel seguente elenco tutta
       - 14/03/2019 - discussione della prima parte (tablet) ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_14_03_19.md), [risorse](project_docs/csen_poomsae_score/project_scoping_meeting/session_14_03_19_res));
       - 18/03/2019 - discussione della seconda parte (quadrato) ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_18_03_19.md), [risorse](project_docs/csen_poomsae_score/project_scoping_meeting/session_18_03_19_res));
       - 22/03/2019 - discussione della terza parte (server) ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_22_03_19.md), [risorse](project_docs/csen_poomsae_score/project_scoping_meeting/session_22_03_19_res));
-      - 01/04/2019 - scelta approcio, pos, budget, tempistiche ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_01_04_19.md), [risorse](project_docs/csen_poomsae_score/project_scoping_meeting/session_01_01_19_res));
+      - 01/04/2019 - scelta approcio, pos, budget, tempistiche ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_01_04_19.md));
     - Esempio di [sessione compilata](project_docs/csen_poomsae_score/project_scoping_meeting/session_11_03_19_marcin_pabich.md) da Marcin Pabich, del 11/03/2019;
     - [Descrizione del progetto](project_docs/csen_poomsae_score/project_scoping_meeting/project_description.md);
 
@@ -116,8 +116,8 @@ Per una facile esplorazione del repository, si riporta nel seguente elenco tutta
     - 10/04/2019 - [agenda sessione 3](project_docs/csen_poomsae_score/joint_project_planning_session/session_10_04_19.md);
   
   - Work Breakdown Structure (WBS)
-    - WBS iniziale, in formato [Visual Paradigm (.vpp)](project_docs/csen_poomsae_score/planning/wbs.vpp) e come  [immagine](project_docs/csen_poomsae_score/planning/wbs.png);
-    - WBS definitiva, in formato [Visual Paradigm (.vpp)](project_docs/csen_poomsae_score/planning/final_wbs.vpp) e come [immagine](project_docs/csen_poomsae_score/planning/final_wbs.png);
+    - WBS iniziale, in formato [Visual Paradigm (.vpp)](project_docs/csen_poomsae_score/wbs/wbs.vpp) e come  [immagine](project_docs/csen_poomsae_score/wbs/wbs.png);
+    - WBS definitiva, in formato [Visual Paradigm (.vpp)](project_docs/csen_poomsae_score/wbs/final_wbs.vpp) e come [immagine](project_docs/csen_poomsae_score/wbs/final_wbs.png);
     - [File integrativo](project_docs/csen_poomsae_score/wbs/final_wbs.md) contenenti le descrizioni delle singole attività;
 
   - [Task Prioritizations](project_docs/csen_poomsae_score/wbs/task_prioritizations.md) - assegnazione delle priorità ai task;
@@ -130,8 +130,8 @@ Per una facile esplorazione del repository, si riporta nel seguente elenco tutta
   
   - [Project Network Diagram](project_docs/csen_poomsae_score/project_network_diagram/)
     - PND [non ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/pnd_not_optimized.mpp) e [ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/pnd_optimized.mpp), in formato Microsoft Project;
-    - Gantt [non ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/gantt_not_optimized.gif) e [ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/gantt_optimized.mpp), in formato immagine;
-    - Critical Path [non ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/critical_path_not_optimized.gif) e [ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/critical_path_optimized.mpp), in formato immagine;
+    - Gantt [non ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/gantt_not_optimized.gif) e [ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/gantt_optimized.gif), in formato immagine;
+    - Critical Path [non ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/critical_path_not_optimized.gif) e [ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/critical_path_optimized.gif), in formato immagine;
   
   - Rischi
     - [Analisi dei rischi](project_docs/csen_poomsae_score/risk_management/risk_identification_assessment.md);
@@ -151,7 +151,7 @@ L'esecutore del progetto è la startup "**PunchCode**". Essa è un'azienda infor
 
 ### 2.1.1. Startup Team
 
-PunchCode è formata da due soli membri ricoprenti entrambi il ruolo di Project Manager. Le competenze di ogni dipendente sono tracciate dall'azienda all'interno di un apposito [documento](project_docs/startup_team_skills/startup_team_skills.md), tenendo conto sia di *pre skill* (o soft skill) che di *pro skill* (o hard skill). Le prime si riferiscono alle capacità inerenti alla sfera interpersonale e della comunicazione, indipendenti dalla specifica mansione lavorativa e pertanto trasversali. Le seconde sono quelle competenze tecniche relative allo svolgimento di una certa professione, acquisibili tramite lo studio e certificabili. Nell'ottica di andare a delineare un valido strumento di appoggio per un Project Manager ai fini della futura assegnazione delle attività ai membri dello staff in fase di Planning, si è infatti ritenuto utile includere la valutazione di ambo le tipologie di abilità. Per quanto concerne l'assegnazione dei punteggi, si è voluta considerare una scala di valori numerici adimensionali compresa tra 1 e 5 (preferendola ad alternative misure non numeriche che avrebbero impedito la valutazione delle competenze in media di tutto il team su un certo parametro).
+PunchCode è formata da due soli membri ricoprenti entrambi il ruolo di Project Manager. Le competenze di ogni dipendente sono tracciate dall'azienda all'interno di un apposito [documento](project_docs/startup_team_skills/startup_team_skills.md), tenendo conto sia di *pre skill* (o soft skill) che di *pro skill* (o hard skill). Le prime si riferiscono alle capacità inerenti alla sfera interpersonale e della comunicazione, indipendenti dalla specifica mansione lavorativa e pertanto trasversali. Le seconde sono quelle competenze tecniche relative allo svolgimento di una certa professione, acquisibili tramite lo studio e certificabili. Nell'ottica di andare a delineare un valido strumento di appoggio per un Project Manager ai fini della futura assegnazione delle attività ai membri dello staff in fase di Planning, si è infatti ritenuto utile includere la valutazione di ambo le tipologie di abilità. Per quanto concerne l'assegnazione dei punteggi, si è voluta considerare una scala di valori numerici adimensionali compresa tra 1 e 5 (preferendola ad alternative misure non numeriche che avrebbero impedito la valutazione delle competenze in media di tutto il team su un certo parametro). Si nota come tali punteggi siano stati delineati dai due membri del team attraverso una media tra i risultati di un processo di autovalutazione e quelli di una sincera valutazione operata da parte del collega (sulla base anche della profonda conoscenza reciproca maturata nel susseguirsi degli anni). Si osserva tuttavia come PunchCode preveda di definire tali dati per il personale futuro attraverso lo svolgimento di test (poi mantenuti aggiornati dai Project Manager in funzione delle loro abilità manifestate sul campo, nel corso dei vari progetti). 
 
 Il team è consapevole dell'assenza di una figura interna rivestente il ruolo di Architetto. Per consentire comunque l'instaurazione di dibattiti costruttivi si è scelto - in base alle pre-skill e alle pro-skill - di far sì che un membro difendesse gli interessi legati al ruolo di un architetto (impersonandolo).
 Sotto questo punto di vista, è Marcin Pabich (specie grazie alle sue maggiori capacità creative) ad occuparsi anche di questo aspetto.
@@ -743,20 +743,6 @@ Si osserva come le attività di mitigazione introducano in certi casi, a loro vo
 ## 4.10 Project Definition Statement (PDS)
 
 Il [PDS](project_docs/csen_poomsae_score/pds/pds.md) è una versione estesa del POS a uso del team di progetto. In esso si sono riportati elementi di maggior dettaglio, costituenti un ottimo input per le fasi successive e per approfondimenti. Il PDS rappresenta così un punto di riferimento anche per eventuali nuovi membri del team, consentendo loro di rimanere focalizzati sulla corretta direzione e sugli aspetti importanti per il successo del progetto. Ad esso si sono anche allegati i documenti realizzati durante l'analisi dei rischi.
-
-
-<!--
-- *Applicazione Android*.  
-Per automatizzare la valutazione delle poomsae svolte dagli atleti da parte dei giudici.
-
-- *Software per la gestione del quadrato di gara abbinato all'applicazione Android*.  
-Per la gestione dei tornei interni a una competizione su un quadrato di gara e la raccolta dei punteggi da parte delle applicazioni in esecuzione sui tablet dei giudici, anticipando alcune funzionalità lato server (importazione dati da file Excel, creazione della competizione, gestione dei trasferimenti ed elaborazione classifica globale localmente al quadrato).
-
-- *Sistema software completo*  
-Per l'integrazione del server, spostando la configurazione delle competizioni su un unico nodo, gestendo il partizionamento dei tornei tra i vari quadrati al fine di evitare sovrapposizioni e raccogliendo i dati elaborati da ogni software di gestione di quadrato.
-
-Si vuole sottolineare come - per garantire i rilasci intermedi di cui il committente necessita - si sia scelto di anticipare funzionalità di sottosistemi ancora non realizzati (con la consapevolezza che ciò richieda un ulteriore lavoro in termini di modifiche e integrazione).
--->
 
 # 5. Bibliografia
 
