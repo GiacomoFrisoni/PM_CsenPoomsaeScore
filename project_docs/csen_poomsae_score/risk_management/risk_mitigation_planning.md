@@ -1,7 +1,6 @@
 
 # Risk Mitigation Planning
 
-## Prima Release (App Android)
 <table>
   <tr>
     <th>Risk ID</th>
@@ -100,23 +99,55 @@
     <td>-</td>
   </tr>
   <tr>
+    <!-- scarsa competenza utilizzatori - innefficiente -->
     <td align="center">P07</td>
-    <td>Collaudo</td>
-    <td>High</td>
+    <td>
+        <ul>
+            <li>Formazione del Project Manager del cliente, che si è preso carico di formare a sua volta gli utilizzatori del sistema e che - grazie al suo continuo coinvolgimento con PunchCode - è sempre al corrente delle funzionalità messe a disposizione dal sistema.</li>
+            <li>Utilizzo di mockup a seguito dei meeting svolti col cliente, per anticipare le principali modalità d'interazione con le applicazioni.</li>
+            <li>Disponibilità del fornitore a svolgere attività di formazione su richiesta.</li>
+        </ul>
+    </td>
+    <td>-</td>
   </tr>
   <tr>
+    <!-- ridotto numero dei dipendenti -->
     <td align="center">O01</td>
-    <td>Collaudo</td>
-    <td>High</td>
-  </tr>
-  <tr align="center">
-    <td>E01</td>
-    <td>Collaudo</td>
-    <td>High</td>
+    <td>
+      <ul>
+            <li>Predisposizione della Scope Bank, per avere dei margini temporali.</li>
+            <li>Svolgimento di un'accurato studio di fattibilità, al fine di assicurarsi che il progetto sia affrontabile da parte del ridotto team aziendale nel rispetto dei vincoli previsti.</li>
+      </ul>
+    </td>
+    <td>-</td>
   </tr>
   <tr>
+    <!-- modifiche delle regole delle competizioni -->
+    <td align="center">E01</td>
+    <td>
+      <ul>
+            <li>Parametrizzazione dei principali attributi soggetti a cambiamenti da parte di CSEN, per permettere una configurazione congrua alle regole attualmente in vigore.</li>
+            <li>Messa in atto del processo aziendale per la valutazione del cambiamento di scope.</li>
+      </ul>
+    </td>
+    <td>-</td>
+  </tr>
+  <tr>
+  <!-- annullamento progetto da parte di CSEN -->
     <td align="center">E02</td>
-    <td>Collaudo</td>
+    <td>
+      <ul>
+            <li>
+              Fidelizzazione del cliente attraverso:
+              <ul>
+                <li>coinvolgimento diretto del cliente con l'obiettivo di renderlo partecipe a tutte le fasi di progettazione e sviluppo delle soluzioni;</li>
+                <li>frequente rilascio di business value per mezzo di micro-release.</li>
+              </ul>
+            </li>
+            <br/>       
+            <li>Studio dei sistemi offerti dai principali concorrenti per progettare al meglio le funzionalità messe a disposizione dal sistema, basandosi anche sugli aspetti maggiormente critici delle applicazioni già esistenti (a fini migliorativi).</li>
+      </ul>
+    </td>
     <td>High</td>
   </tr>
 </table>

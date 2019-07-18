@@ -184,7 +184,7 @@
     <td align="center">X</td>
     <td align="center">X</td>
     <td align="center">O01</td>
-    <td>Il ridotto numero dei dipendenti di PunchCode potrebbe portare non essere sufficiente per affrontare il progetto nei tempi concordati</td>
+    <td>Il ridotto numero dei dipendenti di PunchCode potrebbe non essere sufficiente per affrontare il progetto nei tempi concordati</td>
     <td align="center">M</td>
     <td align="center">H</td>
     <td align="center">T</td>
