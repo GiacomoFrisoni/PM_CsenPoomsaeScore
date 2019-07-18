@@ -1,6 +1,9 @@
 # Indice <!-- omit in toc -->
 
 - [1. Descrizione dell'Approccio Utilizzato](#1-Descrizione-dellApproccio-Utilizzato)
+  - [1.1 Elenco documenti](#11-Elenco-documenti)
+    - [1.1.1 Documentazione delle aziende](#111-Documentazione-delle-aziende)
+    - [1.1.2 Documentazione del progetto](#112-Documentazione-del-progetto)
 - [2. Introduzione](#2-Introduzione)
   - [2.1. Azienda esecutrice](#21-Azienda-esecutrice)
     - [2.1.1. Startup Team](#211-Startup-Team)
@@ -47,6 +50,7 @@
     - [4.6 Stima della durata dei task](#46-Stima-della-durata-dei-task)
     - [4.7 Stima dei costi](#47-Stima-dei-costi)
   - [4.8 Project Network Diagram](#48-Project-Network-Diagram)
+    - [4.8.1 Scope Bank](#481-Scope-Bank)
   - [4.9 Analisi dei Rischi](#49-Analisi-dei-Rischi)
   - [4.10 Project Definition Statement (PDS)](#410-Project-Definition-Statement-PDS)
 - [5. Bibliografia](#5-Bibliografia)
