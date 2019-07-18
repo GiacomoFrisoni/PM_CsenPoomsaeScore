@@ -9,25 +9,26 @@
   </tr>
   <tr>
     <td align="center">T01</td>
-    <td>-</td>
+    <td></td>
     <td>-</td>
   </tr>
   <tr>
     <td align="center">T02</td>
-    <td>-</td>
+    <td></td>
     <td>-</td>
   </tr>
   <tr>
     <td align="center">T03</td>
-    <td>-</td>
+    <td></td>
     <td>-</td>
   </tr>
   <tr>
     <td align="center">T04</td>
-    <td>-</td>
+    <td></td>
     <td>-</td>
   </tr>
   <tr>
+  <!-- difficoltà di gestire comunicazioni in rete -->
     <td align="center">T05</td>
     <td>
         <ul>
@@ -72,7 +73,7 @@
   </tr>
   <tr>
     <td align="center">P04</td>
-    <td>-</td>
+    <td></td>
     <td>-</td>
   </tr>
   <tr>
@@ -148,6 +149,6 @@
             <li>Studio dei sistemi offerti dai principali concorrenti per progettare al meglio le funzionalità messe a disposizione dal sistema, basandosi anche sugli aspetti maggiormente critici delle applicazioni già esistenti (a fini migliorativi).</li>
       </ul>
     </td>
-    <td>High</td>
+    <td>-</td>
   </tr>
 </table>
