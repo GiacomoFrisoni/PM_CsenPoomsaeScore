@@ -296,8 +296,17 @@
     </tr>
     <tr>
         <td>
-            <b>Classificazione del progetto</b><br/><br/>
+            <b>Project Classification</b><br/><br/>
             In base alla <a href="../../project_classification/project_classification.md">classificazione</a> adottata dall'azienda, il progetto risulta essere di classe <b>B</b>.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Risk Management</b><br/><br/>
+            <ul>
+                <li><a href="../risk_management/risk_identification_assessment.md">Rischi identificati e loro valutazione</a>.</li>
+                <li><a href="../risk_management/risk_mitigation_planning.md">Piano di mitigazione dei rischi</a>.</li>
+            </ul>
         </td>
     </tr>
     <tr>
