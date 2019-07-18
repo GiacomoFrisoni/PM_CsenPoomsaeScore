@@ -716,7 +716,6 @@ A causa della sua inesperienza, la startup prevede per la riserva una durata par
 
 Ogni volta che un ritardo si ripercuote sulla durata del progetto, si sottrae il ritardo alla durata dell'ultimo task dummy corrispondente alla riserva. È necessario che la riserva e il suo utilizzo sia ben visibile, dopodichè occorre gestirla correttamente.
 
-
 ## 4.9 Analisi dei Rischi
 
 La gestione dei rischi costituisce un argomento fondamentale, potenzialmente anche molto complesso. Una prima analisi dei rischi era già stata fatta durante lo Scoping (citando i rischi identificati all'interno del POS), ma qui viene arricchita.
@@ -735,7 +734,7 @@ Segue pertanto come la tabella precedentemente descritta sia frutto di modifiche
 
 Inoltre, nello svolgere la stima sia della probabilità che dell'impatto di ogni rischio, si è deciso di adottare la stessa tecnica "**consensus-based**" impiegata per la stima della durata dei task (con l'obiettivo di giungere a risultati più accurati e stimolare discussioni relativamente alle visioni di ogni membro di PunchCode). Si sottolinea anche come ogni valutazione sia stata effettuata considerando sempre il caso peggiore. Per semplificare la trattazione e concentrarsi sugli aspetti di maggior interesse, il documento riporta direttamente le stime finali ottenute a seguito dei vari round. 
 
-Confrontando il documento dell'analisi dei rischi presentato in questa sezione con il contenuto del POS ottenuto a fine Scoping, si può evincere la presenza di rischi prima non identificati (emersi solo durante il Planning). Come è possibile vedere dal documento, infine, il rischio di lock-in verso CSEN identificato in Scoping qui non è più presente dal momento che - giunti a questa fase del Planning - esso costituisce un evento certo (di cui si è già discusso e che verrà riportato anche nella successiva fase di stesura del contratto).
+Confrontando il documento dell'analisi dei rischi presentato in questa sezione con il contenuto del POS ottenuto a fine Scoping, si può evincere la presenza di rischi prima non identificati (emersi solo durante il Planning). Come è possibile vedere dal documento, infine, il rischio di lock-in verso CSEN identificato in Scoping qui non è più presente dal momento che - giunti a questa fase del Planning - esso costituisce un evento certo (di cui si è già discusso e che verrà riportato anche nella successiva fase di stesura del contratto). In particolare, CSEN lascia flessibilità a PunchCode nel riutilizzare parti di codice per loro sviluppate ma non nel vendere l'intera soluzione a nuovi clienti.
 
 Per quanto riguarda la mitigazione del rischio (ovvero la terza fase di Risk Management) si è redatto un apposito [documento](project_docs/csen_poomsae_score/risk_management/risk_mitigation_planning.md). Al suo interno si sono valutate le alternative possibili attraverso cui eliminare o ridurre le perdite associate a ogni evento negativo meritevole di attenzione.
 Nel far questo si sono principalmente considerate azioni quali *avoid* (modifica al piano di progetto per l'eliminazione della situazione producente il rischio), *contingency planning* (definizione di cosa debba essere fatto qualora l'evento avverso si verifichi) e *mitigate* (definizione di cosa debba essere fatto per minimizzare l'impatto dell'evento avverso qualora si verifichi). Preme sottolineare come si sia prevista una mitigazione del rischio per i soli driver con una valutazione qualitativa pari a *Consider* e a *Take Action*, al fine di evitare un dispendio di risorse economiche e temporali per l'attivazione di un Monitoraggio e Controllo rivolto a rischi di bassa considerazione in termini di probabilità e impatto. All'interno della tabella contenuta nel file si sono tuttavia riportati anche i rischi di entità minore (*Ignore*), per consentire la loro tracciabilità nel remoto caso in cui essi si verifichino (log).  
@@ -743,7 +742,8 @@ Si osserva come le attività di mitigazione introducano in certi casi, a loro vo
 
 ## 4.10 Project Definition Statement (PDS)
 
-Il [PDS](project_docs/csen_poomsae_score/pds/pds.md) è una versione estesa del POS a uso del team di progetto. In esso si sono riportati elementi di maggior dettaglio, costituenti un ottimo input per le fasi successive e per approfondimenti. Il PDS rappresenta così un punto di riferimento anche per eventuali nuovi membri del team, consentendo loro di rimanere focalizzati sulla corretta direzione e sugli aspetti importanti per il successo del progetto.
+Il [PDS](project_docs/csen_poomsae_score/pds/pds.md) è una versione estesa del POS a uso del team di progetto. In esso si sono riportati elementi di maggior dettaglio, costituenti un ottimo input per le fasi successive e per approfondimenti. Il PDS rappresenta così un punto di riferimento anche per eventuali nuovi membri del team, consentendo loro di rimanere focalizzati sulla corretta direzione e sugli aspetti importanti per il successo del progetto. Ad esso si sono anche allegati i documenti realizzati durante l'analisi dei rischi.
+
 
 <!--
 - *Applicazione Android*.  
