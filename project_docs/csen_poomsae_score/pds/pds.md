@@ -131,6 +131,8 @@
                             <td>15</td>
                         </tr>
                     </table>
+                    I dati riportati sono registrati a partire dalla conclusione della poomsae svolta dall'atleta.
+                    <br/>
                     <i>Miglioramento percepibile a partire dalla prima major-release relativa ai tablet con l'applicazione Android.</i>
                 </li>
                 <br/>
@@ -170,6 +172,8 @@
                             <td>16</td>
                         </tr>
                     </table>
+                    Le tempistiche riportate comprendono la gestione degli atleti e dei loro trasferimenti. La loro misurazione è avviata non appena le attività di torneo coinvolte iniziano a essere svolte da parte del personale responsabile.
+                    <br/>
                     <i>Miglioramento percepibile a partire dalla seconda major-release relativa alla soluzione software per la gestione dei quadrati di gara, integrata con l'applicazione Android.</i>
                 </li>
                 <br/>
@@ -209,6 +213,8 @@
                             <td>5</td>
                         </tr>
                     </table>
+                    Le tempistiche riportate vengono misurate a partire dalla conclusione di tutte le poomsae previste all'interno di una gara.
+                    <br/>
                     <i>Miglioramento percepibile a partire dalla seconda major-release relativa alla soluzione software per la gestione dei quadrati di gara, integrata con l'applicazione Android.</i>
                 </li>
                 <br/>
