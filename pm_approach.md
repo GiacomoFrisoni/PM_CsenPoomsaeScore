@@ -126,7 +126,7 @@ Per una facile esplorazione del repository, si riporta nel seguente elenco tutta
     - [Need inventory](project_docs/csen_poomsae_score/staff_skills_assignments/needs_inventory.md);
     - [Skills inventory](project_docs/startup_team_skills/startup_team_skills.md);
     - [Staff assignment](project_docs/csen_poomsae_score/staff_skills_assignments/staff_assignment.md);
-    - [Stime durata dei task](project_docs/csen_poomsae_score/task_duration_estimate/task_duration_estimate.md);
+    - [Stime durata dei task](project_docs/csen_poomsae_score/task_duration_estimation/task_duration_estimation.md);
   
   - [Project Network Diagram](project_docs/csen_poomsae_score/project_network_diagram/)
     - PND [non ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/pnd_not_optimized.mpp) e [ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/pnd_optimized.mpp), in formato Microsoft Project;
@@ -397,7 +397,7 @@ Dal momento che vi è una qualche probabilità che lo scope subisca delle modifi
 Si sono immaginate tre major-release, considerando i sottosistemi identificati, le dipendenze tra loro e le priorità assegnate da parte del committente. Oltre a queste, vengono previsti anche dei rilasci incrementali minori, a scopo di ottenere man mano un diretto riscontro dal cliente (che nel corso delle sessioni del Project Scoping Meeting ha manifestato più volte la sua disponibilità a essere contattato per il rilascio di feedback).
 
 ## 3.5. Budget e tempi
-Durante l'ultima sessione del Project Scoping Meeting si è arrivati al compromesso di 8000€ e alla consegna del sistema prevista entro la fine dell'anno corrente. Sotto quest'ultimo punto di vista si tenga presente come si sia scelto di ricorrere ad un modello incrementale, garantendo di conseguenza al cliente rilasci graduali e continui durante questo arco temporale. Il tempo e budget qui discussi tengono anche conto delle operazioni di installazione, manutenzione, monitoraggio e formazione del personale.
+Durante l'ultima sessione del Project Scoping Meeting si è arrivati al compromesso di 10.000€ e alla consegna del sistema prevista entro la fine dell'anno corrente. Sotto quest'ultimo punto di vista si tenga presente come si sia scelto di ricorrere ad un modello incrementale, garantendo di conseguenza al cliente rilasci graduali e continui durante questo arco temporale. Il tempo e budget qui discussi tengono anche conto delle operazioni di installazione, manutenzione, monitoraggio e formazione del personale.
 
 ## 3.6. Project Overview Statement (POS)
 
@@ -609,7 +609,7 @@ Il metodo richiede ai due membri del team di effettuare segretamente le stime ad
 Nonostante spesso si preferisca adottare una misura adimensionale (distaccata sia dai tempi che dai costi), PunchCode preferisce adottare un'unità di misura tradizionale in *giorni/uomo*. Ciò è anche legato all'inesperienza dell'azienda con tali aspetti metodologici, dove vi sarebbe il rischio di non essere in grado di quantificare opportunamente il lavoro da svolgere a partire da una misura adimensionale (come una carta poker, un numero di Fibonacci o una taglia T-shirt).  
 Infine, si evidenzia come una stima non debba considerare solo il tempo di scrittura del codice, ma quello per la costruzione di una soluzione robusta che sia completa e funzionante (che comprenda quindi anche la scrittura dei rispettivi test e il loro superamento).
 
-Il documento contenente le stime in termini di effort giorni/uomo rilasciate da parte del team per le varie attività presenti in WBS è disponibile nel relativo [allegato](project_docs/csen_poomsae_score/task_duration_estimate/task_duration_estimate.md).
+Il documento contenente le stime in termini di effort giorni/uomo rilasciate da parte del team per le varie attività presenti in WBS è disponibile nel relativo [allegato](project_docs/csen_poomsae_score/task_duration_estimation/task_duration_estimation.md).
 È interessante osservare come i membri del team siano generalmente molto in sintonia (probabilmente a causa della loro profonda esperienza nel lavorare assieme, che li ha di fatto spinti alla costituzione di PunchCode). In talune circostanze si evince tuttavia come le stime iniziali sarebbero state molto diverse senza essere condizionati. In alcuni casi si osserva anche la presenza di un'oscillazione (1° round: ottimistico, 2° round: pessimistico, 3° round: valutazione intermedia).
 
 ### 4.7 Stima dei costi
@@ -663,7 +663,7 @@ Durante la realizzazione del file Project si sono svolte le seguenti operazioni:
 - definizione della data d'inizio del progetto, fissata al giorno 1 Maggio 2019;
 - registrazione dei task della WBS (con inserimento della colonna dedicata all'identificativo), come riportato nel rispettivo [documento](project_docs/csen_poomsae_score/wbs/final_wbs.md);
 - assegnazione delle risorse ai task, sulla base del [documento](project_docs/csen_poomsae_score/staff_skills_assignments/staff_assignment.md) già realizzato;
-- registrazione della durata stimata per ogni task, in accordo coi [risultati](project_docs/csen_poomsae_score/task_duration_estimate/task_duration_estimate.md) già ottenuti con l'approccio consensus-based;
+- registrazione della durata stimata per ogni task, in accordo coi [risultati](project_docs/csen_poomsae_score/task_duration_estimation/task_duration_estimation.md) già ottenuti con l'approccio consensus-based;
 - definizione delle attività padre, corrispondenti alle tre macro-release discusse nella [sezione della scelta del PMLC Model](#42-scelta-del-pmlc-model);
 - specifica delle precedenze tra le attività;
 - adozione della programmazione automatica con livellamento delle risorse al fine di evitare sovrapposizioni.
