@@ -48,7 +48,7 @@
     - [4.5.1 Valutazione delle skill richieste dai task](#451-Valutazione-delle-skill-richieste-dai-task)
     - [4.5.2 Assegnamento membri dello staff ai task](#452-Assegnamento-membri-dello-staff-ai-task)
     - [4.6 Stima della durata dei task](#46-Stima-della-durata-dei-task)
-    - [4.7 Stima dei costi](#47-Stima-dei-costi)
+    - [4.7 Corrispettivo e stima dei costi](#47-corrispettivo-e-stima-dei-costi)
   - [4.8 Project Network Diagram](#48-Project-Network-Diagram)
     - [4.8.1 Scope Bank](#481-Scope-Bank)
   - [4.9 Analisi dei Rischi](#49-Analisi-dei-Rischi)
@@ -612,38 +612,58 @@ Infine, si evidenzia come una stima non debba considerare solo il tempo di scrit
 Il documento contenente le stime in termini di effort giorni/uomo rilasciate da parte del team per le varie attività presenti in WBS è disponibile nel relativo [allegato](project_docs/csen_poomsae_score/task_duration_estimation/task_duration_estimation.md).
 È interessante osservare come i membri del team siano generalmente molto in sintonia (probabilmente a causa della loro profonda esperienza nel lavorare assieme, che li ha di fatto spinti alla costituzione di PunchCode). In talune circostanze si evince tuttavia come le stime iniziali sarebbero state molto diverse senza essere condizionati. In alcuni casi si osserva anche la presenza di un'oscillazione (1° round: ottimistico, 2° round: pessimistico, 3° round: valutazione intermedia).
 
-### 4.7 Stima dei costi
+### 4.7 Corrispettivo e stima dei costi
 
-<!--
-Per quanto riguarda i costi delle singole attivita' ci si basera' molto su:
+Il tema economico è già stato rapidamente discusso all'interno dello Scoping. Tuttavia, dal momento che tale gruppo di processi rappresenta solamente il punto d'inizio per la gestione di un progetto, non è stato assolutamente possibile definire una stima certa all'interno di essa (limitandosi a una semplice comparazione tra budget e stima dell'ordine di grandezza dei costi in funzione del risultato della classificazione).
 
-Esperienze Precedenti
-Risorse Particolari (licenze, consulenti..)
-Personale Coinvolto
-Altro
+Durante la fase di Pianificazione, PunchCode ha valutato diverse soluzioni per la gestione dei corrispettivi. Inizialmente si sono prese in considerazione le due macro-modalità in genere più diffuse nell'ambito informatico:
+- a corpo ("a prezzo fisso", "a rischio d'impresa", "a ordine chiuso");
+- a misura ("a consuntivo").
 
-Al termine di ogni stima il tutto viene formalizzato attraverso l'apposito template che indichera' effettivamente il tempo che si e' deciso e il costo ad esso associato. Quindi l'analisi dei costi viene effettuata nello stesso momento delle stime delle tempistiche delle singole attivita'. Il calcolo e' agevolato dalla scelta dell'unita' di misura classica (giorni/uomo) che, anche se risulta non proprio ottimale per una stima corretta, puo' essere facilmente intuibile anche da reparti amministrativi, a cui puo' essere delegata la stima dei costi stessa, e da eventuali consulenti esterni o altri che non conoscono eventuali misurazioni alternative. Inoltre si riduce il trade off data da un'eventuale conversione da un'unita' di misura personalizzata adimensionale.
+Nell'analisi dei vantaggi e degli svantaggi di entrambi gli approcci, si sono effettuate le osservazioni di seguito riportate.
+- **a corpo**
+  - *Caratteristiche principali*
+    - Prezzo complessivo dell'intervento stabilito dal fornitore (indipendentemente dall'effettivo tempo impiegato per giungere al suo completamento), senza la definizione di tariffe unitarie.
+    - Rischi (imprevisti ed errate stime dell'impegno) presi in carico dal fornitore.
+  - *PRO*
+    - Gestione del contratto molto semplice.
+    - Il cliente è al riparo da possibili sorprese (così come il fornitore, che è conscio del compenso che riceverà e di come quest'ultimo non sarà ulteriormente oggetto di discussione).
+  - *CONTRO*
+    - Scarsa garanzia di corrispondenza tra prodotto ottenuto e spesa sostenuta:
+      - se il prezzo è alto, il cliente paga troppo rispetto al lavoro svolto;
+      - se il prezzo è troppo basso, il fornitore entra in sofferenza e - non riuscendo più a rispondere alla commessa - tende a contenere i costi e a diminuire la qualità del lavoro svolto (a discapito anche del committente).
+    - Scarsa flessibilità.
+  - *Criticità*
+    - Definizione del prezzo basata su una stima delle risorse necessarie e del loro costo unitario.
+    - Il fornitore tende a considerare dei prezzi maggiormente elevati, per non andare in perdita nell'eventualità in cui dovessero essere impiegate più risorse del previsto.
 
---------------
+- **a misura**
+  - *Caratteristiche principali*
+    - Definiti dei valori unitari (di prodotti forniti o di risorse utilizzate), il corrispettivo è commisurato alla quantità. Tipicamente è adottato per concretizzare pagamenti a ore, in funzione del costo della giornata uomo delle risorse umane coinvolte.
+    - Il pagamento del corrispettivo avviene su base periodica, solitamente dai 3 ai 6 mesi.
+    - Rischi (volatilità delle specifiche, imprevisti, errata stima dell'impegno) presi in carico dal cliente.
+  - *PRO*
+    - Gestione del contratto semplice (è sufficiente stabilire il costo delle varie risorse).
+    - Flessibilità rispetto alla instabilità delle normative e a un'insufficiente analisi dei requisiti.
+    - Il fornitore è al riparo da possibili sorprese.
+  - *CONTRO*
+    - Il cliente non è consapevole del costo finale della soluzione da lui commissionata.
+  - *Criticità*
+    - Assenza di correlazione tra prodotto ottenuto e spesa sostenuta (a meno di verifiche accurate sulla qualità dei prodotti).
+    - Definizione delle tariffe unitarie per figura professionale.
 
-Durante la fase di Scoping si è già parlato di una prima stima dei costi, bisogna però tener presente che
-lo Scoping rappresenta solamente la fase iniziale del progetto, quindi non è assolutamente possibile
-definire una stima certa all’interno di essa. Le stime dei costi saranno aggiornate man mano che si
-procede con la pianificazione del progetto, fino ad arrivare ad una stima più o meno definitiva alla fine
-della fase di planning. Più nello specifico, la stima dei costi avverrà in tre fasi:
+Considerando come il pagamento del corrispettivo (così come il contenuto dell'intero contratto scritto a seguito del Planning) debba essere realizzato in modo da soddisfare entrambe le parti (per evitare che ciascuna di queste abbia degli svantaggi), PunchCode ha scelto di adottare una soluzione intermedia rispetto a quelle proposte.
+Si sottolinea, infatti, come la startup non sia in possesso dell'esperienza necessaria per stabilire al meglio la complessità e la durata dell'intervento. Essendo in presenza di un'incertezza sugli effettivi risultati, la modalità a corpo non si rivela ideale per il progetto in esame o presenta comunque una rischiosità intrinseca nell'incertezza della quantità di risorse necessarie.
+Allo stesso modo, una modalità a misura presenta differenti svantaggi e criticità (principalmente legati a una totale assunzione del rischio da parte del cliente). È proprio per questa ragione che l'approccio adottato da PunchCode mira a concretizzare una **condivisione delle responsabilità**.
+L'azienda decide, in accordo col cliente, di stimare i costi di ogni task utilizzando dei range (specificando cioè il prezzo minimo e il prezzo massimo previsti). L'importo effettivo che sarà domandato al cliente dipenderà dalla quantità di risorse utilizzate, ma rientrerà necessariamente all'interno dell'intervallo stabilito. Così facendo, PunchCode ha un margine di flessibilità con cui rispondere a imprevisti, assumendosi tuttavia il rischio di eventuali costi aggiuntivi al di sopra di una certa soglia. Nonostante il committente non sia a conoscenza dell'esatto costo complessivo del progetto, una modalità di questo tipo - a differenza di un approccio puramente a misura - permette comunque di avere una chiara e utile idea dello spazio in cui questo si colloca (verificandone la conformità rispetto al budget).  
+Similarmente a un approccio a misura, si decide di non adottare un pagamento del corrispettivo in un'unica soluzione. Sfruttando il PMLC Model di tipo *Incrementale*, si prevede un pagamento a fronte del superamento di ogni collaudo associato a un incremento (con costo complessivo determinato dalla somma dei prezzi - rientranti nei limiti inferiori e superiori - per i task oggetto della release).
 
-1.Stima dell’ordine di grandezza dei costi: avviene durante la fase di scoping, una volta definito
-l’RBS
-2.Stima del budget: avviene durante la fase di planning, una volta definito il WBS.
-3.Stima definitiva: avviene alla fine della fase di planning, in cui tutte le attività e le risorse sono
-già state definite.
-Bisogna però notare che le stime potrebbero non essere state effettuate correttamente e quindi
-potrebbero essere riviste in futuro.
-Una volta definito un budget, bisogna mettere su un meccanismo di controllo per verificare che essi
-non vengano sforati in corso d’opera. Un approccio valido potrebbe essere quello di verificare, con una
-certa frequenza, che i costi reali non superino quelli preventivati e cercare immediatamente un
-rimedio nel caso ciò accada.
--->
+Le stime dei costi per i vari task identificati tramite la WBS (compresi quelli di integrazione e collaudo) è disponibile nell'apposito [documento](project_docs/csen_poomsae_score/task_cost_estimation/task_cost_estimation.md). Come è possibile osservare, analogamente alle stime della durata, si è scelto di ricorrere a una tecnica **consensus-based**. Ad ogni round, i membri di PunchCode esprimono il proprio range di valutazione. Se dopo il completamento del terzo round non si è ancora giunti a una medesima stima, l'intervallo finale è ottenuto considerando come minimo la media dei limiti inferiori delle ultime due stime e come massimo la media dei limiti superiori. 
+Il costo totale del progetto è così stato definito nell'intorno 9.960€ (caso migliore) - 13.080€ (caso peggiore), rispetto al budget orientativo di 10.000€ inizialmente proposto. Nonostante l'alto margine frutto dell'inesperienza dell'azienda, il cliente si è dimostrato soddisfatto della soluzione finale e ha fornito la sua approvazione.
+
+Si nota come l'adozione di template separati per le stime di costi e tempi non comporti alcun vincolo di precedenza nella loro realizzazione (dove l'analisi dei costi potrebbe essere effettuata nello stesso momento della valutazione delle tempistiche delle singole attività). 
+
+Come già emerso con la stima della durata dei task, si vuole evidenziare come PunchCode non abbia potuto appoggiarsi per questa fase a una consulenza da parte di risorse terze, a causa degli eccessivi costi che ne sarebbero altrimenti scaturiti.
 
 ## 4.8 Project Network Diagram
 
