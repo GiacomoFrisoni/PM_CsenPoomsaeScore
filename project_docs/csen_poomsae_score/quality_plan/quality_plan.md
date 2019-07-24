@@ -169,7 +169,7 @@ Il numero di rilievi tollerati dall'obiettivo è in relazione alla [classe](proj
     <th align="left">Periodo di riferimento</th>
     <td align="left">Durata dell'obiettivo</th>
     <th align="left">Frequenza di misurazione</th>
-    <td align="left">Ad termine dell'obiettivo</th>
+    <td align="left">Al termine dell'obiettivo</th>
   </tr>
   <tr>
     <th align="left">Dati da rilevare</th>
@@ -215,6 +215,8 @@ Il numero di rilievi tollerati dall'obiettivo è in relazione alla [classe](proj
 
 <br/>
 
+### Indicatori di qualità applicabili agli obiettivi di sviluppo, mev e mad
+
 #### IQ04 - Test negativi in collaudo
 
 Con questo indicatore si vogliono individuare i casi di test eseguiti (sia in modalità manuale che automatica) dal fornitore con successo prima del rilascio e che, se rieseguiti durante il collaudo, danno esito negativo.
@@ -240,7 +242,7 @@ Con questo indicatore si vogliono individuare i casi di test eseguiti (sia in mo
     <th align="left">Periodo di riferimento</th>
     <td align="left">Durata della fase di collaudo dell'obiettivo</th>
     <th align="left">Frequenza di misurazione</th>
-    <td align="left">Ad termine del collaudo</th>
+    <td align="left">Al termine del collaudo</th>
   </tr>
   <tr>
     <th align="left">Dati da rilevare</th>
@@ -308,13 +310,13 @@ Per "*Difettosità in collaudo*" si intende il rapporto tra il numero di difetti
     <th align="left">Periodo di riferimento</th>
     <td align="left">La fase di collaudo dell'obiettivo</th>
     <th align="left">Frequenza di misurazione</th>
-    <td align="left">Ad termine del collaudo</th>
+    <td align="left">Al termine del collaudo</th>
   </tr>
   <tr>
     <th align="left">Dati da rilevare</th>
     <td align="left" colspan="3">
         <ul>
-            <li>Numero totale di elementi difettosi emersi durante il collaudo(<i>N_difetti</i>)</li>
+            <li>Numero totale di elementi difettosi emersi durante il collaudo (<i>N_difetti</i>)</li>
             <li><!--TODO--></li>
         </ul>
     </td>
@@ -325,7 +327,9 @@ Per "*Difettosità in collaudo*" si intende il rapporto tra il numero di difetti
   </tr>
   <tr>
     <th align="left">Formula</th>
-    <td align="left" colspan="3"><i><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ05&space;=&space;\frac{N\_difetti}{TODO}" title="IQ05 = \frac{N\_difetti}{TODO}" /></td>
+    <td align="left" colspan="3">
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ05&space;=&space;\frac{N\_difetti}{TODO}" title="IQ05 = \frac{N\_difetti}{TODO}" />
+    </td>
   </tr>
   <tr>
     <th align="left">Regole di arrotondamento</th>
@@ -342,6 +346,254 @@ Per "*Difettosità in collaudo*" si intende il rapporto tra il numero di difetti
   <tr>
     <th align="left">Azioni contrattuali</th>
     <td align="left" colspan="3">Rilievo sull'obiettivo nel caso di mancato rispetto del valore di soglia</td>
+  </tr>
+  <tr>
+    <th align="left">Eccezioni</th>
+    <td align="left" colspan="3">Nessuna</td>
+  </tr>
+</table>
+
+<br/>
+
+------------
+
+<br/>
+
+#### IQ06 - Giorni di sospensione del collaudo
+
+<table>
+  <tr>
+    <th align="left">Caratteristica</th>
+    <td align="left">Affidabilità</th>
+    <th align="left">Sottocaratteristica</th>
+    <td align="left">Maturità</th>
+  </tr>
+  <tr>
+    <th align="left">Aspetto da valutare</th>
+    <td align="left" colspan="3">Numero complessivo di giorni in cui è stato sospeso il collaudo di un obiettivo per cause imputabili al fornitore</td>
+  </tr>
+  <tr>
+    <th align="left">Unità di misura</th>
+    <td align="left">Giorni lavorativi</th>
+    <th align="left">Fonte dati</th>
+    <td align="left">Comunicazione formale di sospensione del collaudo<br/>Comunicazione formale di ripresa del collaudo</th>
+  </tr>
+  <tr>
+    <th align="left">Periodo di riferimento</th>
+    <td align="left">La fase di collaudo dell'obiettivo</th>
+    <th align="left">Frequenza di misurazione</th>
+    <td align="left">Al termine del collaudo</th>
+  </tr>
+  <tr>
+    <th align="left">Dati da rilevare</th>
+    <td align="left" colspan="3">
+        <ul>
+            <li>Data e ora di sospensione del collaudo (<i>Data_sospensione<sub>j</sub></i>)</li>
+            <li>Data e ora di ripresa del collaudo (<i>Data_ripresa<sub>j</sub></i>)</li>
+            <li>Numero di giorni non lavorativi tra la sospensione e la ripresa del collaudo (<i>Ngiorni_nolav<sub>j</sub></i>)</li>
+            <li>Numero di sospensioni del collaudo (<i>Nsosp_collaudo</i>)</li>
+        </ul>
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Regole di campionamento</th>
+    <td align="left" colspan="3">Si applica a tutte le sospensioni di collaudo (<i>sia la prima che, qualora capiti, le successive</i>)</td>
+  </tr>
+  <tr>
+    <th align="left">Formula</th>
+    <td align="left" colspan="3">
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ06&space;=&space;\sum_{j=1}^{Nsosp\_collaudo}(Data\_ripresa_j&space;-&space;Data\_sospensione_j&space;-&space;Ngiorni\_nolav_j)" title="IQ06 = \sum_{j=1}^{Nsosp\_collaudo}(Data\_ripresa_j - Data\_sospensione_j - Ngiorni\_nolav_j)" />
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Regole di arrotondamento</th>
+    <td align="left" colspan="3">Nessuna</td>
+  </tr>
+  <tr>
+    <th align="left">Valore di soglia</th>
+    <td align="left" colspan="3">IQ06 = 0</td>
+  </tr>
+  <tr>
+    <th align="left">Azioni contrattuali</th>
+    <td align="left" colspan="3">Rilievo sull'obiettivo nel caso di mancato rispetto del valore di soglia</td>
+  </tr>
+  <tr>
+    <th align="left">Eccezioni</th>
+    <td align="left" colspan="3">Nessuna</td>
+  </tr>
+</table>
+
+<br/>
+
+------------
+
+<br/>
+
+#### IQ07 - Slittamento della risoluzione dei malfunzionamenti del collaudo
+
+Durante il collaudo di ogni obiettivo gli interventi effettuati a fronte di malfunzionamenti del software applicativo avranno un livello di ripristino della piena operatività in funzione della categoria di malfunzionamento, così definito:
+
+<table>
+  <tr>
+    <th align="left">Caratteristica</th>
+    <td align="left">Efficienza</th>
+    <th align="left">Sottocaratteristica</th>
+    <td align="left">Efficienza temporale</th>
+  </tr>
+  <tr>
+    <th align="left">Aspetto da valutare</th>
+    <td align="left" colspan="3">Tempestività di ripristino in collaudo a seguito di malfunzionamenti, valutata rispetto alla durata prevista</td>
+  </tr>
+  <tr>
+    <th align="left">Unità di misura</th>
+    <td align="left">Giorni lavorativi</th>
+    <th align="left">Fonte dati</th>
+    <td align="left"><!--TODO--></th>
+  </tr>
+  <tr>
+    <th align="left">Periodo di riferimento</th>
+    <td align="left">Fase di collaudo</th>
+    <th align="left">Frequenza di misurazione</th>
+    <td align="left">Al termine del collaudo</th>
+  </tr>
+  <tr>
+    <th align="left">Dati da rilevare</th>
+    <td align="left" colspan="3">
+        <ul>
+            <li>Avvio del processo di risoluzione del malfunzionamento: data, ora e minuti comunicati dal fornitore <i>(inizio<sub>i</sub>)</i></li>
+            <li>Termine della risoluzione del malfunzionamento: data, ora e minuti <i>(fine<sub>i</sub>)</i></li>
+            <li>Tempo di sospensione della risoluzione del malfunzionamento (<i>sospensione</i>) a causa dell'indisponibilità dell'ambiente di correzione, o per ragioni non imputabili al fornitore (<i>TRO<sub>i</sub></i>)</li>
+            <li>Numero totale di segnalazioni chiuse a fronte di malfunzionamenti rilevati in collaudo (<i>Ntotale_malf_coll</i>)</li>
+        </ul>
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Regole di campionamento</th>
+    <td align="left" colspan="3">Nessuna</td>
+  </tr>
+  <tr>
+    <th align="left">Formula</th>
+    <td align="left" colspan="3">
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ07&space;=&space;\sum_{i=1}^{Ntotale\_malf\_coll}ritardo\_risol_i" title="IQ07 = \sum_{i=1}^{Ntotale\_malf\_coll}ritardo\_risol_i" />
+      <br/>
+      Dove:
+      <br/>
+      <ul>
+        <li><i>durata_risol<sub>i</sub> = termine<sub>i</sub> - inizio<sub>i</sub> - TRO<sub>i</sub></i></li>
+        <li>
+          <i>valore_limite = </i>
+          <table>
+            <tr>
+              <td><i>categoria A</i></td>
+              <td><i>categoria B</i></td>
+              <td><i>categoria C</i></td>
+            </tr>
+            <tr>
+              <td><i>2 giorni lavorativi</i></td>
+              <td><i>3 giorni lavorativi</i></td>
+              <td><i>5 giorni lavorativi</i></td>
+            </tr>
+          </table>
+        </li>
+        <li>
+          <i>ritardo_risol<sub>i</sub> = </i>
+          <table>
+            <tr>
+              <td><i>0</i></td>
+              <td><i>durata_risol<sub>i</sub> - valore_limite</i></td>
+            </tr>
+            <tr>
+              <td><i>(se durata_risol<sub>i</sub> <= valore_limite)</i></td>
+              <td><i>(se durata_risol<sub>i</sub> > valore_limite)</i></td>
+            </tr>
+          </table>
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Regole di arrotondamento</th>
+    <td align="left" colspan="3">Nessuna</td>
+  </tr>
+  <tr>
+    <th align="left">Valore di soglia</th>
+    <td align="left" colspan="3">IQ07 = 0</td>
+  </tr>
+  <tr>
+    <th align="left">Azioni contrattuali</th>
+    <td align="left" colspan="3">Il mancato rispetto del valore di soglia comporterà un rilievo sull'obiettivo per ogni giorno lavorativo o frazione eccedente la soglia</td>
+  </tr>
+  <tr>
+    <th align="left">Eccezioni</th>
+    <td align="left" colspan="3">Nessuna</td>
+  </tr>
+</table>
+
+<br/>
+
+------------
+
+<br/>
+
+#### IQ08 - Difettosità in esercizio (per applicazione)
+
+<table>
+  <tr>
+    <th align="left">Caratteristica</th>
+    <td align="left">Affidabilità</th>
+    <th align="left">Sottocaratteristica</th>
+    <td align="left">Maturità</th>
+  </tr>
+  <tr>
+    <th align="left">Aspetto da valutare</th>
+    <td align="left" colspan="3">Difettosità in esercizio di un'applicazione</td>
+  </tr>
+  <tr>
+    <th align="left">Unità di misura</th>
+    <td align="left">Difetti / <!--TODO--></th>
+    <th align="left">Fonte dati</th>
+    <td align="left"><!--TODO--></th>
+  </tr>
+  <tr>
+    <th align="left">Periodo di riferimento</th>
+    <td align="left">Tremestre precedente la rilevazione</th>
+    <th align="left">Frequenza di misurazione</th>
+    <td align="left">Trimestrale</th>
+  </tr>
+  <tr>
+    <th align="left">Dati da rilevare</th>
+    <td align="left" colspan="3">
+        <ul>
+            <li>Numero totale di difetti dell'applicazione rilevati durante il periodo di riferimento (<i>N_difetti_appl</i>)</li>
+            <li><!--TODO--></li>
+        </ul>
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Regole di campionamento</th>
+    <td align="left" colspan="3">Vanno considerati tutti i difetti rilevati durante il periodo di riferimento</td>
+  </tr>
+  <tr>
+    <th align="left">Formula</th>
+    <td align="left" colspan="3">
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ08&space;=&space;\frac{N\_difetti\_appl}{TODO}" title="IQ08 = \frac{N\_difetti\_appl}{TODO}" />
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Regole di arrotondamento</th>
+    <td align="left" colspan="3">
+      Il risultato della misura va arrotondato:
+      - per difetto se la parte decimale è <= 0,00005
+      - per eccesso se la parte decimale è > 0,00005
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Valore di soglia</th>
+    <td align="left" colspan="3"><!--TODO--></td>
+  </tr>
+  <tr>
+    <th align="left">Azioni contrattuali</th>
+    <td align="left" colspan="3"><!--TODO--></td>
   </tr>
   <tr>
     <th align="left">Eccezioni</th>
