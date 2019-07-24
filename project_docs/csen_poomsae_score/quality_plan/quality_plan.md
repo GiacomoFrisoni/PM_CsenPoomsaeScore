@@ -1,10 +1,101 @@
 # Piano di qualità
 
-## Indicatori di qualità di obiettivo
+## 1 MODALITÀ DI GESTIONE DEI SOTTOSISTEMI
 
-### Indicatori di qualità applicabili a tutti gli obiettivi
+La seguente tabella riporta per ciascun sottosistema la sua modalità di gestione:
 
-#### IQ01 - Slittamento nell'esecuzione dell'obiettivo
+<table>
+  <tr>
+    <th colspan="2" align="center">Criteri</th>
+    <th align="center">Classe di rischio</th>
+    <th align="center">Modalità di gestione</th>
+  </tr>
+  <tr>
+    <td align="center">C10</td>
+    <td>Soluzione per l'applicazione Android dedicata alla gestione dei punteggi di poomsae degli atleti da parte dei giudici</td>
+    <td align="center">C</td>
+    <td>Tale soluzione è assimilata a un obiettivo di sviluppo di durata pari a <!--TODO--> giorni/uomo</td>
+  </tr>
+  <tr>
+    <td align="center">C11</td>
+    <td>Soluzione per il software di gestione di un quadrato di gara</td>
+    <td align="center">A</td>
+    <td>Tale soluzione è assimilata a un obiettivo di sviluppo di durata pari a <!--TODO--> giorni/uomo</td>
+  </tr>
+  <tr>
+    <td align="center">C12</td>
+    <td>Soluzione per il server dedicato alla gestione delle competizioni</td>
+    <td align="center">A</td>
+    <td>Tale soluzione è assimilata a un obiettivo di sviluppo di durata pari a <!--TODO--> giorni/uomo</td>
+  </tr>
+</table>
+
+<br/>
+<br/>
+
+## 2 QUADRO RIEPILOGATIVO DEGLI INDICATORI DI QUALITÀ
+
+Di seguito si trova una matrice di corrispondenza tra gli indicatori di qualità e le azioni contrattuali previste nel caso di non rispetto dei valori di soglia.
+
+<table>
+  <tr>
+    <th rowspan="2" align="center">Indicatori di Qualità</th>
+    <th colspan="2" align="center">Azione Contrattuale</th>
+  </tr>
+  <tr>
+    <th align="center">Rilievo</th>
+    <th align="center">Penale</th>
+  </tr>
+  <tr>
+    <td>IQ01 - Slittamento nell'esecuzione dell'obiettivo</td>
+    <td align="center"></td>
+    <td align="center">X</td>
+  </tr>
+  <tr>
+    <td>IQ02 - Slittamento della consegna di un protocollo dell'obiettivo</td>
+    <td align="center">X</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>IQ03 - Rilievi sull'obiettivo</td>
+    <td align="center"></td>
+    <td align="center">X</td>
+  </tr>
+  <tr>
+    <td>IQ04 - Test negativi in collaudo</td>
+    <td align="center">X</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>IQ05 - Difettosità in collaudo</td>
+    <td align="center">X</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>IQ06 - Giorni di sospensione del collaudo</td>
+    <td align="center">X</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>IQ07 - Slittamento della risoluzione dei malfunzionamenti in collaudo</td>
+    <td align="center">X</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>IQ08 - Difettosità in esercizio (per applicazione)</td>
+    <td align="center"></td>
+    <td align="center">X</td>
+  </tr>
+</table>
+
+<br/>
+<br/>
+
+## 3 INDICATORI DI QUALITÀ DI OBIETTIVO
+
+### 3.1 Indicatori di qualità applicabili a tutti gli obiettivi
+
+#### 3.1.1 IQ01 - Slittamento nell'esecuzione dell'obiettivo
 
 L'indicatore vuole valutare se la durata effettiva dell'obiettivo è maggiore rispetto a quella concordata nell'ultima pianificazione approvata da CSEN, considerando la data di attivazione come la data di partenza (comune alle due durate) per il calcolo della metrica.  
 Si valuta quindi lo slittamento della data di accettazione effettiva rispetto a quella di fine obiettivo riportata nell'ultima pianificazione.
@@ -74,7 +165,7 @@ Si valuta quindi lo slittamento della data di accettazione effettiva rispetto a 
 
 <br/>
 
-#### IQ02 - Slittamento della consegna di un incremento dell'obiettivo
+#### 3.1.2 IQ02 - Slittamento della consegna di un incremento dell'obiettivo
 
 L'indicatore si applica ad ogni macro incremento previsto per l'obiettivo.
 
@@ -143,7 +234,7 @@ L'indicatore si applica ad ogni macro incremento previsto per l'obiettivo.
 
 <br/>
 
-#### IQ03 - Rilievi sull'obiettivo
+#### 3.1.3 IQ03 - Rilievi sull'obiettivo
 
 I rilievi conteggiati nella metrica sono quelli notificati al fornitore tramite comunicazione formale emessa da CSEN. Si precisa che ciascuna comunicazione potrà contenere più rilievi.  
 Il numero di rilievi tollerati dall'obiettivo è in relazione alla [classe](project_docs/csen_poomsae_score/project_classification/project_classification.md) del progetto.
@@ -215,9 +306,9 @@ Il numero di rilievi tollerati dall'obiettivo è in relazione alla [classe](proj
 
 <br/>
 
-### Indicatori di qualità applicabili agli obiettivi di sviluppo, mev e mad
+### 3.2 Indicatori di qualità applicabili agli obiettivi di sviluppo, mev e mad
 
-#### IQ04 - Test negativi in collaudo
+#### 3.2.1 IQ04 - Test negativi in collaudo
 
 Con questo indicatore si vogliono individuare i casi di test eseguiti (sia in modalità manuale che automatica) dal fornitore con successo prima del rilascio e che, se rieseguiti durante il collaudo, danno esito negativo.
 
@@ -284,7 +375,7 @@ Con questo indicatore si vogliono individuare i casi di test eseguiti (sia in mo
 
 <br/>
 
-#### IQ05 - Difettosità in collaudo
+#### 3.2.2 IQ05 - Difettosità in collaudo
 
 Per "*Difetto*" si intende un errore presente nel software da collaudare, latente finchè non rilevato.  
 Per "*Difettosità in collaudo*" si intende il rapporto tra il numero di difetti (relativi a tutte le categorie di malfunzionamento) emersi in fase di collaudo dell'obiettivo, e <!--TODO-->
@@ -359,7 +450,7 @@ Per "*Difettosità in collaudo*" si intende il rapporto tra il numero di difetti
 
 <br/>
 
-#### IQ06 - Giorni di sospensione del collaudo
+#### 3.2.3 IQ06 - Giorni di sospensione del collaudo
 
 <table>
   <tr>
@@ -429,7 +520,7 @@ Per "*Difettosità in collaudo*" si intende il rapporto tra il numero di difetti
 
 <br/>
 
-#### IQ07 - Slittamento della risoluzione dei malfunzionamenti del collaudo
+#### 3.2.4 IQ07 - Slittamento della risoluzione dei malfunzionamenti del collaudo
 
 Durante il collaudo di ogni obiettivo gli interventi effettuati a fronte di malfunzionamenti del software applicativo avranno un livello di ripristino della piena operatività in funzione della categoria di malfunzionamento, così definito:
 
@@ -484,14 +575,14 @@ Durante il collaudo di ogni obiettivo gli interventi effettuati a fronte di malf
           <i>valore_limite = </i>
           <table>
             <tr>
-              <td><i>categoria A</i></td>
-              <td><i>categoria B</i></td>
-              <td><i>categoria C</i></td>
+              <td align="center"><i>categoria A</i></td>
+              <td align="center"><i>categoria B</i></td>
+              <td align="center"><i>categoria C</i></td>
             </tr>
             <tr>
-              <td><i>2 giorni lavorativi</i></td>
-              <td><i>3 giorni lavorativi</i></td>
-              <td><i>5 giorni lavorativi</i></td>
+              <td align="center"><i>2 giorni lavorativi</i></td>
+              <td align="center"><i>3 giorni lavorativi</i></td>
+              <td align="center"><i>5 giorni lavorativi</i></td>
             </tr>
           </table>
         </li>
@@ -499,12 +590,12 @@ Durante il collaudo di ogni obiettivo gli interventi effettuati a fronte di malf
           <i>ritardo_risol<sub>i</sub> = </i>
           <table>
             <tr>
-              <td><i>0</i></td>
-              <td><i>durata_risol<sub>i</sub> - valore_limite</i></td>
+              <td align="center"><i>0</i></td>
+              <td align="center"><i>durata_risol<sub>i</sub> - valore_limite</i></td>
             </tr>
             <tr>
-              <td><i>(se durata_risol<sub>i</sub> <= valore_limite)</i></td>
-              <td><i>(se durata_risol<sub>i</sub> > valore_limite)</i></td>
+              <td align="center"><i>(se durata_risol<sub>i</sub> <= valore_limite)</i></td>
+              <td align="center"><i>(se durata_risol<sub>i</sub> > valore_limite)</i></td>
             </tr>
           </table>
         </li>
@@ -535,7 +626,7 @@ Durante il collaudo di ogni obiettivo gli interventi effettuati a fronte di malf
 
 <br/>
 
-#### IQ08 - Difettosità in esercizio (per applicazione)
+#### 3.2.5 IQ08 - Difettosità in esercizio (per applicazione)
 
 <table>
   <tr>
