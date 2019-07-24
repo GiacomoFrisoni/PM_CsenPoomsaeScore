@@ -325,7 +325,7 @@ Per "*Difettosità in collaudo*" si intende il rapporto tra il numero di difetti
   </tr>
   <tr>
     <th align="left">Formula</th>
-    <td align="left" colspan="3"><i><img src="https://latex.codecogs.com/gif.latex?IQ05&space;=&space;\frac{N_difetti}{TODO}" title="IQ05 = \frac{N_difetti}{TODO}" /></i></td>
+    <td align="left" colspan="3"><i><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ05&space;=&space;\frac{N\_difetti}{TODO}" title="IQ05 = \frac{N\_difetti}{TODO}" /></td>
   </tr>
   <tr>
     <th align="left">Regole di arrotondamento</th>
