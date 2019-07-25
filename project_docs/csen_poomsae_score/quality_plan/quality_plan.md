@@ -466,7 +466,7 @@ Con questo indicatore si vogliono individuare i casi di test eseguiti (sia in mo
   </tr>
   <tr>
     <th align="left">Formula</th>
-    <td align="left" colspan="3"><i>IQ04 = Ntest_notok</i></td>
+    <td align="left" colspan="3"><i>IQ05 = Ntest_notok</i></td>
   </tr>
   <tr>
     <th align="left">Regole di arrotondamento</th>
@@ -474,7 +474,7 @@ Con questo indicatore si vogliono individuare i casi di test eseguiti (sia in mo
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td align="left" colspan="3">IQ04 = 0</td>
+    <td align="left" colspan="3">IQ05 = 0</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
@@ -549,7 +549,7 @@ Per "*Difettosità in collaudo*" si intende la media pesata del numero di difett
   <tr>
     <th align="left">Formula</th>
     <td align="left" colspan="3">
-      IQ05 = (0,15 x N_difetti_A) + (0,25 x N_difetti_B) + (0,6 x N_difetti_C)
+      <i>IQ06 = (0,15 x N_difetti_A) + (0,25 x N_difetti_B) + (0,6 x N_difetti_C)</i>
     </td>
   </tr>
   <tr>
@@ -562,7 +562,7 @@ Per "*Difettosità in collaudo*" si intende la media pesata del numero di difett
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td align="left" colspan="3">IQ05 < 0,6</td>
+    <td align="left" colspan="3">IQ06 < 0,6</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
@@ -623,7 +623,7 @@ Per "*Difettosità in collaudo*" si intende la media pesata del numero di difett
   <tr>
     <th align="left">Formula</th>
     <td align="left" colspan="3">
-      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ06&space;=&space;\sum_{j=1}^{Nsosp\_collaudo}(Data\_ripresa_j&space;-&space;Data\_sospensione_j&space;-&space;Ngiorni\_nolav_j)" title="IQ06 = \sum_{j=1}^{Nsosp\_collaudo}(Data\_ripresa_j - Data\_sospensione_j - Ngiorni\_nolav_j)" />
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ07&space;=&space;\sum_{j=1}^{Nsosp\_collaudo}(Data\_ripresa_j&space;-&space;Data\_sospensione_j&space;-&space;Ngiorni\_nolav_j)" title="IQ07 = \sum_{j=1}^{Nsosp\_collaudo}(Data\_ripresa_j - Data\_sospensione_j - Ngiorni\_nolav_j)" />
     </td>
   </tr>
   <tr>
@@ -632,7 +632,7 @@ Per "*Difettosità in collaudo*" si intende la media pesata del numero di difett
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td align="left" colspan="3">IQ06 = 0</td>
+    <td align="left" colspan="3">IQ07 = 0</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
@@ -695,7 +695,7 @@ Durante il collaudo di ogni obiettivo gli interventi effettuati a fronte di malf
   <tr>
     <th align="left">Formula</th>
     <td align="left" colspan="3">
-      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ07&space;=&space;\sum_{i=1}^{Ntotale\_malf\_coll}ritardo\_risol_i" title="IQ07 = \sum_{i=1}^{Ntotale\_malf\_coll}ritardo\_risol_i" />
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ08&space;=&space;\sum_{i=1}^{Ntotale\_malf\_coll}ritardo\_risol_i" title="IQ08 = \sum_{i=1}^{Ntotale\_malf\_coll}ritardo\_risol_i" />
       <br/>
       Dove:
       <br/>
@@ -738,7 +738,7 @@ Durante il collaudo di ogni obiettivo gli interventi effettuati a fronte di malf
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td align="left" colspan="3">IQ07 = 0</td>
+    <td align="left" colspan="3">IQ08 = 0</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
@@ -810,7 +810,7 @@ Durante il collaudo di ogni obiettivo gli interventi effettuati a fronte di malf
   <tr>
     <th align="left">Formula</th>
     <td align="left" colspan="3">
-      IQ08 = (0,15 x N_difetti_A) + (0,25 x N_difetti_B) + (0,6 x N_difetti_C)
+      <i>IQ09 = (0,15 x N_difetti_A) + (0,25 x N_difetti_B) + (0,6 x N_difetti_C)</i>
     </td>
   </tr>
   <tr>
@@ -823,7 +823,7 @@ Durante il collaudo di ogni obiettivo gli interventi effettuati a fronte di malf
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td align="left" colspan="3">IQ08 < 0,6</td>
+    <td align="left" colspan="3">IQ09 < 0,6</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
@@ -889,7 +889,7 @@ Si precisa che non sono considerati commenti le linee blank e le eventuali righe
   <tr>
     <th align="left">Formula</th>
     <td align="left" colspan="3">
-      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ09&space;=&space;\frac{\sum_{i=1}^{Nmoduli}{Ncomm_i}}{\sum_{i=1}^{Nmoduli}{NLoc_i}}\times&space;100" title="IQ09 = \frac{\sum_{i=1}^{Nmoduli}{Ncomm_i}}{\sum_{i=1}^{Nmoduli}{NLoc_i}}\times 100" />
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ10&space;=&space;\frac{\sum_{i=1}^{Nmoduli}{Ncomm_i}}{\sum_{i=1}^{Nmoduli}{NLoc_i}}\times&space;100" title="IQ10 = \frac{\sum_{i=1}^{Nmoduli}{Ncomm_i}}{\sum_{i=1}^{Nmoduli}{NLoc_i}}\times 100" />
     </td>
   </tr>
   <tr>
@@ -906,13 +906,13 @@ Si precisa che non sono considerati commenti le linee blank e le eventuali righe
       <table>
         <tr>
           <td align="left">
-            IQ09 >= 20%<br/>
+            IQ10 >= 20%<br/>
             <i>(per i linguaggi C# / Java)</i>
           </td>
         </tr>
         <tr>
           <td align="left">
-            IQ09 >= 10%<br/>
+            IQ10 >= 10%<br/>
             <i>(per il linguaggio XAML)</i>
           </td>
         </tr>
@@ -977,7 +977,7 @@ Qualora l'obiettivo includa l'uso di più linguaggi, l'indicatore si utilizza su
   </tr>
   <tr>
     <th align="left">Formula</th>
-    <td align="left" colspan="3">IQ10 = Nlin_inerte</td>
+    <td align="left" colspan="3"><i>IQ11 = Nlin_inerte</i></td>
   </tr>
   <tr>
     <th align="left">Regole di arrotondamento</th>
@@ -985,7 +985,7 @@ Qualora l'obiettivo includa l'uso di più linguaggi, l'indicatore si utilizza su
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td colspan="3">IQ10 = 0</td>
+    <td colspan="3">IQ11 = 0</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
@@ -1033,7 +1033,7 @@ Grazie all'uso della Gamification si possono ottenere feedback sulla documentazi
     <td align="left" colspan="3">
         <ul>
             <li>Numero di documenti valutati (<i>Ndoc</i>)</li>
-            <li>Sommatoria delle valutazioni dei documenti (<i>Som_val_doc</i>)</li>
+            <li>Valutazione espressa per la documentazione di un file da parte di un dipendente (<i>Val_doc<sub>i</sub></i>)</li>
         </ul>
     </td>
   </tr>
@@ -1044,7 +1044,7 @@ Grazie all'uso della Gamification si possono ottenere feedback sulla documentazi
   <tr>
     <th align="left">Formula</th>
     <td align="left" colspan="3">
-      <img src="https://latex.codecogs.com/gif.latex?\frac{\sum_{i=1}^{Ndoc}{doc_i}}{Ndoc}" title="\frac{\sum_{i=1}^{Ndoc} doc_i}{Ndoc}" />
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;IQ12&space;=&space;\frac{\sum_{i=1}^{Ndoc}{Val\_doc_i}}{Ndoc}" title="IQ12 = \frac{\sum_{i=1}^{Ndoc}{Val\_doc_i}}{Ndoc}" />
     </td>
   </tr>
   <tr>
@@ -1198,7 +1198,7 @@ La metrica, applicata in maniera analitica ad ogni Classe dell’obiettivo contr
   </tr>
   <tr>
     <th align="left">Formula</th>
-    <td align="left" colspan="3">IQ11 = Pub_data</td>
+    <td align="left" colspan="3"><i>IQ14 = Pub_data</i></td>
   </tr>
   <tr>
     <th align="left">Regole di arrotondamento</th>
@@ -1206,7 +1206,7 @@ La metrica, applicata in maniera analitica ad ogni Classe dell’obiettivo contr
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td colspan="3">IQ11 = 0</td>
+    <td colspan="3">IQ14 = 0</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
@@ -1265,7 +1265,7 @@ Questa metrica va applicata ad ogni Classe dell'obiettivo contrattuale ed effett
   </tr>
   <tr>
     <th align="left">Formula</th>
-    <td align="left" colspan="3">IQ12 = NMC</td>
+    <td align="left" colspan="3"><i>IQ15 = NMC</i></td>
   </tr>
   <tr>
     <th align="left">Regole di arrotondamento</th>
@@ -1273,7 +1273,7 @@ Questa metrica va applicata ad ogni Classe dell'obiettivo contrattuale ed effett
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td colspan="3">IQ12 <= 16</td>
+    <td colspan="3">IQ15 <= 16</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
@@ -1337,7 +1337,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
   <tr>
     <th align="left">Formula</th>
     <td align="left" colspan="3">
-      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ13&space;=&space;\left&space;(&space;1&space;-&space;\frac{\sum_{j=1}^{A}{m_j}}{M&space;\times&space;A}&space;\right&space;)&space;\times&space;100" title="IQ13 = \left ( 1 - \frac{\sum_{j=1}^{A}{m_j}}{M \times A} \right ) \times 100" />
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ16&space;=&space;\left&space;(&space;1&space;-&space;\frac{\sum_{j=1}^{A}{m_j}}{M&space;\times&space;A}&space;\right&space;)&space;\times&space;100" title="IQ16 = \left ( 1 - \frac{\sum_{j=1}^{A}{m_j}}{M \times A} \right ) \times 100" />
     </td>
   </tr>
   <tr>
@@ -1350,7 +1350,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td colspan="3">IQ13 >= 75%</td>
+    <td colspan="3">IQ16 >= 75%</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
@@ -1411,7 +1411,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
   </tr>
   <tr>
     <th align="left">Formula</th>
-    <td align="left" colspan="3">IQ14 = Ncasi_recidivi</td>
+    <td align="left" colspan="3"><i>IQ17 = Ncasi_recidivi</i></td>
   </tr>
   <tr>
     <th align="left">Regole di arrotondamento</th>
@@ -1419,7 +1419,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td colspan="3">IQ14 = 2</td>
+    <td colspan="3">IQ17 = 2</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
@@ -1481,7 +1481,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
   <tr>
     <th align="left">Formula</th>
     <td align="left" colspan="3">
-      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ15&space;=&space;\frac{\sum_{j=1}^{Ntotale\_richieste}{(Data\_risposta_j&space;-&space;Data\_ricezione_j)}}{Ntotale\_richieste}" title="IQ15 = \frac{\sum_{j=1}^{Ntotale\_richieste}{(Data\_risposta_j - Data\_ricezione_j)}}{Ntotale\_richieste}" />
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ18&space;=&space;\frac{\sum_{j=1}^{Ntotale\_richieste}{(Data\_risposta_j&space;-&space;Data\_ricezione_j)}}{Ntotale\_richieste}" title="IQ18 = \frac{\sum_{j=1}^{Ntotale\_richieste}{(Data\_risposta_j - Data\_ricezione_j)}}{Ntotale\_richieste}" />
     </td>
   </tr>
   <tr>
@@ -1494,7 +1494,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td colspan="3">IQ15 <= 3h</td>
+    <td colspan="3">IQ18 <= 3h</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
@@ -1566,7 +1566,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
   <tr>
     <th align="left">Formula</th>
     <td align="left" colspan="3">
-      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ16&space;=&space;\sum_{i&space;=&space;1}^{Nquestionari}{\frac{Nrisposte\_pos_i}{Ndomande_i}}\times&space;100" title="IQ16 = \sum_{i = 1}^{Nquestionari}{\frac{Nrisposte\_pos_i}{Ndomande_i}}\times 100" />
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ19&space;=&space;\sum_{i&space;=&space;1}^{Nquestionari}{\frac{Nrisposte\_pos_i}{Ndomande_i}}\times&space;100" title="IQ19 = \sum_{i = 1}^{Nquestionari}{\frac{Nrisposte\_pos_i}{Ndomande_i}}\times 100" />
     </td>
   </tr>
   <tr>
@@ -1579,7 +1579,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td colspan="3">IQ16 >= 70%</td>
+    <td colspan="3">IQ19 >= 70%</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
