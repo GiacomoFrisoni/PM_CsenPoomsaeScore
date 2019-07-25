@@ -8,25 +8,28 @@
     - [2.1.1 IQ01 - Slittamento nell'esecuzione dell'obiettivo](#211-iq01---slittamento-nellesecuzione-dellobiettivo)
     - [2.1.2 IQ02 - Slittamento della consegna di un incremento dell'obiettivo](#212-iq02---slittamento-della-consegna-di-un-incremento-dellobiettivo)
     - [2.1.3 IQ03 - Rilievi sull'obiettivo](#213-iq03---rilievi-sullobiettivo)
+    - [2.1.4 IQ04 - Mancato raggiungimento del Business Value previsto](#214-iq04---mancato-raggiungimento-del-business-value-previsto)
   - [2.2 Indicatori di qualità applicabili agli obiettivi di sviluppo, mev e mad](#22-indicatori-di-qualit%c3%a0-applicabili-agli-obiettivi-di-sviluppo-mev-e-mad)
-    - [2.2.1 IQ04 - Test negativi in collaudo](#221-iq04---test-negativi-in-collaudo)
-    - [2.2.2 IQ05 - Difettosità in collaudo](#222-iq05---difettosit%c3%a0-in-collaudo)
-    - [2.2.3 IQ06 - Giorni di sospensione del collaudo](#223-iq06---giorni-di-sospensione-del-collaudo)
-    - [2.2.4 IQ07 - Slittamento della risoluzione dei malfunzionamenti del collaudo](#224-iq07---slittamento-della-risoluzione-dei-malfunzionamenti-del-collaudo)
-    - [2.2.5 IQ08 - Difettosità in esercizio (per applicazione)](#225-iq08---difettosit%c3%a0-in-esercizio-per-applicazione)
+    - [2.2.1 IQ05 - Test negativi in collaudo](#221-iq05---test-negativi-in-collaudo)
+    - [2.2.2 IQ06 - Difettosità in collaudo](#222-iq06---difettosit%c3%a0-in-collaudo)
+    - [2.2.3 IQ07 - Giorni di sospensione del collaudo](#223-iq07---giorni-di-sospensione-del-collaudo)
+    - [2.2.4 IQ08 - Slittamento della risoluzione dei malfunzionamenti del collaudo](#224-iq08---slittamento-della-risoluzione-dei-malfunzionamenti-del-collaudo)
+    - [2.2.5 IQ09 - Difettosità in esercizio (per applicazione)](#225-iq09---difettosit%c3%a0-in-esercizio-per-applicazione)
   - [2.3 Indicatori di qualità applicabili agli obiettivi di sviluppo, mev](#23-indicatori-di-qualit%c3%a0-applicabili-agli-obiettivi-di-sviluppo-mev)
-    - [2.3.1 IQ09 - Densità dei commenti del software sviluppato](#231-iq09---densit%c3%a0-dei-commenti-del-software-sviluppato)
-    - [2.3.2 IQ10 - Linee di codice inerte](#232-iq10---linee-di-codice-inerte)
+    - [2.3.1 IQ10 - Densità dei commenti del software sviluppato](#231-iq10---densit%c3%a0-dei-commenti-del-software-sviluppato)
+    - [2.3.2 IQ11 - Linee di codice inerte](#232-iq11---linee-di-codice-inerte)
+    - [2.3.3 IQ12 - Qualità della documentazione](#233-iq12---qualit%c3%a0-della-documentazione)
+    - [2.3.4 IQ13 - Qualità e utilità meeting](#234-iq13---qualit%c3%a0-e-utilit%c3%a0-meeting)
   - [2.4 Indicatori di qualità specifici degli obiettivi sviluppati in modalità object oriented](#24-indicatori-di-qualit%c3%a0-specifici-degli-obiettivi-sviluppati-in-modalit%c3%a0-object-oriented)
-    - [2.4.1 IQ11 - Violazioni dell’Incapsulamento da parte di una Classe](#241-iq11---violazioni-dellincapsulamento-da-parte-di-una-classe)
-    - [2.4.2 IQ12 - Metodi implementati in una Classe](#242-iq12---metodi-implementati-in-una-classe)
-    - [2.4.3 IQ13 - Grado di coesione dei Metodi di una Classe](#243-iq13---grado-di-coesione-dei-metodi-di-una-classe)
+    - [2.4.1 IQ14 - Violazioni dell’Incapsulamento da parte di una Classe](#241-iq14---violazioni-dellincapsulamento-da-parte-di-una-classe)
+    - [2.4.2 IQ15 - Metodi implementati in una Classe](#242-iq15---metodi-implementati-in-una-classe)
+    - [2.4.3 IQ16 - Grado di coesione dei Metodi di una Classe](#243-iq16---grado-di-coesione-dei-metodi-di-una-classe)
 - [3 INDICATORI DI QUALITÀ DEL SERVIZIO DI MANUTENZIONE CORRETTIVA](#3-indicatori-di-qualit%c3%80-del-servizio-di-manutenzione-correttiva)
-    - [3.1 IQ14 - Casi recidivi (per area applicativa)](#31-iq14---casi-recidivi-per-area-applicativa)
+    - [3.1 IQ17 - Casi recidivi (per area applicativa)](#31-iq17---casi-recidivi-per-area-applicativa)
 - [4 INDICATORI DI QUALITÀ DEL SERVIZIO DI GESTIONE APPLICATIVA](#4-indicatori-di-qualit%c3%80-del-servizio-di-gestione-applicativa)
-    - [4.1 IQ15 - Tempo medio di risposta al cliente](#41-iq15---tempo-medio-di-risposta-al-cliente)
+    - [4.1 IQ18 - Tempo medio di risposta al cliente](#41-iq18---tempo-medio-di-risposta-al-cliente)
 - [5 INDICATORI DI QUALITÀ APPLICABILI A TUTTI I SERVIZI DELLA FORNITURA](#5-indicatori-di-qualit%c3%80-applicabili-a-tutti-i-servizi-della-fornitura)
-    - [5.1 IQ16 - Soddisfazione del committente](#51-iq16---soddisfazione-del-committente)
+    - [5.1 IQ19 - Soddisfazione del committente](#51-iq19---soddisfazione-del-committente)
 
 ## 1 QUADRO RIEPILOGATIVO DEGLI INDICATORI DI QUALITÀ
 
@@ -57,62 +60,82 @@ Di seguito si trova una matrice di corrispondenza tra gli indicatori di qualità
     <td align="center">X</td>
   </tr>
   <tr>
-    <td>IQ04 - Test negativi in collaudo</td>
-    <td align="center">X</td>
-    <td align="center"></td>
-  </tr>
-  <tr>
-    <td>IQ05 - Difettosità in collaudo</td>
-    <td align="center">X</td>
-    <td align="center"></td>
-  </tr>
-  <tr>
-    <td>IQ06 - Giorni di sospensione del collaudo</td>
-    <td align="center">X</td>
-    <td align="center"></td>
-  </tr>
-  <tr>
-    <td>IQ07 - Slittamento della risoluzione dei malfunzionamenti in collaudo</td>
-    <td align="center">X</td>
-    <td align="center"></td>
-  </tr>
-  <tr>
-    <td>IQ08 - Difettosità in esercizio (per applicazione)</td>
+    <td>IQ04 - Mancato raggiungimento del Business Value previsto</td>
     <td align="center"></td>
     <td align="center">X</td>
   </tr>
   <tr>
-    <td>IQ09 - Densità dei commenti del software sviluppato</td>
+    <td>IQ05 - Test negativi in collaudo</td>
     <td align="center">X</td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td>IQ10 - Linee di codice inerte</td>
+    <td>IQ06 - Difettosità in collaudo</td>
     <td align="center">X</td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td>IQ11 - Violazioni dell’Incapsulamento da parte di una Classe</td>
+    <td>IQ07 - Giorni di sospensione del collaudo</td>
     <td align="center">X</td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td>IQ12 - Metodi implementati in una Classe</td>
+    <td>IQ08 - Slittamento della risoluzione dei malfunzionamenti in collaudo</td>
     <td align="center">X</td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td>IQ13 - Grado di coesione dei Metodi di una Classe</td>
-    <td align="center">X</td>
-    <td align="center"></td>
-  </tr>
-  <tr>
-    <td>IQ14 - Casi recidivi (per area applicativa)</td>
+    <td>IQ09 - Difettosità in esercizio (per applicazione)</td>
     <td align="center"></td>
     <td align="center">X</td>
   </tr>
   <tr>
-    <td>IQ15 - Soddisfazione del committente</td>
+    <td>IQ10 - Densità dei commenti del software sviluppato</td>
+    <td align="center">X</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>IQ11 - Linee di codice inerte</td>
+    <td align="center">X</td>
+    <td align="center"></td>
+  </tr>
+    <tr>
+    <td>IQ12 - Qualità della documentazione</td>
+    <td align="center">X</td>
+    <td align="center"></td>
+  </tr>
+    <tr>
+    <td>IQ13 - Qualità e utilità meeting</td>
+    <td align="center">X</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>IQ14 - Violazioni dell’Incapsulamento da parte di una Classe</td>
+    <td align="center">X</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>IQ15 - Metodi implementati in una Classe</td>
+    <td align="center">X</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>IQ16 - Grado di coesione dei Metodi di una Classe</td>
+    <td align="center">X</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>IQ17 - Casi recidivi (per area applicativa)</td>
+    <td align="center"></td>
+    <td align="center">X</td>
+  </tr>
+  <tr>
+    <td>IQ18 - Tempo medio di risposta al cliente</td>
+    <td align="center">X</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>IQ19 - Soddisfazione del committente</td>
     <td align="center">X</td>
     <td align="center"></td>
   </tr>
@@ -333,11 +356,76 @@ Il numero di rilievi tollerati dall'obiettivo è in relazione alla [classe](proj
 
 ------------
 
+#### 2.1.4 IQ04 - Mancato raggiungimento del Business Value previsto
+
+Con questo indicatore si vuole individuare il mancato raggiungimento dei Business Value riportati all'interno del POS.
+
+<table>
+  <tr>
+    <th align="left">Caratteristica</th>
+    <td align="left">Efficacia</th>
+    <th align="left">Sottocaratteristica</th>
+    <td align="left">Efficacia</th>
+  </tr>
+  <tr>
+    <th align="left">Aspetto da valutare</th>
+    <td align="left" colspan="3">Numero di Business Value non raggiunti</td>
+  </tr>
+  <tr>
+    <th align="left">Unità di misura</th>
+    <td align="left">Business Value</th>
+    <th align="left">Fonte dati</th>
+    <td align="left">Report temporali sul progetto finale</th>
+  </tr>
+  <tr>
+    <th align="left">Periodo di riferimento</th>
+    <td align="left">Durata dell'obiettivo</th>
+    <th align="left">Frequenza di misurazione</th>
+    <td align="left">Al termine dell'obiettivo</th>
+  </tr>
+  <tr>
+    <th align="left">Dati da rilevare</th>
+    <td align="left" colspan="3">
+        <ul>
+            <li>Business Value non raggiunti (<i>Nbusiness_value</i>)</li>
+        </ul>
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Regole di campionamento</th>
+    <td align="left" colspan="3">Vanno considerati tutti i Business Value</td>
+  </tr>
+  <tr>
+    <th align="left">Formula</th>
+    <td align="left" colspan="3"><i>IQ04 = Nbusiness_value</i></td>
+  </tr>
+  <tr>
+    <th align="left">Regole di arrotondamento</th>
+    <td align="left" colspan="3">Nessuna</td>
+  </tr>
+  <tr>
+    <th align="left">Valore di soglia</th>
+    <td align="left" colspan="3">
+        IQ04 <= 0
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Azioni contrattuali</th>
+    <td align="left" colspan="3">Penale <i>"Business Value non raggiunte"</i> qualora non sia rispettato il valore di soglia</td>
+  </tr>
+  <tr>
+    <th align="left">Eccezioni</th>
+    <td align="left" colspan="3">Nessuna</td>
+  </tr>
+</table>
+
 <br/>
+
+----------
 
 ### 2.2 Indicatori di qualità applicabili agli obiettivi di sviluppo, mev e mad
 
-#### 2.2.1 IQ04 - Test negativi in collaudo
+#### 2.2.1 IQ05 - Test negativi in collaudo
 
 Con questo indicatore si vogliono individuare i casi di test eseguiti (sia in modalità manuale che automatica) dal fornitore con successo prima del rilascio e che, se rieseguiti durante il collaudo, danno esito negativo.
 
@@ -404,7 +492,7 @@ Con questo indicatore si vogliono individuare i casi di test eseguiti (sia in mo
 
 <br/>
 
-#### 2.2.2 IQ05 - Difettosità in collaudo
+#### 2.2.2 IQ06 - Difettosità in collaudo
 
 Per "*Difetto*" si intende un errore presente nel software da collaudare, latente finchè non rilevato.  
 Per "*Difettosità in collaudo*" si intende la media pesata del numero di difetti emersi, con peso in funzione della loro categoria (assegnata dal fornitore sulla base di una stima delle risorse che occorreranno per la correzione).
@@ -492,7 +580,7 @@ Per "*Difettosità in collaudo*" si intende la media pesata del numero di difett
 
 <br/>
 
-#### 2.2.3 IQ06 - Giorni di sospensione del collaudo
+#### 2.2.3 IQ07 - Giorni di sospensione del collaudo
 
 <table>
   <tr>
@@ -562,7 +650,7 @@ Per "*Difettosità in collaudo*" si intende la media pesata del numero di difett
 
 <br/>
 
-#### 2.2.4 IQ07 - Slittamento della risoluzione dei malfunzionamenti del collaudo
+#### 2.2.4 IQ08 - Slittamento della risoluzione dei malfunzionamenti del collaudo
 
 Durante il collaudo di ogni obiettivo gli interventi effettuati a fronte di malfunzionamenti del software applicativo avranno un livello di ripristino della piena operatività in funzione della categoria di malfunzionamento, così definito:
 
@@ -668,7 +756,7 @@ Durante il collaudo di ogni obiettivo gli interventi effettuati a fronte di malf
 
 <br/>
 
-#### 2.2.5 IQ08 - Difettosità in esercizio (per applicazione)
+#### 2.2.5 IQ09 - Difettosità in esercizio (per applicazione)
 
 <table>
   <tr>
@@ -685,7 +773,7 @@ Durante il collaudo di ogni obiettivo gli interventi effettuati a fronte di malf
     <th align="left">Unità di misura</th>
     <td align="left">Numero Difetti / Peso Categoria Difetto</th>
     <th align="left">Fonte dati</th>
-    <td align="left">Verable di rilevazione</th>
+    <td align="left">Verbale di rilevazione</th>
   </tr>
   <tr>
     <th align="left">Periodo di riferimento</th>
@@ -701,9 +789,8 @@ Durante il collaudo di ogni obiettivo gli interventi effettuati a fronte di malf
               <ul>
                 <li><b>A</b> - per difetti correggibili entro 3 giorni (<i>N_difetti_A</i>).</li>
                 <li><b>B</b> - per difetti correggibili entro 4 giorni (<i>N_difetti_B</i>).</li>
-                <li><b>C</b> - per difetti correggibili entro 7 giorni (<i>N_difetti_C</i>).</li>
+                <li><b>C</b> - per difetti correggibili entro 6 giorni (<i>N_difetti_C</i>).</li>
               </ul>
-              <!--TODO: spiegare in pm approach il perchè dell'incremento di un giorno (non siamo più freschi, a differenza di prima che ancora stavamo sviluppando incrementi ed eravamo nel vivo del progetto)-->
             </li>
             <br/>
             <li>Peso assegnato ad ogni categoria:
@@ -756,7 +843,7 @@ Durante il collaudo di ogni obiettivo gli interventi effettuati a fronte di malf
 
 ### 2.3 Indicatori di qualità applicabili agli obiettivi di sviluppo, mev
 
-#### 2.3.1 IQ09 - Densità dei commenti del software sviluppato
+#### 2.3.1 IQ10 - Densità dei commenti del software sviluppato
 
 Si applica ai soli obiettivi che generano software nuovo. Qualora l'obiettivo includa l'uso di più linguaggi, l'indicatore va applicato separatamente al codice sviluppato in ogni singolo linguaggio.  
 I commenti dovranno essere facilmente separabili dalle istruzioni.  
@@ -848,7 +935,7 @@ Si precisa che non sono considerati commenti le linee blank e le eventuali righe
 
 <br/>
 
-#### 2.3.2 IQ10 - Linee di codice inerte
+#### 2.3.2 IQ11 - Linee di codice inerte
 
 L'indicatore si applica sia al software nuovo che al software modificato. Per software modificato si intende il software modificato nell'ambito della fornitura anche se realizzato in forniture precedenti.  
 Qualora l'obiettivo includa l'uso di più linguaggi, l'indicatore si utilizza su ogni singolo linguaggio.
@@ -914,13 +1001,163 @@ Qualora l'obiettivo includa l'uso di più linguaggi, l'indicatore si utilizza su
 
 ------------
 
+#### 2.3.3 IQ12 - Qualità della documentazione
+
+Grazie all'uso della Gamification si possono ottenere feedback sulla documentazione svolta dai dipendenti.
+
+<table>
+  <tr>
+    <th align="left">Caratteristica</th>
+    <td align="left">Manutenibilità</th>
+    <th align="left">Sottocaratteristica</th>
+    <td align="left">Modificabilità</th>
+  </tr>
+  <tr>
+    <th align="left">Aspetto da valutare</th>
+    <td align="left" colspan="3">Valutazione della documentazione da parte dei dipendenti</td>
+  </tr>
+  <tr>
+    <th align="left">Unità di misura</th>
+    <td align="left">Valutazione con numero intero (da 1 a 5)</th>
+    <th align="left">Fonte dati</th>
+    <td align="left">Feedback dei dipendenti</th>
+  </tr>
+  <tr>
+    <th align="left">Periodo di riferimento</th>
+    <td align="left">Durata della fase di realizzazione dell'obiettivo</th>
+    <th align="left">Frequenza di misurazione</th>
+    <td align="left">Almeno una volta al mese (libera sulla base della disponibilità dei dipendenti)</i></th>
+  </tr>
+  <tr>
+    <th align="left">Dati da rilevare</th>
+    <td align="left" colspan="3">
+        <ul>
+            <li>Numero di documenti valutati (<i>Ndoc</i>)</li>
+            <li>Sommatoria delle valutazioni dei documenti (<i>Som_val_doc</i>)</li>
+        </ul>
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Regole di campionamento</th>
+    <td align="left" colspan="3">Vanno considerati tutti i documenti per cui è stata rilasciata una valutazione</td>
+  </tr>
+  <tr>
+    <th align="left">Formula</th>
+    <td align="left" colspan="3">
+      <img src="https://latex.codecogs.com/gif.latex?\frac{\sum_{i=1}^{Ndoc}{doc_i}}{Ndoc}" title="\frac{\sum_{i=1}^{Ndoc} doc_i}{Ndoc}" />
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Regole di arrotondamento</th>
+    <td align="left" colspan="3">
+      Il risultato della misura va arrotondato:<br/>
+      - per difetto se la prima cifra decimale è <= 0,05<br/>
+      - per eccesso se la prima cifra decimale è > 0,05
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Valore di soglia</th>
+    <td colspan="3">
+      IQ12 >= 3.7
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Azioni contrattuali</th>
+    <td align="left" colspan="3">Rilievo sull'obiettivo nel caso di non rispetto del valore di soglia</td>
+  </tr>
+  <tr>
+    <th align="left">Eccezioni</th>
+    <td align="left" colspan="3">Nessuna</td>
+  </tr>
+</table>
+
+<br/>
+
+------------
+
+#### 2.3.4 IQ13 - Qualità e utilità meeting
+
+L'indicatore ha l'obiettivo di valutare la qualità e l'utilità dei meeting organizzati, basandosi sulle autovalutazioni prodotte dai partecipanti al termine di ogni incontro. Nel far ciò si considerano le domande booleane (YES/NO) nei questionari conclusivi (in numero potenzialmente diverso sulla base della tipologia di meeting), ricordando come le risposte "YES" siano sempre associate a caratteristiche positive del meeting in esame.
+
+<table>
+  <tr>
+    <th align="left">Caratteristica</th>
+    <td align="left">Efficienza</th>
+    <th align="left">Sottocaratteristica</th>
+    <td align="left">Efficienza</th>
+  </tr>
+  <tr>
+    <th align="left">Aspetto da valutare</th>
+    <td align="left" colspan="3">Qualità e utilità dei meeting</td>
+  </tr>
+  <tr>
+    <th align="left">Unità di misura</th>
+    <td align="left">Punto percentuale</th>
+    <th align="left">Fonte dati</th>
+    <td align="left">Documentazione dei meeting</th>
+  </tr>
+  <tr>
+    <th align="left">Periodo di riferimento</th>
+    <td align="left">Durata della fase di realizzazione dell'obiettivo</th>
+    <th align="left">Frequenza di misurazione</th>
+    <td align="left">Mensile (solo se in presenza di meeting)</i></th>
+  </tr>
+  <tr>
+    <th align="left">Dati da rilevare</th>
+    <td align="left" colspan="3">
+        <ul>
+            <li>Numero di meeting svolti (<i>Nmeeting</i>)</li>
+            <li>Numero di partecipanti di un meeting (<i>Npartecipanti<sub>i</sub></i>)</li>
+            <li>Risposte "YES" di un partecipante nel documento di un meeting (<i>Nyes<sub>ij</sub></i>)</li>
+            <li>Numero totale di domande presenti nel documento di un meeting (<i>Ndom<sub>i</sub></i>)</li>
+        </ul>
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Regole di campionamento</th>
+    <td align="left" colspan="3">Vanno considerati tutti i documenti per cui è stata rilasciata una valutazione</td>
+  </tr>
+  <tr>
+    <th align="left">Formula</th>
+    <td align="left" colspan="3">
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ13&space;=&space;\left&space;(&space;\frac{\sum_{i=1}^{Nmeeting}{\sum_{j=1}^{Npartecipanti_i}{\frac{Nyes_ij}{Ndomi}}}}{Nmeeting}&space;\right&space;)&space;\times&space;100" title="IQ13 = \left ( \frac{\sum_{i=1}^{Nmeeting}{\sum_{j=1}^{Npartecipanti_i}{\frac{Nyes_ij}{Ndomi}}}}{Nmeeting} \right ) \times 100" />
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Regole di arrotondamento</th>
+    <td align="left" colspan="3">
+      Il risultato della misura va arrotondato:<br/>
+      - per difetto se la prima cifra decimale è <= 0,5<br/>
+      - per eccesso se la prima cifra decimale è > 0,5
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Valore di soglia</th>
+    <td colspan="3">
+      IQ13 >= 70%
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Azioni contrattuali</th>
+    <td align="left" colspan="3">Rilievo sull'obiettivo nel caso di non rispetto del valore di soglia</td>
+  </tr>
+  <tr>
+    <th align="left">Eccezioni</th>
+    <td align="left" colspan="3">Nessuna</td>
+  </tr>
+</table>
+
+<br/>
+
+------------
+
 <br/>
 
 ### 2.4 Indicatori di qualità specifici degli obiettivi sviluppati in modalità object oriented
 
 Gli indicatori di seguito elencati, relativi ai soli obiettivi sviluppati in modalità object oriented, si applicano in aggiunta ai precedenti di cui ai paragrafi da 3.1 a 3.3.
 
-#### 2.4.1 IQ11 - Violazioni dell’Incapsulamento da parte di una Classe
+#### 2.4.1 IQ14 - Violazioni dell’Incapsulamento da parte di una Classe
 
 La metrica, applicata in maniera analitica ad ogni Classe dell’obiettivo contrattuale, consente di stabilire se è rispettato il paradigma Object  Oriented dell’incapsulamento poiché rileva il numero dei metodi che accedono a dati definiti in un’altra Classe che sono una violazione di questo paradigma. La violazione dell’incapsulamento peggiora la manutenibilità del codice stesso, in quanto una modifica della definizione di uno dei suddetti dati, comporta un impatto su tutte le Classi che accedono a quel dato.
 
@@ -987,7 +1224,7 @@ La metrica, applicata in maniera analitica ad ogni Classe dell’obiettivo contr
 
 <br/>
 
-#### 2.4.2 IQ12 - Metodi implementati in una Classe
+#### 2.4.2 IQ15 - Metodi implementati in una Classe
 
 Questa metrica va applicata ad ogni Classe dell'obiettivo contrattuale ed effettua il conteggio dei metodi che è una prima misura della complessità di una Classe. Troppi metodi rendono la Classe di difficile comprensione e incrementano il rischio di errori a fronte di una modifica. Inoltre un numero elevato di metodi incoraggia il "coupling" tra le Classi, diminuendo la manutenibilità del software.
 
@@ -1056,7 +1293,7 @@ Questa metrica va applicata ad ogni Classe dell'obiettivo contrattuale ed effett
 
 <br/>
 
-#### 2.4.3 IQ13 - Grado di coesione dei Metodi di una Classe
+#### 2.4.3 IQ16 - Grado di coesione dei Metodi di una Classe
 
 Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quantifica la Coesione dei Metodi di una Classe. Valori elevati indicano un migliore disegno delle Classi, mentre, valori bassi indicano un incremento della complessità sino a risultare procedurale e non di tipo OO. La metrica deve essere usata per aiutare a determinare se la numerosità delle funzioni esplicate dalla Classe è giustificata, in relazione alla complessità della Classe stessa.
 
@@ -1135,7 +1372,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
 
 ## 3 INDICATORI DI QUALITÀ DEL SERVIZIO DI MANUTENZIONE CORRETTIVA
 
-#### 3.1 IQ14 - Casi recidivi (per area applicativa)
+#### 3.1 IQ17 - Casi recidivi (per area applicativa)
 
 <table>
   <tr>
@@ -1183,7 +1420,6 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
   <tr>
     <th align="left">Valore di soglia</th>
     <td colspan="3">IQ14 = 2</td>
-    <!-- TODO: specificare alto valore per inesperienza -->
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
@@ -1203,7 +1439,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
 
 ## 4 INDICATORI DI QUALITÀ DEL SERVIZIO DI GESTIONE APPLICATIVA
 
-#### 4.1 IQ15 - Tempo medio di risposta al cliente
+#### 4.1 IQ18 - Tempo medio di risposta al cliente
 
 <table>
   <tr>
@@ -1278,7 +1514,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
 
 ## 5 INDICATORI DI QUALITÀ APPLICABILI A TUTTI I SERVIZI DELLA FORNITURA
 
-#### 5.1 IQ16 - Soddisfazione del committente
+#### 5.1 IQ19 - Soddisfazione del committente
 
 <table>
   <tr>

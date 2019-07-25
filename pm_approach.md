@@ -1,59 +1,60 @@
 # Indice <!-- omit in toc -->
 
-- [1. Descrizione dell'Approccio Utilizzato](#1-Descrizione-dellApproccio-Utilizzato)
-  - [1.1 Elenco documenti](#11-Elenco-documenti)
-    - [1.1.1 Documentazione delle aziende](#111-Documentazione-delle-aziende)
-    - [1.1.2 Documentazione del progetto](#112-Documentazione-del-progetto)
-- [2. Introduzione](#2-Introduzione)
-  - [2.1. Azienda esecutrice](#21-Azienda-esecutrice)
-    - [2.1.1. Startup Team](#211-Startup-Team)
-    - [2.1.2. Politiche aziendali](#212-Politiche-aziendali)
-      - [2.1.2.1. Orari lavorativi](#2121-Orari-lavorativi)
-      - [2.1.2.2. Modalità di lavoro](#2122-Modalit%C3%A0-di-lavoro)
-        - [2.1.2.2.1. Gamification](#21221-Gamification)
-        - [2.1.2.2.2. Documentazione](#21222-Documentazione)
-      - [2.1.2.3. Project Meeting](#2123-Project-Meeting)
-        - [2.1.2.3.1. Project Scoping Meeting](#21231-Project-Scoping-Meeting)
-        - [2.1.2.3.2. Daily Status Meeting](#21232-Daily-Status-Meeting)
-        - [2.1.2.3.3. Problem Resolution Meeting](#21233-Problem-Resolution-Meeting)
-        - [2.1.2.3.4. Project Review Meeting](#21234-Project-Review-Meeting)
-      - [2.1.2.4. Gestione delle comunicazioni](#2124-Gestione-delle-comunicazioni)
-  - [2.2. Committente](#22-Committente)
-  - [2.3. Relazione esecutore-committente](#23-Relazione-esecutore-committente)
-- [3. Scoping](#3-Scoping)
-  - [3.1. Primo contatto](#31-Primo-contatto)
-  - [3.2. Project Scoping Meeting](#32-Project-Scoping-Meeting)
-  - [3.3. Resources Breakdown Structure (RBS)](#33-Resources-Breakdown-Structure-RBS)
-    - [3.3.1. Raccolta dei requisiti](#331-Raccolta-dei-requisiti)
-      - [3.3.1.1 Interviste](#3311-Interviste)
-      - [3.3.1.2 Osservazioni](#3312-Osservazioni)
-    - [3.3.2. Costruzione](#332-Costruzione)
-      - [3.3.2.1 App Android](#3321-App-Android)
-      - [3.3.2.2 Software Gestione Quadrato](#3322-Software-Gestione-Quadrato)
-      - [3.3.2.3 Server](#3323-Server)
-  - [3.4. Scelta del PMLC Model](#34-Scelta-del-PMLC-Model)
-  - [3.5. Budget e tempi](#35-Budget-e-tempi)
-  - [3.6. Project Overview Statement (POS)](#36-Project-Overview-Statement-POS)
-  - [3.7. Classificazione del progetto](#37-Classificazione-del-progetto)
-  - [3.8. Scelta del Core Team](#38-Scelta-del-Core-Team)
-- [4. Planning](#4-Planning)
-  - [4.1 Joint Project Planning Session](#41-Joint-Project-Planning-Session)
-    - [4.1.1 Sessione #1](#411-Sessione-1)
-    - [4.1.2 Sessione #2](#412-Sessione-2)
-    - [4.1.3 Sessione #3](#413-Sessione-3)
-  - [4.2 Scelta del PMLC Model](#42-Scelta-del-PMLC-Model)
-  - [4.3 Work Breakdown Structure (WBS)](#43-Work-Breakdown-Structure-WBS)
-  - [4.4 Prioritizzazione dei task](#44-Prioritizzazione-dei-task)
-  - [4.5 Stima delle risorse necessarie](#45-Stima-delle-risorse-necessarie)
-    - [4.5.1 Valutazione delle skill richieste dai task](#451-Valutazione-delle-skill-richieste-dai-task)
-    - [4.5.2 Assegnamento membri dello staff ai task](#452-Assegnamento-membri-dello-staff-ai-task)
-    - [4.6 Stima della durata dei task](#46-Stima-della-durata-dei-task)
+- [1. Descrizione dell'Approccio Utilizzato](#1-descrizione-dellapproccio-utilizzato)
+  - [1.1 Elenco documenti](#11-elenco-documenti)
+    - [1.1.1 Documentazione delle aziende](#111-documentazione-delle-aziende)
+    - [1.1.2 Documentazione del progetto](#112-documentazione-del-progetto)
+- [2. Introduzione](#2-introduzione)
+  - [2.1. Azienda esecutrice](#21-azienda-esecutrice)
+    - [2.1.1. Startup Team](#211-startup-team)
+    - [2.1.2. Politiche aziendali](#212-politiche-aziendali)
+      - [2.1.2.1. Orari lavorativi](#2121-orari-lavorativi)
+      - [2.1.2.2. Modalità di lavoro](#2122-modalit%c3%a0-di-lavoro)
+        - [2.1.2.2.1. Gamification](#21221-gamification)
+        - [2.1.2.2.2. Documentazione](#21222-documentazione)
+      - [2.1.2.3. Project Meeting](#2123-project-meeting)
+        - [2.1.2.3.1. Project Scoping Meeting](#21231-project-scoping-meeting)
+        - [2.1.2.3.2. Daily Status Meeting](#21232-daily-status-meeting)
+        - [2.1.2.3.3. Problem Resolution Meeting](#21233-problem-resolution-meeting)
+        - [2.1.2.3.4. Project Review Meeting](#21234-project-review-meeting)
+      - [2.1.2.4. Gestione delle comunicazioni](#2124-gestione-delle-comunicazioni)
+  - [2.2. Committente](#22-committente)
+  - [2.3. Relazione esecutore-committente](#23-relazione-esecutore-committente)
+- [3. Scoping](#3-scoping)
+  - [3.1. Primo contatto](#31-primo-contatto)
+  - [3.2. Project Scoping Meeting](#32-project-scoping-meeting)
+  - [3.3. Resources Breakdown Structure (RBS)](#33-resources-breakdown-structure-rbs)
+    - [3.3.1. Raccolta dei requisiti](#331-raccolta-dei-requisiti)
+      - [3.3.1.1 Interviste](#3311-interviste)
+      - [3.3.1.2 Osservazioni](#3312-osservazioni)
+    - [3.3.2. Costruzione](#332-costruzione)
+      - [3.3.2.1 App Android](#3321-app-android)
+      - [3.3.2.2 Software Gestione Quadrato](#3322-software-gestione-quadrato)
+      - [3.3.2.3 Server](#3323-server)
+  - [3.4. Scelta del PMLC Model](#34-scelta-del-pmlc-model)
+  - [3.5. Budget e tempi](#35-budget-e-tempi)
+  - [3.6. Project Overview Statement (POS)](#36-project-overview-statement-pos)
+  - [3.7. Classificazione del progetto](#37-classificazione-del-progetto)
+  - [3.8. Scelta del Core Team](#38-scelta-del-core-team)
+- [4. Planning](#4-planning)
+  - [4.1 Joint Project Planning Session](#41-joint-project-planning-session)
+    - [4.1.1 Sessione #1](#411-sessione-1)
+    - [4.1.2 Sessione #2](#412-sessione-2)
+    - [4.1.3 Sessione #3](#413-sessione-3)
+  - [4.2 Scelta del PMLC Model](#42-scelta-del-pmlc-model)
+  - [4.3 Work Breakdown Structure (WBS)](#43-work-breakdown-structure-wbs)
+  - [4.4 Prioritizzazione dei task](#44-prioritizzazione-dei-task)
+  - [4.5 Stima delle risorse necessarie](#45-stima-delle-risorse-necessarie)
+    - [4.5.1 Valutazione delle skill richieste dai task](#451-valutazione-delle-skill-richieste-dai-task)
+    - [4.5.2 Assegnamento membri dello staff ai task](#452-assegnamento-membri-dello-staff-ai-task)
+    - [4.6 Stima della durata dei task](#46-stima-della-durata-dei-task)
     - [4.7 Corrispettivo e stima dei costi](#47-corrispettivo-e-stima-dei-costi)
-  - [4.8 Project Network Diagram](#48-Project-Network-Diagram)
-    - [4.8.1 Scope Bank](#481-Scope-Bank)
-  - [4.9 Analisi dei Rischi](#49-Analisi-dei-Rischi)
-  - [4.10 Project Definition Statement (PDS)](#410-Project-Definition-Statement-PDS)
-- [5. Bibliografia](#5-Bibliografia)
+  - [4.8 Project Network Diagram](#48-project-network-diagram)
+    - [4.8.1 Scope Bank](#481-scope-bank)
+  - [4.9 Analisi dei Rischi](#49-analisi-dei-rischi)
+  - [4.10 Project Definition Statement (PDS)](#410-project-definition-statement-pds)
+  - [4.11 Piano di qualità](#411-piano-di-qualit%c3%a0)
+- [5. Bibliografia](#5-bibliografia)
 
 [//]: # (-------------------------------------------------------------------------)
 
@@ -72,9 +73,10 @@ La scelta di pubblicare questa simulazione su un repository è dovuta a diversi 
 Per la stesura della documentazione si è fatto uso di diversi software:
 - **Skype**, per la comunicazione a distanza (ove non era possibile un incontro dal vivo), abilitato anche alla condivisione dello schermo, per un maggiore coinvolgimento;
 - **Trello**, per l'organizzazione e il tracciamento del lavoro ([link alla bacheca](https://trello.com/b/dfDeDMvi/pm-project));
-- **Visual Studio Code** per la stesura della documentazione in MarkDown, anche in modalità "Live Sharing" (per permettere la contemporanea stesura del documento da parte di entrambi i membri);
-- **Microsoft Project** (in versione di prova) per la costruzione del Project Network Diagram;
-- **GitHub Desktop** per la gestione del repository.
+- **Visual Studio Code**, per la stesura della documentazione in MarkDown, anche in modalità "Live Sharing" (per permettere la contemporanea stesura del documento da parte di entrambi i membri);
+- **Microsoft Project** (in versione di prova), per la costruzione del Project Network Diagram;
+- **GitHub Desktop**, per la gestione del repository;
+- [**CodeCogs**](https://www.codecogs.com/eqnedit.php), per la generazione di equazioni matematiche in formato *.gif* da inserire all'interno delle tabelle HTML.
 
 ## 1.1 Elenco documenti
 
@@ -140,6 +142,8 @@ Per una facile esplorazione del repository, si riporta nel seguente elenco tutta
   
   - [Project Definition Statement (PDS)](project_docs/csen_poomsae_score/pds/pds.md);
 
+  - [Quality Plan](project_docs/csen_poomsae_score/quality_plan/quality_plan.md);
+
 
 [//]: # (-------------------------------------------------------------------------)
 
@@ -168,9 +172,9 @@ La startup segue un comune modello di suddivisione delle giornate e dell'orario 
 L'azienda consente lo svolgimento del lavoro in forma telematica direttamente da casa, ad eccezzione dei Project Meeting di diversa natura, come discusso in dettaglio nella [prossima sezione](#2123-project-meeting). Inoltre, per la risoluzione dei problemi complessi e per un maggiore coinvolgimento dei dipendenti, il team di sviluppo può avvalersi anche di tecniche di lavoro denominate *Pair Programming*, sia in remoto che in loco; quest'ultime possono essere utilizzate sia in fase di coding, che nella stesura della documentazione. Esse infatti stimolano utili brainstorming e danno la possibilità al management e agli sviluppatori di capire dove siano stati apportati eventuali cambiamenti di rotta e quali questi siano.
 
 ##### 2.1.2.2.1. Gamification
-Al fine di motivare gli impiegati e rendere le loro attività quotidiane meno frustranti nella loro percezione, PunchCode si avvale di tecniche di Gamification all'interno dei propri progetti di sviluppo software di durata massima stimata non superiore ai 5 mesi. Questa scelta è frutto di approfondite [ricerche in letteratura](#bibliography-1)<sup>1</sup> che testimoniano come esse influenzino positivamente i risultati di un gruppo di lavoro.  
+Al fine di motivare gli impiegati e rendere le loro attività quotidiane meno frustranti nella loro percezione, PunchCode si avvale di tecniche di Gamification all'interno dei propri progetti di sviluppo software. Questa scelta è frutto di approfondite [ricerche in letteratura](#bibliography-1)<sup>1</sup> che testimoniano come esse influenzino positivamente i risultati di un gruppo di lavoro.  
 PunchCode - sotto questo punto di vista - si avvale di un proprio sistema di login per il tracciamento delle attività compiute dai dipendenti, premiandoli con dei *punti* (come componente di gioco) in caso di:
-- lettura di codice / documentazione di colleghi con invio di feedback (in forma di rating);
+- lettura di codice / documentazione di colleghi con invio di feedback in forma di rating compreso nel range 1 (pessimo) - 5 (ottimo);
 - ricezione di feedback positivi da parte di un collega.
 
 L'uso di una metodologia di questo tipo porta a diversi vantaggi:
@@ -665,6 +669,10 @@ Si nota come l'adozione di template separati per le stime di costi e tempi non c
 
 Come già emerso con la stima della durata dei task, si vuole evidenziare come PunchCode non abbia potuto appoggiarsi per questa fase a una consulenza da parte di risorse terze, a causa degli eccessivi costi che ne sarebbero altrimenti scaturiti.
 
+<!--
+Durante l'esecuzione è necessario monitorare e controllare i costi per rilevare e gestire le variazioni rispetto alle stime.
+-->
+
 ## 4.8 Project Network Diagram
 
 Dopo aver individuato le attività e dopo aver stimato la loro durata e le risorse assegnate, è necessario collocarle nel tempo e individuare le dipendenze presenti tra esse.
@@ -763,6 +771,39 @@ Si osserva come le attività di mitigazione introducano in certi casi, a loro vo
 ## 4.10 Project Definition Statement (PDS)
 
 Il [PDS](project_docs/csen_poomsae_score/pds/pds.md) è una versione estesa del POS a uso del team di progetto. In esso si sono riportati elementi di maggior dettaglio, costituenti un ottimo input per le fasi successive e per approfondimenti. Il PDS rappresenta così un punto di riferimento anche per eventuali nuovi membri del team, consentendo loro di rimanere focalizzati sulla corretta direzione e sugli aspetti importanti per il successo del progetto. Ad esso si sono anche allegati i documenti realizzati durante l'analisi dei rischi.
+
+## 4.11 Piano di qualità
+
+La gestione della qualità costituisce un tema di indubbia rilevanza. Essa deve considerare tre processi fondamentali:
+- **Quality Planning**  
+  Determina gli standard di qualità rilevanti per il progetto e cosa è necessario fare per soddisfarli.
+- **Quality Assurance**  
+  Contempla le attività necessarie per garantire il rispetto del piano di qualità e dei relativi requisiti.
+- **Quality Control**  
+  Considera l'azione da svolgere a fronte dell'osservazione del mancato soddisfacimento di un indicatore di qualità.
+
+All'interno della fase di Pianificazione rientra chiaramente la stesura del **Quality Plan** (il primo dei tre processi elencati). Tale documento ha uno stretto legame col contratto (che sarà poi realizzato) e delinea i criteri di qualità con cui PunchCode deve lavorare.
+
+Il profilo di qualità richiesto dalla fornitura ed i relativi indicatori di qualità (comprensivi di modalità di calcolo e algoritmi applicati) sono descritti nel [Piano di Qualità Generale](project_docs/csen_poomsae_score/quality_plan/quality_plan.md), proposto dal Fornitore ed approvato da CSEN.
+Per la sua realizzazione, PunchCode ha tenuto conto dei seguenti input:
+- *Fattori ambientali interni (procedure e linee guida aziendali)*  
+Si nota sotto questo punto di vista come l'azienda non abbia potuto - a causa della sua inesperienza - affidarsi a dati storici e a lezioni apprese da progetti passati.
+- *Project Overview Statement*
+- *Project Management Plan* (corrispondente all'insieme della documentazione discussa nelle precedenti sezioni)
+
+Sul piano dell'assurance, invece, preme evidenziare come si sia già voluto inserire all'interno del Quality Plan il periodo di riferimento e la frequenza di misurazione legati a ogni metrica.
+
+È di primaria importanza osservare anche come ogni indicatore sia definito in modo matematico (**quantitativo**) e abbia degli effetti contrattuali associati in base alla gravità di un suo mancato adempimento (applicazione di una penale o accumulo di rilievi con penale economica sopra una certa soglia). La presenza di **metriche** è pertanto centrale al fine di rendere gli indicatori misurabili.
+
+Come è possibile constatare dall'allegato, la mappa delle penali e dei rilievi è studiata per coprire il più possibile gli aspetti del progetto. Si fanno inoltre le seguenti osservazioni.
+- Per le difettosità in esercizio si è considerato un giorno aggiuntivo (rispetto a quelle in collaudo) relativamente alla categorizzazione delle problematiche riscontrate. La motivazione legata a questa scelta è da ricercarsi nel voler catturare come i dipendenti - al momento della manutenzione - non siano più altamente coinvolti nello sviluppo del progetto e necessitino di più tempo per riallinearsi.
+- Per i casi recidivi su un medesimo malfunzionamento, si prevede una soglia più alta rispetto a quella tipicamente impiegata dalle aziende fornitrici (che in talune circostanze è rigorosamente posta a zero). Sempre a causa di una mancata esperienza pregressa con altri progetti, infatti, PunchCode vuole tutelarsi da possibili manutenzioni correttive con questo esito.
+
+PunchCode è tenuta a rendicontare - attraverso dei report da rilasciare a CSEN - i risultati della misurazione degli indicatori di qualità per tutta la durata contrattuale. Durante l'intero periodo contrattuale ciascun indicatore di qualità potrà essere riesaminato su richiesta del Committente. CSEN ed il Fornitore, in caso di necessità, concorderanno eventuali modifiche ai metodi di calcolo riepilogati nel piano.
+
+Per la verifica del rispetto degli indicatori di qualità contrattuali il Fornitore si impegna a produrre, predisporre ed installare - senza alcun onere aggiuntivo per CSEN - idonei strumenti automatici per la misurazione del software e, ove non possibile, ad effettuare rilevazioni manuali dei parametri da misurare. Tutti i dati rilevati dovranno essere oggetto dei report.
+
+<!-- TODO: link sito formule + TODO in quality plan -->
 
 # 5. Bibliografia
 
