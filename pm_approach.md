@@ -54,6 +54,7 @@
   - [4.9 Analisi dei Rischi](#49-analisi-dei-rischi)
   - [4.10 Project Definition Statement (PDS)](#410-project-definition-statement-pds)
   - [4.11 Piano di qualità](#411-piano-di-qualit%c3%a0)
+  - [4.12 Scelta del Developer Team e del Client Team](#412-scelta-del-developer-team-e-del-client-team)
 - [5. Bibliografia](#5-bibliografia)
 
 [//]: # (-------------------------------------------------------------------------)
@@ -612,7 +613,7 @@ Non avendo esperienza con progetti precedenti, PunchCode non può ricorrere all'
 La startup decide pertanto di ricorrere all'applicazione di una tecnica "**consensus-based**". Disponendo in tale fase di due sole figure interne al team, metodologie quali *Three-point technique* e l'uso di indici statistici come la mediana non risultano applicabili. Non potendo poi usufruire di anonimato, PunchCode ha scelto di far riferimento a una versione modificata della *Delphi Technique* nell'obiettivo di favorire sin da subito l'insorgere di interazioni atte a comprendere le ragioni alla base di stime ottimistiche o pessimistiche.  
 Il metodo richiede ai due membri del team di effettuare segretamente le stime ad ogni round (in un numero compreso tra 1 e 3, sulla base delle necessità). Al termine di ogni round, le durate stimate vengono rivelate e ogni partecipante è così incoraggiato a rivedere la propria stima in base a quella rilasciata dall'altro e alle motivazioni che l'accompagnano. Il processo termina quando si soddisfa un criterio di stop, consistente nel raggiungimento del numero massimo di round pari a 3 o di un consenso unanime). La stima finale è rappresentata dalla media. Si osserva dunque come durante questo processo il gap tra le stime si dovrebbe ridurre, portando alla convergenza verso un valore condiviso.  
 Nonostante spesso si preferisca adottare una misura adimensionale (distaccata sia dai tempi che dai costi), PunchCode preferisce adottare un'unità di misura tradizionale in *giorni/uomo*. Ciò è anche legato all'inesperienza dell'azienda con tali aspetti metodologici, dove vi sarebbe il rischio di non essere in grado di quantificare opportunamente il lavoro da svolgere a partire da una misura adimensionale (come una carta poker, un numero di Fibonacci o una taglia T-shirt).  
-Infine, si evidenzia come una stima non debba considerare solo il tempo di scrittura del codice, ma quello per la costruzione di una soluzione robusta che sia completa e funzionante (che comprenda quindi anche la scrittura dei rispettivi test e il loro superamento).
+Infine, si evidenzia come una stima non debba considerare solo il tempo di scrittura del codice, ma quello per la costruzione di una soluzione robusta che sia completa e funzionante (che comprenda quindi anche la scrittura dei rispettivi test e il loro superamento). Un task è pertanto da considerarsi terminato all'atto di superamento dei test e al completamento della relativa documentazione.
 
 Il documento contenente le stime in termini di effort giorni/uomo rilasciate da parte del team per le varie attività presenti in WBS è disponibile nel relativo [allegato](project_docs/csen_poomsae_score/task_duration_estimation/task_duration_estimation.md).
 È interessante osservare come i membri del team siano generalmente molto in sintonia (probabilmente a causa della loro profonda esperienza nel lavorare assieme, che li ha di fatto spinti alla costituzione di PunchCode). In talune circostanze si evince tuttavia come le stime iniziali sarebbero state molto diverse senza essere condizionati. In alcuni casi si osserva anche la presenza di un'oscillazione (1° round: ottimistico, 2° round: pessimistico, 3° round: valutazione intermedia).
@@ -806,6 +807,10 @@ Come è possibile constatare dall'allegato, la mappa delle penali e dei rilievi 
 PunchCode è tenuta a rendicontare - attraverso dei report da rilasciare a CSEN - i risultati della misurazione degli indicatori di qualità per tutta la durata contrattuale. Durante l'intero periodo contrattuale ciascun indicatore di qualità potrà essere riesaminato su richiesta del Committente. CSEN ed il Fornitore, in caso di necessità, concorderanno eventuali modifiche ai metodi di calcolo riepilogati nel piano.
 
 Per la verifica del rispetto degli indicatori di qualità contrattuali il Fornitore si impegna a produrre, predisporre ed installare - senza alcun onere aggiuntivo per CSEN - idonei strumenti automatici per la misurazione del software e, ove non possibile, ad effettuare rilevazioni manuali dei parametri da misurare. Tutti i dati rilevati dovranno essere oggetto dei report.
+
+## 4.12 Scelta del Developer Team e del Client Team
+
+Antecedentemente alla fase di Launching ed Execution, occorre scegliere anche i membri del *Developer Team* e del *Client Team* (dipendenti aziendali incaricati di interfacciarsi col committente, riceverne i feedback, comunicare a lui gli aggiornamenti, pianificare gli incontri e gestire il suo coinvolgimento col progetto). Preme sottolineare però che, a causa del ridotto numero del personale all'interno della startup, si è scelto di assegnare tali ruoli ad entrambi i dipendenti di PunchCode. Per quanto concerne il team di sviluppo, invece, si escludono cambi di personale e nuove assunzioni. Considerando la ravvicinata data di attivazione del contratto, il Contracted Team sarà pertanto costituito dalle medesime figure.
 
 # 5. Bibliografia
 
