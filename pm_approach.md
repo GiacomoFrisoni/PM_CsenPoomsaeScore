@@ -173,7 +173,7 @@ La startup segue un comune modello di suddivisione delle giornate e dell'orario 
 L'azienda consente lo svolgimento del lavoro in forma telematica direttamente da casa, ad eccezzione dei Project Meeting di diversa natura, come discusso in dettaglio nella [prossima sezione](#2123-project-meeting). Inoltre, per la risoluzione dei problemi complessi e per un maggiore coinvolgimento dei dipendenti, il team di sviluppo può avvalersi anche di tecniche di lavoro denominate *Pair Programming*, sia in remoto che in loco; quest'ultime possono essere utilizzate sia in fase di coding, che nella stesura della documentazione. Esse infatti stimolano utili brainstorming e danno la possibilità al management e agli sviluppatori di capire dove siano stati apportati eventuali cambiamenti di rotta e quali questi siano.
 
 ##### 2.1.2.2.1. Gamification
-Al fine di motivare gli impiegati e rendere le loro attività quotidiane meno frustranti nella loro percezione, PunchCode si avvale di tecniche di Gamification all'interno dei propri progetti di sviluppo software. Questa scelta è frutto di approfondite [ricerche in letteratura](#bibliography-1)<sup>1</sup> che testimoniano come esse influenzino positivamente i risultati di un gruppo di lavoro.  
+Al fine di motivare gli impiegati e rendere le loro attività quotidiane meno frustranti nella loro percezione, PunchCode si avvale di tecniche di Gamification all'interno dei propri progetti di sviluppo software. Questa scelta è frutto di approfondite [ricerche in letteratura](#bibliography-1)<sup>1, 2</sup> che testimoniano come esse influenzino positivamente i risultati di un gruppo di lavoro.  
 PunchCode - sotto questo punto di vista - si avvale di un proprio sistema di login per il tracciamento delle attività compiute dai dipendenti, premiandoli con dei *punti* (come componente di gioco) in caso di:
 - lettura di codice / documentazione di colleghi con invio di feedback in forma di rating compreso nel range 1 (pessimo) - 5 (ottimo);
 - ricezione di feedback positivi da parte di un collega.
@@ -798,15 +798,17 @@ Sul piano dell'assurance, invece, preme evidenziare come si sia già voluto inse
 
 Come è possibile constatare dall'allegato, la mappa delle penali e dei rilievi è studiata per coprire il più possibile gli aspetti del progetto. Si fanno inoltre le seguenti osservazioni.
 - Per le difettosità in esercizio si è considerato un giorno aggiuntivo (rispetto a quelle in collaudo) relativamente alla categorizzazione delle problematiche riscontrate. La motivazione legata a questa scelta è da ricercarsi nel voler catturare come i dipendenti - al momento della manutenzione - non siano più altamente coinvolti nello sviluppo del progetto e necessitino di più tempo per riallinearsi.
+  
+- Per la valutazione della UX (ritenuta centrale in questo progetto), la startup si è avvalsa di appositi [questionari](#bibliography-3)<sup>3</sup> in cui richiedere agli utenti lo svolgimento di determinati casi d'uso e l'assegnamento di un punteggio legato alla relativa semplicità d'esecuzione. Tra gli allegati è disponibile un esempio di [questionario](project_docs/csen_poomsae_score/quality_plan/ux_evaluation_16_08_19_mario_rossi.md) - prodotto a fronte del completamento della seconda macro-release per l'applicazione Android. 
+  
 - Per i casi recidivi su un medesimo malfunzionamento, si prevede una soglia più alta rispetto a quella tipicamente impiegata dalle aziende fornitrici (che in talune circostanze è rigorosamente posta a zero). Sempre a causa di una mancata esperienza pregressa con altri progetti, infatti, PunchCode vuole tutelarsi da possibili manutenzioni correttive con questo esito.
 
 PunchCode è tenuta a rendicontare - attraverso dei report da rilasciare a CSEN - i risultati della misurazione degli indicatori di qualità per tutta la durata contrattuale. Durante l'intero periodo contrattuale ciascun indicatore di qualità potrà essere riesaminato su richiesta del Committente. CSEN ed il Fornitore, in caso di necessità, concorderanno eventuali modifiche ai metodi di calcolo riepilogati nel piano.
 
 Per la verifica del rispetto degli indicatori di qualità contrattuali il Fornitore si impegna a produrre, predisporre ed installare - senza alcun onere aggiuntivo per CSEN - idonei strumenti automatici per la misurazione del software e, ove non possibile, ad effettuare rilevazioni manuali dei parametri da misurare. Tutti i dati rilevati dovranno essere oggetto dei report.
 
-<!-- TODO: link sito formule + TODO in quality plan -->
-
 # 5. Bibliografia
 
 [1]<a id="bibliography-1"></a> [Platonova, Valērija & Bērziša, Solvita. "Gamification in Software Development Projects". *Information Technology and Management Science*. Dec 2017.](https://www.researchgate.net/publication/322409704_Gamification_in_Software_Development_Projects)  
-[2]<a id="bibliography-1"></a> [Senthil Rajamarthandan. "Using Gamification to Build a Passionate and Quality-Driven Software Development Team". *Cognizant 20-20 Insights*. Feb 2014.](https://www.cognizant.com/InsightsWhitepapers/Using-Gamification-to-Build-a-Passionate-and-Quality-Driven-Software-Development-Team.pdf)
+[2]<a id="bibliography-2"></a> [Senthil Rajamarthandan. "Using Gamification to Build a Passionate and Quality-Driven Software Development Team". *Cognizant 20-20 Insights*. Feb 2014.](https://www.cognizant.com/InsightsWhitepapers/Using-Gamification-to-Build-a-Passionate-and-Quality-Driven-Software-Development-Team.pdf)  
+[3]<a id="bibliography-3"></a> [Matej Latin. "Measuring and Quantifying User Experience". *Medium*. Nov 2017.](https://uxdesign.cc/measuring-and-quantifying-user-experience-8f555f07363d)  
