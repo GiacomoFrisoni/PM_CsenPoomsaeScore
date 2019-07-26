@@ -143,6 +143,7 @@ Per una facile esplorazione del repository, si riporta nel seguente elenco tutta
   - [Project Definition Statement (PDS)](project_docs/csen_poomsae_score/pds/pds.md);
 
   - [Quality Plan](project_docs/csen_poomsae_score/quality_plan/quality_plan.md);
+    - Esempio di un [sondaggio](project_docs/csen_poomsae_score/quality_plan/ux_evaluation_16_08_19_mario_rossi.md) effettuato per valutare la User Experience;
 
 
 [//]: # (-------------------------------------------------------------------------)
