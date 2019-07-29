@@ -55,7 +55,21 @@
   - [4.10 Project Definition Statement (PDS)](#410-project-definition-statement-pds)
   - [4.11 Piano di qualità](#411-piano-di-qualit%c3%a0)
   - [4.12 Scelta del Developer Team e del Client Team](#412-scelta-del-developer-team-e-del-client-team)
-- [5. Bibliografia](#5-bibliografia)
+- [5. Launching / Executing](#5-launching--executing)
+  - [5.1 Scelta del Team](#51-scelta-del-team)
+    - [5.1.1 Bilanciamento del team](#511-bilanciamento-del-team)
+  - [5.3 Regole operative per il team](#53-regole-operative-per-il-team)
+  - [5.4 Assegnamento Risorse](#54-assegnamento-risorse)
+  - [5.5 Assegnamento Responsabilità](#55-assegnamento-responsabilit%c3%a0)
+  - [5.6 Gestione delle comunicazioni](#56-gestione-delle-comunicazioni)
+  - [5.7 Meetings](#57-meetings)
+    - [5.7.1 Kick-Off Meeting](#571-kick-off-meeting)
+    - [5.7.2 Project Review Meeting](#572-project-review-meeting)
+  - [5.8 Aggiornamento Project Definition Statement (PDS)](#58-aggiornamento-project-definition-statement-pds)
+  - [5.9 Work Packages](#59-work-packages)
+  - [5.10 Raffinamento della schedula del progetto](#510-raffinamento-della-schedula-del-progetto)
+  - [5.11 Gestione del processo di modifica dello Scope](#511-gestione-del-processo-di-modifica-dello-scope)
+- [6. Bibliografia](#6-bibliografia)
 
 [//]: # (-------------------------------------------------------------------------)
 
@@ -146,6 +160,9 @@ Per una facile esplorazione del repository, si riporta nel seguente elenco tutta
   - [Quality Plan](project_docs/csen_poomsae_score/quality_plan/quality_plan.md);
     - Esempio di un [sondaggio](project_docs/csen_poomsae_score/quality_plan/ux_evaluation_16_08_19_mario_rossi.md) effettuato per valutare la User Experience;
 
+- **Launching / Executing**
+  - [Problem Solving Template](project_docs/csen_poomsae_score/operating_rules/problem_solving_template.md)
+  - [Decision Making Template](project_docs/csen_poomsae_score/operating_rules/decision_making_template.md)
 
 [//]: # (-------------------------------------------------------------------------)
 
@@ -729,7 +746,8 @@ Il repository del progetto contiene il [piano ottimizzato](project_docs/csen_poo
 
 Si osserva anche come i Project Manager di PunchCode non vogliano basare la loro pianificazione sugli slack calcolati (considerando i task come privi di margine e beneficiando di quest'ultimo solo in caso di necessità).
 
-Si evidenzia, inoltre, come nel Gantt si sia considerato anche il task di collaudo (svolto con la partecipazione di entrambi i dipendenti) a fine di ogni macro-release. L'attività di formazione, invece, non è stata inserita dal momento che questa è di lieve entità e si limita alla sola figura di Enrico Comando (comunque aggiornato sulle funzionalità attualmente in sviluppo e su quelle già rilasciate).
+Si evidenzia, inoltre, come nel Gantt si sia considerato anche il task di collaudo (svolto con la partecipazione di entrambi i dipendenti) a fine di ogni macro-release. L'attività di formazione, invece, non è stata inserita dal momento che questa è di lieve entità e si limita alla sola figura di Enrico Comando (comunque aggiornato sulle funzionalità attualmente in sviluppo e su quelle già rilasciate). Sul piano della documentazione, si vuole notare come non si sia considerato un task per la realizzazione di un manuale d'uso dedicato alle varie parti del sistema. Tale scelta è giustificata dalla volontà di realizzare quest'ultimo solo nell'eventualità di un basso punteggio conseguito dai sondaggi di UX rilasciati al committente (come sarà meglio descritto nella [prossima sezione](#411-piano-di-qualit%c3%a0) relativa al piano di qualità).
+Considerando come la formazione dei dipendenti di CSEN sia presa in carica dal committente, si evince pertanto come entrambe le parti siano concordi sul risparmio di risorse dedicate alla stesura del manuale in oggetto (ove ritenuto non necessario).
 
 Nelle attività richiedenti competenze specifiche non già possedute appieno da parte dei membri del team (come gli aspetti di rete), si è scelto anche qui di assegnare entrambe le risorse. Questa decisione ha come obiettivo un confronto dettato da molteplici punti di vista, una miglior realizzazione di testing e documentazione, oltre che una formazione comune e una condivisione della conoscenza. 
 
@@ -812,7 +830,134 @@ Per la verifica del rispetto degli indicatori di qualità contrattuali il Fornit
 
 Antecedentemente alla fase di Launching ed Execution, occorre scegliere anche i membri del *Developer Team* e del *Client Team* (dipendenti aziendali incaricati di interfacciarsi col committente, riceverne i feedback, comunicare a lui gli aggiornamenti, pianificare gli incontri e gestire il suo coinvolgimento col progetto). Preme sottolineare però che, a causa del ridotto numero del personale all'interno della startup, si è scelto di assegnare tali ruoli ad entrambi i dipendenti di PunchCode. Per quanto concerne il team di sviluppo, invece, si escludono cambi di personale e nuove assunzioni. Considerando la ravvicinata data di attivazione del contratto, il Contracted Team sarà pertanto costituito dalle medesime figure.
 
-# 5. Bibliografia
+# 5. Launching / Executing
+
+Le attività descritte sino a questo momento hanno riguardato prevalentemente aspetti di analisi e pianificazione. Dopo aver approvato il progetto, la fase di Launching / Executing fa riferimento al gruppo di processi finalizzati alla gestione del progetto stesso a fronte del suo effettivo avvio. A seguito della raccolta dei requisiti e della realizzazione di un piano attraverso cui garantire il rispetto dei tempi e dei budget *previsti* (in funzione delle risorse e dei vincoli di cui si dispone), si entra nel vivo della realizzazione. In caso di copertura, verrà così confermato quanto descritto col piano; in caso di imprevisti, invece, sarà necessario raffinare la schedula.  
+In questo capitolo si ripercorrono le varie scelte alla base di questa fase, descrivendone le motivazioni ed esponendo la documentazione di riferimento. 
+
+
+<!--
+la gestione della responsabilita' riguardante le varie attivita' oppure il processo di decision making e problem solving che e' necessario standardizzare attraverso appunto appositi documenti.
+
+Verranno inoltre analizzate le regole operative del team e la gestione della comunicazione ed un eventuale scenario in cui si renda necessario un cambiamento di scope.
+-->
+
+## 5.1 Scelta del Team
+
+A causa del potenziale lasso di tempo che potrebbe intercorrere tra l'approvazione del progetto e il suo effettivo avvio previsto da contratto, la definizione dei membri interni al Project Team è realizzata soltanto al momento del Launching. Considerando come la data d'inizio del progetto concordata col cliente sia molto ravvicinata e come PunchCode non abbia concorrenza con altri progetti condotti in contemporanea, il team dell'azienda fornitrice è composto dai medesimi due dipendenti già discussi con le antecedenti fasi della simulazione.
+Non disponendo di sufficienti risorse economiche e non volendo andare incontro a rischi dettati da un mancante o difficile controllo, PunchCode conferma la sua volontà di non voler ricorrere all'acquisizione di personale terzo.
+
+I membri del team - nonostante il loro ridotto numero - rispecchiano le caratteristiche ricercate dall'azienda:
+- impegno;
+- motivazione;
+- abilità a lavorare entro i tempi e i vincoli previsti;
+- team-oriented;
+- open-minded;
+- capacità di comunicazione;
+- attitudine all'ascolto;
+- creatività;
+- atteggiamento positivo;
+- desiderio di apprendimento;
+- capacità nell'uso di strumenti per il project management.
+
+La conoscenza pregressa tra i due dipendenti, inoltre, è alla base di un rapporto di fiducia e di supporto reciproco, oltre che di una frammentazione delle responsabilità. Nonostante ciascuno di essi sia specializzato in particolari domini tecnici, preme sottolineare la presenza di una solida base di competenze informatiche condivise (fondamentali dal punto di vista della flessibilità).
+
+A rendere ulteriormente efficace il team vi è un'ottima cooperazione, unita ad uno stato di soddisfazione (ulteriormente accentuato dalla volontà di mettersi in gioco attraverso il primo progetto di startup) e al possesso delle abilità necessarie per la conduzione di *Csen Poomsae Score*.
+
+### 5.1.1 Bilanciamento del team
+
+Il corretto bilanciamento del team può rivelarsi cruciale nell'esecuzione di un progetto. Nella letteratura sono stati proposti diversi modelli, come ad esempio quello di David Kolb, che classifica i dipendenti in 4 categorie di "learning style":
+ - *assimilating* - bravi a raccogliere e a rappresentare i dati, concentrati su idee e concetti, ma non orientati ai risultati e ad aspetti pratici;
+ - *diverging* - naturalmente propensi a individuare soluzioni alternative e punti di vista originali, preferiscono il brainstorming all'azione, tendendo dunque più ad osservare che ad agire;
+ - *accomodating* - individui orientati ai risultati concreti, che si adattano facilmente alle circostanze, comunicando all'esigenza con il team per decidere le azioni da intraprendere;
+ - *converging* - preferiscono individuare le soluzioni piuttosto che implementarle, sono meto atti a collaborare con altri ma spesso trovano soluzioni migliori per determinati problemi.
+
+PunchCode non dispone dell'adeguato numero di risorse umane interne al team per poter riconoscere la sua posizione media nelle dimensioni di asserzione e cooperazione.
+Considerando come tale classificazione non sia esclusiva e come una stessa persona possa adottare la personalità più adatta in un certo progetto o addirittura più idonea all'esigenza richiesta in un certo momento di uno stesso progetto, è difficile associare un unico ruolo a ogni dipendente (in maniera chiara e definitiva). Ciononostante, i membri della startup sono maggiormente identificabili nella categoria di *accomodating*. In entrambi i dipendenti, inoltre, si denotano tendenze ad avere caratteristiche comuni ai profili di *diverging* (Marcin Pabich) e *converging* (Giacomo Frisoni). Questo comportamento è anche giustificato dal fatto che un team dovrebbe essere composto da figure ricoprenti ruoli diversi, in modo tale da offrire sempre punti di vista molteplici, favorire l'insorgere di discussioni utili e superare con maggior facilità le difficoltà incontrate.
+
+## 5.3 Regole operative per il team
+
+Durante lo svolgimento di un progetto potrebbero sorgere imprevisti di diverse entità. Per poter affrontare quest'ultimi con efficienza, il team decide di applicare alcune regole operative (principalmente frutto delle politiche aziendali già discusse alla sezione "[Politiche Aziendali](#212-politiche-aziendali)"):
+
+ - **Problem Solving**  
+ Viene eseguito soltanto in caso di problematiche critiche, non risolvibili in autonomia oppure aventi un potenziale impatto sul piano di lavoro, sulla schedula e/o sui costi da sostenere. Viene eseguito sotto forma di un meeting, seguendo un preciso [template](project_docs/csen_poomsae_score/operating_rules/problem_solving_template.md). Se il problema dovrà essere seriamente affrontato, si procederà al *decision making*. Si sottolinea comunque come l'analisi dei rischi (già discussa nella sezione X) abbia come obiettivo anche quello di limitare il più possibile tali casistiche.
+
+ - **Decision Making**  
+ Si riferisce alle regole attraverso cui stabilire la modalità con cui prendere decisioni. È un processo pervasivo, specie in considerazione di come una medesima soluzione possa essere implementata in molti modi tra loro differenti. Richiede la risposta a differenti domande legate alla scelta che si deve intraprendere e si svolge conseguentemente attraverso un incontro tra i soggetti del team coinvolti (nel caso di PunchCode è necessariamente richiesta la presenza di entrambi i dipendenti). Durante il meeting viene seguito un preciso [template](project_docs/csen_poomsae_score/operating_rules/decision_making_template.md) e vengono valutate alternative e i loro relativi costi. La startup adotta uno stile consultativo per lo svolgimento di quest'ultimo: entrambi i membri del team forniscono le proprie informazioni ma la decisione definitiva spetta al membro con più esperienza nell'ambito di riferimento cui la decisione da intraprendere appartiene, tenendo presente la [tabella delle skill](project_docs/startup_team_skills/startup_team_skills.md) dei dipendenti. Si nota, inoltre, come il responsabile della scelta possa tener conto o meno della motivazione espressa dall'altro dipendente.
+
+- **Brainstorming Method**  
+È svolto per individuare soluzioni identificabili solo attraverso un lavoro di gruppo. Il suo uso è fortemente incentivato da PunchCode. Gli aspetti fondamentali che devono essere considerati al fine di una corretta riuscita di tale fase sono:
+  - riunire individui che hanno conoscenza dell'area in cui si riscontra il problema (competenti);
+  - mettere sul tavolo tutte le idee;
+  - continuare il processo finché non si esauriscono le idee;
+  - discutere tutte le idee emerse (facendo emergere incrementalmente la soluzione);
+  - testare tutte le idee con estrema apertura mentale.
+La startup prevede l'uso di tale tecnica sia durante il decision making che il problem solving, ricorrendo anche a meeting tra i membri del team qualora dovesse rivelarsi necessario.
+
+- **Team Meetings**  
+  Le riunioni tra i membri del team sono uno strumento indispensabile nella fase di esecuzione. La loro organizzazione richiede di rispondere a dei quesiti, quali lo scopo della riunione, la data, la durata, i partecipanti. Le politiche di PunchCode richiedono rigorosamente la definizione di un'agenda (comunicata per tempo ai partecipanti in modo da favorire la loro preparazione all'evento) e la redazione di un verbale (rappresentante anche un valido modo con cui condividere le soluzioni concordate). Tali punti sono riscontrabili anche all'interno dei template per i Project Scoping Meeting e per le Joint Project Planning Session già discusse. La conduzione di un meeting avviene normalmente in presenza fisica ma, qualora vi siano impedimenti e l'obiettivo della riunione non si riferisca ad aspetti di natura critica, la startup ammette l'utilizzo di strumenti quali Skype.
+
+<!-- 
+COMMENTI PRESENTI ANCHE SOTTO NELLA SEZIONE 5.7 (che se svolta bene questa elimineremo) 
+-->
+<!-- i meeting tra i due avranno lo stesso modello di quelli già discussi -->
+<!-- vedere se l'aggiunta della colonna "esito" è fattibile -->
+<!-- seguiamo il Daily Status Meeting, non abbiamo personalizzazioni -->
+
+Preme sottolineare come sia presente una potenziale interrelazione tra le regole operative appena esposte (ad esempio, la risoluzione di un problema potrebbe richiedere l'organizzazione di una riunione).
+
+
+## 5.4 Assegnamento Risorse
+
+## 5.5 Assegnamento Responsabilità
+
+<!--  tabella responsabilità: il team è in due, entrambi sanno l'avanzamento, non possiamo ulteriormente suddividerci (responsabile "vero" è Giacomo, consulted Marcin e informed entrambi) -->
+
+## 5.6 Gestione delle comunicazioni
+La gestione delle comunicazioni all'interno della startup segue le politiche aziendali già definite nel capitolo relativo alla [gestione delle comunicazioni](#2124-gestione-delle-comunicazioni).
+
+
+## 5.7 Meetings
+
+<!-- DA SPOSTARE SOPRA? -->
+
+Links:  
+[2.1.2.3.2. Daily Status Meeting](#21232-daily-status-meeting)  
+[2.1.2.3.3. Problem Resolution Meeting](#21233-problem-resolution-meeting)  
+
+<!-- i meeting tra i due avranno lo stesso modello di quelli già discussi -->
+<!-- vedere se l'aggiunta della colonna "esito" è fattibile -->
+<!-- seguiamo il Daily Status Meeting, non abbiamo personalizzazioni -->
+
+### 5.7.1 Kick-Off Meeting
+
+<!-- kick-off meeting con eventuali integrazioni del pds -->
+
+### 5.7.2 Project Review Meeting
+[2.1.2.3.4. Project Review Meeting](#21234-project-review-meeting)  
+<!-- dove si può migliorare (slide 11):
+a fine increment = incontro per vedere cosa migliorare (PROJECT REVIEW MEETING, ci dobbiamo giudicare); lo facciamo in collaudo, direttamente con Enrico
+-->
+
+## 5.8 Aggiornamento Project Definition Statement (PDS)
+
+<!-- Ormai serve solo come conferma, magari con ulteriori bilanciamenti, ma nulla di fatto -->
+
+## 5.9 Work Packages
+
+<!--  work packages previsti nella wbs -->
+
+## 5.10 Raffinamento della schedula del progetto
+
+<!-- aggiornamento Gantt e assegnamento risorse su base settimanale (lo scriviamo e basta) -->
+<!-- conferma date rilascio incrementi come pianificato (lo sapevamo già da prima) -->
+
+
+## 5.11 Gestione del processo di modifica dello Scope
+
+<!-- - scopiazzare dal progetto githup pis -->
+
+# 6. Bibliografia
 
 [1]<a id="bibliography-1"></a> [Platonova, Valērija & Bērziša, Solvita. "Gamification in Software Development Projects". *Information Technology and Management Science*. Dec 2017.](https://www.researchgate.net/publication/322409704_Gamification_in_Software_Development_Projects)  
 [2]<a id="bibliography-2"></a> [Senthil Rajamarthandan. "Using Gamification to Build a Passionate and Quality-Driven Software Development Team". *Cognizant 20-20 Insights*. Feb 2014.](https://www.cognizant.com/InsightsWhitepapers/Using-Gamification-to-Build-a-Passionate-and-Quality-Driven-Software-Development-Team.pdf)  
