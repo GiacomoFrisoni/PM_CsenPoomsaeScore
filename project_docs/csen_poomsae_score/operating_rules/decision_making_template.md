@@ -2,15 +2,15 @@
 
 <table>
     <tr>
-        <th align="left">Data<th>
+        <th align="left">Data</th>
         <td>___ / ___ / ___</td>
     </tr>
     <tr>
-        <th align="left">Responsabile<th>
+        <th align="left">Responsabile</th>
         <td>________________________________</td>
     </tr>
     <tr>
-        <th align="left">Oggetto<th>
+        <th align="left">Oggetto</th>
         <td>__________________________________________________________</td>
     </tr>
 </table>
