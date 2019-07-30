@@ -960,7 +960,7 @@ Come previsto dalle politiche aziendali, durante il Kick-Off Meeting al momento 
 
 ## 5.8 Work Packages
 
-Un work package è una breve descrizione che specifica come i task che lo compongono saranno completati. I task inclusi in un work package dovrebbero avere delle relazioni tra loro che ne motivano una gestione coordinata. I work package permettono di avere un maggior controllo sul progetto e il rispetto della schedula.
+Un work package è una breve descrizione che specifica come i task che lo compongono saranno completati. I task inclusi in un work package dovrebbero avere delle relazioni tra loro che ne motivano una gestione coordinata. I work package permettono di avere un maggior controllo sul progetto e il rispetto della schedula. Sono pertanto i componenti (moduli) in cui il progetto stesso è decomposto.
 
 PunchCode considera un work package per ognuna delle tre milestone di delivery. Inoltre, sfruttando la diversificazione dei colori utilizzata all'interno della [WBS](project_docs/csen_poomsae_score/wbs/final_wbs.png), l'azienda adotta un work package per ogni attività composta da più task (foglia).
 
@@ -974,44 +974,26 @@ Come è possibile osservare, all'interno di tale documento devono essere riporta
 - la giustificazione del cambiamento dal punto di vista dei business value;
 - l'azione da realizzare per apportare il cambiamento.
 
-<!-- Dire sotto che l'approved by è compilata solo se si supera l'ultimo stadio del processo -->
-
 La richiesta di cambiamento appena descritta diviene l'input per un apposito [processo](project_docs/csen_poomsae_score/scope_change_request/scope_change_request_process.png) seguito dall'azienda. Preme evidenziare come una richiesta possa essere subito rigettata ma possa anche divenire oggetto di trattazioni (dove, ad esempio, PunchCode potrebbe ricercare alternative con impatti più bassi).
 
-Prima di giungere all'approvazione, la richiesta deve anche passare per una fase di valutazione dell'impatto. Per gestire il [Project Impact Statement](project_docs/csen_poomsae_score/scope_change_request/project_impact_statement.md), la startup adotta un ulteriore documento (preparato dal/i Project Manager, con la collaborazione del team). Esso tratta ciascuno dei seguenti punti:
+Prima di giungere all'approvazione, la richiesta deve anche passare per una fase di valutazione dell'impatto. Per gestire il [Project Impact Statement](project_docs/csen_poomsae_score/scope_change_request/project_impact_statement.md), la startup adotta un ulteriore documento (preparato dal/i Project Manager, con la collaborazione del team). Esso definisce tutte le possibili alternative e tratta ciascuno dei seguenti punti:
 - beneficio atteso dal cambiamento;
 - impatto sui costi (valutando il delta tra quanto da eliminare e quanto da rifare);
 - impatto sulla schedula del progetto (valutando ritardi / anticipi);
 - impatto sulla qualità della soluzione;
-- impatto sull'allocazione delle risorse;
+- impatto sull'allocazione delle risorse (tenendo conto di eventuali slittamenti di attività);
 - possibile rimando a un successivo stadio del progetto o a una prossima versione della soluzione;
 - rischio che il cambiamento destabilizzi la soluzione.
 
-<!--
-Questa sara' presa in carica da chi effettivamente dovra' approvarla. La proposta di cambiamento sara' quindi accettata se la si considera pertinente e gistificata nel contesto del progetto stesso. Una volta che viene approvata sara' pianificata e svolta. La sua pianificazione puo' essere considerata anche nel ciclo di interazione successivo seguendo la metodologia lean. Quindi puo' capitare che una milestone successiva alle prime inglobi sia un requisito minore che una revisione su uno passato. In casi estremi si puo' pensare a una milestone che riguarda unicamente il cambiamento e che quindi raggruppa tutte le richieste precedentemente approvate.
+Come è possibile vedere dall'allegato, il template adottato da PunchCode richiede di specificare le varie aree su cui la richiesta di cambiamento ha un impatto (quantificando quest'ultimo qualora vi dovesse essere).
 
+La soluzione da percorrere è scelta assieme al committente, tra una delle possibili alternative individuate nel Project Impact Statement. Il Project Manager ristruttura così il piano del progetto in conseguenza della scelta effettuata, informando il committente.
 
-Verra' redatto dal project manager per ogni richiesta di cambiamento che verra' approvata e serve appunto a definirne l'impatto e a capire che cosa e' necessario per renderla possibile, nonche' un'indicazione chiara su come pianificare l'attivita'. Al suo interno saranno presenti varie alternative utili a dare al committente piu possibilita' di scelta su come operare il cambiamento. Occupera' un ruolo fondamentale nella riunione successiva e relativa al cambiamento da effettuare che interessera' direttamente il committente in quanto avverra' una negoziazione con questo per scegliere come attuare il cambiamento. Il tutto deve essere siglato con una firma del committente stesso in quanto un cambiamento del progetto indica sicuramente un cambiamento anche in risorse, costi o tempi (facendo riferimento allo scope triangle).
+La proposta di cambiamento viene accettata (registrando l'esito anche sul documento) se la si considera pertinente e giustificata nel contesto del progetto stesso. Solo nell'eventualità in cui la richiesta venga approvata, si procede all'implementazione. Come anticipato, in quest'ultimo caso occorre tuttavia aver prima ripetuto l'attività di **Planning** coinvolta dalla richiesta accettata. La pianificazione, infatti, non viene svolta una sola volta, ma è evidente come - a questo stadio della gestione - delle modifiche allo Scope abbiano una forte ricaduta sulle risorse e rappresentino un elevato rischio per il successo dell'intero progetto. Proprio per questa ragione, tali scenari dovrebbero essere evitati. I numerosi meeting previsti dalla startup rappresentano proprio una forma di mitigazione e vanno in questa direzione.
 
--------------
+Dopo aver sottomesso la richiesta di cambiamento, gli esiti possono pertanto essere molteplici: il cambiamento potrebbe essere applicato entro le risorse e i tempi previsti per il progetto, potrebbe non essere applicato o potrebbe esserlo ma con un maggior numero di risorse richieste e/o con un'estensione della schedula. Allo stesso modo, potrebbe anche essere adottato un approccio multiple-release, mettendo le richieste in coda e magari regolandole in seguito con un ulteriore contratto.
 
-e dovrà rispondere alle seguenti domande:
- Qual è il beneficio atteso dal cambiamento?
- Come impatterà il cambiamento sui costi?
- Come impatterà il cambiamento sulla schedula del progetto?
- Come impatterà il cambiamento sulla qualità della soluzione?
- Come impatterà il cambiamento sull’allocazione delle risorse?
- Il cambiamento può essere rimandato a un successivo stadio di progetto o a una prossima
-versione della soluzione?
- Il progetto è in uno stato in cui è alto il rischio che il cambiamento richiesto destabilizzi la
-soluzione?
-Si supponga una situazione in cui le varie attività di normalizzazione ed integrazione dei dati siano
-state svolte con un certo anticipo rispetto alle tempistiche preventivate, in questo caso si potrà
-supporre che il cambiamento potrà essere applicato entro le risorse e i tempi previsti per il progetto.
-Ovviamente questa operazione dovrà essere approvata dal committente, per questo bisognerà cercare
-di convincerlo che la business value introdotta dalla nuova fonte è praticamente la stessa della fonte
-eliminata.
--->
+Un'eventuale approvazione della richiesta di cambiamento richiede necessariamente che il documento redatto sia siglato anche con una firma del committente, dal momento che ciò inciderà sicuramente sui costi, sui tempi e sulla qualità (in riferimento allo *Scope Triangle*).
 
 # 6. Bibliografia
 
