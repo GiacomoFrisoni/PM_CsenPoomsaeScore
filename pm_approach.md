@@ -966,7 +966,7 @@ PunchCode considera un work package per ognuna delle tre milestone di delivery. 
 
 ## 5.9 Gestione del processo di modifica dello Scope
 
-PunchCode prevede dei template per affrontare delle richieste di cambiamento. Di conseguenza, se il cliente o un membro del team dovesse avvertire la necessità di richiedere una modifica di scope del progetto per differenti ragioni, egli potrà sottomettere una [Scope Change Request Form](project_docs/csen_poomsae_score/scope_change_request/scope_change_request.md) appositamente compilata.
+PunchCode prevede dei template per affrontare delle richieste di cambiamento. Di conseguenza, se il cliente o un membro del team dovesse avvertire la necessità di richiedere una modifica di scope del progetto per differenti ragioni, egli potrà sottomettere una [Scope Change Request Form](project_docs/csen_poomsae_score/scope_change_request/scope_change_request_form.md) appositamente compilata.
 Come è possibile osservare, all'interno di tale documento devono essere riportati:
 - l'autore della richiesta di cambiamento;
 - la data della richiesta;
