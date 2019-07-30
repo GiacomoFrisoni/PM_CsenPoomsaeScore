@@ -163,7 +163,7 @@ Per una facile esplorazione del repository, si riporta nel seguente elenco tutta
   - [Decision Making Template](project_docs/csen_poomsae_score/operating_rules/decision_making_template.md)
   
   - Scope Change Request
-    - [Form di richiesta](project_docs/csen_poomsae_score/scope_change_request/scope_change_request.md)
+    - [Form di richiesta](project_docs/csen_poomsae_score/scope_change_request/scope_change_request_form.md)
     - [Processo di approvazione](project_docs/csen_poomsae_score/scope_change_request/scope_change_request_process.png) 
     - [Project Impact Statement](project_docs/csen_poomsae_score/scope_change_request/project_impact_statement.md)
 
