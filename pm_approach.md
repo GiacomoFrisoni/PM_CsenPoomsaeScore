@@ -13,10 +13,11 @@
         - [2.1.2.2.1. Gamification](#21221-gamification)
         - [2.1.2.2.2. Documentazione](#21222-documentazione)
       - [2.1.2.3. Project Meeting](#2123-project-meeting)
-        - [2.1.2.3.1. Project Scoping Meeting](#21231-project-scoping-meeting)
-        - [2.1.2.3.2. Daily Status Meeting](#21232-daily-status-meeting)
-        - [2.1.2.3.3. Problem Resolution Meeting](#21233-problem-resolution-meeting)
-        - [2.1.2.3.4. Project Review Meeting](#21234-project-review-meeting)
+        - [2.1.2.3.1. Kick-Off Meeting](#21231-kick-off-meeting)
+        - [2.1.2.3.2. Project Scoping Meeting](#21232-project-scoping-meeting)
+        - [2.1.2.3.3. Daily Status Meeting](#21233-daily-status-meeting)
+        - [2.1.2.3.4. Problem Resolution Meeting](#21234-problem-resolution-meeting)
+        - [2.1.2.3.5. Project Review Meeting](#21235-project-review-meeting)
       - [2.1.2.4. Gestione delle comunicazioni](#2124-gestione-delle-comunicazioni)
   - [2.2. Committente](#22-committente)
   - [2.3. Relazione esecutore-committente](#23-relazione-esecutore-committente)
@@ -59,16 +60,12 @@
   - [5.1 Scelta del Team](#51-scelta-del-team)
     - [5.1.1 Bilanciamento del team](#511-bilanciamento-del-team)
   - [5.3 Regole operative per il team](#53-regole-operative-per-il-team)
-  - [5.4 Assegnamento Risorse](#54-assegnamento-risorse)
+  - [5.4 Assegnamento Risorse e raffinamento della schedula del progetto](#54-assegnamento-risorse-e-raffinamento-della-schedula-del-progetto)
   - [5.5 Assegnamento Responsabilità](#55-assegnamento-responsabilit%c3%a0)
   - [5.6 Gestione delle comunicazioni](#56-gestione-delle-comunicazioni)
-  - [5.7 Meetings](#57-meetings)
-    - [5.7.1 Kick-Off Meeting](#571-kick-off-meeting)
-    - [5.7.2 Project Review Meeting](#572-project-review-meeting)
-  - [5.8 Aggiornamento Project Definition Statement (PDS)](#58-aggiornamento-project-definition-statement-pds)
-  - [5.9 Work Packages](#59-work-packages)
-  - [5.10 Raffinamento della schedula del progetto](#510-raffinamento-della-schedula-del-progetto)
-  - [5.11 Gestione del processo di modifica dello Scope](#511-gestione-del-processo-di-modifica-dello-scope)
+  - [5.7 Aggiornamento Project Definition Statement (PDS)](#57-aggiornamento-project-definition-statement-pds)
+  - [5.8 Work Packages](#58-work-packages)
+  - [5.9 Gestione del processo di modifica dello Scope](#59-gestione-del-processo-di-modifica-dello-scope)
 - [6. Bibliografia](#6-bibliografia)
 
 [//]: # (-------------------------------------------------------------------------)
@@ -162,7 +159,13 @@ Per una facile esplorazione del repository, si riporta nel seguente elenco tutta
 
 - **Launching / Executing**
   - [Problem Solving Template](project_docs/csen_poomsae_score/operating_rules/problem_solving_template.md)
+  
   - [Decision Making Template](project_docs/csen_poomsae_score/operating_rules/decision_making_template.md)
+  
+  - Scope Change Request
+    - [Form di richiesta](project_docs/csen_poomsae_score/scope_change_request/scope_change_request.md)
+    - [Processo di approvazione](project_docs/csen_poomsae_score/scope_change_request/scope_change_request_process.png) 
+    - [Project Impact Statement](project_docs/csen_poomsae_score/scope_change_request/project_impact_statement.md)
 
 [//]: # (-------------------------------------------------------------------------)
 
@@ -211,7 +214,23 @@ L'azienda utilizza un repository online come **workbook** per conservare l'insie
 
 #### 2.1.2.3. Project Meeting
 
-##### 2.1.2.3.1. Project Scoping Meeting
+L'azienda applica dei template specifici per le tipologie di incontri. Ciascuno di questi richiede - a fini storici - la specifica della data, dei partecipanti e dell'oggetto. La costruzione di un'agenda prima di una riunione è ritenuta un'operazione obbligatoria per PunchCode. Le eventuali note / esiti (es. decisioni prese / richiesta di ulteriori approfondimenti) associate ai vari punti sono registrate all'interno di un apposito campo previsto dal documento.
+
+##### 2.1.2.3.1. Kick-Off Meeting
+
+Il Project Kick-Off Meeting riveste un ruolo centrale e provvede ad annunciare che il progetto pianificato è stato approvato per la fase esecutiva. PunchCode prevede un solo incontro per la sua risoluzione.
+Per l'agenda, l'azienda adotta la seguente struttura:
+- introduzione;
+- presentazione dello sponsor al team di progetto;
+- presentazione degli aspetti rilevanti del progetto da parte dello sponsor;
+- presentazione del progetto (committente);
+- presentazione del progetto (project manager);
+- presentazione dei membri del team di progetto;
+- analisi del PDS ed eventuale apporto di integrazioni. 
+
+In questa occasione, si stabiliscono le regole operative del team, si integrano nella schedula le disponibilità dei membri del team e si identificano i Work Packages (insiemi di attività facili da monitorare e controllare, con uno specifico significato).
+
+##### 2.1.2.3.2. Project Scoping Meeting
 
 Al fine di entrare in contatto col cliente e iniziare a delineare lo scope del progetto, l'azienda prevede un Project Scoping Meeting organizzato come di seguito descritto.
 Sul piano dello schema, l'obiettivo delle varie riunioni che compongono tale processo consiste nella produzione dei seguenti deliverable:
@@ -230,7 +249,7 @@ Dal momento che il Project Scoping Meeting può comprendere numerose sessioni in
 
 L'azienda è anche interessata a fare una breve review al termine di ogni sessione di Project Scoping Meeting per valutare il rispetto dell'agenta, il livello di partecipazione e altri parametri utili per un miglioramento continuo.
 
-##### 2.1.2.3.2. Daily Status Meeting
+##### 2.1.2.3.3. Daily Status Meeting
 
 L'azienda prevede la presenza di riunioni giornaliere per mantenere monitorato lo stato di avanzamento dei task. Nello specifico adotta la forma di Stand-up Meeting, preferendola ad alternative come resoconti di fine giornata.
 
@@ -239,7 +258,7 @@ In queste occasioni, si associa inoltre a ogni task un colore in linea col Spotl
 
 Lo svolgimento degli Stand-Up Meeting dovrebbe sempre avvenire dal vivo, anche se, in via del tutto eccezzionale, è possibile svolgerlo in via telematica: in questo caso, però, è strettamente necessario l'utilizzo di una WebCam per un rapporto semi-diretto con gli interlocutori (che secondo degli studi sociologici favorirebbe lo sviluppo della discussione). Data la natura informale degli incontri, è preferibile parteciparvi "*in piedi*" per stimolare una maggior attenzione e minimizzare la durante del meeting stesso.
 
-##### 2.1.2.3.3. Problem Resolution Meeting
+##### 2.1.2.3.4. Problem Resolution Meeting
 
 PunchCode considera lo svolgimento di Problem Resolution Meeting per la discussione di problematiche riscontrate durante lo svolgimento di un progetto. L'azienda prevede nello specifico che questi siano organizzati qualora si ritengano necessari a fronte dell'individuazione di attività fuori controllo durante uno Stand-up Meeting. In queste riunioni per la risoluzione di un problema l'agenda deve prevedere:
 - la partecipazione dei soli sviluppatori coinvolti nel problema;
@@ -249,7 +268,7 @@ PunchCode considera lo svolgimento di Problem Resolution Meeting per la discussi
 
 Preme tuttavia sottolineare come - a causa del ridotto personale attualmente presente nella startup - tali meeting richiedano necessariamente la presenza di entrambi i membri.
 
-##### 2.1.2.3.4. Project Review Meeting
+##### 2.1.2.3.5. Project Review Meeting
 
 In concomitanza col raggiungimento di una milestone, l'azienda svolge un Project Review Meeting. Durante questi eventi formali:
 - si svolge la presentazione dello stato del progetto in corrispondenza della milestone e si effettua una sua revisione critica;
@@ -895,67 +914,104 @@ Durante lo svolgimento di un progetto potrebbero sorgere imprevisti di diverse e
 La startup prevede l'uso di tale tecnica sia durante il decision making che il problem solving, ricorrendo anche a meeting tra i membri del team qualora dovesse rivelarsi necessario.
 
 - **Team Meetings**  
-  Le riunioni tra i membri del team sono uno strumento indispensabile nella fase di esecuzione. La loro organizzazione richiede di rispondere a dei quesiti, quali lo scopo della riunione, la data, la durata, i partecipanti. Le politiche di PunchCode richiedono rigorosamente la definizione di un'agenda (comunicata per tempo ai partecipanti in modo da favorire la loro preparazione all'evento) e la redazione di un verbale (rappresentante anche un valido modo con cui condividere le soluzioni concordate). Tali punti sono riscontrabili anche all'interno dei template per i Project Scoping Meeting e per le Joint Project Planning Session già discusse. La conduzione di un meeting avviene normalmente in presenza fisica ma, qualora vi siano impedimenti e l'obiettivo della riunione non si riferisca ad aspetti di natura critica, la startup ammette l'utilizzo di strumenti quali Skype.
+  Le riunioni tra i membri del team sono uno strumento indispensabile nella fase di esecuzione. La loro organizzazione richiede di rispondere a dei quesiti, quali lo scopo della riunione, la data, la durata, i partecipanti. Le politiche di PunchCode richiedono rigorosamente la definizione di un'agenda (comunicata per tempo ai partecipanti in modo da favorire la loro preparazione all'evento) e la redazione di un verbale (rappresentante anche un valido modo con cui condividere le soluzioni concordate). Tali punti sono riscontrabili anche all'interno dei template per i [Project Scoping Meeting](#21232-project-scoping-meeting) e per le [Joint Project Planning Session](#41-joint-project-planning-session) già discusse. La conduzione di un meeting avviene normalmente in presenza fisica ma, qualora vi siano impedimenti e l'obiettivo della riunione non si riferisca ad aspetti di natura critica, la startup ammette l'utilizzo di strumenti quali Skype.
 
-<!-- 
-COMMENTI PRESENTI ANCHE SOTTO NELLA SEZIONE 5.7 (che se svolta bene questa elimineremo) 
--->
-<!-- i meeting tra i due avranno lo stesso modello di quelli già discussi -->
-<!-- vedere se l'aggiunta della colonna "esito" è fattibile -->
-<!-- seguiamo il Daily Status Meeting, non abbiamo personalizzazioni -->
+  PunchCode considera dunque sei tipologie di riunioni:
+  - SCOPING
+    - [Project Scoping Meeting](#21232-project-scoping-meeting);
+  - PLANNING
+    - [Joint Project Planning Session](#41-joint-project-planning-session);
+  - LAUNCHING
+    - [Kick-Off Meeting](#21231-kick-off-meeting);
+  - EXECUTING
+    - [Daily Status Meeting](#21233-daily-status-meeting);
+    - [Problem Resolution Meeting](#21234-problem-resolution-meeting);
+    - [Project Review Meeting](#21235-project-review-meeting).
+  
+  Per ciascuna di queste, la startup sceglie di adottare nell'ambito del progetto il medesimo modello delineato a livello di [politiche aziendali](#212-politiche-aziendali). L'unica eccezione deriva dalla personalizzazione del Project Review Meeting, il quale verrà svolto direttamente durante i collaudi delle singole macro-release, con la partecipazione diretta del Project Manager del cliente. Essendo PunchCode una realtà piccola, l'autovalutazione del lavoro svolto dai due dipendenti avviene pertanto durante questo incontro.  
+  Si vuole osservare inoltre come, nel caso specifico del progetto in esame, il Kick-Off Meeting non costituisca la prima occasione d'incontro tra i partecipanti (che già hanno avuto modo di conoscersi sin dalle sessioni di Project Scoping Meeting). In aggiunta a questo, l'agenda risulta essere modificata (rispetto a quanto descritto nelle politiche aziendali) a causa dell'assenza di uno sponsor. La presentazione del progetto e dei suoi aspetti maggiormente rilevanti è pertanto delegata ai due Project Manager dell'azienda fornitrice.
 
 Preme sottolineare come sia presente una potenziale interrelazione tra le regole operative appena esposte (ad esempio, la risoluzione di un problema potrebbe richiedere l'organizzazione di una riunione).
 
+## 5.4 Assegnamento Risorse e raffinamento della schedula del progetto
 
-## 5.4 Assegnamento Risorse
+Salvo scostamenti dalla schedula, PunchCode segue quanto stabilito con l'operazione di [staff-assignment](#452-assegnamento-membri-dello-staff-ai-task) nel piano iniziale. L'azienda considera in ogni caso un aggiornamento del documento con frequenza settimanale.  
+Per semplificare il problema dell'assegnamento delle risorse, la startup ricorre a metodi alternativi per pianificare i task. Tra le possibili azioni applicabili, vi sono le seguenti:
+- decomposizione ulteriore di task;
+- prolungamento della durata dei task;
+- assegnazione di altre risorse (non direttamente scelte per le loro skill) in sostituzione di quelle non disponibili o non sufficientemente disponibili.
+
+Nel far ciò, PunchCode utilizza Microsft Project come strumento software per la gestione di tali aspetti legati al progetto.
 
 ## 5.5 Assegnamento Responsabilità
 
-<!--  tabella responsabilità: il team è in due, entrambi sanno l'avanzamento, non possiamo ulteriormente suddividerci (responsabile "vero" è Giacomo, consulted Marcin e informed entrambi) -->
+Delegare e assegnare correttamente le responsabilità è un fattore di successo per la gestione dei progetti. Disponendo di due soli membri interni al team non è possibile individuare tutte le figure previste da schemi, quali matrice *RASCI*.  
+Seguendo l'assegnazione delle risorse svolta durante la costruzione del [Project Network Diagram](project_docs/csen_poomsae_score/project_network_diagram/), l'azienda considera come *responsible* di un task, la figura incaricata del suo completamento. Qualora un task sia svolto da più membri, PunchCode considera come responsabile Giacomo Frisoni poichè maggiormente dotato delle skill di "Leadership" e "Organizing".  
+Non si prevede la presenza di un *accountable*: l'incaricato dell'approvazione del risultato dell'attività è il responsabile stesso di quest'ultima, verso cui si riversa fiducia in termini di qualità e capacità auto-critiche. Sotto questo punto di vista, si ricorda tuttavia come PunchCode preveda delle verifiche a campione sulla qualità dei sorgenti e della documentazione attraverso tecniche di [Gamification](#21221-gamification).  
+Allo stesso modo, non si tiene conto del ruolo di *support*; mentre il *consulted* (ovvero il co-responsabile che può sostituire il responsabile stesso in caso di necessità) è necessariamente rappresentato dall'altro dipendente, che dovrà anche essere sempre tenuto aggiornato sullo stato di avanzamento (*informed*).
 
 ## 5.6 Gestione delle comunicazioni
-La gestione delle comunicazioni all'interno della startup segue le politiche aziendali già definite nel capitolo relativo alla [gestione delle comunicazioni](#2124-gestione-delle-comunicazioni).
+
+La gestione delle comunicazioni all'interno della startup segue le politiche aziendali già definite nella [sezione trattata in precedenza](#2124-gestione-delle-comunicazioni), senza subire personalizzazioni e/o modifiche.
+
+## 5.7 Aggiornamento Project Definition Statement (PDS)
+
+Come previsto dalle politiche aziendali, durante il Kick-Off Meeting al momento del Launching, si riesamina il contenuto del PDS e si valutano possibili integrazioni a quest'ultimo. Nel caso del progetto in esame, è lecito attendersi una semplice conferma a causa dei numerosi incontri e feedback ricevuti nelle fasi antecedenti.
+
+## 5.8 Work Packages
+
+Un work package è una breve descrizione che specifica come i task che lo compongono saranno completati. I task inclusi in un work package dovrebbero avere delle relazioni tra loro che ne motivano una gestione coordinata. I work package permettono di avere un maggior controllo sul progetto e il rispetto della schedula.
+
+PunchCode considera un work package per ognuna delle tre milestone di delivery. Inoltre, sfruttando la diversificazione dei colori utilizzata all'interno della [WBS](project_docs/csen_poomsae_score/wbs/final_wbs.png), l'azienda adotta un work package per ogni attività composta da più task (foglia).
+
+## 5.9 Gestione del processo di modifica dello Scope
+
+PunchCode prevede dei template per affrontare delle richieste di cambiamento. Di conseguenza, se il cliente o un membro del team dovesse avvertire la necessità di richiedere una modifica di scope del progetto per differenti ragioni, egli potrà sottomettere una [Scope Change Request Form](project_docs/csen_poomsae_score/scope_change_request/scope_change_request.md) appositamente compilata.
+Come è possibile osservare, all'interno di tale documento devono essere riportati:
+- l'autore della richiesta di cambiamento;
+- la data della richiesta;
+- la descrizione del cambiamento;
+- la giustificazione del cambiamento dal punto di vista dei business value;
+- l'azione da realizzare per apportare il cambiamento.
+
+<!-- Dire sotto che l'approved by è compilata solo se si supera l'ultimo stadio del processo -->
+
+La richiesta di cambiamento appena descritta diviene l'input per un apposito [processo](project_docs/csen_poomsae_score/scope_change_request/scope_change_request_process.png) seguito dall'azienda. Preme evidenziare come una richiesta possa essere subito rigettata ma possa anche divenire oggetto di trattazioni (dove, ad esempio, PunchCode potrebbe ricercare alternative con impatti più bassi).
+
+Prima di giungere all'approvazione, la richiesta deve anche passare per una fase di valutazione dell'impatto. Per gestire il [Project Impact Statement](project_docs/csen_poomsae_score/scope_change_request/project_impact_statement.md), la startup adotta un ulteriore documento (preparato dal/i Project Manager, con la collaborazione del team). Esso tratta ciascuno dei seguenti punti:
+- beneficio atteso dal cambiamento;
+- impatto sui costi (valutando il delta tra quanto da eliminare e quanto da rifare);
+- impatto sulla schedula del progetto (valutando ritardi / anticipi);
+- impatto sulla qualità della soluzione;
+- impatto sull'allocazione delle risorse;
+- possibile rimando a un successivo stadio del progetto o a una prossima versione della soluzione;
+- rischio che il cambiamento destabilizzi la soluzione.
+
+<!--
+Questa sara' presa in carica da chi effettivamente dovra' approvarla. La proposta di cambiamento sara' quindi accettata se la si considera pertinente e gistificata nel contesto del progetto stesso. Una volta che viene approvata sara' pianificata e svolta. La sua pianificazione puo' essere considerata anche nel ciclo di interazione successivo seguendo la metodologia lean. Quindi puo' capitare che una milestone successiva alle prime inglobi sia un requisito minore che una revisione su uno passato. In casi estremi si puo' pensare a una milestone che riguarda unicamente il cambiamento e che quindi raggruppa tutte le richieste precedentemente approvate.
 
 
-## 5.7 Meetings
+Verra' redatto dal project manager per ogni richiesta di cambiamento che verra' approvata e serve appunto a definirne l'impatto e a capire che cosa e' necessario per renderla possibile, nonche' un'indicazione chiara su come pianificare l'attivita'. Al suo interno saranno presenti varie alternative utili a dare al committente piu possibilita' di scelta su come operare il cambiamento. Occupera' un ruolo fondamentale nella riunione successiva e relativa al cambiamento da effettuare che interessera' direttamente il committente in quanto avverra' una negoziazione con questo per scegliere come attuare il cambiamento. Il tutto deve essere siglato con una firma del committente stesso in quanto un cambiamento del progetto indica sicuramente un cambiamento anche in risorse, costi o tempi (facendo riferimento allo scope triangle).
 
-<!-- DA SPOSTARE SOPRA? -->
+-------------
 
-Links:  
-[2.1.2.3.2. Daily Status Meeting](#21232-daily-status-meeting)  
-[2.1.2.3.3. Problem Resolution Meeting](#21233-problem-resolution-meeting)  
-
-<!-- i meeting tra i due avranno lo stesso modello di quelli già discussi -->
-<!-- vedere se l'aggiunta della colonna "esito" è fattibile -->
-<!-- seguiamo il Daily Status Meeting, non abbiamo personalizzazioni -->
-
-### 5.7.1 Kick-Off Meeting
-
-<!-- kick-off meeting con eventuali integrazioni del pds -->
-
-### 5.7.2 Project Review Meeting
-[2.1.2.3.4. Project Review Meeting](#21234-project-review-meeting)  
-<!-- dove si può migliorare (slide 11):
-a fine increment = incontro per vedere cosa migliorare (PROJECT REVIEW MEETING, ci dobbiamo giudicare); lo facciamo in collaudo, direttamente con Enrico
+e dovrà rispondere alle seguenti domande:
+ Qual è il beneficio atteso dal cambiamento?
+ Come impatterà il cambiamento sui costi?
+ Come impatterà il cambiamento sulla schedula del progetto?
+ Come impatterà il cambiamento sulla qualità della soluzione?
+ Come impatterà il cambiamento sull’allocazione delle risorse?
+ Il cambiamento può essere rimandato a un successivo stadio di progetto o a una prossima
+versione della soluzione?
+ Il progetto è in uno stato in cui è alto il rischio che il cambiamento richiesto destabilizzi la
+soluzione?
+Si supponga una situazione in cui le varie attività di normalizzazione ed integrazione dei dati siano
+state svolte con un certo anticipo rispetto alle tempistiche preventivate, in questo caso si potrà
+supporre che il cambiamento potrà essere applicato entro le risorse e i tempi previsti per il progetto.
+Ovviamente questa operazione dovrà essere approvata dal committente, per questo bisognerà cercare
+di convincerlo che la business value introdotta dalla nuova fonte è praticamente la stessa della fonte
+eliminata.
 -->
-
-## 5.8 Aggiornamento Project Definition Statement (PDS)
-
-<!-- Ormai serve solo come conferma, magari con ulteriori bilanciamenti, ma nulla di fatto -->
-
-## 5.9 Work Packages
-
-<!--  work packages previsti nella wbs -->
-
-## 5.10 Raffinamento della schedula del progetto
-
-<!-- aggiornamento Gantt e assegnamento risorse su base settimanale (lo scriviamo e basta) -->
-<!-- conferma date rilascio incrementi come pianificato (lo sapevamo già da prima) -->
-
-
-## 5.11 Gestione del processo di modifica dello Scope
-
-<!-- - scopiazzare dal progetto githup pis -->
 
 # 6. Bibliografia
 
