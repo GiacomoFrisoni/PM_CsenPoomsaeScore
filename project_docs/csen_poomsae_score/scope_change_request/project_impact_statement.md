@@ -27,6 +27,9 @@
 
 ----------------------------------------
 
+## 1. Choose 1
+**Description:** ______________________________________________________________________
+
 <br/>
 
 <table>
@@ -81,12 +84,67 @@
 
 ----------------------------------------
 
+## 2. Choose 2
+**Description:** ______________________________________________________________________
+
 <br/>
 
 <table>
     <tr>
+        <th align="left" width="25%">Type of impact</th>
+        <th align="center" width="25%">Impact on project</th>
+        <th align="left" width="50%">If yes, quantify</th>
+    </tr>
+    <tr>
+        <td>Techical</td>
+        <td align="center">[ YES ] / [ NO ]</td>
+        <td>____________________________________________________</td>
+    </tr>
+    <tr>
+        <td>Procurement</td>
+        <td align="center">[ YES ] / [ NO ]</td>
+        <td>____________________________________________________</td>
+    </tr>
+    <tr>
+        <td>Production</td>
+        <td align="center">[ YES ] / [ NO ]</td>
+        <td>____________________________________________________</td>
+    </tr>
+    <tr>
+        <td>Schedule</td>
+        <td align="center">[ YES ] / [ NO ]</td>
+        <td>____________________________________________________</td>
+    </tr>
+    <tr>
+        <td>Cost</td>
+        <td align="center">[ YES ] / [ NO ]</td>
+        <td>____________________________________________________</td>
+    </tr>
+    <tr>
+        <td>Quality</td>
+        <td align="center">[ YES ] / [ NO ]</td>
+        <td>____________________________________________________</td>
+    </tr>
+    <tr>
+        <td>Contract</td>
+        <td align="center">[ YES ] / [ NO ]</td>
+        <td>____________________________________________________</td>
+    </tr>
+    <tr>
+        <td>Risk</td>
+        <td align="center">[ YES ] / [ NO ]</td>
+        <td>____________________________________________________</td>
+    </tr>
+</table>
+
+<br/>
+
+----------------------------------------
+
+<table>
+    <tr>
         <th align="left">Result</th>
-        <td align="left">[ APPROVED ] --- [ REJECTED ]</td>
+        <td align="left"><i>< selected choice ></i></td>
     </tr>
     <tr>
         <th align="left">Contractor Project Manager</th>

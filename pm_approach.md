@@ -854,13 +854,6 @@ Antecedentemente alla fase di Launching ed Execution, occorre scegliere anche i 
 Le attività descritte sino a questo momento hanno riguardato prevalentemente aspetti di analisi e pianificazione. Dopo aver approvato il progetto, la fase di Launching / Executing fa riferimento al gruppo di processi finalizzati alla gestione del progetto stesso a fronte del suo effettivo avvio. A seguito della raccolta dei requisiti e della realizzazione di un piano attraverso cui garantire il rispetto dei tempi e dei budget *previsti* (in funzione delle risorse e dei vincoli di cui si dispone), si entra nel vivo della realizzazione. In caso di copertura, verrà così confermato quanto descritto col piano; in caso di imprevisti, invece, sarà necessario raffinare la schedula.  
 In questo capitolo si ripercorrono le varie scelte alla base di questa fase, descrivendone le motivazioni ed esponendo la documentazione di riferimento. 
 
-
-<!--
-la gestione della responsabilita' riguardante le varie attivita' oppure il processo di decision making e problem solving che e' necessario standardizzare attraverso appunto appositi documenti.
-
-Verranno inoltre analizzate le regole operative del team e la gestione della comunicazione ed un eventuale scenario in cui si renda necessario un cambiamento di scope.
--->
-
 ## 5.1 Scelta del Team
 
 A causa del potenziale lasso di tempo che potrebbe intercorrere tra l'approvazione del progetto e il suo effettivo avvio previsto da contratto, la definizione dei membri interni al Project Team è realizzata soltanto al momento del Launching. Considerando come la data d'inizio del progetto concordata col cliente sia molto ravvicinata e come PunchCode non abbia concorrenza con altri progetti condotti in contemporanea, il team dell'azienda fornitrice è composto dai medesimi due dipendenti già discussi con le antecedenti fasi della simulazione.
