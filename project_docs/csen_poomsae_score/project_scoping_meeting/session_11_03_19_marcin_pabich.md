@@ -102,48 +102,14 @@ Primo incontro conoscitivo con CSEN
 
 ## Conditions of Satistaction (CoS)
 
-<!--
-Il cliente vuole gestire digitalmente tutti i processi che compongono una gara di Taekwondo, attraverso l'uso di tre categorie di dispositivi elettronici:
-
-- **Tablet**  
-  Servirà ai giudici per acquisire punteggi in modo semplice e intuitivo. 
-
-- **PC/Server**  
-  Raccoglierà i punteggi inviati dai tablet. Farà controlli ed elaborerà dati che verranno poi memorizzati e visualizzati.
-
-- **Monitor**  
-  Visualizzeranno al pubblico i dettagli delle gare e i punteggi raccolti.
-
-Il cliente esige che il sistema progettato:
-- sia compliant con regole ufficiali di Taekwondo, rispettando nomenclature e i minimali e massimali dei punti;
-- sia facile da utilizzare, a causa della presenza di potenziali utilizzatori con scarse conoscenze tecnologiche e/o con problemi di vista;
-- sia compatibile con l'attuale sistema, che fornisce i dati degli atleti e palestre in mediante l'utilizzo di un foglio elettronico (formato Excel);
-- possa automatizzare l'importazione dei dati citati sopra nel nuovo sistema;
-- preveda un meccanismo di backup in caso di blackout;
-- non arrechi ritardi, blocchi o perdite di dati durante la gara.
-
-
- Gli atleti che si esibiscono fanno parte di diversi gruppi, suddivisi in tre macro-gruppi:
-
-- categoria
-  - junior;
-  - senior;
-  - altro
-  - altro
-  - altro
-  - altro
-  - altro
-- sesso
-  - maschio;
-  - femmina;
-- grado
-  - cup
-  - dan
-  - altro
-  - altro
-  - altro
-  - altro
--->
+- CSEN vorrebbe avere una soluzione tangibile entro la fine dell'anno solare.
+- Il budget massimo del committente ammonta a 10.000€.
+- Diminuire i tempi medi richiesti per le varie fasi di gestione di una competizione di Taekwondo (raccolta punteggi giudici, preparazione di un torneo, determinazione degli atleti passanti una gara o vincitori di medaglia, attribuzione punti ad una palestra a partire da un suo atleta vincitore).
+- Il cliente vuole essere partecipe il più possibile alla gestione del progetto commissionato.
+- Il sistema dovrà essere composto da tre sotto-sistemi:
+    - applicazione per tablet per automatizzare la valutazione di poomsae da parte dei giudici;
+    - sistema software per la gestione dei tornei nei quadrati di gara;
+    - server capace di creare, configurare e gestire competizioni.
 
 ## Valutazione del Meeting
  - L'agenda è stata rispettata? [NO]
