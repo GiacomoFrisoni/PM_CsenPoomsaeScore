@@ -1,10 +1,11 @@
 # Indice <!-- omit in toc -->
 
-- [1. Descrizione dell'Approccio Utilizzato](#1-descrizione-dellapproccio-utilizzato)
-  - [1.1 Elenco documenti](#11-elenco-documenti)
-    - [1.1.1 Documentazione delle aziende](#111-documentazione-delle-aziende)
-    - [1.1.2 Documentazione del progetto](#112-documentazione-del-progetto)
-- [2. Introduzione](#2-introduzione)
+- **[1. Descrizione dell'Approccio Utilizzato](#1-descrizione-dellapproccio-utilizzato)**
+  - [1.1. Elenco documenti](#11-elenco-documenti)
+    - [1.1.1. Documentazione delle aziende](#111-documentazione-delle-aziende)
+    - [1.1.2. Documentazione del progetto](#112-documentazione-del-progetto)
+  
+- **[2. Introduzione](#2-introduzione)**
   - [2.1. Azienda esecutrice](#21-azienda-esecutrice)
     - [2.1.1. Startup Team](#211-startup-team)
     - [2.1.2. Politiche aziendali](#212-politiche-aziendali)
@@ -21,52 +22,68 @@
       - [2.1.2.4. Gestione delle comunicazioni](#2124-gestione-delle-comunicazioni)
   - [2.2. Committente](#22-committente)
   - [2.3. Relazione esecutore-committente](#23-relazione-esecutore-committente)
-- [3. Scoping](#3-scoping)
+
+- **[3. Scoping](#3-scoping)**
   - [3.1. Primo contatto](#31-primo-contatto)
   - [3.2. Project Scoping Meeting](#32-project-scoping-meeting)
   - [3.3. Resources Breakdown Structure (RBS)](#33-resources-breakdown-structure-rbs)
     - [3.3.1. Raccolta dei requisiti](#331-raccolta-dei-requisiti)
-      - [3.3.1.1 Interviste](#3311-interviste)
-      - [3.3.1.2 Osservazioni](#3312-osservazioni)
+      - [3.3.1.1. Interviste](#3311-interviste)
+      - [3.3.1.2. Osservazioni](#3312-osservazioni)
     - [3.3.2. Costruzione](#332-costruzione)
-      - [3.3.2.1 App Android](#3321-app-android)
-      - [3.3.2.2 Software Gestione Quadrato](#3322-software-gestione-quadrato)
-      - [3.3.2.3 Server](#3323-server)
+      - [3.3.2.1. App Android](#3321-app-android)
+      - [3.3.2.2. Software Gestione Quadrato](#3322-software-gestione-quadrato)
+      - [3.3.2.3. Server](#3323-server)
   - [3.4. Scelta del PMLC Model](#34-scelta-del-pmlc-model)
   - [3.5. Budget e tempi](#35-budget-e-tempi)
   - [3.6. Project Overview Statement (POS)](#36-project-overview-statement-pos)
   - [3.7. Classificazione del progetto](#37-classificazione-del-progetto)
   - [3.8. Scelta del Core Team](#38-scelta-del-core-team)
-- [4. Planning](#4-planning)
-  - [4.1 Joint Project Planning Session](#41-joint-project-planning-session)
-    - [4.1.1 Sessione #1](#411-sessione-1)
-    - [4.1.2 Sessione #2](#412-sessione-2)
-    - [4.1.3 Sessione #3](#413-sessione-3)
-  - [4.2 Scelta del PMLC Model](#42-scelta-del-pmlc-model)
-  - [4.3 Work Breakdown Structure (WBS)](#43-work-breakdown-structure-wbs)
-  - [4.4 Prioritizzazione dei task](#44-prioritizzazione-dei-task)
-  - [4.5 Stima delle risorse necessarie](#45-stima-delle-risorse-necessarie)
-    - [4.5.1 Valutazione delle skill richieste dai task](#451-valutazione-delle-skill-richieste-dai-task)
+
+- **[4. Planning](#4-planning)**
+  - [4.1. Joint Project Planning Session](#41-joint-project-planning-session)
+    - [4.1.1. Sessione #1](#411-sessione-1)
+    - [4.1.2. Sessione #2](#412-sessione-2)
+    - [4.1.3. Sessione #3](#413-sessione-3)
+  - [4.2. Scelta del PMLC Model](#42-scelta-del-pmlc-model)
+  - [4.3. Work Breakdown Structure (WBS)](#43-work-breakdown-structure-wbs)
+  - [4.4. Prioritizzazione dei task](#44-prioritizzazione-dei-task)
+  - [4.5. Stima delle risorse necessarie](#45-stima-delle-risorse-necessarie)
+    - [4.5.1. Valutazione delle skill richieste dai task](#451-valutazione-delle-skill-richieste-dai-task)
     - [4.5.2 Assegnamento membri dello staff ai task](#452-assegnamento-membri-dello-staff-ai-task)
-    - [4.6 Stima della durata dei task](#46-stima-della-durata-dei-task)
-    - [4.7 Corrispettivo e stima dei costi](#47-corrispettivo-e-stima-dei-costi)
-  - [4.8 Project Network Diagram](#48-project-network-diagram)
-    - [4.8.1 Scope Bank](#481-scope-bank)
-  - [4.9 Analisi dei Rischi](#49-analisi-dei-rischi)
-  - [4.10 Project Definition Statement (PDS)](#410-project-definition-statement-pds)
-  - [4.11 Piano di qualità](#411-piano-di-qualit%c3%a0)
-  - [4.12 Scelta del Developer Team e del Client Team](#412-scelta-del-developer-team-e-del-client-team)
-- [5. Launching / Executing](#5-launching--executing)
-  - [5.1 Scelta del Team](#51-scelta-del-team)
-    - [5.1.1 Bilanciamento del team](#511-bilanciamento-del-team)
-  - [5.3 Regole operative per il team](#53-regole-operative-per-il-team)
-  - [5.4 Assegnamento Risorse e raffinamento della schedula del progetto](#54-assegnamento-risorse-e-raffinamento-della-schedula-del-progetto)
-  - [5.5 Assegnamento Responsabilità](#55-assegnamento-responsabilit%c3%a0)
-  - [5.6 Gestione delle comunicazioni](#56-gestione-delle-comunicazioni)
-  - [5.7 Aggiornamento Project Definition Statement (PDS)](#57-aggiornamento-project-definition-statement-pds)
-  - [5.8 Work Packages](#58-work-packages)
-  - [5.9 Gestione del processo di modifica dello Scope](#59-gestione-del-processo-di-modifica-dello-scope)
-- [6. Bibliografia](#6-bibliografia)
+    - [4.6. Stima della durata dei task](#46-stima-della-durata-dei-task)
+    - [4.7. Corrispettivo e stima dei costi](#47-corrispettivo-e-stima-dei-costi)
+  - [4.8. Project Network Diagram](#48-project-network-diagram)
+    - [4.8.1. Scope Bank](#481-scope-bank)
+  - [4.9. Analisi dei Rischi](#49-analisi-dei-rischi)
+  - [4.10. Project Definition Statement (PDS)](#410-project-definition-statement-pds)
+  - [4.11. Piano di qualità](#411-piano-di-qualit%c3%a0)
+  - [4.12. Scelta del Developer Team e del Client Team](#412-scelta-del-developer-team-e-del-client-team)
+
+- **[5. Launching / Executing](#5-launching--executing)**
+  - [5.1. Scelta del Team](#51-scelta-del-team)
+    - [5.1.1. Bilanciamento del team](#511-bilanciamento-del-team)
+  - [5.3. Regole operative per il team](#53-regole-operative-per-il-team)
+  - [5.4. Assegnamento Risorse e raffinamento della schedula del progetto](#54-assegnamento-risorse-e-raffinamento-della-schedula-del-progetto)
+  - [5.5. Assegnamento Responsabilità](#55-assegnamento-responsabilit%c3%a0)
+  - [5.6. Gestione delle comunicazioni](#56-gestione-delle-comunicazioni)
+  - [5.7. Aggiornamento Project Definition Statement (PDS)](#57-aggiornamento-project-definition-statement-pds)
+  - [5.8. Work Packages](#58-work-packages)
+  - [5.9. Gestione del processo di modifica dello Scope](#59-gestione-del-processo-di-modifica-dello-scope)
+
+- **[6. Monitoring & Controlling](#6-monitoring--controlling)**
+  - [6.1. Rispetto della schedula](#61-rispetto-della-schedula)
+  - [6.2. Sistemi di reporting](#62-sistemi-di-reporting)
+    - [6.2.1. Tipologie di report utilizzate](#621-tipologie-di-report-utilizzate)
+    - [6.2.2. Strumenti di reporting visuale](#622-strumenti-di-reporting-visuale)
+    - [6.2.3. Regole per la determinazione della percentuale di completamento](#623-regole-per-la-determinazione-della-percentuale-di-completamento)
+  - [6.3. Gestione dello Scope Bank](#63-gestione-dello-scope-bank)
+  - [6.4. Issues Log](#64-issues-log)
+  - [6.5. Problem Escalation Strategy](#65-problem-escalation-strategy)
+
+- **[7. Chiusura del progetto](#7-chiusura-del-progetto)**
+  
+- **[8. Bibliografia](#8-bibliografia)**
 
 [//]: # (-------------------------------------------------------------------------)
 
@@ -90,11 +107,11 @@ Per la stesura della documentazione si è fatto uso di diversi software:
 - **GitHub Desktop**, per la gestione del repository;
 - [**CodeCogs**](https://www.codecogs.com/eqnedit.php), per la generazione di equazioni matematiche in formato *.gif* da inserire all'interno delle tabelle HTML.
 
-## 1.1 Elenco documenti
+## 1.1. Elenco documenti
 
 Per una facile esplorazione del repository, si riporta nel seguente elenco tutta la documentazione significativa realizzata durante la progettazione.
 
-### 1.1.1 Documentazione delle aziende
+### 1.1.1. Documentazione delle aziende
 
  - **Documenti fornitore**
    - Startup Team Skills, in formato [testuale](project_docs/startup_team_skills/startup_team_skills.md) e come grafico ([pre skills](project_docs/startup_team_skills/pre_skills_radar_chart.png) e [pro skills](project_docs/startup_team_skills/pro_skills_radar_chart.png));
@@ -104,7 +121,7 @@ Per una facile esplorazione del repository, si riporta nel seguente elenco tutta
 - **Documenti committente**
   - [Calendario](project_docs/csen_poomsae_score/project_scoping_meeting/session_18_03_19_res/csen_competitions_dates.pdf) delle competizioni.
 
-### 1.1.2 Documentazione del progetto 
+### 1.1.2. Documentazione del progetto 
 - **Scoping**
   - Project Scoping Meeting
     - 5 sessioni, aventi ognuno un proprio template e cartella risorse
@@ -166,6 +183,9 @@ Per una facile esplorazione del repository, si riporta nel seguente elenco tutta
     - [Form di richiesta](project_docs/csen_poomsae_score/scope_change_request/scope_change_request_form.md)
     - [Processo di approvazione](project_docs/csen_poomsae_score/scope_change_request/scope_change_request_process.png) 
     - [Project Impact Statement](project_docs/csen_poomsae_score/scope_change_request/project_impact_statement.md)
+  
+- **Monitoraggio e controllo**
+  - [Issues Log](project_docs/csen_poomsae_score/issues_log/issues_log.md)
 
 [//]: # (-------------------------------------------------------------------------)
 
@@ -351,7 +371,7 @@ Unendo tutte le informazioni raccolte sui bisogni del cliente, il documento di d
 
 In ogni Project Scoping Meeting dedicato a uno specifico sottosistema, si sono discusse e definite le modalità di acquisizione dei relativi requisiti (con approcci ulteriori alla singola riunione). Dopo un'attenta analisi, considerando la disponibilità manifestata dal cliente, si è deciso di optare per **Interviste** e **Osservazioni**. Altri metodi, come il "Requirements Reuse" e il "Prototyping" non sono stati adottati dal momento che non si verificano le condizioni necessarie alla loro attuazione (l'azienda non ha esperienza su progetti precedenti da cui riprendere parte di implementazione e la realizzazione di un prototipo si rivela eccessivamente costosa e rischiosa).
 
-#### 3.3.1.1 Interviste
+#### 3.3.1.1. Interviste
 Al fine di avere una descrizione dei processi e delle problematiche attuali direttamente da chi li gestisce, si è ritenuto opportuno prevedere *tre interviste*: due per gli addetti responsabili alle gestione dei quadrati e una per il gestore del server.
 
 Essendo PunchCode formata da due soli membri, per compensare l'assenza di un analista interno all'azienda, viene presa la decisione di far rivestire il ruolo di intervistatore a entrambi i membri (formulando e sottoponendo le domande agli intervistati in coppia). Questa scelta va anche nella direzione di ridurre il rischio di un'interpretazione errata delle risposte, nonostante si sia consapevoli che un simile approcio potrebbe scoraggiare l'intervistato ad esprimersi in piena libertà.
@@ -366,7 +386,7 @@ Per la definizione delle domande legate a ogni intervista, inoltre, si è ritenu
 
 Un esempio di intervista realizzata da PunchCode al gestore del sistema software dedicato ai quadrati di gara è disponibile al seguente [allegato](project_docs/csen_poomsae_score/rbs/interview_26_03_19.md).
 
-#### 3.3.1.2 Osservazioni
+#### 3.3.1.2. Osservazioni
 Per risolvere ulteriormente i tipici problemi di un'intervista, si è scelto di integrare quest'ultima con un'osservazione. Questo ulteriore approccio è molto educativo e permette di comprendere al meglio il modo di lavorare del cliente, dimostrandosi di conseguenza utile per rilevare requisiti del sistema che altrimenti rischierebbero di non emergere da domande.  
 
 Grazie agli accordi presi durante i meeting, i membri di PunchCode hanno così potuto partecipare direttamente a una delle gare svolte dallo CSEN.
@@ -376,7 +396,7 @@ Al fine di esprimere all'utente in maniera chiara, intuitiva e significativa i r
 
 Nella stestura dell'[RBS](project_docs/csen_poomsae_score/rbs/rbs.png), PunchCode ha ritenuto opportuno affrontare la decomposizione gerarchica dei requisiti tenendo conto di tre macro-aree (rappresentanti i tre principali sottosistemi del progetto).
 
-#### 3.3.2.1 App Android
+#### 3.3.2.1. App Android
 È il sottosistema incentrato sullo sviluppo dell'applicazione Android per la registrazione dei punteggi associati alle poomsae da parte dei giudici.
 
 - *Registrazione Punteggio*  
@@ -391,7 +411,7 @@ Nella stestura dell'[RBS](project_docs/csen_poomsae_score/rbs/rbs.png), PunchCod
 - *Impostazioni*  
   L'applicazione deve prevedere un'area dedicata al settaggio di impostazioni di utilità.
 
-#### 3.3.2.2 Software Gestione Quadrato
+#### 3.3.2.2. Software Gestione Quadrato
 È il sottosistema incentrato sullo sviluppo della soluzione software atta a gestire i tornei all'interno di un quadrato.
 
 - *Ricezione Tornei*  
@@ -406,7 +426,7 @@ Nella stestura dell'[RBS](project_docs/csen_poomsae_score/rbs/rbs.png), PunchCod
 - *Visualizzazione*
   I dati acquisiti dai quadrati devono essere visualizzati al pubblico su appositi monitor.
 
-#### 3.3.2.3 Server  
+#### 3.3.2.3. Server  
 È il sottosistema software rappresentante la parte centrale nella gestione di competizioni. Esso consente di crearle e configurarle, oltre che gestirle una volta inizializzate.
 
 - *Configurazione Competizione*  
@@ -497,7 +517,7 @@ Per maggior chiarezza vengono elencati i deliverable che la fase di Planning dev
 - Project Notebook;
 - Project proposal.
 
-## 4.1 Joint Project Planning Session
+## 4.1. Joint Project Planning Session
 Le riunioni sono uno strumento di base per il Planning. Una JPPS è una sessione di lavoro realizzata con lo scopo di attuare la panificazione del progetto. Durante le JPPS vengono così definite le attività volte a soddisfare le esigenze del cliente, stabilendo dei vincoli in termini di tempo, di budget e di risorse disponibili. Un meeting si basa sulla definizione di alcuni elementi di principale importanza, quali:
  - i partecipanti;
  - le facility;
@@ -517,7 +537,7 @@ Le agende delle tre sessioni sono di seguito riportate:
  - 09/04/2019 - [agenda sessione 2](project_docs/csen_poomsae_score/joint_project_planning_session/session_09_04_19.md)  
  - 10/04/2019 - [agenda sessione 3](project_docs/csen_poomsae_score/joint_project_planning_session/session_10_04_19.md) 
 
-### 4.1.1 Sessione #1
+### 4.1.1. Sessione #1
 Alla prima sessione vi partecipano i due membri di PunchCode (sia nel ruolo di Project Manager che di Core Team), il Project Manager del cliente e la sua rappresentanza.
 Questo è l'unico JPPS in cui è presente il team di lavoro lato committente, in quanto necessario per definire le priorità dei vari requisiti.
 
@@ -527,7 +547,7 @@ La startup ha preferito non dedicare interamente la prima riunione alla revisita
 Lo scopo del primo incontro dovrebbe essere anche quello di introdurre i vari soggetti che seguiranno l'intero progetto, pur considerando come il team di sviluppo possa essere scelto soltanto nella fase di Launching (a causa della distanza temporale potenzialmente presente tra la pianificazione e l'avvio effettivo del contratto). Tuttavia, dal momento che il Core Team di PunchCode è formato dagli stessi Project Manager, il cliente ha già avuto modo di conoscere tali figure.
 Una volta concluse le presentazioni, è discussa la prioritizzazione dei requisiti definiti durante le sessioni di Project Scoping Meeting. Soltanto in seguito viene ampliato l'RBS per dar vita alla [Work Breakdown Structure (WBS)](project_docs/csen_poomsae_score/planning/wbs.png) precedentemente citata (che è pertanto realizzata da tutti i membri del team nell'obiettivo di giungere a una soluzione migliore, nonostante ciò sia più dispendioso). Rimettere mano allo scoping adesso, infatti, è molto meno costoso che farlo in seguito (nonostante tale operazione debba comunque avvenire il meno possibile).
 
-### 4.1.2 Sessione #2
+### 4.1.2. Sessione #2
 Alla seconda sessione partecipano soltanto i membri di PunchCode.
 
 L'incontro ha inizio con la stima della quantità di lavoro, della durata e delle risorse richieste per lo svolgimento delle singole attività che si sono individuate con la WBS.
@@ -536,7 +556,7 @@ Successivamente si procede alla definizione delle dipendenze tra le varie attivi
 
 Si giunge così alla costruzione del [Project Network Diagram](project_docs/csen_poomsae_score/project_network_diagram/).
 
-### 4.1.3 Sessione #3
+### 4.1.3. Sessione #3
 Alla terza sessione prendono parte gli stessi partecipanti della seconda.
 
 L'obiettivo principale dell'incontro riguarda l'identificazione dei [rischi](project_docs/csen_poomsae_score/risk_management/risk_identification_assessment.png), la loro valutazione e l'individuazione di eventuali piani di mitigazione (valutando alternative e soluzioni per eliminare o ridurre le perdite).
@@ -546,7 +566,7 @@ La fase successiva riguarda l'ottenimento dell'approvazione da parte di tutti i 
 
 L'ultimo obiettivo della sessione si riferisce alla redazione del [Project Definition Statement (PDS)](project_docs/csen_poomsae_score/pds/pds.md), con la partecipazione di tutto il team.
 
-## 4.2 Scelta del PMLC Model
+## 4.2. Scelta del PMLC Model
 
 A fronte delle JPPS, si è da subito confermata la scelta del PMLC Model già anticipata durante la fase di Scoping. I Project Manager di PunchCode decidono pertanto di adottare una modalità **incrementale** per rispondere al bisogno espresso da parte del cliente, relativamente a una maggior urgenza nella disponibilità di alcune parti di soluzione piuttosto che altre.
 
@@ -571,7 +591,7 @@ A differenza degli incrementi principali, le release minori non sono pianificate
 Si sottolinea anche come l'applicazione Android sia di dimensioni sufficientemente ridotte da consentire un suo rilascio in un'unica soluzione. Di conseguenza, le release minori avranno luogo solo nel contesto della seconda e della terza macro-release.
 
 
-## 4.3 Work Breakdown Structure (WBS)
+## 4.3. Work Breakdown Structure (WBS)
 
 Consiste nella suddivisione tassonomica di tutte le singole attività che devono essere svolte all'interno del progetto per soddisfare i bisogni del cliente (rappresentando una mappa gerarchica di tutto il lavoro).
 
@@ -607,7 +627,7 @@ La startup ritiene utile conservare entrambe le versioni di WBS, nonostante quel
 
 In termini di documentazione, si è anche realizzato un [file integrativo](project_docs/csen_poomsae_score/wbs/final_wbs.md) per esplicitare al meglio il contenuto di ogni attività.
 
-## 4.4 Prioritizzazione dei task
+## 4.4. Prioritizzazione dei task
 
 Durante i meeting viene steso un [documento](project_docs/csen_poomsae_score/wbs/task_prioritizations.md) contenente le priorità dei task, utili a determinarne l'ordine di esecuzione. La valutazione - concordata con il committente durante gli incontri precedenti - è stata fatta assegnando una fascia di priorità a ogni task:
 
@@ -620,12 +640,12 @@ Considerando come tutti i task debbano essere svolti, si è preferito non ricorr
 
 La prioritizzazione è stata utilizzata nella stesura del Project Network Diagram (descritta nella [successiva sezione](#48-project-network-diagram)). A causa del numero ridotto dei dipendenti, l'azienda ha preferito ottimizzare le attività anche in base alle risorse disponibili, parallelizzando il lavoro ove questo era possibile; infatti, l'ordine di esecuzione dei task coincide in linea generale con le priorità assegnate, ma permette di discostarsi da esse in presenza di attività svolgibili contemporaneamente da entrambi i membri del team, permettendo così di ridurre i tempi per la realizzazione dell'intero progetto.
 
-## 4.5 Stima delle risorse necessarie
+## 4.5. Stima delle risorse necessarie
 
 La stima delle risorse che potrebbero essere necessarie all'esecuzione dei task rappresenta un passaggio essenziale per la buona riuscita del progetto. Col termine "risorse" non si fa riferimento alle sole persone fisiche, ma anche alle facility, all'attrezzatura, ai materiali e al costo. Nei paragrafi di seguito proposti ci si focalizza tuttavia sui soli processi legati all'assegnamento delle risorse umane ai task (la stima dei costi sarà discussa in una [successiva sezione](#46-stima-dei-costi)).  
 PunchCode sceglie pertanto di stimare prima le risorse in termini di personale da assegnare alle varie attività e soltanto dopo la durata dei task in funzione di esse. Questa decisione ha come obiettivo la produzione di stime temporali più accurate che tengano conto sin da subito sia delle persone incaricate per la realizzazione dei task stessi che delle loro singole capacità.
 
-### 4.5.1 Valutazione delle skill richieste dai task
+### 4.5.1. Valutazione delle skill richieste dai task
 
 Per assegnare i membri dello staff ai task della WBS nel modo più efficace possibile, PunchCode sviluppa prima una [matrice "skill-need" (need inventory)](project_docs/csen_poomsae_score/staff_skills_assignments/needs_inventory.md) con un'indicazione delle skill richieste da ciascuno di essi.  
 Nel far ciò, la startup considera tutte le pro skill e le sole pre skill effettivamente legate a tale passaggio. Inoltre, si è ritenuto non necessario adottare una valutazione numerica, preferendo di conseguenza un semplice indicatore booleano (per esprimere la necessità o meno di una certa skill da parte di un task).
@@ -637,7 +657,7 @@ Ad ogni dipendente si assegnano quindi i task da svolgere che meglio si adattano
 
 È importante sottolineare la necessità di parallerizarre molti dei task da svolgere, a causa del limitato numero dei membri del team e delle loro capacità diversificate. Nella risultante tabella di [staff assignment](project_docs/csen_poomsae_score/staff_skills_assignments/staff_assignment.md) (ove non vi è presente una "X" simboleggiante una completa gestione da parte di un solo membro) sono state indicate le skill effettivamente sfruttate dai dipendenti durante lo svolgimento di una determinata attività.
 
-### 4.6 Stima della durata dei task
+### 4.6. Stima della durata dei task
 
 La stima della durata dei task costituisce la parte centrale del Planning, nonchè quella in cui spesso le aziende falliscono. Tale fase, infatti, è molto complicata: in aggiunta al già difficile compito della stima in quanto tale, si deve anche considerare come si possa non andare alla velocità prevista o come si possano verificare interruzioni non prevedibili anche a fronte di una valutazione corretta. L'importanza di questa operazione è anche legata al fatto che permette di costruire la schedula e di determinare i tempi necessari al raggiungimento delle varie milestone e al completamento del progetto.
 
@@ -654,7 +674,7 @@ Infine, si evidenzia come una stima non debba considerare solo il tempo di scrit
 Il documento contenente le stime in termini di effort giorni/uomo rilasciate da parte del team per le varie attività presenti in WBS è disponibile nel relativo [allegato](project_docs/csen_poomsae_score/task_duration_estimation/task_duration_estimation.md).
 È interessante osservare come i membri del team siano generalmente molto in sintonia (probabilmente a causa della loro profonda esperienza nel lavorare assieme, che li ha di fatto spinti alla costituzione di PunchCode). In talune circostanze si evince tuttavia come le stime iniziali sarebbero state molto diverse senza essere condizionati. In alcuni casi si osserva anche la presenza di un'oscillazione (1° round: ottimistico, 2° round: pessimistico, 3° round: valutazione intermedia).
 
-### 4.7 Corrispettivo e stima dei costi
+### 4.7. Corrispettivo e stima dei costi
 
 Il tema economico è già stato rapidamente discusso all'interno dello Scoping. Tuttavia, dal momento che tale gruppo di processi rappresenta solamente il punto d'inizio per la gestione di un progetto, non è stato assolutamente possibile definire una stima certa all'interno di essa (limitandosi a una semplice comparazione tra budget e stima dell'ordine di grandezza dei costi in funzione del risultato della classificazione).
 
@@ -711,7 +731,7 @@ Come già emerso con la stima della durata dei task, si vuole evidenziare come P
 Durante l'esecuzione è necessario monitorare e controllare i costi per rilevare e gestire le variazioni rispetto alle stime.
 -->
 
-## 4.8 Project Network Diagram
+## 4.8. Project Network Diagram
 
 Dopo aver individuato le attività e dopo aver stimato la loro durata e le risorse assegnate, è necessario collocarle nel tempo e individuare le dipendenze presenti tra esse.
 
@@ -774,7 +794,7 @@ Il Gantt costituisce un ottimo strumento per comprendere in maniera visuale la l
 A seguito del Launching, infatti, viene mantenuto aggiornato dal/i Project Manager per tutta l'esecuzione del progetto (appoggiandosi a barre colorate per indicare le attività completate o una porzione ultimata di queste). Sotto quest'ultimo punto di vista potrebbero anche essere spostate attività qualora lo si ritenga opportuno (ad esempio, a fronte di ritardi).
 PunchCode prevede così un aggiornamento settimanale della schedula da parte dei Project Manager, facendo già - nel corso di una settimana - la preview della successiva (avendo conseguentemente modo di intervenire per tempo).
 
-### 4.8.1 Scope Bank
+### 4.8.1. Scope Bank
 
 Considerando come le stime possano essere non corrette e come si possano verificare degli imprevisti di varia natura, PunchCode sceglie di introdurrre una riserva di tempo.
 Nel gestire quest'ultima non si incrementano le durate dei singoli task (gonfiando di conseguenza anche i costi), ma si predispone un task dummy inserito come ultima attività del progetto (da cui prelevare in caso di contrattempi o depositare nell'eventuale anticipo sulla schedula).
@@ -783,7 +803,7 @@ A causa della sua inesperienza, la startup prevede per la riserva una durata par
 
 Ogni volta che un ritardo si ripercuote sulla durata del progetto, si sottrae il ritardo alla durata dell'ultimo task dummy corrispondente alla riserva. È necessario che la riserva e il suo utilizzo sia ben visibile, dopodichè occorre gestirla correttamente.
 
-## 4.9 Analisi dei Rischi
+## 4.9. Analisi dei Rischi
 
 La gestione dei rischi costituisce un argomento fondamentale, potenzialmente anche molto complesso. Una prima analisi dei rischi era già stata fatta durante lo Scoping (citando i rischi identificati all'interno del POS), ma qui viene arricchita.
 
@@ -807,11 +827,11 @@ Per quanto riguarda la mitigazione del rischio (ovvero la terza fase di Risk Man
 Nel far questo si sono principalmente considerate azioni quali *avoid* (modifica al piano di progetto per l'eliminazione della situazione producente il rischio), *contingency planning* (definizione di cosa debba essere fatto qualora l'evento avverso si verifichi) e *mitigate* (definizione di cosa debba essere fatto per minimizzare l'impatto dell'evento avverso qualora si verifichi). Preme sottolineare come si sia prevista una mitigazione del rischio per i soli driver con una valutazione qualitativa pari a *Consider* e a *Take Action*, al fine di evitare un dispendio di risorse economiche e temporali per l'attivazione di un Monitoraggio e Controllo rivolto a rischi di bassa considerazione in termini di probabilità e impatto. All'interno della tabella contenuta nel file si sono tuttavia riportati anche i rischi di entità minore (*Ignore*), per consentire la loro tracciabilità nel remoto caso in cui essi si verifichino (log).  
 Si osserva come le attività di mitigazione introducano in certi casi, a loro volta, dei rischi per l'azienda legati specialmente a fattori temporali ed economici.
 
-## 4.10 Project Definition Statement (PDS)
+## 4.10. Project Definition Statement (PDS)
 
 Il [PDS](project_docs/csen_poomsae_score/pds/pds.md) è una versione estesa del POS a uso del team di progetto. In esso si sono riportati elementi di maggior dettaglio, costituenti un ottimo input per le fasi successive e per approfondimenti. Il PDS rappresenta così un punto di riferimento anche per eventuali nuovi membri del team, consentendo loro di rimanere focalizzati sulla corretta direzione e sugli aspetti importanti per il successo del progetto. Ad esso si sono anche allegati i documenti realizzati durante l'analisi dei rischi.
 
-## 4.11 Piano di qualità
+## 4.11. Piano di qualità
 
 La gestione della qualità costituisce un tema di indubbia rilevanza. Essa deve considerare tre processi fondamentali:
 - **Quality Planning**  
@@ -845,7 +865,7 @@ PunchCode è tenuta a rendicontare - attraverso dei report da rilasciare a CSEN 
 
 Per la verifica del rispetto degli indicatori di qualità contrattuali il Fornitore si impegna a produrre, predisporre ed installare - senza alcun onere aggiuntivo per CSEN - idonei strumenti automatici per la misurazione del software e, ove non possibile, ad effettuare rilevazioni manuali dei parametri da misurare. Tutti i dati rilevati dovranno essere oggetto dei report.
 
-## 4.12 Scelta del Developer Team e del Client Team
+## 4.12. Scelta del Developer Team e del Client Team
 
 Antecedentemente alla fase di Launching ed Execution, occorre scegliere anche i membri del *Developer Team* e del *Client Team* (dipendenti aziendali incaricati di interfacciarsi col committente, riceverne i feedback, comunicare a lui gli aggiornamenti, pianificare gli incontri e gestire il suo coinvolgimento col progetto). Preme sottolineare però che, a causa del ridotto numero del personale all'interno della startup, si è scelto di assegnare tali ruoli ad entrambi i dipendenti di PunchCode. Per quanto concerne il team di sviluppo, invece, si escludono cambi di personale e nuove assunzioni. Considerando la ravvicinata data di attivazione del contratto, il Contracted Team sarà pertanto costituito dalle medesime figure.
 
@@ -854,7 +874,7 @@ Antecedentemente alla fase di Launching ed Execution, occorre scegliere anche i 
 Le attività descritte sino a questo momento hanno riguardato prevalentemente aspetti di analisi e pianificazione. Dopo aver approvato il progetto, la fase di Launching / Executing fa riferimento al gruppo di processi finalizzati alla gestione del progetto stesso a fronte del suo effettivo avvio. A seguito della raccolta dei requisiti e della realizzazione di un piano attraverso cui garantire il rispetto dei tempi e dei budget *previsti* (in funzione delle risorse e dei vincoli di cui si dispone), si entra nel vivo della realizzazione. In caso di copertura, verrà così confermato quanto descritto col piano; in caso di imprevisti, invece, sarà necessario raffinare la schedula.  
 In questo capitolo si ripercorrono le varie scelte alla base di questa fase, descrivendone le motivazioni ed esponendo la documentazione di riferimento. 
 
-## 5.1 Scelta del Team
+## 5.1. Scelta del Team
 
 A causa del potenziale lasso di tempo che potrebbe intercorrere tra l'approvazione del progetto e il suo effettivo avvio previsto da contratto, la definizione dei membri interni al Project Team è realizzata soltanto al momento del Launching. Considerando come la data d'inizio del progetto concordata col cliente sia molto ravvicinata e come PunchCode non abbia concorrenza con altri progetti condotti in contemporanea, il team dell'azienda fornitrice è composto dai medesimi due dipendenti già discussi con le antecedenti fasi della simulazione.
 Non disponendo di sufficienti risorse economiche e non volendo andare incontro a rischi dettati da un mancante o difficile controllo, PunchCode conferma la sua volontà di non voler ricorrere all'acquisizione di personale terzo.
@@ -876,7 +896,7 @@ La conoscenza pregressa tra i due dipendenti, inoltre, è alla base di un rappor
 
 A rendere ulteriormente efficace il team vi è un'ottima cooperazione, unita ad uno stato di soddisfazione (ulteriormente accentuato dalla volontà di mettersi in gioco attraverso il primo progetto di startup) e al possesso delle abilità necessarie per la conduzione di *Csen Poomsae Score*.
 
-### 5.1.1 Bilanciamento del team
+### 5.1.1. Bilanciamento del team
 
 Il corretto bilanciamento del team può rivelarsi cruciale nell'esecuzione di un progetto. Nella letteratura sono stati proposti diversi modelli, come ad esempio quello di David Kolb, che classifica i dipendenti in 4 categorie di "learning style":
  - *assimilating* - bravi a raccogliere e a rappresentare i dati, concentrati su idee e concetti, ma non orientati ai risultati e ad aspetti pratici;
@@ -887,7 +907,7 @@ Il corretto bilanciamento del team può rivelarsi cruciale nell'esecuzione di un
 PunchCode non dispone dell'adeguato numero di risorse umane interne al team per poter riconoscere la sua posizione media nelle dimensioni di asserzione e cooperazione.
 Considerando come tale classificazione non sia esclusiva e come una stessa persona possa adottare la personalità più adatta in un certo progetto o addirittura più idonea all'esigenza richiesta in un certo momento di uno stesso progetto, è difficile associare un unico ruolo a ogni dipendente (in maniera chiara e definitiva). Ciononostante, i membri della startup sono maggiormente identificabili nella categoria di *accomodating*. In entrambi i dipendenti, inoltre, si denotano tendenze ad avere caratteristiche comuni ai profili di *diverging* (Marcin Pabich) e *converging* (Giacomo Frisoni). Questo comportamento è anche giustificato dal fatto che un team dovrebbe essere composto da figure ricoprenti ruoli diversi, in modo tale da offrire sempre punti di vista molteplici, favorire l'insorgere di discussioni utili e superare con maggior facilità le difficoltà incontrate.
 
-## 5.3 Regole operative per il team
+## 5.3. Regole operative per il team
 
 Durante lo svolgimento di un progetto potrebbero sorgere imprevisti di diverse entità. Per poter affrontare quest'ultimi con efficienza, il team decide di applicare alcune regole operative (principalmente frutto delle politiche aziendali già discusse alla sezione "[Politiche Aziendali](#212-politiche-aziendali)"):
 
@@ -926,7 +946,7 @@ La startup prevede l'uso di tale tecnica sia durante il decision making che il p
 
 Preme sottolineare come sia presente una potenziale interrelazione tra le regole operative appena esposte (ad esempio, la risoluzione di un problema potrebbe richiedere l'organizzazione di una riunione).
 
-## 5.4 Assegnamento Risorse e raffinamento della schedula del progetto
+## 5.4. Assegnamento Risorse e raffinamento della schedula del progetto
 
 Salvo scostamenti dalla schedula, PunchCode segue quanto stabilito con l'operazione di [staff-assignment](#452-assegnamento-membri-dello-staff-ai-task) nel piano iniziale. L'azienda considera in ogni caso un aggiornamento del documento con frequenza settimanale.  
 Per semplificare il problema dell'assegnamento delle risorse, la startup ricorre a metodi alternativi per pianificare i task. Tra le possibili azioni applicabili, vi sono le seguenti:
@@ -936,28 +956,28 @@ Per semplificare il problema dell'assegnamento delle risorse, la startup ricorre
 
 Nel far ciò, PunchCode utilizza Microsft Project come strumento software per la gestione di tali aspetti legati al progetto.
 
-## 5.5 Assegnamento Responsabilità
+## 5.5. Assegnamento Responsabilità
 
 Delegare e assegnare correttamente le responsabilità è un fattore di successo per la gestione dei progetti. Disponendo di due soli membri interni al team non è possibile individuare tutte le figure previste da schemi, quali matrice *RASCI*.  
 Seguendo l'assegnazione delle risorse svolta durante la costruzione del [Project Network Diagram](project_docs/csen_poomsae_score/project_network_diagram/), l'azienda considera come *responsible* di un task, la figura incaricata del suo completamento. Qualora un task sia svolto da più membri, PunchCode considera come responsabile Giacomo Frisoni poichè maggiormente dotato delle skill di "Leadership" e "Organizing".  
 Non si prevede la presenza di un *accountable*: l'incaricato dell'approvazione del risultato dell'attività è il responsabile stesso di quest'ultima, verso cui si riversa fiducia in termini di qualità e capacità auto-critiche. Sotto questo punto di vista, si ricorda tuttavia come PunchCode preveda delle verifiche a campione sulla qualità dei sorgenti e della documentazione attraverso tecniche di [Gamification](#21221-gamification).  
 Allo stesso modo, non si tiene conto del ruolo di *support*; mentre il *consulted* (ovvero il co-responsabile che può sostituire il responsabile stesso in caso di necessità) è necessariamente rappresentato dall'altro dipendente, che dovrà anche essere sempre tenuto aggiornato sullo stato di avanzamento (*informed*).
 
-## 5.6 Gestione delle comunicazioni
+## 5.6. Gestione delle comunicazioni
 
 La gestione delle comunicazioni all'interno della startup segue le politiche aziendali già definite nella [sezione trattata in precedenza](#2124-gestione-delle-comunicazioni), senza subire personalizzazioni e/o modifiche.
 
-## 5.7 Aggiornamento Project Definition Statement (PDS)
+## 5.7. Aggiornamento Project Definition Statement (PDS)
 
 Come previsto dalle politiche aziendali, durante il Kick-Off Meeting al momento del Launching, si riesamina il contenuto del PDS e si valutano possibili integrazioni a quest'ultimo. Nel caso del progetto in esame, è lecito attendersi una semplice conferma a causa dei numerosi incontri e feedback ricevuti nelle fasi antecedenti.
 
-## 5.8 Work Packages
+## 5.8. Work Packages
 
 Un work package è una breve descrizione che specifica come i task che lo compongono saranno completati. I task inclusi in un work package dovrebbero avere delle relazioni tra loro che ne motivano una gestione coordinata. I work package permettono di avere un maggior controllo sul progetto e il rispetto della schedula. Sono pertanto i componenti (moduli) in cui il progetto stesso è decomposto.
 
 PunchCode considera un work package per ognuna delle tre milestone di delivery. Inoltre, sfruttando la diversificazione dei colori utilizzata all'interno della [WBS](project_docs/csen_poomsae_score/wbs/final_wbs.png), l'azienda adotta un work package per ogni attività composta da più task (foglia).
 
-## 5.9 Gestione del processo di modifica dello Scope
+## 5.9. Gestione del processo di modifica dello Scope
 
 PunchCode prevede dei template per affrontare delle richieste di cambiamento. Di conseguenza, se il cliente o un membro del team dovesse avvertire la necessità di richiedere una modifica di scope del progetto per differenti ragioni, egli potrà sottomettere una [Scope Change Request Form](project_docs/csen_poomsae_score/scope_change_request/scope_change_request_form.md) appositamente compilata.
 Come è possibile osservare, all'interno di tale documento devono essere riportati:
@@ -988,7 +1008,65 @@ Dopo aver sottomesso la richiesta di cambiamento, gli esiti possono pertanto ess
 
 Un'eventuale approvazione della richiesta di cambiamento richiede necessariamente che il documento redatto sia siglato anche con una firma del committente, dal momento che ciò inciderà sicuramente sui costi, sui tempi e sulla qualità (in riferimento allo *Scope Triangle*).
 
-# 6. Bibliografia
+# 6. Monitoring & Controlling
+
+La fase di Monitoraggio e Controllo è indispensabile per la gestione di un progetto. Essa serve per rispettare il piano, ovvero per mantenere il progetto stesso entro i binari stabiliti in fase di pianificazione.  
+Costituisce un gruppo di processi incentrati sull'uso di strumenti di varia natura, fondamentalmente incentrati sul verificare il rispetto dei vincoli di tempo e di budget.  
+In sintesi, il **monitoraggio** è realizzato con la produzione di report attraverso cui identificare problemi eventualmente presenti, registrando le relative issue ed esercitando un **controllo** grazie all'applicazione di azioni correttive orientate alla loro risoluzione.  
+All'interno di questo capitolo sono ricapitolati gli strumenti che l'azienda fornitrice ha scelto di adottare e le motivazioni alla base delle varie scelte intraprese.
+
+A causa della sua inesperienza, PunchCode mira a produrre una documentazione di ottima qualità, finalizzata alla costruzione di uno storico che possa divenire un ausilio di indubbia utilità per i propri progetti futuri.
+
+Il gruppo di processi oggetto del capitolo in esame possiede anche un forte legame con la fase precedente di [Launching / Executing](). I meeting svolti durante l'esecuzione del progetto, infatti, raccolgono informazioni dal team e costituiscono anche una valida occasione per discutere in merito allo stato di avanzamento (*Project Status Meeting*).
+
+## 6.1. Rispetto della schedula
+
+Per garantire il rispetto della schedula del progetto, PunchCode adotta le seguenti azioni.
+- Svolgimento di Daily Team Meeting (come già discusso a livello di [politiche aziendali]()). Dal momento che ogni meeting determina poi un costo, queste tipologie di incontri sono ideali all'interno della fase di Monitoraggio e Controllo, a causa delle loro caratteristiche (breve durata, alto coinvolgimento, semplicità organizzativa ecc.).
+- Rapido completamento dei task e compressione delle attività. L'azienda sprona i dipendenti a non approfittare degli slack.
+- Dialoghi incentivati e libera espressione al fine di evitare i "creeps".
+
+<!-- - autocontrollo sull'overdesign -->
+
+## 6.2. Sistemi di reporting
+
+ - quando lo facciamo (givedì?)? periodo ricoperto? (settimana / mese)
+
+### 6.2.1. Tipologie di report utilizzate
+
+ - effective progress reporting, current period report, cumulative report, spotlight con riferimento a politiche aziendali
+
+### 6.2.2. Strumenti di reporting visuale 
+- Cumulative report - Milestone Trend Charts  
+- Earned Value - Si prevede la Standard S-Curve (buona descrizione su GitHub in merito allo start-up) e non l'aggressiva
+- EVA con due indici
+
+### 6.2.3. Regole per la determinazione della percentuale di completamento
+- gantt non ce le da
+
+## 6.3. Gestione dello Scope Bank
+- mantenerla aggiornata
+
+## 6.4. Issues Log
+
+PunchCode prevede un [documento](project_docs/csen_poomsae_score/issues_log/issues_log.md) per segnalare le problematiche che potrebbero capitare durante lo svolgimento del progetto. Per ogni criticità viene indicata la data dell'individuazione, la priorità, la descrizione della issue e dell'impatto che avrà se non risolta, il dipendente che l'ha segnalata e colui che se ne occuperà, l'azione da svolgere per risolvere il problema, lo stato in cui si trova attualemente e l'eventuale data della risoluzione del problema.
+
+## 6.5. Problem Escalation Strategy
+
+Per ovviare alle criticità che potrebbero nascere durante lo sviluppo, la startup si avvale della cosiddetta "Problem Escalation Strategy". Questa si suddivide in tre livelli, in base ai quali vengono decise le azioni da intraprendere per la risoluzione delle criticità:
+
+- **Project Manager-Based Strategies**  
+  Tecniche di ottimizzazione delle risorse a disposizione. Prevedono un'esame sulle relazioni di dipendenza tra i task stabilite durante la progettazione. Di solito non implicano costi aggiuntivi, permettendo semplicemente di riassegnare le risorse già disponibili in modo più ottimizzato e/o congruo alle richieste.
+  
+- **Resource Manager-Based Strategies**  
+  Prevedono una richiesta esplicita da parte del Project Manager di risorse aggiuntive. Quest'ultime possono essere di diverse tipologie, ma generalmente riguardano l'assegnazione di un maggiore budget o l'utilizzo dello Scope Bank. Si preferisce comunque, soprattutto a progetto iniziato, di non richiedere ulteriori risorse in termini di personale, in quanto porterebbe soltanto a maggiori problematiche
+  
+- **Client-BasedStrategies**  
+  Soltanto quando non è possibile risolvere le criticità all'interno dell'azienda, si prevede il contatto con il cliente e la negoziazione della sua risoluzione. Può essere, per esempio, richiesta l'estensione della schedula, una modifica dello scope oppure pianificare ulteriori macro-release con le modifiche richieste.
+
+# 7. Chiusura del progetto
+
+# 8. Bibliografia
 
 [1]<a id="bibliography-1"></a> [Platonova, Valērija & Bērziša, Solvita. "Gamification in Software Development Projects". *Information Technology and Management Science*. Dec 2017.](https://www.researchgate.net/publication/322409704_Gamification_in_Software_Development_Projects)  
 [2]<a id="bibliography-2"></a> [Senthil Rajamarthandan. "Using Gamification to Build a Passionate and Quality-Driven Software Development Team". *Cognizant 20-20 Insights*. Feb 2014.](https://www.cognizant.com/InsightsWhitepapers/Using-Gamification-to-Build-a-Passionate-and-Quality-Driven-Software-Development-Team.pdf)  
