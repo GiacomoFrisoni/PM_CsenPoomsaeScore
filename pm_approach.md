@@ -1105,32 +1105,23 @@ Periodicamente questi valori possono essere misurati in modo da avere il quadro 
 ### 6.2.3. Modalità di aggiornamento delle informazioni
 
 Per mantenere la documentazione aggiornata, PunchCode decide di seguire alcuni buoni principi per la raccolta delle informazioni:
-
-  - la situazione dell'azienda viene monitorata settimanalmente,
-  - l'aggiornamento delle informazioni avviene ogni giovedì, almeno un'ora prima della chiusura,
-  - nei report si riporta tutto il lavoro effettivamente svolto durante il periodo scelto, indicando precisamente la data d'inizio e di fine di ogni attività,
-  - si rivalutano, di conseguenza, le stime sulle attività rimanenti,
+  
+  - l'aggiornamento della documentazione relativa allo stato di avanzamento del progetto (report, project network diagram ecc.) viene effettuata settimanalmente, ogni giovedì, almeno un'ora prima della chiusura;
+  - nei report si riassume tutto il lavoro effettivamente svolto durante il periodo scelto, indicando precisamente la data d'inizio e di fine di ogni attività;
+  - si rivalutano le stime sulle attività rimanenti, in funzione dei dati storici registrati nei periodi precedenti;
   - si riportano le risorse consumate, quelle rimanenti e la percentuale di completamento.
 
-Si vuole notare come l'utilizzo del diagramma di Gantt, se correttamente aggiornato, abilita ad un maggiore controllo sul tempo e risorse a disposizione. Quest'ultimo, infatti, può essere consultato non solo durante la stesura dei report settimanali, ma anche durante semplici Daily Status Meeting, per individuare tempestivamente il carico di lavoro pervenuto da una criticità segnalata.
-
-Come strumento utile per il senio management, è richiesta anche la creazione di un report visuale, di tipo Earned Value, in modo da avere un feedback diretto su quanto è il business value fin'ora realizzato.
-
-slide 9
-
-<!--
- - quando lo facciamo (givedì?)? periodo ricoperto? (settimana / mese)
-
-Si cerca di mantenere il piu' possibile aggiornato il Gantt attraverso revisioni settimanali che possano andare a evidenziare problematiche nell'assegnamento delle risorse. Se poi avvengono cambiamenti notevoli direttamente da un daily meeting allora puo' essere utile intervenire tempestivamente sul gantt per verificare effettivamente il carico di lavoro sulle risorse.
-
-Come strumento per il senior management e' anche richiesto la creazione di un report visuale di tipo Earned Value in modo da avere un feedback su quanto e' il business value fino ad ora realizzato.
--->
-
+Si vuole notare come l'utilizzo del diagramma di Gantt, se correttamente aggiornato, abilita ad un maggiore controllo sul tempo e sulle risorse a disposizione. Quest'ultimo, infatti, può essere consultato non solo durante la stesura dei report settimanali, ma anche durante i Daily Status Meeting, per individuare tempestivamente il carico di lavoro pervenuto da una criticità segnalata.
 
 #### 6.2.3.1. Regole per la determinazione della percentuale di completamento
+
 Un Project Manager potrebbe aver necessità di sapere la percentuale di completamento di un progetto in esecuzione. A causa della sua natura però, il diagramma di Gantt non dimostra lo stato di avanzamento di dettaglio; per non permettere ai dipendenti di eseguire assunzioni errate del lavoro svolto e da svolgere, PunchCode decide di avvalersi di tecniche volte a minimizzare questo rischio.
 
-<!-- eh ok, quali tecniche? -->
+Non essendoci in letteratura metodi confermati ed efficienti per predire la precentuale di completamento, la startup decide di valutare il progresso attraverso l'individuazione di casi d'uso associati ad ogni task pianificato. In pratica, prima di iniziare lo sviluppo, il dipendente è invitato a esplodere il task della WBS, creando una lista di feature o scenari che quella attività deve soddisfare. Di conseguenza, la percentuale di completamento risulterà essere rispecchiata direttamente dai punti marcati come *"svolti"* sul totale.
+
+Si vuole sottolineare come ad ogni caso d'uso potrebbero corrispondere uno o più test automatici. Nel caso di esperienze UX, invece, potrebbero essere del tutto assenti, procedendo solo con l'effettiva verifica sul campo.
+
+Si preferisce, inoltre, non valutare i casi d'uso associandone un peso, in quanto quest'azione comporterebbe un ulteriore rischio di valutazione da parte dei dipendenti. In caso di sovrastima (o sottostima) del peso, infatti, si andrebbe incontro ad una percentuale di completamento distante da quella reale. Per questo motivo, si invitano i membri del team a delineare casistiche di granularità fine.
 
 ## 6.3. Gestione dello Scope Bank
 Nonostante una disponibilità temporale dello Scope Bank superiore alla media, questo necessita un consapevole e ragionevole impiego da parte della startup. L'aggiornamento di quest'ultimo avviene ogni tal volta che viene utilizzato, nonchè rivisitato ogni settimana in concomitanza alla stesura dei report (discussi in [precedenza](#62-sistemi-di-reporting)).
