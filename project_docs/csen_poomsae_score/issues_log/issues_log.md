@@ -16,13 +16,13 @@
     <tr>
         <td>-</td>
         <td><i>__/__/__</i></td>
-        <td><i>Low / Medium / High</i></td>
+        <td><i>Bassa / Media / Alta</i></td>
         <td><i>Descrizione</i></td>
         <td><i>Impatto</i></td>
         <td><i>Luca Rossi</i></td>
         <td><i>Mario Verdi</i></td>
-        <td><i>Sample action</i></td>
-        <td><i>Unresolved / Pending / Resolved</i></td>
+        <td><i>Azione</i></td>
+        <td><i></i></td>
         <td><i>__/__/__</i></td>
     </tr>
     <tr>

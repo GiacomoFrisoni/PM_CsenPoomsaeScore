@@ -1124,11 +1124,12 @@ Si vuole sottolineare come ad ogni caso d'uso potrebbero corrispondere uno o pi�
 Si preferisce, inoltre, non valutare i casi d'uso associandone un peso, in quanto quest'azione comporterebbe un ulteriore rischio di valutazione da parte dei dipendenti. In caso di sovrastima (o sottostima) del peso, infatti, si andrebbe incontro ad una percentuale di completamento distante da quella reale. Per questo motivo, si invitano i membri del team a delineare casistiche di granularità fine.
 
 ## 6.3. Gestione dello Scope Bank
+
 Nonostante una disponibilità temporale dello Scope Bank superiore alla media, questo necessita un consapevole e ragionevole impiego da parte della startup. L'aggiornamento di quest'ultimo avviene ogni tal volta che viene utilizzato, nonchè rivisitato ogni settimana in concomitanza alla stesura dei report (discussi in [precedenza](#62-sistemi-di-reporting)).
 
 ## 6.4. Issues Log
 
-PunchCode prevede un [documento](project_docs/csen_poomsae_score/issues_log/issues_log.md) per segnalare le problematiche che potrebbero capitare durante lo svolgimento del progetto. Per ogni criticità viene indicata la data dell'individuazione, la priorità, la descrizione della issue e dell'impatto che avrà se non risolta, il dipendente che l'ha segnalata e colui che se ne occuperà, l'azione da svolgere per risolvere il problema, lo stato in cui si trova attualemente e l'eventuale data della risoluzione del problema.
+PunchCode prevede un [documento](project_docs/csen_poomsae_score/issues_log/issues_log.md) per segnalare le problematiche che potrebbero capitare durante lo svolgimento del progetto. Per ogni criticità viene indicata la data dell'individuazione, la priorità, la descrizione della issue e dell'impatto che avrà se non risolta, il dipendente che l'ha segnalata e colui che se ne occuperà, l'azione da svolgere per risolvere il problema, lo stato in cui si trova attualmente (non discussa / discussa ma azione non intrapresa / azione intrapresa e attesa dell'outcome / risolta o non) e l'eventuale data della risoluzione del problema.
 
 Oltre a dare un'importante visuale sulle problematiche svolte e/o risolte, questo documento può essere preso in considerazione per risolvere eventuali future problematiche già in esso descritte, per le quali si è adottato una soluzione soddisfacente.
 
@@ -1137,15 +1138,16 @@ Oltre a dare un'importante visuale sulle problematiche svolte e/o risolte, quest
 Per ovviare alle criticità che potrebbero nascere durante lo sviluppo, la startup si avvale della cosiddetta *"Problem Escalation Strategy"*. Questa si suddivide in tre livelli, in base ai quali vengono decise le azioni da intraprendere per la loro risoluzione:
 
 - **Project Manager-Based Strategies**  
-  Tecniche di ottimizzazione delle risorse a disposizione. Prevedono un'esame sulle relazioni di dipendenza tra i task stabilite durante la progettazione. Di solito non implicano costi aggiuntivi, permettendo semplicemente di riassegnare le risorse già disponibili in modo più ottimizzato e/o congruo alle richieste, modificando eventualmente le priorità e/o l'ordine di esecuzione.
+  Tecniche di ottimizzazione delle risorse a disposizione. Prevedono un esame sulle relazioni di dipendenza tra i task stabilite durante la progettazione. Di solito non implicano costi aggiuntivi, permettendo semplicemente di riassegnare le risorse già disponibili in modo più ottimizzato e/o congruo alle richieste, modificando eventualmente le priorità e/o l'ordine di esecuzione.
   
 - **Resource Manager-Based Strategies**  
-  Prevedono una richiesta esplicita da parte del Project Manager di risorse aggiuntive. Quest'ultime possono essere di diverse tipologie, ma, generalmente, riguardano l'assegnazione di un maggiore budget o l'utilizzo dello Scope Bank. Si preferisce comunque, soprattutto a progetto già iniziato, di non richiedere ulteriori risorse in termini di personale, in quanto quest'azione porterebbe soltanto ancor maggiori problematiche.
+  Prevedono una richiesta esplicita da parte del Project Manager di risorse aggiuntive. Quest'ultime possono essere di diverse tipologie, ma, generalmente, riguardano l'assegnazione di un maggiore budget o l'utilizzo dello Scope Bank. Si preferisce comunque, soprattutto a progetto già iniziato, di non richiedere ulteriori risorse in termini di personale, in quanto quest'azione porterebbe soltanto maggiori problematiche.
   
 - **Client-Based Strategies**  
   Soltanto quando non è possibile risolvere le criticità all'interno dell'azienda, si prevede il contatto con il cliente e la negoziazione delle soluzioni possibili. Tra le azioni richieste potrebbero esserci un'estensione della schedula, una modifica dello scope oppure una pianificazione di ulteriori macro-release con le implementazioni aggiuntive.
 
 # 7. Chiusura del progetto
+
 
 # 8. Bibliografia
 
