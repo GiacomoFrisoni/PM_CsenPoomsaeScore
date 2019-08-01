@@ -1025,44 +1025,135 @@ Per garantire il rispetto della schedula del progetto, PunchCode adotta le segue
 - Svolgimento di [Daily Team Meeting](#21233-daily-status-meeting) (come già discusso a livello di politiche aziendali). Dal momento che ogni meeting determina un costo, queste tipologie di incontri sono ideali all'interno della fase di Monitoraggio e Controllo, a causa delle loro caratteristiche (breve durata, alto coinvolgimento, semplicità organizzativa ecc.).
 - Rapido completamento dei task e compressione delle attività. L'azienda sprona i dipendenti a non approfittare degli slack.
 - Dialoghi incentivati e libera espressione al fine di evitare i "creeps".
-
-<!-- - autocontrollo sull'overdesign -->
+- Richiesta di chiarimenti o di preferenze direttamente all'end-user in caso di dubbi, anticipando la review e prestando attenzione ai rischi di tale operazione.
+- Rispetto dei requisiti, senza andare oltre a essi. Applicazione di un controllo per evitare over-design. Dal momento che disporre di squadre incaricate di verificare quali feature siano state effettivamente realizzate costituisce una soluzione irrealistica ed altamente dispendiosa sul piano economico, la startup considera un auto-monitoraggio sotto questo punto di vista (riponendo fiducia sul lavoro e sulla sensibilità dei singoli dipendenti).
+- Apertura e onestà con i propri colleghi del team. Tutti devono essere consapevoli di cosa stia accadendo e di quale sia il reale stato di avanzamento del progetto.
 
 ## 6.2. Sistemi di reporting
 
- - quando lo facciamo (givedì?)? periodo ricoperto? (settimana / mese)
+Per effettuare in modo efficiente il reporting sullo stato di avanzamento del progetto, PunchCode si dota di un *Progress Reporting System* con le seguenti caratteristiche.
+- Messa a disposizione di informazioni tempestive, aggiornate, complete e accurate.
+- Non richiedente un overhead eccessivo per il suo utilizzo (in termini di effort), tanto da essere controproducente.
+- Con reporting intuitivo e facilmente accettabile da parte del team di progetto. Le curve e i grafici prodotti devono pertanto essere semplici da comprendere, incentivando anche l'uso di colori.
+- Capace di essere un efficace strumento per poter avere un allarme tempestivo (**early warning**), nell'eventualità di problemi rispetto al pianificato. 
 
 ### 6.2.1. Tipologie di report utilizzate
 
- - effective progress reporting, current period report, cumulative report, spotlight con riferimento a politiche aziendali
+Tra le varie tipologie di Project Status Report, l'azienda ha scelto di utilizzare:
+- **Current Period Report**  
+  Coprono solo i periodi più recenti del progetto e si concentrano sul come questo stia *attualmente* performando. Evidenziano le attività completate più rilevanti e le eventuali variazioni rispetto a quanto pianificato. Possono anche includere un'analisi sulle ragioni che hanno causato le eventuali variazioni e sulle corrispondenti misure correttive. Un Current Period Report - ad esempio - potrebbe dare pertanto un esito positivo anche se sul cumulativo si è in ritardo di un mese, perchè magari si è esercitato un controllo e si sono applicate azioni correttive.
+  
+- **Cumulative Report**  
+  Coprono l'intera storia del progetto e sono molto efficaci nel mostrare i
+  trend nell'avanzamento del progetto (visione *overall*). Attraverso essi, ad esempio, possono essere tracciati tutti gli scostamenti rispetto al pianificato, rilevando se la situazione stia migliorando o peggiorando.
+
+- **Spotlight Report**  
+  Estremamente sintetici, puntano a segnalare al senior management lo stato di avanzamento del progetto. Per evidenziare le criticità incontrate, verrà fatto uso di colorazioni diverse:
+  - *verde* - tutto procede come pianificato (si è in schedula),
+  - *giallo* - vi sono stati scostamenti, ma è tutto sotto controllo,
+  - *rosso* - situazione fuori controllo.  
+
+  Il colore sulle attività costituisce un valido aiuto nel comprendere rapidamente lo stato di avanzamento complessivo.
+  Come già descritto nei [Daily Status Meeting](#21233-daily-status-meeting) a livello di politiche aziendali, le colorazioni per i vari task sono assegnate durante tali incontri.  
+  Come, inoltre, già descritto anche nel capitolo relativo alle politiche aziendali e alla [gestione delle comunicazioni](#2124-gestione-delle-comunicazioni), viene redatta una documentazione scritta soltanto per le attività cui è stata assegnata una colorazione gialla o rossa.
+
+Infine, si fa uso anche dei **Gantt Chart** (per quanto riguarda la schedula), sfruttando la documentazione già prodotta e mantenendola aggiornata regolarmente (come sarà meglio descritto nella [sucessiva sezione](#623-modalità-di-aggiornamento-delle-informazioni)).
 
 ### 6.2.2. Strumenti di reporting visuale 
-- Cumulative report - Milestone Trend Charts  
-- Earned Value - Si prevede la Standard S-Curve (buona descrizione su GitHub in merito allo start-up) e non l'aggressiva
-- EVA con due indici
 
-### 6.2.3. Regole per la determinazione della percentuale di completamento
-- gantt non ce le da
+In aggiunta ai **Milestone Trend Chart** per i report cumulativi (capaci già di fornire utili interpretazioni sull'andamento del progetto per quanto concerne il rispetto della schedula), PunchCode decide di misurare le performance del progetto anche attraverso un'analisi relativa al valore guadagnato (**Earned Value Analysis**).  
+Per determinare il valore del lavoro svolto, la startup utilizza una metrica in termini economici (Euro). Il lavoro effettivamente svolto è così confrontato con il lavoro previsto dal piano, per determinare scostamenti sia rispetto alla schedula che rispetto ai costi previsti.
+
+Si sottolinea come l'azienda sia consapevole del fatto che un'analisi di questo tipo non offra indicazioni sulle motivazioni e che non sia conseguentemente sufficiente per formulare valide previsioni per il futuro. Tuttavia, al momento non sono state identificate alternative valide in letteratura e la presenza di report da cui estrapolare considerazioni sia sui tempi che sui costi è di indubbio valore per PunchCode.
+
+Vista la natura del progetto, ci si attende una classica curva logistica ad S per l'Earned Value (dove la produzione pura con andamento lineare è ottenuta solo dopo un rallentato tempo di start-up e prima dello svolgimento dei test). 
+
+In ogni momento del progetto è possibile ottenere le seguenti tre [informazioni](#bibliography-4)<sup>4</sup>:
+- **Planned value (PV)** – costo previsto alla data così come messo a piano;
+- **Actual Cost (AC)** – costo effettivamente sostenuto alla data così come desunto dalla contabilità di commessa o da rilevazioni extracontabili;
+- **Earned Value (EV)** – costo effettivamente "ribaltabile" sul cliente o soggetto finanziatore alla luce degli accordi.
+
+Avendo adottato una forma di corrispettivo incentrata su stime a range, PunchCode effettua il calcolo del costo previsto in termini di PV nel seguente modo.
+
+<img src="https://latex.codecogs.com/gif.latex?\inline&space;PlannedCost&space;=&space;\frac{MaxCostEstimation&space;&plus;&space;MinCostEstimation}{2}" title="PlannedCost = \frac{MaxCostEstimation + MinCostEstimation}{2}" />
+
+<!-- Fare esempio pratico superamento range -->
+_**Esempio**_  
+*Per una stima di costo pari a un range 100€-150€, PV corrisponde a 125€. PunchCode si assume il rischio di costi superiori al massimo valore indicato nell'intervallo. Supponendo di trovarci in un contesto di questo tipo, il costo effettivamente sostenuto dall'azienda fornitrice potrebbe essere di 250€: AC=250€ ed EV=125€.*
+
+Si può pertanto giungere a costruire un grafico che riporti al suo interno le curve di PV, AC ed EV. Ciò rappresenta una preziosa risorsa, dal momento che consente di fornire un quadro completo dell'andamento del progetto.
+
+<img width="60%" src="project_docs/csen_poomsae_score/visual_reports/earned_value_pv_ev_ac.png" />
+
+In definitiva l'EV ad una certa data costituisce il costo ribaltabile sul cliente se il progetto venisse interrotto alla data della misurazione.
+Questo valore (EV) deve essere periodicamente analizzato:
+- confrontandolo con l'Actual Cost (AC) per valutare in buona sostanza se si sta spendendo più di quanto si sta effettivamente guadagnando;
+- confrontandolo con il Planned Value (PV) per valutare se si è o meno in linea con quanto riportato nel Piano di Project Management dal punto di vista dell’andamento temporale dei costi.
+
+Per svolgere questa valutazione, PunchCode prende in considerazione anche il calcolo di due indici (*Basic Performance Indices*):
+
+- **Schedule Performance Index (SPI)**  
+  È il rapporto tra quanto guadagnato e quanto pianificato.  
+  SPI = EV/PV
+
+- **Cost Performance Index (CPI)**  
+  È il rapporto tra quanto guadagnato e quanto speso.  
+  CPI = EV/AC
+
+In entrambi i casi, un valore dell'indice < 1 rappresenta una situazione peggiore di quella prevista (guadagno meno del pianificato o guadagno meno di quel che ho speso) e un valore > 1 è associato a una situazione positiva.  
+Periodicamente questi valori possono essere misurati in modo da avere il quadro della *performance finanziaria* di progetto da presentare nello Stato Avanzamento Lavori insieme alle altre informazioni per il controllo dell'avanzamento.
+
+### 6.2.3. Modalità di aggiornamento delle informazioni
+
+Per mantenere la documentazione aggiornata, PunchCode decide di seguire alcuni buoni principi per la raccolta delle informazioni:
+
+  - la situazione dell'azienda viene monitorata settimanalmente,
+  - l'aggiornamento delle informazioni avviene ogni giovedì, almeno un'ora prima della chiusura,
+  - nei report si riporta tutto il lavoro effettivamente svolto durante il periodo scelto, indicando precisamente la data d'inizio e di fine di ogni attività,
+  - si rivalutano, di conseguenza, le stime sulle attività rimanenti,
+  - si riportano le risorse consumate, quelle rimanenti e la percentuale di completamento.
+
+Si vuole notare come l'utilizzo del diagramma di Gantt, se correttamente aggiornato, abilita ad un maggiore controllo sul tempo e risorse a disposizione. Quest'ultimo, infatti, può essere consultato non solo durante la stesura dei report settimanali, ma anche durante semplici Daily Status Meeting, per individuare tempestivamente il carico di lavoro pervenuto da una criticità segnalata.
+
+Come strumento utile per il senio management, è richiesta anche la creazione di un report visuale, di tipo Earned Value, in modo da avere un feedback diretto su quanto è il business value fin'ora realizzato.
+
+slide 9
+
+<!--
+ - quando lo facciamo (givedì?)? periodo ricoperto? (settimana / mese)
+
+Si cerca di mantenere il piu' possibile aggiornato il Gantt attraverso revisioni settimanali che possano andare a evidenziare problematiche nell'assegnamento delle risorse. Se poi avvengono cambiamenti notevoli direttamente da un daily meeting allora puo' essere utile intervenire tempestivamente sul gantt per verificare effettivamente il carico di lavoro sulle risorse.
+
+Come strumento per il senior management e' anche richiesto la creazione di un report visuale di tipo Earned Value in modo da avere un feedback su quanto e' il business value fino ad ora realizzato.
+-->
+
+
+#### 6.2.3.1. Regole per la determinazione della percentuale di completamento
+Un Project Manager potrebbe aver necessità di sapere la percentuale di completamento di un progetto in esecuzione. A causa della sua natura però, il diagramma di Gantt non dimostra lo stato di avanzamento di dettaglio; per non permettere ai dipendenti di eseguire assunzioni errate del lavoro svolto e da svolgere, PunchCode decide di avvalersi di tecniche volte a minimizzare questo rischio.
+
+<!-- eh ok, quali tecniche? -->
 
 ## 6.3. Gestione dello Scope Bank
-- mantenerla aggiornata
+Nonostante una disponibilità temporale dello Scope Bank superiore alla media, questo necessita un consapevole e ragionevole impiego da parte della startup. L'aggiornamento di quest'ultimo avviene ogni tal volta che viene utilizzato, nonchè rivisitato ogni settimana in concomitanza alla stesura dei report (discussi in [precedenza](#62-sistemi-di-reporting)).
 
 ## 6.4. Issues Log
 
 PunchCode prevede un [documento](project_docs/csen_poomsae_score/issues_log/issues_log.md) per segnalare le problematiche che potrebbero capitare durante lo svolgimento del progetto. Per ogni criticità viene indicata la data dell'individuazione, la priorità, la descrizione della issue e dell'impatto che avrà se non risolta, il dipendente che l'ha segnalata e colui che se ne occuperà, l'azione da svolgere per risolvere il problema, lo stato in cui si trova attualemente e l'eventuale data della risoluzione del problema.
 
+Oltre a dare un'importante visuale sulle problematiche svolte e/o risolte, questo documento può essere preso in considerazione per risolvere eventuali future problematiche già in esso descritte, per le quali si è adottato una soluzione soddisfacente.
+
 ## 6.5. Problem Escalation Strategy
 
-Per ovviare alle criticità che potrebbero nascere durante lo sviluppo, la startup si avvale della cosiddetta "Problem Escalation Strategy". Questa si suddivide in tre livelli, in base ai quali vengono decise le azioni da intraprendere per la risoluzione delle criticità:
+Per ovviare alle criticità che potrebbero nascere durante lo sviluppo, la startup si avvale della cosiddetta *"Problem Escalation Strategy"*. Questa si suddivide in tre livelli, in base ai quali vengono decise le azioni da intraprendere per la loro risoluzione:
 
 - **Project Manager-Based Strategies**  
-  Tecniche di ottimizzazione delle risorse a disposizione. Prevedono un'esame sulle relazioni di dipendenza tra i task stabilite durante la progettazione. Di solito non implicano costi aggiuntivi, permettendo semplicemente di riassegnare le risorse già disponibili in modo più ottimizzato e/o congruo alle richieste.
+  Tecniche di ottimizzazione delle risorse a disposizione. Prevedono un'esame sulle relazioni di dipendenza tra i task stabilite durante la progettazione. Di solito non implicano costi aggiuntivi, permettendo semplicemente di riassegnare le risorse già disponibili in modo più ottimizzato e/o congruo alle richieste, modificando eventualmente le priorità e/o l'ordine di esecuzione.
   
 - **Resource Manager-Based Strategies**  
-  Prevedono una richiesta esplicita da parte del Project Manager di risorse aggiuntive. Quest'ultime possono essere di diverse tipologie, ma generalmente riguardano l'assegnazione di un maggiore budget o l'utilizzo dello Scope Bank. Si preferisce comunque, soprattutto a progetto iniziato, di non richiedere ulteriori risorse in termini di personale, in quanto porterebbe soltanto a maggiori problematiche
+  Prevedono una richiesta esplicita da parte del Project Manager di risorse aggiuntive. Quest'ultime possono essere di diverse tipologie, ma, generalmente, riguardano l'assegnazione di un maggiore budget o l'utilizzo dello Scope Bank. Si preferisce comunque, soprattutto a progetto già iniziato, di non richiedere ulteriori risorse in termini di personale, in quanto quest'azione porterebbe soltanto ancor maggiori problematiche.
   
-- **Client-BasedStrategies**  
-  Soltanto quando non è possibile risolvere le criticità all'interno dell'azienda, si prevede il contatto con il cliente e la negoziazione della sua risoluzione. Può essere, per esempio, richiesta l'estensione della schedula, una modifica dello scope oppure pianificare ulteriori macro-release con le modifiche richieste.
+- **Client-Based Strategies**  
+  Soltanto quando non è possibile risolvere le criticità all'interno dell'azienda, si prevede il contatto con il cliente e la negoziazione delle soluzioni possibili. Tra le azioni richieste potrebbero esserci un'estensione della schedula, una modifica dello scope oppure una pianificazione di ulteriori macro-release con le implementazioni aggiuntive.
 
 # 7. Chiusura del progetto
 
@@ -1071,3 +1162,4 @@ Per ovviare alle criticità che potrebbero nascere durante lo sviluppo, la start
 [1]<a id="bibliography-1"></a> [Platonova, Valērija & Bērziša, Solvita. "Gamification in Software Development Projects". *Information Technology and Management Science*. Dec 2017.](https://www.researchgate.net/publication/322409704_Gamification_in_Software_Development_Projects)  
 [2]<a id="bibliography-2"></a> [Senthil Rajamarthandan. "Using Gamification to Build a Passionate and Quality-Driven Software Development Team". *Cognizant 20-20 Insights*. Feb 2014.](https://www.cognizant.com/InsightsWhitepapers/Using-Gamification-to-Build-a-Passionate-and-Quality-Driven-Software-Development-Team.pdf)  
 [3]<a id="bibliography-3"></a> [Matej Latin. "Measuring and Quantifying User Experience". *Medium*. Nov 2017.](https://uxdesign.cc/measuring-and-quantifying-user-experience-8f555f07363d)  
+[4]<a id="bibliography-4"></a> [Humanware - Project Management Center - Earned Value e indicatori di performance](http://www.humanwareonline.com/project-management/center/earned-value-management/)
