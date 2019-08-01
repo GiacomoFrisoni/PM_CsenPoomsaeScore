@@ -1077,7 +1077,6 @@ Avendo adottato una forma di corrispettivo incentrata su stime a range, PunchCod
 
 <img src="https://latex.codecogs.com/gif.latex?\inline&space;PlannedCost&space;=&space;\frac{MaxCostEstimation&space;&plus;&space;MinCostEstimation}{2}" title="PlannedCost = \frac{MaxCostEstimation + MinCostEstimation}{2}" />
 
-<!-- Fare esempio pratico superamento range -->
 _**Esempio**_  
 *Per una stima di costo pari a un range 100€-150€, PV corrisponde a 125€. PunchCode si assume il rischio di costi superiori al massimo valore indicato nell'intervallo. Supponendo di trovarci in un contesto di questo tipo, il costo effettivamente sostenuto dall'azienda fornitrice potrebbe essere di 250€: AC=250€ ed EV=125€.*
 
