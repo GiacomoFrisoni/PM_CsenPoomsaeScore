@@ -1013,16 +1013,16 @@ Un'eventuale approvazione della richiesta di cambiamento richiede necessariament
 La fase di Monitoraggio e Controllo è indispensabile per la gestione di un progetto. Essa serve per rispettare il piano, ovvero per mantenere il progetto stesso entro i binari stabiliti in fase di pianificazione.  
 Costituisce un gruppo di processi incentrati sull'uso di strumenti di varia natura, fondamentalmente incentrati sul verificare il rispetto dei vincoli di tempo e di budget.  
 In sintesi, il **monitoraggio** è realizzato con la produzione di report attraverso cui identificare problemi eventualmente presenti, registrando le relative issue ed esercitando un **controllo** grazie all'applicazione di azioni correttive orientate alla loro risoluzione.  
-All'interno di questo capitolo sono ricapitolati gli strumenti che l'azienda fornitrice ha scelto di adottare e le motivazioni alla base delle varie scelte intraprese.
+All'interno di questo capitolo sono riportati gli strumenti che l'azienda fornitrice ha scelto di adottare e le motivazioni alla base delle varie decisioni intraprese.
 
 A causa della sua inesperienza, PunchCode mira a produrre una documentazione di ottima qualità, finalizzata alla costruzione di uno storico che possa divenire un ausilio di indubbia utilità per i propri progetti futuri.
 
-Il gruppo di processi oggetto del capitolo in esame possiede anche un forte legame con la fase precedente di [Launching / Executing](). I meeting svolti durante l'esecuzione del progetto, infatti, raccolgono informazioni dal team e costituiscono anche una valida occasione per discutere in merito allo stato di avanzamento (*Project Status Meeting*).
+Il gruppo di processi oggetto del capitolo in esame possiede anche un forte legame con la fase precedente di [Launching / Executing](#5-launching-/-executing). I meeting svolti durante l'esecuzione del progetto, infatti, raccolgono informazioni dal team e costituiscono anche una valida occasione per discutere in merito allo stato di avanzamento (*Project Status Meeting*).
 
 ## 6.1. Rispetto della schedula
 
 Per garantire il rispetto della schedula del progetto, PunchCode adotta le seguenti azioni.
-- Svolgimento di Daily Team Meeting (come già discusso a livello di [politiche aziendali]()). Dal momento che ogni meeting determina poi un costo, queste tipologie di incontri sono ideali all'interno della fase di Monitoraggio e Controllo, a causa delle loro caratteristiche (breve durata, alto coinvolgimento, semplicità organizzativa ecc.).
+- Svolgimento di [Daily Team Meeting](#21233-daily-status-meeting) (come già discusso a livello di politiche aziendali). Dal momento che ogni meeting determina un costo, queste tipologie di incontri sono ideali all'interno della fase di Monitoraggio e Controllo, a causa delle loro caratteristiche (breve durata, alto coinvolgimento, semplicità organizzativa ecc.).
 - Rapido completamento dei task e compressione delle attività. L'azienda sprona i dipendenti a non approfittare degli slack.
 - Dialoghi incentivati e libera espressione al fine di evitare i "creeps".
 
