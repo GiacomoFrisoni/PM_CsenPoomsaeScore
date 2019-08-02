@@ -56,7 +56,7 @@
                     <table>
                         <tr>
                             <th rowspan="2">N° giudici</th>
-                            <th align="center">Attuale</th>
+                            <th col="2" colspan="2" align="center">Attuale</th>
                             <th colspan="3" align="center">Desiderato</th>
                         </tr>
                         <tr>
@@ -97,7 +97,7 @@
                     <table>
                         <tr>
                             <th rowspan="2">Range di partecipanti</th>
-                            <th align="center">Attuale</th>
+                            <th col="2" colspan="2" align="center">Attuale</th>
                             <th colspan="3" align="center">Desiderato</th>
                         </tr>
                         <tr>
@@ -138,7 +138,7 @@
                     <table>
                         <tr>
                             <th rowspan="2">Range di partecipanti</th>
-                            <th align="center">Attuale</th>
+                            <th col="2" colspan="2" align="center">Attuale</th>
                             <th colspan="3" align="center">Desiderato</th>
                         </tr>
                         <tr>
