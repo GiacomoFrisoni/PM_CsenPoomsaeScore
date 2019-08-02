@@ -1180,6 +1180,8 @@ La presenza di una procedura di accettazione da parte del committente - chiara e
 Come si è già osservato nella [precedente sezione](), le condizioni con cui verificare la chiusura del progetto (ovvero i **criteri di accettazione**) sono già stati definiti durante la fase di Planning, con la collaborazione del cliente. Alla base di questa scelta vi è anche la necessità di riportare tali condizioni direttamente all'interno del contratto.  
 In fase di Execution il team si deve accertare che i deliverable prodotti possano soddisfare tali criteri. Inoltre, un collaudo - attentamente studiato (per evitare che il sistema non funzioni dopo il *"go live"*) e svolto con la presenza del cliente - dovrebbe certificare il loro rispetto. Se i deliverable soddisfano i criteri di accettazione, di conseguenza, non dovrebbe accadere che il committente sia insoddisfatto e non approvi la richiesta di chiusura.
 
+Al superamento dell'ultimo collaudo, il progetto è sottoposto all'approvazione del cliente, cui si richiede la sottoscrizione di un apposito documento ([Project Acceptance](project_docs/csen_poomsae_score/closing/project_acceptance.pdf)) attestante il soddisfacimento da parte della soluzione proposta dei vari requisiti stabiliti.
+
 ## 7.2. Installazione dei deliverable
 
 La consegna e l'installazione dei deliverable avviene per mezzo di micro e macro release. Dal momento che il committente non possiede nessuna soluzione informatica attualmente in uso, PunchCode decide di utilizzare il cosiddetto "**Phased Approach**", rilasciando di volta in volta al cliente un prodotto con maggiori funzionalità. I collaudi effettivi vengono svolti soltanto alla chiusura di una macro-release, in corrispondenza della relativa accettazione del deliverable. 
@@ -1214,19 +1216,24 @@ L'insieme di documenti che occorre possedere giunti alla fase di chiusura costit
 
 ## 7.4. Post-implementation Audit
 
-<!--
-Quando anche l'ultimo collaudo e' avvenuto con successo, il progetto verra' sottoposto alla approvazione del cliente che dovra' effettivamente firmare un documento apposito fornito dalla amministrazione che attesta che il progetto ha soddisfatto i requisiti necessari e che quindi ha soddisfatto il cliente. Questo e' necessario per procedere con la chiusura del progetto stessoe richiede semplicemente della firma del project manager del committente, si faccia riferimento direttamente al documento (Project Acceptance)
+Il *Post-implementation Audit* costituisce una verifica di correttezza e rappresenta anche un'occasione utile per svolgere una retrospettiva sull'intero progetto. La sua conduzione è ritenuta fondamentale da PunchCode, che la percepisce come un'attività ad alta priorità.
 
-In particolare e' stato predisposto anche un template (Project Closing Report) che indica un riassunto di:
+Durante questo incontro ci si interroga sui risultati raggiunti sia dal punto di vista della *gestione* che del *prodotto*. Tale distinzione è importante dal momento che il Project Management potrebbe essere riuscito perfettamente, ma la soluzione ottenuta per mezzo della gestione potrebbe non essere alla medesima altezza.
 
-Tutti i deliverables
-Lo scope e i suoi cambiamenti durante la realizzazione del progetto
-Eventuale manutenzione e i suoi costi
-Approvazione finale con firma
-E' necessario anche organizzare correttamente il project netbook che conterra' tutti i documenti sopra citati e i report delle varie riunioni che sono state effettuate.
--->
+A tale scopo, PunchCode prevede la realizzazione di un [Project Closing Report](project_docs/csen_poomsae_score/closing/project_closing_report.pdf) in cui rispondere alle seguenti questioni.
+- Gli obiettivi del progetto sono stati raggiunti?
+  - Il deliverable fa quello che il team aveva previsto?
+  - Il deliverable fa quello che si aspettava il committente?
+- Il progetto è stato completato rispettando i limiti di tempo, budget e rispettando le specifiche?
+- Il committente è soddisfatto del risultato del progetto?
+- Il business value previsto si è concretizzato?
+  - I criteri di successo sono stati rispettati?
+- Che lezione è stata imparata relativamente alla metodologia di gestione del progetto scelta?
+- Come ha seguito la metodologia il team?
 
-## 7.5. Final Project Report
+Come specificato all'interno del documento, i risultati confrontati con le tempistiche previste al fine di verificare il soddisfacimento dei business value sono ottenute attraverso il calcolo della media su 5 campioni misurati dall'azienda fornitrice (durante le operazioni di collaudo e di testing).
+
+Le spese effettive riportate per riassumere eventuali scostamenti dal pianificato, tengono conto - esattamente come le stime - anche dei costi legati ai dipendenti, ai servizi, ai software, all'hardware e alle risorse.
 
 # 8. Bibliografia
 
