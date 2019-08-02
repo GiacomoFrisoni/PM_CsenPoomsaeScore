@@ -1195,6 +1195,23 @@ In ogni caso ci sono valide ragioni per documentare in modo adeguato un progetto
 - realizzazione di una sorgente di dati storici per poter effettuare le stime dei tempi, dei costi e dei rischi per le attività dei progetti futuri;
 - ottenimento di una valida risorsa per il training e la crescita professionale di nuovi Project Manager e dei membri interni al team di progetto.
 
+L'insieme di documenti che occorre possedere giunti alla fase di chiusura costituisce il **Project Notebook** (iniziato da PunchCode sin dal primo giorno di progetto). Esso è formato da:
+- POS
+- RBS (comprese tutte le sue revisioni)
+- Proposta di progetto
+- WBS
+- Schedule del progetto: originale (fase di planning) e correzioni
+- Appunti/verbali di tutti i project team meeting
+- Copia di tutti gli status report
+- Documentazione tecnica relativa al design (per manutenzione ed estensione)
+- Eventuali prototipi, sample o mockup realizzati (compresi quelli rifiutati, che potrebbero rispondere alle esigenze di clienti futuri ed essere quindi direttamente utilizzabili)
+- Copia di tutti gli avvisi di modifiche
+- Copia di tutte le comunicazioni scritte
+- Report delle questioni rimaste in sospeso
+- Rapporto finale (che riassume al Senior Management il modo in cui il progetto si è concluso)
+- Documenti di accettazione del committente
+- Rapporto dell'audit post-implementazione (impegni futuri per migliorare a fronte della retrospettiva del progetto)
+
 ## 7.4. Post-implementation Audit
 
 <!--
