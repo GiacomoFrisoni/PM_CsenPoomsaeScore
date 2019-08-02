@@ -227,10 +227,14 @@ L'uso di una metodologia di questo tipo porta a diversi vantaggi:
 
 - **Sviluppo**  
 PunchCode riversa sulla documentazione un ruolo di primaria importanza per numerose ragioni (tra cui riusabilità, manutenibilità, condivisione e storico sia in termini di problematiche che di soluzioni).
-Rientra pertanto nelle politiche aziendali la volontà di dedicarsi alla scrittura di quest'ultima non a progetto finito, ma costantemente nel corso della sua evoluzione. L'overhead legato all'operazione di aggiornamento continuo è così giustificato dall'obiettivo di minimizzare il senso di frustrazione in fase di stesura (partizionando il carico di lavoro complessivo) e di voler risparmiare tempo in futuro.
+Rientra pertanto nelle politiche aziendali la volontà di dedicarsi alla scrittura di quest'ultima non a progetto finito, ma costantemente nel corso della sua evoluzione. L'overhead legato all'operazione di aggiornamento continuo è così giustificato dall'obiettivo di minimizzare il senso di frustrazione in fase di stesura (partizionando il carico di lavoro complessivo) e di voler risparmiare tempo in futuro.  
+Lo svolgimento della documentazione tecnica in parallelo con lo sviluppo del codice è ritenuto centrale da parte di PunchCode. Essa viene autogenerata per mezzo di appositi tool.
 
-- **Mantenimento**
+- **Mantenimento**  
 L'azienda utilizza un repository online come **workbook** per conservare l'insieme della documentazione relativa ai vari progetti, anche a fini legali. Per consentire un facile reperimento delle informazioni, i file vengono suddivisi in directory in base alla loro tipologia e al progetto di appartenenza.
+
+- **Copertura**  
+La startup si avvale di strumenti atti a misurare la percentuale di copertura (*coverage*) del codice da parte dei test. È volontà dell'azienda mantenere un risultato >=70% all'interno di tutte le applicazioni realizzate da essa.
 
 #### 2.1.2.3. Project Meeting
 
@@ -545,7 +549,7 @@ La startup ha preferito non dedicare interamente la prima riunione alla revisita
 È proprio durante la definizione delle attività a partire dal RBS che i partecipanti al meeting possono eventualmente constatare la presenza di elementi trascurati o di errori compiuti al momento della stesura dei deliverable della fase precedente (provvedendo di conseguenza alla loro risoluzione, avvalendosi di un diretto confronto con il cliente). Rimettere 
 
 Lo scopo del primo incontro dovrebbe essere anche quello di introdurre i vari soggetti che seguiranno l'intero progetto, pur considerando come il team di sviluppo possa essere scelto soltanto nella fase di Launching (a causa della distanza temporale potenzialmente presente tra la pianificazione e l'avvio effettivo del contratto). Tuttavia, dal momento che il Core Team di PunchCode è formato dagli stessi Project Manager, il cliente ha già avuto modo di conoscere tali figure.
-Una volta concluse le presentazioni, è discussa la prioritizzazione dei requisiti definiti durante le sessioni di Project Scoping Meeting. Soltanto in seguito viene ampliato l'RBS per dar vita alla [Work Breakdown Structure (WBS)](project_docs/csen_poomsae_score/planning/wbs.png) precedentemente citata (che è pertanto realizzata da tutti i membri del team nell'obiettivo di giungere a una soluzione migliore, nonostante ciò sia più dispendioso). Rimettere mano allo scoping adesso, infatti, è molto meno costoso che farlo in seguito (nonostante tale operazione debba comunque avvenire il meno possibile).
+Una volta concluse le presentazioni, è discussa la prioritizzazione dei requisiti definiti durante le sessioni di Project Scoping Meeting. Soltanto in seguito viene ampliato l'RBS per dar vita alla [Work Breakdown Structure (WBS)](project_docs/csen_poomsae_score/wbs/final_wbs.png) precedentemente citata (che è pertanto realizzata da tutti i membri del team nell'obiettivo di giungere a una soluzione migliore, nonostante ciò sia più dispendioso). Rimettere mano allo scoping adesso, infatti, è molto meno costoso che farlo in seguito (nonostante tale operazione debba comunque avvenire il meno possibile).
 
 ### 4.1.2. Sessione #2
 Alla seconda sessione partecipano soltanto i membri di PunchCode.
@@ -967,17 +971,25 @@ Allo stesso modo, non si tiene conto del ruolo di *support*; mentre il *consulte
 
 La gestione delle comunicazioni all'interno della startup segue le politiche aziendali già definite nella [sezione trattata in precedenza](#2124-gestione-delle-comunicazioni), senza subire personalizzazioni e/o modifiche.
 
-## 5.7. Aggiornamento Project Definition Statement (PDS)
+## 5.7. Documentazione e testing
+
+Come già descritto all'interno della [precedente sezione](#48-project-network-diagram), PunchCode è concorde col cliente nel redarre un manuale utente per le varie applicazioni interne al sistema solo se ritenuto necessario da parte del committente stesso.  
+Sulla base delle [politiche aziendali](#21222-documentazione), la stesura della documentazione tecnica durante lo sviluppo del codice è ritenuta cruciale. Essa viene autogenerata al termine di ogni release.
+
+Per poter considerare un task concluso, oltre alla stesura della relativa documentazione, è richiesto il superamento dei test associati (che rivestono pertanto la medesima importanza). Conseguentemente a tale scelta, il testing non è svolto solo al termine di una release ma costituisce un'operazione da considerarsi come parte integrante dello svolgimento di ogni attività. Sotto questo punto di vista, PunchCode intende tuttavia precisare come la realizzazione di test sia necessaria solo per le attività che li rendono possibili. Salvo casi eccezionali, quindi, le attività di UI/UX sono escluse da tale requisito e la loro valutazione segue specifiche ed ulteriori metodologie, come descritto al momento della discussione del [Piano di Qualità](#411-piano-di-qualità).  
+Si è deciso di adottare - ove possibile - la presenza di test unitari, individuati direttamente dallo stesso dipendente incaricato dello sviluppo del codice per il task. Questa scelta è frutto del ridotto numero di dipendenti interni a Punch Code e della conseguenziale volontà di evitare una riduzione del livello di concentrazione sulle attività loro effettivamente assegnate. Si ripone pertanto fiducia sulla correttezza professionale e sul pensiero auto-critico dei vari membri, assegnando loro la responsabilità di scrivere test idonei per i task di loro competenza. I rischi che derivano dalla decisione in oggetto, inoltre, sono ulteriormente mitigati dalla volontà - sempre a livello di politiche aziendali - di avere una copertura d'insieme dei test sul codice pari ad almeno il 70%.
+
+## 5.8. Aggiornamento Project Definition Statement (PDS)
 
 Come previsto dalle politiche aziendali, durante il Kick-Off Meeting al momento del Launching, si riesamina il contenuto del PDS e si valutano possibili integrazioni a quest'ultimo. Nel caso del progetto in esame, è lecito attendersi una semplice conferma a causa dei numerosi incontri e feedback ricevuti nelle fasi antecedenti.
 
-## 5.8. Work Packages
+## 5.9. Work Packages
 
 Un work package è una breve descrizione che specifica come i task che lo compongono saranno completati. I task inclusi in un work package dovrebbero avere delle relazioni tra loro che ne motivano una gestione coordinata. I work package permettono di avere un maggior controllo sul progetto e il rispetto della schedula. Sono pertanto i componenti (moduli) in cui il progetto stesso è decomposto.
 
 PunchCode considera un work package per ognuna delle tre milestone di delivery. Inoltre, sfruttando la diversificazione dei colori utilizzata all'interno della [WBS](project_docs/csen_poomsae_score/wbs/final_wbs.png), l'azienda adotta un work package per ogni attività composta da più task (foglia).
 
-## 5.9. Gestione del processo di modifica dello Scope
+## 5.10. Gestione del processo di modifica dello Scope
 
 PunchCode prevede dei template per affrontare delle richieste di cambiamento. Di conseguenza, se il cliente o un membro del team dovesse avvertire la necessità di richiedere una modifica di scope del progetto per differenti ragioni, egli potrà sottomettere una [Scope Change Request Form](project_docs/csen_poomsae_score/scope_change_request/scope_change_request_form.md) appositamente compilata.
 Come è possibile osservare, all'interno di tale documento devono essere riportati:
@@ -1148,6 +1160,80 @@ Per ovviare alle criticità che potrebbero nascere durante lo sviluppo, la start
 
 # 7. Chiusura del progetto
 
+Definendo i criteri di successo in fase di Scoping, PunchCode ha già stabilito in parte anche le condizioni per il processo di chiusura.  
+La fase di Closing può verificarsi solo a seguito dell'accettazione da parte del cliente di un'esplicita richiesta di chiusura del progetto (redatta dal Project Manager e dal team). Ciò tipicamente avviene a fronte del superamento con esito positivo dell'ultimo collaudo.  
+
+In sintesi, la chiusura di un progetto è un processo di routine che prevede i seguenti passi:
+- ottimento dell'accettazione formale dei deliverable;
+- verifica dell'installazione di tutti i deliverable (non è importante solo verificare che la soluzione funzioni come previsto ma anche che sia stata installata come atteso);
+- verifica della disponibilità di tutta la documentazione necessaria, con l'apportamento di eventuali integrazioni;
+- ottenimento della firma del committente sul report finale;
+- conduzione di un audit post implementazione, al fine di retrospettiva.
+
+In questo capitolo si riportano gli strumenti, i template e i processi adottati dall'azienda per far sì che la chiusura si riveli ordinata e ben definita. 
+
+## 7.1. Procedura di accettazione
+
+<!-- Aggiungi i criteri di accettazione nel planning -->
+
+La presenza di una procedura di accettazione da parte del committente - chiara e ben definita - evita che possano sorgere dei fraintendimenti e delle problematiche all'atto di chiusura del progetto.
+Come si è già osservato nella [precedente sezione](), le condizioni con cui verificare la chiusura del progetto (ovvero i **criteri di accettazione**) sono già stati definiti durante la fase di Planning, con la collaborazione del cliente. Alla base di questa scelta vi è anche la necessità di riportare tali condizioni direttamente all'interno del contratto.  
+In fase di Execution il team si deve accertare che i deliverable prodotti possano soddisfare tali criteri. Inoltre, un collaudo - attentamente studiato (per evitare che il sistema non funzioni dopo il *"go live"*) e svolto con la presenza del cliente - dovrebbe certificare il loro rispetto. Se i deliverable soddisfano i criteri di accettazione, di conseguenza, non dovrebbe accadere che il committente sia insoddisfatto e non approvi la richiesta di chiusura.
+
+Al superamento dell'ultimo collaudo, il progetto è sottoposto all'approvazione del cliente, cui si richiede la sottoscrizione di un apposito documento ([Project Acceptance](project_docs/csen_poomsae_score/closing/project_acceptance.pdf)) attestante il soddisfacimento da parte della soluzione proposta dei vari requisiti stabiliti.
+
+## 7.2. Installazione dei deliverable
+
+La consegna e l'installazione dei deliverable avviene per mezzo di micro e macro release. Dal momento che il committente non possiede nessuna soluzione informatica attualmente in uso, PunchCode decide di utilizzare il cosiddetto "**Phased Approach**", rilasciando di volta in volta al cliente un prodotto con maggiori funzionalità. I collaudi effettivi vengono svolti soltanto alla chiusura di una macro-release, in corrispondenza della relativa accettazione del deliverable. 
+
+Preme comunque sottolineare che, a causa dei rilasci incrementali, il cliente preferisce mantenere due versioni del prodotto installate: una cosiddetta *"stable"* e la più recente disponibile. Questa scelta è giustificata dal fatto che, durante una competizione, in caso di problemi derivanti dalla recente soluzione con nuove feature, il committente ha la possibilità di retrocedere e di utilizzare una versione precedente sicuramente funzionante. Essendo però due prodotti quasi pienamente compatibili tra di loro, adottare un approcio di tipo *"Parallel Approach"* determinerebbe un eccessivo spreco di risorse e sarebbe difficilmente gestibile in una reale competizione.
+
+## 7.3. Documentazione del progetto
+
+Per quanto riguarda la documentazione, si fa riferimento alla relativa [sezione](#57-documentazione-e-testing) delineata nella fase di Executing.  
+Documentare il progetto è una delle attività più difficili da completare, spesso anche a causa del senso di frustrazione avvertito da un dipendente nel cimentarsi su questo genere di operazioni. È anche per questa ragione che PunchCode anticipa la scrittura durante lo svolgimento del progetto e si avvale di tecniche di Gamification a tal proposito.  
+In ogni caso ci sono valide ragioni per documentare in modo adeguato un progetto, quali:
+- costruzione di un valido ed importante riferimento per riuscire ad apportare modifiche future a un deliverable o permettere il riuso di alcune sue parti;
+- realizzazione di una sorgente di dati storici per poter effettuare le stime dei tempi, dei costi e dei rischi per le attività dei progetti futuri;
+- ottenimento di una valida risorsa per il training e la crescita professionale di nuovi Project Manager e dei membri interni al team di progetto.
+
+L'insieme di documenti che occorre possedere giunti alla fase di chiusura costituisce il **Project Notebook** (iniziato da PunchCode sin dal primo giorno di progetto). Esso è formato da:
+- POS
+- RBS (comprese tutte le sue revisioni)
+- Proposta di progetto
+- WBS
+- Schedule del progetto: originale (fase di planning) e correzioni
+- Appunti/verbali di tutti i project team meeting
+- Copia di tutti gli status report
+- Documentazione tecnica relativa al design (per manutenzione ed estensione)
+- Eventuali prototipi, sample o mockup realizzati (compresi quelli rifiutati, che potrebbero rispondere alle esigenze di clienti futuri ed essere quindi direttamente utilizzabili)
+- Copia di tutti gli avvisi di modifiche
+- Copia di tutte le comunicazioni scritte
+- Report delle questioni rimaste in sospeso
+- Rapporto finale (che riassume al Senior Management il modo in cui il progetto si è concluso)
+- Documenti di accettazione del committente
+- Rapporto dell'audit post-implementazione (impegni futuri per migliorare a fronte della retrospettiva del progetto)
+
+## 7.4. Post-implementation Audit
+
+Il *Post-implementation Audit* costituisce una verifica di correttezza e rappresenta anche un'occasione utile per svolgere una retrospettiva sull'intero progetto. La sua conduzione è ritenuta fondamentale da PunchCode, che la percepisce come un'attività ad alta priorità.
+
+Durante questo incontro ci si interroga sui risultati raggiunti sia dal punto di vista della *gestione* che del *prodotto*. Tale distinzione è importante dal momento che il Project Management potrebbe essere riuscito perfettamente, ma la soluzione ottenuta per mezzo della gestione potrebbe non essere alla medesima altezza.
+
+A tale scopo, PunchCode prevede la realizzazione di un [Project Closing Report](project_docs/csen_poomsae_score/closing/project_closing_report.pdf) in cui rispondere alle seguenti questioni.
+- Gli obiettivi del progetto sono stati raggiunti?
+  - Il deliverable fa quello che il team aveva previsto?
+  - Il deliverable fa quello che si aspettava il committente?
+- Il progetto è stato completato rispettando i limiti di tempo, budget e rispettando le specifiche?
+- Il committente è soddisfatto del risultato del progetto?
+- Il business value previsto si è concretizzato?
+  - I criteri di successo sono stati rispettati?
+- Che lezione è stata imparata relativamente alla metodologia di gestione del progetto scelta?
+- Come ha seguito la metodologia il team?
+
+Come specificato all'interno del documento, i risultati confrontati con le tempistiche previste al fine di verificare il soddisfacimento dei business value sono ottenute attraverso il calcolo della media su 5 campioni misurati dall'azienda fornitrice (durante le operazioni di collaudo e di testing).
+
+Le spese effettive riportate per riassumere eventuali scostamenti dal pianificato, tengono conto - esattamente come le stime - anche dei costi legati ai dipendenti, ai servizi, ai software, all'hardware e alle risorse.
 
 # 8. Bibliografia
 

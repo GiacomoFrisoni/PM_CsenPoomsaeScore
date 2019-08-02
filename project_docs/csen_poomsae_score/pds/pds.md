@@ -100,7 +100,7 @@
                     <table>
                         <tr>
                             <th rowspan="2">N° giudici</th>
-                            <th align="center">Attuale</th>
+                            <th col="2" colspan="2" align="center">Attuale</th>
                             <th colspan="3" align="center">Desiderato</th>
                         </tr>
                         <tr>
@@ -141,7 +141,7 @@
                     <table>
                         <tr>
                             <th rowspan="2">Range di partecipanti</th>
-                            <th align="center">Attuale</th>
+                            <th col="2" colspan="2" align="center">Attuale</th>
                             <th colspan="3" align="center">Desiderato</th>
                         </tr>
                         <tr>
@@ -182,7 +182,7 @@
                     <table>
                         <tr>
                             <th rowspan="2">Range di partecipanti</th>
-                            <th align="center">Attuale</th>
+                            <th col="2" colspan="2" align="center">Attuale</th>
                             <th colspan="3" align="center">Desiderato</th>
                         </tr>
                         <tr>
@@ -280,6 +280,9 @@
                 </li>
                 <li>
                 La scarsa competenza informatica degli utilizzatori del sistema potrebbe portare a un uso inefficiente di quest'ultimo.
+                </li>
+                <li>
+                La scrittura di test da parte del medesimo dipendente incaricato dello svolgimento del task potrebbe portare a una minor qualità di questi.
                 </li>
                 <li>
                 Il ridotto numero dei dipendenti di PunchCode potrebbe portare non essere sufficiente per affrontare il progetto nei tempi concordati.
