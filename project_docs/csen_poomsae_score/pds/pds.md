@@ -282,6 +282,9 @@
                 La scarsa competenza informatica degli utilizzatori del sistema potrebbe portare a un uso inefficiente di quest'ultimo.
                 </li>
                 <li>
+                La scrittura di test da parte del medesimo dipendente incaricato dello svolgimento del task potrebbe portare a una minor qualità di questi.
+                </li>
+                <li>
                 Il ridotto numero dei dipendenti di PunchCode potrebbe portare non essere sufficiente per affrontare il progetto nei tempi concordati.
                 </li>
                 <li>
