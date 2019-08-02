@@ -731,10 +731,6 @@ Si nota come l'adozione di template separati per le stime di costi e tempi non c
 
 Come già emerso con la stima della durata dei task, si vuole evidenziare come PunchCode non abbia potuto appoggiarsi per questa fase a una consulenza da parte di risorse terze, a causa degli eccessivi costi che ne sarebbero altrimenti scaturiti.
 
-<!--
-Durante l'esecuzione è necessario monitorare e controllare i costi per rilevare e gestire le variazioni rispetto alle stime.
--->
-
 ## 4.8. Project Network Diagram
 
 Dopo aver individuato le attività e dopo aver stimato la loro durata e le risorse assegnate, è necessario collocarle nel tempo e individuare le dipendenze presenti tra esse.
@@ -869,7 +865,18 @@ PunchCode è tenuta a rendicontare - attraverso dei report da rilasciare a CSEN 
 
 Per la verifica del rispetto degli indicatori di qualità contrattuali il Fornitore si impegna a produrre, predisporre ed installare - senza alcun onere aggiuntivo per CSEN - idonei strumenti automatici per la misurazione del software e, ove non possibile, ad effettuare rilevazioni manuali dei parametri da misurare. Tutti i dati rilevati dovranno essere oggetto dei report.
 
-## 4.12. Scelta del Developer Team e del Client Team
+## 4.12. Scelta dei criteri di accettazione
+
+<!--
+Sono le condizioni con cui verificare la chiusura del progetto.
+
+---------------------
+
+Sono il COME verificare che una soluzione soddisfi le conditions of satisfaction.
+A livello pratico si traduce nella scrittura dei test da parte del team. Sono usati per verificare in **CLOSING** la chiusura del progetto.
+-->
+
+## 4.13. Scelta del Developer Team e del Client Team
 
 Antecedentemente alla fase di Launching ed Execution, occorre scegliere anche i membri del *Developer Team* e del *Client Team* (dipendenti aziendali incaricati di interfacciarsi col committente, riceverne i feedback, comunicare a lui gli aggiornamenti, pianificare gli incontri e gestire il suo coinvolgimento col progetto). Preme sottolineare però che, a causa del ridotto numero del personale all'interno della startup, si è scelto di assegnare tali ruoli ad entrambi i dipendenti di PunchCode. Per quanto concerne il team di sviluppo, invece, si escludono cambi di personale e nuove assunzioni. Considerando la ravvicinata data di attivazione del contratto, il Contracted Team sarà pertanto costituito dalle medesime figure.
 
@@ -1174,10 +1181,8 @@ In questo capitolo si riportano gli strumenti, i template e i processi adottati 
 
 ## 7.1. Procedura di accettazione
 
-<!-- Aggiungi i criteri di accettazione nel planning -->
-
 La presenza di una procedura di accettazione da parte del committente - chiara e ben definita - evita che possano sorgere dei fraintendimenti e delle problematiche all'atto di chiusura del progetto.
-Come si è già osservato nella [precedente sezione](), le condizioni con cui verificare la chiusura del progetto (ovvero i **criteri di accettazione**) sono già stati definiti durante la fase di Planning, con la collaborazione del cliente. Alla base di questa scelta vi è anche la necessità di riportare tali condizioni direttamente all'interno del contratto.  
+Come si è già osservato nella [precedente sezione](#412-scelta-dei-criteri-di-accettazione), le condizioni con cui verificare la chiusura del progetto (ovvero i **criteri di accettazione**) sono già stati definiti durante la fase di Planning, con la collaborazione del cliente. Alla base di questa scelta vi è anche la necessità di riportare tali condizioni direttamente all'interno del contratto.  
 In fase di Execution il team si deve accertare che i deliverable prodotti possano soddisfare tali criteri. Inoltre, un collaudo - attentamente studiato (per evitare che il sistema non funzioni dopo il *"go live"*) e svolto con la presenza del cliente - dovrebbe certificare il loro rispetto. Se i deliverable soddisfano i criteri di accettazione, di conseguenza, non dovrebbe accadere che il committente sia insoddisfatto e non approvi la richiesta di chiusura.
 
 Al superamento dell'ultimo collaudo, il progetto è sottoposto all'approvazione del cliente, cui si richiede la sottoscrizione di un apposito documento ([Project Acceptance](project_docs/csen_poomsae_score/closing/project_acceptance.pdf)) attestante il soddisfacimento da parte della soluzione proposta dei vari requisiti stabiliti.
@@ -1225,7 +1230,6 @@ A tale scopo, PunchCode prevede la realizzazione di un [Project Closing Report](
   - Il deliverable fa quello che il team aveva previsto?
   - Il deliverable fa quello che si aspettava il committente?
 - Il progetto è stato completato rispettando i limiti di tempo, budget e rispettando le specifiche?
-- Il committente è soddisfatto del risultato del progetto?
 - Il business value previsto si è concretizzato?
   - I criteri di successo sono stati rispettati?
 - Che lezione è stata imparata relativamente alla metodologia di gestione del progetto scelta?
@@ -1234,6 +1238,12 @@ A tale scopo, PunchCode prevede la realizzazione di un [Project Closing Report](
 Come specificato all'interno del documento, i risultati confrontati con le tempistiche previste al fine di verificare il soddisfacimento dei business value sono ottenute attraverso il calcolo della media su 5 campioni misurati dall'azienda fornitrice (durante le operazioni di collaudo e di testing).
 
 Le spese effettive riportate per riassumere eventuali scostamenti dal pianificato, tengono conto - esattamente come le stime - anche dei costi legati ai dipendenti, ai servizi, ai software, all'hardware e alle risorse.
+
+Il campo dedicato alle lezioni apprese al termine del progetto prevede anche la discussione della metodologia di gestione adottata.
+
+Per [politiche aziendali](#21222-documentazione), l'indice con la documentazione prodotta per il progetto non è riportata all'interno di questo report finale, ma è contenuta nel repository di riferimento (workbook).
+
+La soddisfazione del committente per quanto concerne il risultato del progetto non è discussa all'interno di tale report poichè oggetto di apposita documentazione legata al relativo punto del [piano di qualità](project_docs/csen_poomsae_score/quality_plan/quality_plan.md).
 
 # 8. Bibliografia
 
