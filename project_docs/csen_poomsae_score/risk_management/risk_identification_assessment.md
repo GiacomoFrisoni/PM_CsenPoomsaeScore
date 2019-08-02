@@ -174,7 +174,19 @@
     <td align="center">M</td>
     <td align="center">M</td>
     <td align="center">C</td>
-    <!--Potremmo mitigarlo con corsi di formazione-->
+  </tr>
+  <tr>
+    <td>Proj Mgt</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">X</td>
+    <td align="center">-</td>
+    <td align="center">P08</td>
+    <td>La scrittura di test da parte del medesimo dipendente incaricato dello svolgimento del task potrebbe portare a una minor qualità di questi</td>
+    <td align="center">M</td>
+    <td align="center">M</td>
+    <td align="center">C</td>
   </tr>
   <tr>
     <td>Org</td>

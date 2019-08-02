@@ -100,48 +100,53 @@ Di seguito si trova una matrice di corrispondenza tra gli indicatori di qualità
     <td align="center">X</td>
     <td align="center"></td>
   </tr>
-    <tr>
-    <td>IQ12 - Qualità della documentazione</td>
-    <td align="center">X</td>
-    <td align="center"></td>
-  </tr>
-    <tr>
-    <td>IQ13 - Qualità e utilità meeting</td>
+  <tr>
+    <td>IQ12 - Copertura dei test</td>
     <td align="center">X</td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td>IQ14 - Qualità UX</td>
+    <td>IQ13 - Qualità della documentazione</td>
     <td align="center">X</td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td>IQ15 - Violazioni dell’Incapsulamento da parte di una Classe</td>
+    <td>IQ14 - Qualità e utilità meeting</td>
     <td align="center">X</td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td>IQ16 - Metodi implementati in una Classe</td>
+    <td>IQ15 - Qualità UX</td>
     <td align="center">X</td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td>IQ17 - Grado di coesione dei Metodi di una Classe</td>
+    <td>IQ16 - Violazioni dell’Incapsulamento da parte di una Classe</td>
     <td align="center">X</td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td>IQ18 - Casi recidivi (per area applicativa)</td>
-    <td align="center"></td>
-    <td align="center">X</td>
-  </tr>
-  <tr>
-    <td>IQ19 - Tempo medio di risposta al cliente</td>
+    <td>IQ17 - Metodi implementati in una Classe</td>
     <td align="center">X</td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td>IQ20 - Soddisfazione del committente</td>
+    <td>IQ18 - Grado di coesione dei Metodi di una Classe</td>
+    <td align="center">X</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>IQ19 - Casi recidivi (per area applicativa)</td>
+    <td align="center"></td>
+    <td align="center">X</td>
+  </tr>
+  <tr>
+    <td>IQ20 - Tempo medio di risposta al cliente</td>
+    <td align="center">X</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>IQ21 - Soddisfazione del committente</td>
     <td align="center">X</td>
     <td align="center"></td>
   </tr>
@@ -1007,7 +1012,78 @@ Qualora l'obiettivo includa l'uso di più linguaggi, l'indicatore si utilizza su
 
 ------------
 
-#### 2.3.3 IQ12 - Qualità della documentazione
+#### 2.3.3 IQ12 - Copertura dei test
+
+<table>
+  <tr>
+    <th align="left">Caratteristica</th>
+    <td align="left">Manutenibilità</th>
+    <th align="left">Sottocaratteristica</th>
+    <td align="left">Modificabilità</th>
+  </tr>
+  <tr>
+    <th align="left">Aspetto da valutare</th>
+    <td align="left" colspan="3">Copertura dei test sul codice complessivo</td>
+  </tr>
+  <tr>
+    <th align="left">Unità di misura</th>
+    <td align="left">Valore percentuale</th>
+    <th align="left">Fonte dati</th>
+    <td align="left">Risultati dei tool di coverage</th>
+  </tr>
+  <tr>
+    <th align="left">Periodo di riferimento</th>
+    <td align="left">Durata della fase di realizzazione dell'obiettivo</th>
+    <th align="left">Frequenza di misurazione</th>
+    <td align="left">Al completamento di ogni task</i></th>
+  </tr>
+  <tr>
+    <th align="left">Dati da rilevare</th>
+    <td align="left" colspan="3">
+        <ul>
+            <li>Copertura percentuale dei test (<i>TestCoverage</i>)</li>
+        </ul>
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Regole di campionamento</th>
+    <td align="left" colspan="3">Vanno considerati tutti i moduli software nuovi scritti in linguaggio C# / Java</td>
+  </tr>
+  <tr>
+    <th align="left">Formula</th>
+    <td align="left" colspan="3">
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;IQ12&space;=&space;TestCoverage" title="IQ12 = TestCoverage" />
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Regole di arrotondamento</th>
+    <td align="left" colspan="3">
+      Il risultato della misura va arrotondato:<br/>
+      - per difetto se la prima cifra decimale è <= 0,05<br/>
+      - per eccesso se la prima cifra decimale è > 0,05
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Valore di soglia</th>
+    <td colspan="3">
+      IQ12 >= 70%
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Azioni contrattuali</th>
+    <td align="left" colspan="3">Rilievo sull'obiettivo nel caso di non rispetto del valore di soglia</td>
+  </tr>
+  <tr>
+    <th align="left">Eccezioni</th>
+    <td align="left" colspan="3">Nessuna</td>
+  </tr>
+</table>
+
+<br/>
+
+------------
+
+#### 2.3.4 IQ13 - Qualità della documentazione
 
 Grazie all'uso della Gamification si possono ottenere feedback sulla documentazione svolta dai dipendenti.
 
@@ -1050,7 +1126,7 @@ Grazie all'uso della Gamification si possono ottenere feedback sulla documentazi
   <tr>
     <th align="left">Formula</th>
     <td align="left" colspan="3">
-      <img src="https://latex.codecogs.com/gif.latex?\inline&space;IQ12&space;=&space;\frac{\sum_{i=1}^{Ndoc}{Val\_doc_i}}{Ndoc}" title="IQ12 = \frac{\sum_{i=1}^{Ndoc}{Val\_doc_i}}{Ndoc}" />
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;IQ13&space;=&space;\frac{\sum_{i=1}^{Ndoc}{Val\_doc_i}}{Ndoc}" title="IQ13 = \frac{\sum_{i=1}^{Ndoc}{Val\_doc_i}}{Ndoc}" />
     </td>
   </tr>
   <tr>
@@ -1064,7 +1140,7 @@ Grazie all'uso della Gamification si possono ottenere feedback sulla documentazi
   <tr>
     <th align="left">Valore di soglia</th>
     <td colspan="3">
-      IQ12 >= 3.7
+      IQ13 >= 3.7
     </td>
   </tr>
   <tr>
@@ -1081,7 +1157,7 @@ Grazie all'uso della Gamification si possono ottenere feedback sulla documentazi
 
 ------------
 
-#### 2.3.4 IQ13 - Qualità e utilità meeting
+#### 2.3.5 IQ14 - Qualità e utilità meeting
 
 L'indicatore ha l'obiettivo di valutare la qualità e l'utilità dei meeting organizzati, basandosi sulle autovalutazioni prodotte dai partecipanti al termine di ogni incontro. Nel far ciò si considerano le domande booleane (YES/NO) nei questionari conclusivi (in numero potenzialmente diverso sulla base della tipologia di meeting), ricordando come le risposte "YES" siano sempre associate a caratteristiche positive del meeting in esame.
 
@@ -1126,7 +1202,7 @@ L'indicatore ha l'obiettivo di valutare la qualità e l'utilità dei meeting org
   <tr>
     <th align="left">Formula</th>
     <td align="left" colspan="3">
-      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ13&space;=&space;\left&space;(&space;\frac{\sum_{i=1}^{Nmeeting}{\sum_{j=1}^{Npartecipanti_i}{\frac{Nyes_ij}{Ndomi}}}}{Nmeeting}&space;\right&space;)&space;\times&space;100" title="IQ13 = \left ( \frac{\sum_{i=1}^{Nmeeting}{\sum_{j=1}^{Npartecipanti_i}{\frac{Nyes_ij}{Ndomi}}}}{Nmeeting} \right ) \times 100" />
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ14&space;=&space;\left&space;(&space;\frac{\sum_{i=1}^{Nmeeting}{\sum_{j=1}^{Npartecipanti_i}{\frac{Nyes_ij}{Ndomi}}}}{Nmeeting}&space;\right&space;)&space;\times&space;100" title="IQ14 = \left ( \frac{\sum_{i=1}^{Nmeeting}{\sum_{j=1}^{Npartecipanti_i}{\frac{Nyes_ij}{Ndomi}}}}{Nmeeting} \right ) \times 100" />
     </td>
   </tr>
   <tr>
@@ -1140,7 +1216,7 @@ L'indicatore ha l'obiettivo di valutare la qualità e l'utilità dei meeting org
   <tr>
     <th align="left">Valore di soglia</th>
     <td colspan="3">
-      IQ13 >= 70%
+      IQ14 >= 70%
     </td>
   </tr>
   <tr>
@@ -1157,7 +1233,7 @@ L'indicatore ha l'obiettivo di valutare la qualità e l'utilità dei meeting org
 
 ------------
 
-#### 2.3.5 IQ14 - Qualità UX
+#### 2.3.6 IQ15 - Qualità UX
 
 L'indicatore ha l'obiettivo di valutare la qualità dell'UX, basandosi sulle valutazioni rilasciate per mezzo degli specifici questionari rivolti agli utenti delle varie applicazioni. Nel far ciò si considerano solo i dati della soluzione finale e non quelli legati a soluzioni passate, pesando ogni punteggio espresso con un peso legato all'importanza del caso d'uso cui si riferisce.
 
@@ -1217,7 +1293,7 @@ L'indicatore ha l'obiettivo di valutare la qualità dell'UX, basandosi sulle val
   <tr>
     <th align="left">Formula</th>
     <td align="left" colspan="3">
-      <img src="https://latex.codecogs.com/gif.latex?\inline&space;IQ14&space;=&space;\left&space;(&space;\frac{&space;\sum_{i=1}^{Nquestionari}{&space;\frac{\sum_{j=1}^{Nvalutazioni_i}{valutazione_ij&space;\times&space;peso_ij}}{\sum_{k=1}^{Nvalutazioni_i}{peso_ik}}}&space;}&space;{Nquestionari}&space;\right&space;)&space;\times&space;10" title="IQ14 = \left ( \frac{ \sum_{i=1}^{Nquestionari}{ \frac{\sum_{j=1}^{Nvalutazioni_i}{valutazione_ij \times peso_ij}}{\sum_{k=1}^{Nvalutazioni_i}{peso_ik}}} } {Nquestionari} \right ) \times 10" />
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;IQ15&space;=&space;\left&space;(&space;\frac{&space;\sum_{i=1}^{Nquestionari}{&space;\frac{\sum_{j=1}^{Nvalutazioni_i}{valutazione_ij&space;\times&space;peso_ij}}{\sum_{k=1}^{Nvalutazioni_i}{peso_ik}}}&space;}&space;{Nquestionari}&space;\right&space;)&space;\times&space;10" title="IQ15 = \left ( \frac{ \sum_{i=1}^{Nquestionari}{ \frac{\sum_{j=1}^{Nvalutazioni_i}{valutazione_ij \times peso_ij}}{\sum_{k=1}^{Nvalutazioni_i}{peso_ik}}} } {Nquestionari} \right ) \times 10" />
     </td>
   </tr>
   <tr>
@@ -1231,7 +1307,7 @@ L'indicatore ha l'obiettivo di valutare la qualità dell'UX, basandosi sulle val
   <tr>
     <th align="left">Valore di soglia</th>
     <td colspan="3">
-      IQ14 >= 75%
+      IQ15 >= 75%
     </td>
   </tr>
   <tr>
@@ -1254,7 +1330,7 @@ L'indicatore ha l'obiettivo di valutare la qualità dell'UX, basandosi sulle val
 
 Gli indicatori di seguito elencati, relativi ai soli obiettivi sviluppati in modalità object oriented, si applicano in aggiunta ai precedenti di cui ai paragrafi da 3.1 a 3.3.
 
-#### 2.4.1 IQ15 - Violazioni dell’Incapsulamento da parte di una Classe
+#### 2.4.1 IQ16 - Violazioni dell’Incapsulamento da parte di una Classe
 
 La metrica, applicata in maniera analitica ad ogni Classe dell’obiettivo contrattuale, consente di stabilire se è rispettato il paradigma Object  Oriented dell’incapsulamento poiché rileva il numero dei metodi che accedono a dati definiti in un’altra Classe che sono una violazione di questo paradigma. La violazione dell’incapsulamento peggiora la manutenibilità del codice stesso, in quanto una modifica della definizione di uno dei suddetti dati, comporta un impatto su tutte le Classi che accedono a quel dato.
 
@@ -1295,7 +1371,7 @@ La metrica, applicata in maniera analitica ad ogni Classe dell’obiettivo contr
   </tr>
   <tr>
     <th align="left">Formula</th>
-    <td align="left" colspan="3"><i>IQ15 = Pub_data</i></td>
+    <td align="left" colspan="3"><i>IQ16 = Pub_data</i></td>
   </tr>
   <tr>
     <th align="left">Regole di arrotondamento</th>
@@ -1303,7 +1379,7 @@ La metrica, applicata in maniera analitica ad ogni Classe dell’obiettivo contr
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td colspan="3">IQ15 = 0</td>
+    <td colspan="3">IQ16 = 0</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
@@ -1321,7 +1397,7 @@ La metrica, applicata in maniera analitica ad ogni Classe dell’obiettivo contr
 
 <br/>
 
-#### 2.4.2 IQ16 - Metodi implementati in una Classe
+#### 2.4.2 IQ17 - Metodi implementati in una Classe
 
 Questa metrica va applicata ad ogni Classe dell'obiettivo contrattuale ed effettua il conteggio dei metodi che è una prima misura della complessità di una Classe. Troppi metodi rendono la Classe di difficile comprensione e incrementano il rischio di errori a fronte di una modifica. Inoltre un numero elevato di metodi incoraggia il "coupling" tra le Classi, diminuendo la manutenibilità del software.
 
@@ -1362,7 +1438,7 @@ Questa metrica va applicata ad ogni Classe dell'obiettivo contrattuale ed effett
   </tr>
   <tr>
     <th align="left">Formula</th>
-    <td align="left" colspan="3"><i>IQ16 = NMC</i></td>
+    <td align="left" colspan="3"><i>IQ17 = NMC</i></td>
   </tr>
   <tr>
     <th align="left">Regole di arrotondamento</th>
@@ -1370,7 +1446,7 @@ Questa metrica va applicata ad ogni Classe dell'obiettivo contrattuale ed effett
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td colspan="3">IQ16 <= 16</td>
+    <td colspan="3">IQ17 <= 16</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
@@ -1390,7 +1466,7 @@ Questa metrica va applicata ad ogni Classe dell'obiettivo contrattuale ed effett
 
 <br/>
 
-#### 2.4.3 IQ17 - Grado di coesione dei Metodi di una Classe
+#### 2.4.3 IQ18 - Grado di coesione dei Metodi di una Classe
 
 Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quantifica la Coesione dei Metodi di una Classe. Valori elevati indicano un migliore disegno delle Classi, mentre, valori bassi indicano un incremento della complessità sino a risultare procedurale e non di tipo OO. La metrica deve essere usata per aiutare a determinare se la numerosità delle funzioni esplicate dalla Classe è giustificata, in relazione alla complessità della Classe stessa.
 
@@ -1434,7 +1510,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
   <tr>
     <th align="left">Formula</th>
     <td align="left" colspan="3">
-      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ17&space;=&space;\left&space;(&space;1&space;-&space;\frac{\sum_{j=1}^{A}{m_j}}{M&space;\times&space;A}&space;\right&space;)&space;\times&space;100" title="IQ17 = \left ( 1 - \frac{\sum_{j=1}^{A}{m_j}}{M \times A} \right ) \times 100" />
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ18&space;=&space;\left&space;(&space;1&space;-&space;\frac{\sum_{j=1}^{A}{m_j}}{M&space;\times&space;A}&space;\right&space;)&space;\times&space;100" title="IQ18 = \left ( 1 - \frac{\sum_{j=1}^{A}{m_j}}{M \times A} \right ) \times 100" />
     </td>
   </tr>
   <tr>
@@ -1447,7 +1523,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td colspan="3">IQ17 >= 75%</td>
+    <td colspan="3">IQ18 >= 75%</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
@@ -1469,7 +1545,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
 
 ## 3 INDICATORI DI QUALITÀ DEL SERVIZIO DI MANUTENZIONE CORRETTIVA
 
-#### 3.1 IQ18 - Casi recidivi (per area applicativa)
+#### 3.1 IQ19 - Casi recidivi (per area applicativa)
 
 <table>
   <tr>
@@ -1508,7 +1584,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
   </tr>
   <tr>
     <th align="left">Formula</th>
-    <td align="left" colspan="3"><i>IQ18 = Ncasi_recidivi</i></td>
+    <td align="left" colspan="3"><i>IQ19 = Ncasi_recidivi</i></td>
   </tr>
   <tr>
     <th align="left">Regole di arrotondamento</th>
@@ -1516,7 +1592,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td colspan="3">IQ18 = 2</td>
+    <td colspan="3">IQ19 = 2</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
@@ -1536,7 +1612,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
 
 ## 4 INDICATORI DI QUALITÀ DEL SERVIZIO DI GESTIONE APPLICATIVA
 
-#### 4.1 IQ19 - Tempo medio di risposta al cliente
+#### 4.1 IQ20 - Tempo medio di risposta al cliente
 
 <table>
   <tr>
@@ -1578,7 +1654,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
   <tr>
     <th align="left">Formula</th>
     <td align="left" colspan="3">
-      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ19&space;=&space;\frac{\sum_{j=1}^{Ntotale\_richieste}{(Data\_risposta_j&space;-&space;Data\_ricezione_j)}}{Ntotale\_richieste}" title="IQ19 = \frac{\sum_{j=1}^{Ntotale\_richieste}{(Data\_risposta_j - Data\_ricezione_j)}}{Ntotale\_richieste}" />
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ20&space;=&space;\frac{\sum_{j=1}^{Ntotale\_richieste}{(Data\_risposta_j&space;-&space;Data\_ricezione_j)}}{Ntotale\_richieste}" title="IQ20 = \frac{\sum_{j=1}^{Ntotale\_richieste}{(Data\_risposta_j - Data\_ricezione_j)}}{Ntotale\_richieste}" />
     </td>
   </tr>
   <tr>
@@ -1591,7 +1667,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td colspan="3">IQ19 <= 3h</td>
+    <td colspan="3">IQ20 <= 3h</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>
@@ -1611,7 +1687,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
 
 ## 5 INDICATORI DI QUALITÀ APPLICABILI A TUTTI I SERVIZI DELLA FORNITURA
 
-#### 5.1 IQ20 - Soddisfazione del committente
+#### 5.1 IQ21 - Soddisfazione del committente
 
 <table>
   <tr>
@@ -1663,7 +1739,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
   <tr>
     <th align="left">Formula</th>
     <td align="left" colspan="3">
-      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ20&space;=&space;\sum_{i&space;=&space;1}^{Nquestionari}{\frac{Nrisposte\_pos_i}{Ndomande_i}}\times&space;100" title="IQ20 = \sum_{i = 1}^{Nquestionari}{\frac{Nrisposte\_pos_i}{Ndomande_i}}\times 100" />
+      <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;IQ21&space;=&space;\sum_{i&space;=&space;1}^{Nquestionari}{\frac{Nrisposte\_pos_i}{Ndomande_i}}\times&space;100" title="IQ21 = \sum_{i = 1}^{Nquestionari}{\frac{Nrisposte\_pos_i}{Ndomande_i}}\times 100" />
     </td>
   </tr>
   <tr>
@@ -1676,7 +1752,7 @@ Questa metrica va applicata ad ogni Classe dell’obiettivo contrattuale e quant
   </tr>
   <tr>
     <th align="left">Valore di soglia</th>
-    <td colspan="3">IQ20 >= 70%</td>
+    <td colspan="3">IQ21 >= 70%</td>
   </tr>
   <tr>
     <th align="left">Azioni contrattuali</th>

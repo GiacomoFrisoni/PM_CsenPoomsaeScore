@@ -112,6 +112,18 @@
     <td>-</td>
   </tr>
   <tr>
+    <!-- test svolti dallo stesso autore del task -->
+    <td align="center">P08</td>
+    <td>
+        <ul>
+            <li>Utilizzo di tool di coverage per verificare una copertura dei test sul codice superiore a una certa soglia percentuale.</li>
+            <li>Uso di tecniche di gamification per incentivare i dipendenti a controllare l'operato degli altri membri del team.</li>
+            <li>Verifica della copertura dei test sui casi d'uso delineati per stimare il completamento percentuale di un'attività e ottenuti per mezzo di un'esplosione del task operata dal dipendente assegnato a esso.</li>
+        </ul>
+    </td>
+    <td>-</td>
+  </tr>
+  <tr>
     <!-- ridotto numero dei dipendenti -->
     <td align="center">O01</td>
     <td>
