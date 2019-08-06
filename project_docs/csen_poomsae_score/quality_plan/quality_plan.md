@@ -3,6 +3,8 @@
 ## INDICE <!-- omit in toc -->
 
 - [1 QUADRO RIEPILOGATIVO DEGLI INDICATORI DI QUALITÀ](#1-quadro-riepilogativo-degli-indicatori-di-qualit%c3%80)
+  
+- [1 QUADRO RIEPILOGATIVO DEGLI INDICATORI DI QUALITÀ](#1-quadro-riepilogativo-degli-indicatori-di-qualit%c3%80)
 - [2 INDICATORI DI QUALITÀ DI OBIETTIVO](#2-indicatori-di-qualit%c3%80-di-obiettivo)
   - [2.1 Indicatori di qualità applicabili a tutti gli obiettivi](#21-indicatori-di-qualit%c3%a0-applicabili-a-tutti-gli-obiettivi)
     - [2.1.1 IQ01 - Slittamento nell'esecuzione dell'obiettivo](#211-iq01---slittamento-nellesecuzione-dellobiettivo)
@@ -30,6 +32,15 @@
     - [3.1 IQ19 - Casi recidivi (per area applicativa)](#31-iq19---casi-recidivi-per-area-applicativa)
 - [4 INDICATORI DI QUALITÀ DEL SERVIZIO DI GESTIONE APPLICATIVA](#4-indicatori-di-qualit%c3%80-del-servizio-di-gestione-applicativa)
     - [4.1 IQ20 - Tempo medio di risposta al cliente](#41-iq20---tempo-medio-di-risposta-al-cliente)
+- [5 INDICATORI DI QUALITÀ APPLICABILI A TUTTI I SERVIZI DELLA FORNITURA](#5-indicatori-di-qualit%c3%80-applicabili-a-tutti-i-servizi-della-fornitura)
+    - [5.1 IQ21 - Soddisfazione del committente](#51-iq21---soddisfazione-del-committente)
+  
+- [3 INDICATORI DI QUALITÀ DEL SERVIZIO DI MANUTENZIONE CORRETTIVA](#3-indicatori-di-qualit%c3%80-del-servizio-di-manutenzione-correttiva)
+    - [3.1 IQ19 - Casi recidivi (per area applicativa)](#31-iq19---casi-recidivi-per-area-applicativa)
+  
+- [4 INDICATORI DI QUALITÀ DEL SERVIZIO DI GESTIONE APPLICATIVA](#4-indicatori-di-qualit%c3%80-del-servizio-di-gestione-applicativa)
+    - [4.1 IQ20 - Tempo medio di risposta al cliente](#41-iq20---tempo-medio-di-risposta-al-cliente)
+  
 - [5 INDICATORI DI QUALITÀ APPLICABILI A TUTTI I SERVIZI DELLA FORNITURA](#5-indicatori-di-qualit%c3%80-applicabili-a-tutti-i-servizi-della-fornitura)
     - [5.1 IQ21 - Soddisfazione del committente](#51-iq21---soddisfazione-del-committente)
 
