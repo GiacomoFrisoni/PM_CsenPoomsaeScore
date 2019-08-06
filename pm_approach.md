@@ -121,65 +121,64 @@ Per una facile esplorazione del repository, si riporta nel seguente elenco tutta
 ### 1.1.1. Documentazione delle aziende
 
  - **Documenti fornitore**
-   - Startup Team Skills, in formato [testuale](project_docs/startup_team_skills/startup_team_skills.md) e come grafico ([pre skills](project_docs/startup_team_skills/pre_skills_radar_chart.png) e [pro skills](project_docs/startup_team_skills/pro_skills_radar_chart.png));
-   - [Project Classification](project_docs/project_classification/project_classification.md) - classificazione dei progetti secondo l'azienda;
-   - [Request Acknowledge Template](project_docs/request_acknowledge_template/request_acknowledge_template.md) - documento aziendale inviato al committente per confermare una sua richiesta;
+   - Startup Team Skills, in formato [tabellare](project_docs/startup_team_skills/startup_team_skills.md) e come grafico ([pre skills](project_docs/startup_team_skills/pre_skills_radar_chart.png) e [pro skills](project_docs/startup_team_skills/pro_skills_radar_chart.png))
+   - [Project Classification](project_docs/project_classification/project_classification.md) - classificazione dei progetti secondo l'azienda
+   - [Request Acknowledge Template](project_docs/request_acknowledge_template/request_acknowledge_template.md) - documento aziendale inviato al committente per confermare una sua richiesta
   
 - **Documenti committente**
-  - [Calendario](project_docs/csen_poomsae_score/project_scoping_meeting/session_18_03_19_res/csen_competitions_dates.pdf) delle competizioni.
+  - [Calendario](project_docs/csen_poomsae_score/project_scoping_meeting/session_18_03_19_res/csen_competitions_dates.pdf) delle competizioni
 
 ### 1.1.2. Documentazione del progetto 
 - **Scoping**
   - Project Scoping Meeting
     - 5 sessioni, aventi ognuno un proprio template e cartella risorse
-      - 11/03/2019 - introduzione al progetto - ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_11_03_19.md), [risorse](project_docs/csen_poomsae_score/project_scoping_meeting/session_11_03_19_res));
-      - 14/03/2019 - discussione della prima parte (tablet) ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_14_03_19.md), [risorse](project_docs/csen_poomsae_score/project_scoping_meeting/session_14_03_19_res));
-      - 18/03/2019 - discussione della seconda parte (quadrato) ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_18_03_19.md), [risorse](project_docs/csen_poomsae_score/project_scoping_meeting/session_18_03_19_res));
-      - 22/03/2019 - discussione della terza parte (server) ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_22_03_19.md), [risorse](project_docs/csen_poomsae_score/project_scoping_meeting/session_22_03_19_res));
-      - 01/04/2019 - scelta approcio, pos, budget, tempistiche ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_01_04_19.md));
-    - Esempio di [sessione compilata](project_docs/csen_poomsae_score/project_scoping_meeting/session_11_03_19_marcin_pabich.md) da Marcin Pabich, del 11/03/2019;
-    - [Descrizione del progetto](project_docs/csen_poomsae_score/project_scoping_meeting/project_description.md);
+      - 11/03/2019 - introduzione al progetto - ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_11_03_19.md), [risorse](project_docs/csen_poomsae_score/project_scoping_meeting/session_11_03_19_res))
+      - 14/03/2019 - discussione della prima parte (tablet) ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_14_03_19.md), [risorse](project_docs/csen_poomsae_score/project_scoping_meeting/session_14_03_19_res))
+      - 18/03/2019 - discussione della seconda parte (quadrato) ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_18_03_19.md), [risorse](project_docs/csen_poomsae_score/project_scoping_meeting/session_18_03_19_res))
+      - 22/03/2019 - discussione della terza parte (server) ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_22_03_19.md), [risorse](project_docs/csen_poomsae_score/project_scoping_meeting/session_22_03_19_res))
+      - 01/04/2019 - scelta approcio, pos, budget, tempistiche ([template](project_docs/csen_poomsae_score/project_scoping_meeting/session_01_04_19.md))
+    - Esempio di [sessione compilata](project_docs/csen_poomsae_score/project_scoping_meeting/session_11_03_19_marcin_pabich.md) da Marcin Pabich, del 11/03/2019
+    - [Descrizione del progetto](project_docs/csen_poomsae_score/project_scoping_meeting/project_description.md)
 
   - Resources Breakdown Structure (RBS)
-    - Esempio di [intervista](project_docs/csen_poomsae_score/rbs/interview_26_03_19.md);
-    - RBS in formato [Visual Paradigm (.vpp)](project_docs/csen_poomsae_score/rbs/rbs.vpp) e come [immagine](project_docs/csen_poomsae_score/rbs/rbs.png);
+    - Esempio di [intervista](project_docs/csen_poomsae_score/rbs/interview_26_03_19.md)
+    - RBS in formato [Visual Paradigm (.vpp)](project_docs/csen_poomsae_score/rbs/rbs.vpp) e come [immagine](project_docs/csen_poomsae_score/rbs/rbs.png)
 
-
-  - [Project Overview Statement (POS)](project_docs/csen_poomsae_score/pos/pos.md);
+  - [Project Overview Statement (POS)](project_docs/csen_poomsae_score/pos/pos.md)
 
 - **Planning**
   - Joint Project Planning Session
-    -  08/04/2019 - [agenda sessione 1](project_docs/csen_poomsae_score/joint_project_planning_session/session_08_04_19.md);
-    - 09/04/2019 - [agenda sessione 2](project_docs/csen_poomsae_score/joint_project_planning_session/session_09_04_19.md);
-    - 10/04/2019 - [agenda sessione 3](project_docs/csen_poomsae_score/joint_project_planning_session/session_10_04_19.md);
+    -  08/04/2019 - [agenda sessione 1](project_docs/csen_poomsae_score/joint_project_planning_session/session_08_04_19.md)
+    - 09/04/2019 - [agenda sessione 2](project_docs/csen_poomsae_score/joint_project_planning_session/session_09_04_19.md)
+    - 10/04/2019 - [agenda sessione 3](project_docs/csen_poomsae_score/joint_project_planning_session/session_10_04_19.md)
   
   - Work Breakdown Structure (WBS)
-    - WBS iniziale, in formato [Visual Paradigm (.vpp)](project_docs/csen_poomsae_score/wbs/wbs.vpp) e come  [immagine](project_docs/csen_poomsae_score/wbs/wbs.png);
-    - WBS definitiva, in formato [Visual Paradigm (.vpp)](project_docs/csen_poomsae_score/wbs/final_wbs.vpp) e come [immagine](project_docs/csen_poomsae_score/wbs/final_wbs.png);
-    - [File integrativo](project_docs/csen_poomsae_score/wbs/final_wbs.md) contenenti le descrizioni delle singole attività;
+    - WBS iniziale, in formato [Visual Paradigm (.vpp)](project_docs/csen_poomsae_score/wbs/wbs.vpp) e come  [immagine](project_docs/csen_poomsae_score/wbs/wbs.png)
+    - WBS definitiva, in formato [Visual Paradigm (.vpp)](project_docs/csen_poomsae_score/wbs/final_wbs.vpp) e come [immagine](project_docs/csen_poomsae_score/wbs/final_wbs.png)
+    - [File integrativo](project_docs/csen_poomsae_score/wbs/final_wbs.md) contenenti le descrizioni delle singole attività
 
-  - [Task Prioritizations](project_docs/csen_poomsae_score/wbs/task_prioritizations.md) - assegnazione delle priorità ai task;
+  - [Task Prioritizations](project_docs/csen_poomsae_score/wbs/task_prioritizations.md) - assegnazione delle priorità ai task
 
   - Stime delle risorse e del tempo
-    - [Need inventory](project_docs/csen_poomsae_score/staff_skills_assignments/needs_inventory.md);
-    - [Skills inventory](project_docs/startup_team_skills/startup_team_skills.md);
-    - [Staff assignment](project_docs/csen_poomsae_score/staff_skills_assignments/staff_assignment.md);
-    - [Stime durata dei task](project_docs/csen_poomsae_score/task_duration_estimation/task_duration_estimation.md);
+    - [Need inventory](project_docs/csen_poomsae_score/staff_skills_assignments/needs_inventory.md)
+    - [Skills inventory](project_docs/startup_team_skills/startup_team_skills.md)
+    - [Staff assignment](project_docs/csen_poomsae_score/staff_skills_assignments/staff_assignment.md)
+    - [Stime durata dei task](project_docs/csen_poomsae_score/task_duration_estimation/task_duration_estimation.md)
   
   - [Project Network Diagram](project_docs/csen_poomsae_score/project_network_diagram/)
-    - PND [non ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/pnd_not_optimized.mpp) e [ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/pnd_optimized.mpp), in formato Microsoft Project;
-    - Gantt [non ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/gantt_not_optimized.gif) e [ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/gantt_optimized.gif), in formato immagine;
-    - Critical Path [non ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/critical_path_not_optimized.gif) e [ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/critical_path_optimized.gif), in formato immagine;
+    - PND [non ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/pnd_not_optimized.mpp) e [ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/pnd_optimized.mpp), in formato Microsoft Project
+    - Gantt [non ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/gantt_not_optimized.gif) e [ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/gantt_optimized.gif), in formato immagine
+    - Critical Path [non ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/critical_path_not_optimized.gif) e [ottimizzato](project_docs/csen_poomsae_score/project_network_diagram/critical_path_optimized.gif), in formato immagine
   
   - Rischi
-    - [Analisi dei rischi](project_docs/csen_poomsae_score/risk_management/risk_identification_assessment.md);
-    - [Risk Matrix](project_docs/csen_poomsae_score/risk_management/qualitative_risk_assessment.md);
-    - [Risk Mitigation Planning](project_docs/csen_poomsae_score/risk_management/risk_mitigation_planning.md);
+    - [Analisi dei rischi](project_docs/csen_poomsae_score/risk_management/risk_identification_assessment.md)
+    - [Risk Matrix](project_docs/csen_poomsae_score/risk_management/qualitative_risk_assessment.md)
+    - [Risk Mitigation Planning](project_docs/csen_poomsae_score/risk_management/risk_mitigation_planning.md)
   
-  - [Project Definition Statement (PDS)](project_docs/csen_poomsae_score/pds/pds.md);
+  - [Project Definition Statement (PDS)](project_docs/csen_poomsae_score/pds/pds.md)
 
   - [Quality Plan](project_docs/csen_poomsae_score/quality_plan/quality_plan.md);
-    - Esempio di un [sondaggio](project_docs/csen_poomsae_score/quality_plan/ux_evaluation_16_08_19_mario_rossi.md) effettuato per valutare la User Experience;
+    - Esempio di un [sondaggio](project_docs/csen_poomsae_score/quality_plan/ux_evaluation_16_08_19_mario_rossi.md) effettuato per valutare la User Experience
 
 - **Launching / Executing**
   - [Problem Solving Template](project_docs/csen_poomsae_score/operating_rules/problem_solving_template.md)
