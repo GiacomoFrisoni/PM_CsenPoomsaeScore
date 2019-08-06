@@ -177,8 +177,10 @@ Per una facile esplorazione del repository, si riporta nel seguente elenco tutta
   
   - [Project Definition Statement (PDS)](project_docs/csen_poomsae_score/pds/pds.md)
 
-  - [Quality Plan](project_docs/csen_poomsae_score/quality_plan/quality_plan.md);
+  - [Quality Plan](project_docs/csen_poomsae_score/quality_plan/quality_plan.md)
     - Esempio di un [sondaggio](project_docs/csen_poomsae_score/quality_plan/ux_evaluation_16_08_19_mario_rossi.md) effettuato per valutare la User Experience
+
+  - [Acceptance Criteria](project_docs/csen_poomsae_score/acceptance_criteria/acceptance_criteria.md)
 
 - **Launching / Executing**
   - [Problem Solving Template](project_docs/csen_poomsae_score/operating_rules/problem_solving_template.md)
@@ -194,7 +196,8 @@ Per una facile esplorazione del repository, si riporta nel seguente elenco tutta
   - [Issues Log](project_docs/csen_poomsae_score/issues_log/issues_log.md)
 
 - **Chiusura del progetto**
-  - [Acceptance Criteria](project_docs/csen_poomsae_score/acceptance_criteria/acceptance_criteria.md)
+  - [Project Acceptance](project_docs/csen_poomsae_score/closing/project_acceptance.pdf)
+  - [Project Closing Report](project_docs/csen_poomsae_score/closing/project_closing_report.pdf)
 
 [//]: # (-------------------------------------------------------------------------)
 
@@ -572,7 +575,7 @@ Si giunge così alla costruzione del [Project Network Diagram](project_docs/csen
 ### 4.1.3. Sessione #3
 Alla terza sessione prendono parte gli stessi partecipanti della seconda.
 
-L'obiettivo principale dell'incontro riguarda l'identificazione dei [rischi](project_docs/csen_poomsae_score/risk_management/risk_identification_assessment.png), la loro valutazione e l'individuazione di eventuali piani di mitigazione (valutando alternative e soluzioni per eliminare o ridurre le perdite).
+L'obiettivo principale dell'incontro riguarda l'identificazione dei [rischi](project_docs/csen_poomsae_score/risk_management/risk_identification_assessment.md), la loro valutazione e l'individuazione di eventuali piani di mitigazione (valutando alternative e soluzioni per eliminare o ridurre le perdite).
 La gestione del rischio costituisce un argomento fondamentale e può rivelarsi anche molto complessa. Una non corretta individuazione dei rischi in fase di Planning potrebbe portare a scontrarsi con problematiche più o meno gravi durante le successive fasi del ciclo di vita del progetto (non prevedendo eventi con conseguenze negative sul progetto stesso o compiendo errori nella valutazione del loro impatto). Sotto quest'ultimo punto di vista, occorre anche osservare come una sovrastima dell'impatto di un rischio possa determinare l'inserimento di complessità non necessaria in termini di monitoraggio e controllo, capace di rendere difficoltosa la gestione del progetto e di far lievitare al tempo stesso anche budget e tempistiche.
 
 La fase successiva riguarda l'ottenimento dell'approvazione da parte di tutti i partecipanti sui contenuti del piano (facendo emergere eventuali perplessità). Ciò è molto importante in quanto una volta arrivati a questo punto eventuali modifiche si ripercuoteranno su un gran numero di attività. 
@@ -655,7 +658,7 @@ La prioritizzazione è stata utilizzata nella stesura del Project Network Diagra
 
 ## 4.5. Stima delle risorse necessarie
 
-La stima delle risorse che potrebbero essere necessarie all'esecuzione dei task rappresenta un passaggio essenziale per la buona riuscita del progetto. Col termine "risorse" non si fa riferimento alle sole persone fisiche, ma anche alle facility, all'attrezzatura, ai materiali e al costo. Nei paragrafi di seguito proposti ci si focalizza tuttavia sui soli processi legati all'assegnamento delle risorse umane ai task (la stima dei costi sarà discussa in una [successiva sezione](#46-stima-dei-costi)).  
+La stima delle risorse che potrebbero essere necessarie all'esecuzione dei task rappresenta un passaggio essenziale per la buona riuscita del progetto. Col termine "risorse" non si fa riferimento alle sole persone fisiche, ma anche alle facility, all'attrezzatura, ai materiali e al costo. Nei paragrafi di seguito proposti ci si focalizza tuttavia sui soli processi legati all'assegnamento delle risorse umane ai task (la stima dei costi sarà discussa in una [successiva sezione](#47-corrispettivo-e-stima-dei-costi)).  
 PunchCode sceglie pertanto di stimare prima le risorse in termini di personale da assegnare alle varie attività e soltanto dopo la durata dei task in funzione di esse. Questa decisione ha come obiettivo la produzione di stime temporali più accurate che tengano conto sin da subito sia delle persone incaricate per la realizzazione dei task stessi che delle loro singole capacità.
 
 ### 4.5.1. Valutazione delle skill richieste dai task
@@ -1065,7 +1068,7 @@ All'interno di questo capitolo sono riportati gli strumenti che l'azienda fornit
 
 A causa della sua inesperienza, PunchCode mira a produrre una documentazione di ottima qualità, finalizzata alla costruzione di uno storico che possa divenire un ausilio di indubbia utilità per i propri progetti futuri.
 
-Il gruppo di processi oggetto del capitolo in esame possiede anche un forte legame con la fase precedente di [Launching / Executing](#5-launching-/-executing). I meeting svolti durante l'esecuzione del progetto, infatti, raccolgono informazioni dal team e costituiscono anche una valida occasione per discutere in merito allo stato di avanzamento (*Project Status Meeting*).
+Il gruppo di processi oggetto del capitolo in esame possiede anche un forte legame con la fase precedente di [Launching / Executing](#5-launching--executing). I meeting svolti durante l'esecuzione del progetto, infatti, raccolgono informazioni dal team e costituiscono anche una valida occasione per discutere in merito allo stato di avanzamento (*Project Status Meeting*).
 
 ## 6.1. Rispetto della schedula
 
