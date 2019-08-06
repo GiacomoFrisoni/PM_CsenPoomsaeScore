@@ -867,14 +867,31 @@ Per la verifica del rispetto degli indicatori di qualità contrattuali il Fornit
 
 ## 4.12. Scelta dei criteri di accettazione
 
-<!--
-Sono le condizioni con cui verificare la chiusura del progetto.
+All'interno del Planning è importante definire i criteri di accettazione con cui sarà verificata la chiusura del progetto nella [successiva fase di Closing](#7-chiusura-del-progetto), anche in relazione a come questi aspetti necessitino di essere riportati all'interno del contratto.
 
----------------------
+I criteri di accettazione rappresentano un elenco specifico e definito di condizioni che devono essere soddisfatte prima che un progetto possa essere considerato completo e che i relativi risultati vengano accettati dal cliente al momento della chiusura.  
+Essi indicano pertanto il come verificare che una certa soluzione rispetti le Condition of Satisfaction (CoS). Come asserito da PMBOK, includono requisiti di prestazione che devono essere soddisfatti per ottenere l'accettazione dei risultati di progetto.  
+Stabiliscono le circostanze specifiche in cui il committente accetterà l'output finale. Sono criteri misurabili e raggiungibili, con cui l'azienda fornitrice può dimostrare il completamento del lavoro al cliente stesso. Di conseguenza, sono spesso considerati una parte importante degli accordi contrattuali. Devono essere scritti e concordati da tutte le parti interessate prima dell'inizio dello sviluppo.  
+A livello pratico i criteri di accettazione si traducono spesso nell'inserimento contrattuale di una "**verification checklist**", riportante i risultati che il progetto dovrà fornire alla sua conclusione. All'atto della chiusura, il cliente può così verificare il raggiungimento e la disponibilità di tutti i deliverable concordati (comprovando il reale termine del progetto)[<sup>5</sup>](#bibliography-5).
 
-Sono il COME verificare che una soluzione soddisfi le conditions of satisfaction.
-A livello pratico si traduce nella scrittura dei test da parte del team. Sono usati per verificare in **CLOSING** la chiusura del progetto.
--->
+Un mancato accordo su chiari criteri di accettazione tra il cliente e il fornitore software è spesso tra le principali cause di ritardo e superamento budget sul fronte implementativo. Criteri di accettazione imprecisi o mancanti, infatti, possono portare a bassi livelli di soddisfazione del cliente, date di consegna mancate e sovraccarichi dei costi di sviluppo.
+Un buon processo di accettazione aiuta a prevenire molte di queste problematiche.  
+I criteri di accettazione dovrebbero stabilire i parametri per la ricezione dei risultati, un periodo di tempo per la loro revisione effettiva da parte del cliente e un'opzione per accettarli o rifiutarli.
+Per spingere i fornitori ad aderire alle tempistiche concordate, inoltre, ogni pagamento di milestone dovrebbe essere legato all'accettazione del deliverable associato[<sup>6</sup>](#bibliography-6).
+
+Dei criteri di accettazione chiari e ben definiti possono aiutare il team di progetto in molti modi e portano generalmente ai seguenti vantaggi[<sup>7</sup>](#bibliography-7).
+- *Impostano il livello di aspettativa del cliente, gettando le basi per la sua percezione del prodotto completo.*
+- *Misurano e dimostrano al cliente il completamento del lavoro*.
+- *Semplificano l'ottenimento di approvazioni formali da parte del committente sui risultati finali di progetto.*
+- *Tutelano sia il fornitore che il committente sul piano dei pagamenti.*  
+  I criteri di accettazione vengono generalmente utilizzati per i progetti in cui il cliente paga per i risultati finali o per il completamento delle fasi di progetto.
+  È necessario assicurarsi che i criteri sviluppati siano pertinenti ai risultati finali, binari (accettabili o non accettabili), misurabili o tangibili (ove possibile) e vincolati ai pagamenti (ove opportuno).
+  È noto che i clienti si rifiutano di firmare l'accettazione della soluzione per due motivi legittimi: o i risultati del progetto non hanno soddisfatto i loro bisogni, o loro stessi non avevano una chiara visione delle loro esigenze e dei loro obiettivi. Costruire una serie chiaramente definita di criteri di accettazione prima ancora di lavorare sui risultati finali, protegge l'azienda fornitrice, il team di progetto e il cliente
+  da tali scenari. A parità di condizioni, se i criteri di accettazione sono soddisfatti, non ci dovrebbero essere motivi per un rifiuto del prodotto finale.  
+- *Evitano conflitti, eliminano ambiguità e favoriscono la riduzione dei tempi di codifica.*
+
+È importante sottolineare come i criteri di accettazione si differiscano da quelli di successo. Essi, infatti, sono applicati ai deliverable e non al progetto nella sua interezza. Di conseguenza, nonostante servano a definire anche quando il progetto possa considerarsi chiuso, non vengono valutati una sola volta all'atto di completamento dei lavori, ma ad ogni milestone.
+Inoltre, il raggiungimento dei criteri di accettazione non assicura il successo del progetto e viceversa[<sup>8</sup>](#bibliography-8).
 
 ## 4.13. Scelta del Developer Team e del Client Team
 
@@ -1167,7 +1184,7 @@ Per ovviare alle criticità che potrebbero nascere durante lo sviluppo, la start
 
 # 7. Chiusura del progetto
 
-Definendo i criteri di successo in fase di Scoping, PunchCode ha già stabilito in parte anche le condizioni per il processo di chiusura.  
+Definendo i criteri di successo e di accettazione in fase di Scoping, PunchCode ha già stabilito in parte anche le condizioni per il processo di chiusura.  
 La fase di Closing può verificarsi solo a seguito dell'accettazione da parte del cliente di un'esplicita richiesta di chiusura del progetto (redatta dal Project Manager e dal team). Ciò tipicamente avviene a fronte del superamento con esito positivo dell'ultimo collaudo.  
 
 In sintesi, la chiusura di un progetto è un processo di routine che prevede i seguenti passi:
@@ -1250,4 +1267,8 @@ La soddisfazione del committente per quanto concerne il risultato del progetto n
 [1]<a id="bibliography-1"></a> [Platonova, Valērija & Bērziša, Solvita. "Gamification in Software Development Projects". *Information Technology and Management Science*. Dec 2017.](https://www.researchgate.net/publication/322409704_Gamification_in_Software_Development_Projects)  
 [2]<a id="bibliography-2"></a> [Senthil Rajamarthandan. "Using Gamification to Build a Passionate and Quality-Driven Software Development Team". *Cognizant 20-20 Insights*. Feb 2014.](https://www.cognizant.com/InsightsWhitepapers/Using-Gamification-to-Build-a-Passionate-and-Quality-Driven-Software-Development-Team.pdf)  
 [3]<a id="bibliography-3"></a> [Matej Latin. "Measuring and Quantifying User Experience". *Medium*. Nov 2017.](https://uxdesign.cc/measuring-and-quantifying-user-experience-8f555f07363d)  
-[4]<a id="bibliography-4"></a> [Humanware - Project Management Center - Earned Value e indicatori di performance](http://www.humanwareonline.com/project-management/center/earned-value-management/)
+[4]<a id="bibliography-4"></a> ["Earned Value e indicatori di performance". *Humanware - Project Management Center*](http://www.humanwareonline.com/project-management/center/earned-value-management/)  
+[5]<a id="bibliography-5"></a> ["Defining Acceptance Criteria for Successful Projects". *ProjectManagers.org*](https://projectmanagers.org/management/scope/acceptance-criteria/)  
+[6]<a id="bibliography-6"></a> [Mohammed Faridy. "Why you should always include acceptance criteria in software agreements". *OneView*. Dec 2017.](http://oneviewnow.com/blog/software-negotiations-acceptance-criteria)  
+[7]<a id="bibliography-7"></a> ["The Importance of Having Clearly Defined Acceptance Criteria in Your Projects". *Simplilearn*. Aug 2019.](https://www.simplilearn.com/importance-of-having-clearly-defined-acceptance-criteria-in-projects-article)  
+[8]<a id="bibliography-8"></a> [Mark Oswald. "What is Acceptance Criteria vs Success Criteria in PMP Certification?". *whizlabs*. Jun 2017.](https://www.whizlabs.com/blog/pmp-acceptance-success-criteria/)
