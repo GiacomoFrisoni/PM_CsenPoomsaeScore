@@ -1,11 +1,11 @@
 # Indice <!-- omit in toc -->
 
-- **[1. Descrizione dell'Approccio Utilizzato](#1-descrizione-dellapproccio-utilizzato)**
+- [**1. Descrizione dell'Approccio Utilizzato**](#1-descrizione-dellapproccio-utilizzato)
   - [1.1. Elenco documenti](#11-elenco-documenti)
     - [1.1.1. Documentazione delle aziende](#111-documentazione-delle-aziende)
     - [1.1.2. Documentazione del progetto](#112-documentazione-del-progetto)
   
-- **[2. Introduzione](#2-introduzione)**
+- [**2. Introduzione**](#2-introduzione)
   - [2.1. Azienda esecutrice](#21-azienda-esecutrice)
     - [2.1.1. Startup Team](#211-startup-team)
     - [2.1.2. Politiche aziendali](#212-politiche-aziendali)
@@ -23,7 +23,7 @@
   - [2.2. Committente](#22-committente)
   - [2.3. Relazione esecutore-committente](#23-relazione-esecutore-committente)
 
-- **[3. Scoping](#3-scoping)**
+- [**3. Scoping**](#3-scoping)
   - [3.1. Primo contatto](#31-primo-contatto)
   - [3.2. Project Scoping Meeting](#32-project-scoping-meeting)
   - [3.3. Resources Breakdown Structure (RBS)](#33-resources-breakdown-structure-rbs)
@@ -40,7 +40,7 @@
   - [3.7. Classificazione del progetto](#37-classificazione-del-progetto)
   - [3.8. Scelta del Core Team](#38-scelta-del-core-team)
 
-- **[4. Planning](#4-planning)**
+- [**4. Planning**](#4-planning)
   - [4.1. Joint Project Planning Session](#41-joint-project-planning-session)
     - [4.1.1. Sessione #1](#411-sessione-1)
     - [4.1.2. Sessione #2](#412-sessione-2)
@@ -58,32 +58,39 @@
   - [4.9. Analisi dei Rischi](#49-analisi-dei-rischi)
   - [4.10. Project Definition Statement (PDS)](#410-project-definition-statement-pds)
   - [4.11. Piano di qualità](#411-piano-di-qualit%c3%a0)
-  - [4.12. Scelta del Developer Team e del Client Team](#412-scelta-del-developer-team-e-del-client-team)
-
-- **[5. Launching / Executing](#5-launching--executing)**
+  - [4.12. Scelta dei criteri di accettazione](#412-scelta-dei-criteri-di-accettazione)
+  - [4.13. Scelta del Developer Team e del Client Team](#413-scelta-del-developer-team-e-del-client-team)
+  
+- [**5. Launching / Executing**](#5-launching--executing)
   - [5.1. Scelta del Team](#51-scelta-del-team)
     - [5.1.1. Bilanciamento del team](#511-bilanciamento-del-team)
   - [5.3. Regole operative per il team](#53-regole-operative-per-il-team)
   - [5.4. Assegnamento Risorse e raffinamento della schedula del progetto](#54-assegnamento-risorse-e-raffinamento-della-schedula-del-progetto)
   - [5.5. Assegnamento Responsabilità](#55-assegnamento-responsabilit%c3%a0)
   - [5.6. Gestione delle comunicazioni](#56-gestione-delle-comunicazioni)
-  - [5.7. Aggiornamento Project Definition Statement (PDS)](#57-aggiornamento-project-definition-statement-pds)
-  - [5.8. Work Packages](#58-work-packages)
-  - [5.9. Gestione del processo di modifica dello Scope](#59-gestione-del-processo-di-modifica-dello-scope)
-
-- **[6. Monitoring & Controlling](#6-monitoring--controlling)**
+  - [5.7. Documentazione e testing](#57-documentazione-e-testing)
+  - [5.8. Aggiornamento Project Definition Statement (PDS)](#58-aggiornamento-project-definition-statement-pds)
+  - [5.9. Work Packages](#59-work-packages)
+  - [5.10. Gestione del processo di modifica dello Scope](#510-gestione-del-processo-di-modifica-dello-scope)
+  
+- [**6. Monitoring & Controlling**](#6-monitoring--controlling)
   - [6.1. Rispetto della schedula](#61-rispetto-della-schedula)
   - [6.2. Sistemi di reporting](#62-sistemi-di-reporting)
     - [6.2.1. Tipologie di report utilizzate](#621-tipologie-di-report-utilizzate)
     - [6.2.2. Strumenti di reporting visuale](#622-strumenti-di-reporting-visuale)
-    - [6.2.3. Regole per la determinazione della percentuale di completamento](#623-regole-per-la-determinazione-della-percentuale-di-completamento)
+    - [6.2.3. Modalità di aggiornamento delle informazioni](#623-modalit%c3%a0-di-aggiornamento-delle-informazioni)
+      - [6.2.3.1. Regole per la determinazione della percentuale di completamento](#6231-regole-per-la-determinazione-della-percentuale-di-completamento)
   - [6.3. Gestione dello Scope Bank](#63-gestione-dello-scope-bank)
   - [6.4. Issues Log](#64-issues-log)
   - [6.5. Problem Escalation Strategy](#65-problem-escalation-strategy)
-
-- **[7. Chiusura del progetto](#7-chiusura-del-progetto)**
   
-- **[8. Bibliografia](#8-bibliografia)**
+- [**7. Chiusura del progetto**](#7-chiusura-del-progetto)
+  - [7.1. Procedura di accettazione](#71-procedura-di-accettazione)
+  - [7.2. Installazione dei deliverable](#72-installazione-dei-deliverable)
+  - [7.3. Documentazione del progetto](#73-documentazione-del-progetto)
+  - [7.4. Post-implementation Audit](#74-post-implementation-audit)
+  
+- [**8. Bibliografia**](#8-bibliografia)
 
 [//]: # (-------------------------------------------------------------------------)
 
@@ -186,6 +193,9 @@ Per una facile esplorazione del repository, si riporta nel seguente elenco tutta
   
 - **Monitoraggio e controllo**
   - [Issues Log](project_docs/csen_poomsae_score/issues_log/issues_log.md)
+
+- **Chiusura del progetto**
+  - [Acceptance Criteria](project_docs/csen_poomsae_score/acceptance_criteria/acceptance_criteria.md)
 
 [//]: # (-------------------------------------------------------------------------)
 
@@ -722,7 +732,7 @@ Considerando come il pagamento del corrispettivo (così come il contenuto dell'i
 Si sottolinea, infatti, come la startup non sia in possesso dell'esperienza necessaria per stabilire al meglio la complessità e la durata dell'intervento. Essendo in presenza di un'incertezza sugli effettivi risultati, la modalità a corpo non si rivela ideale per il progetto in esame o presenta comunque una rischiosità intrinseca nell'incertezza della quantità di risorse necessarie.
 Allo stesso modo, una modalità a misura presenta differenti svantaggi e criticità (principalmente legati a una totale assunzione del rischio da parte del cliente). È proprio per questa ragione che l'approccio adottato da PunchCode mira a concretizzare una **condivisione delle responsabilità**.
 L'azienda decide, in accordo col cliente, di stimare i costi di ogni task utilizzando dei range (specificando cioè il prezzo minimo e il prezzo massimo previsti). L'importo effettivo che sarà domandato al cliente dipenderà dalla quantità di risorse utilizzate, ma rientrerà necessariamente all'interno dell'intervallo stabilito. Così facendo, PunchCode ha un margine di flessibilità con cui rispondere a imprevisti, assumendosi tuttavia il rischio di eventuali costi aggiuntivi al di sopra di una certa soglia. Nonostante il committente non sia a conoscenza dell'esatto costo complessivo del progetto, una modalità di questo tipo - a differenza di un approccio puramente a misura - permette comunque di avere una chiara e utile idea dello spazio in cui questo si colloca (verificandone la conformità rispetto al budget).  
-Similarmente a un approccio a misura, si decide di non adottare un pagamento del corrispettivo in un'unica soluzione. Sfruttando il PMLC Model di tipo *Incrementale*, si prevede un pagamento a fronte del superamento di ogni collaudo associato a un incremento (con costo complessivo determinato dalla somma dei prezzi - rientranti nei limiti inferiori e superiori - per i task oggetto della release).
+Similarmente a un approccio a misura, si decide di non adottare un pagamento del corrispettivo in un'unica soluzione. Sfruttando il PMLC Model di tipo *Incrementale*, si prevede un pagamento a fronte del superamento dei criteri di accettazione (discussi nel [successivo paragrafo](#412-scelta-dei-criteri-di-accettazione)) associati a un incremento (con costo complessivo determinato dalla somma dei prezzi - rientranti nei limiti inferiori e superiori - per i task oggetto della release).
 
 Le stime dei costi per i vari task identificati tramite la WBS (compresi quelli di integrazione e collaudo) è disponibile nell'apposito [documento](project_docs/csen_poomsae_score/task_cost_estimation/task_cost_estimation.md). Come è possibile osservare, analogamente alle stime della durata, si è scelto di ricorrere a una tecnica **consensus-based**. Ad ogni round, i membri di PunchCode esprimono il proprio range di valutazione. Se dopo il completamento del terzo round non si è ancora giunti a una medesima stima, l'intervallo finale è ottenuto considerando come minimo la media dei limiti inferiori delle ultime due stime e come massimo la media dei limiti superiori. 
 Il costo totale del progetto è così stato definito nell'intorno 9.960€ (caso migliore) - 13.080€ (caso peggiore), rispetto al budget orientativo di 10.000€ inizialmente proposto. Nonostante l'alto margine frutto dell'inesperienza dell'azienda, il cliente si è dimostrato soddisfatto della soluzione finale e ha fornito la sua approvazione.
@@ -877,7 +887,7 @@ A livello pratico i criteri di accettazione si traducono spesso nell'inserimento
 Un mancato accordo su chiari criteri di accettazione tra il cliente e il fornitore software è spesso tra le principali cause di ritardo e superamento budget sul fronte implementativo. Criteri di accettazione imprecisi o mancanti, infatti, possono portare a bassi livelli di soddisfazione del cliente, date di consegna mancate e sovraccarichi dei costi di sviluppo.
 Un buon processo di accettazione aiuta a prevenire molte di queste problematiche.  
 I criteri di accettazione dovrebbero stabilire i parametri per la ricezione dei risultati, un periodo di tempo per la loro revisione effettiva da parte del cliente e un'opzione per accettarli o rifiutarli.
-Per spingere i fornitori ad aderire alle tempistiche concordate, inoltre, ogni pagamento di milestone dovrebbe essere legato all'accettazione del deliverable associato[<sup>6</sup>](#bibliography-6).
+Per essere spronata ad aderire alle tempistiche concordate (nel rispetto degli interessi di entrambe le parti), PunchCode lega ogni pagamento di milestone all'accettazione del deliverable associato[<sup>6</sup>](#bibliography-6).
 
 Dei criteri di accettazione chiari e ben definiti possono aiutare il team di progetto in molti modi e portano generalmente ai seguenti vantaggi[<sup>7</sup>](#bibliography-7).
 - *Impostano il livello di aspettativa del cliente, gettando le basi per la sua percezione del prodotto completo.*
@@ -892,6 +902,9 @@ Dei criteri di accettazione chiari e ben definiti possono aiutare il team di pro
 
 È importante sottolineare come i criteri di accettazione si differiscano da quelli di successo. Essi, infatti, sono applicati ai deliverable e non al progetto nella sua interezza. Di conseguenza, nonostante servano a definire anche quando il progetto possa considerarsi chiuso, non vengono valutati una sola volta all'atto di completamento dei lavori, ma ad ogni milestone.
 Inoltre, il raggiungimento dei criteri di accettazione non assicura il successo del progetto e viceversa[<sup>8</sup>](#bibliography-8).
+
+L'elenco dei criteri di accettazione stabiliti da PunchCode assieme al cliente sono riportati in un apposito [documento](project_docs/csen_poomsae_score/acceptance_criteria/acceptance_criteria.md).
+Come è possibile dedurre, i criteri di accettazione non discutono il come venga eseguita una certa funzionalità ma si riferiscono solo a ciò che deve essere fatto (rimanendo ad alto livello), non solo in termini di funzionalità ma anche sul piano di superamento test, collaudi e consegna documentazione.
 
 ## 4.13. Scelta del Developer Team e del Client Team
 
